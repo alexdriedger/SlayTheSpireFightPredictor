@@ -55,6 +55,7 @@ def process_runs(data_dir):
                         file_processed_count += 1
                         print(f'{len(processed_run)} training examples successfullly processed from {filename}')
                         # pp.pprint(processed_run)
+                        fight_training_examples.extend(processed_run)
                     except RuntimeError as e:
                         file_master_not_match_count += 1
                         print(f'{filename}\n')
@@ -64,9 +65,9 @@ def process_runs(data_dir):
                         print(filename)
 
     print(f'Files filtered with pre-filter: {bad_file_count}')
-    print(f'Files SUCCESSFULLY processed: {file_processed_count}')
-    print(f'Files with master deck not matching created deck: {file_master_not_match_count}')
-    print(f'Files not processed: {file_not_processed_count}')
+    print(f'Files SUCCESSFULLY processed: {file_processed_count} => {((file_processed_count / total_file_count) * 100):.1f} %')
+    print(f'Files with master deck not matching created deck: {file_master_not_match_count} => {((file_master_not_match_count / total_file_count) * 100):.1f} %')
+    print(f'Files not processed: {file_not_processed_count} => {((file_not_processed_count / total_file_count) * 100):.1f} %')
     print(f'Total files: {total_file_count}')
     print(f'Number of Training Examples: {len(fight_training_examples)}')
     return runs
@@ -89,9 +90,10 @@ def process_run(data):
     unknown_removes_by_floor = dict()
     unknown_upgrades_by_floor = dict()
     unknown_transforms_by_floor = dict()
+    unknown_cards_by_floor = dict()
 
     processed_fights = list()
-    process_neow(data['neow_bonus'], current_deck, current_relics, data['relics'])
+    process_neow(data['neow_bonus'], current_deck, current_relics, data['relics'], unknown_removes_by_floor, unknown_upgrades_by_floor, unknown_transforms_by_floor, unknown_cards_by_floor)
     for floor in range(1, data['floor_reached']):
         if floor in battle_stats_by_floor and floor != 1:
             fight_data = try_process_data(partial(process_battle, data, battle_stats_by_floor[floor], potion_use_by_floor,
@@ -100,7 +102,7 @@ def process_run(data):
             processed_fights.append(fight_data)
 
         if floor in relics_by_floor:
-            current_relics.extend(relics_by_floor[floor])
+            process_relics(relics_by_floor[floor], current_relics, data['relics'], floor, unknown_removes_by_floor, unknown_upgrades_by_floor, unknown_transforms_by_floor)
 
         if floor in card_choices_by_floor:
             process_card_choice(card_choices_by_floor[floor], current_deck, current_relics)
@@ -183,6 +185,11 @@ def process_card_choice(card_choice_data, current_deck, current_relics):
         current_deck.append(picked_card)
 
 
+def process_relics(relics, current_relics, master_relics, floor, unknown_removes_by_floor, unknown_upgrades_by_floor, unknown_transforms_by_floor):
+    for r in relics:
+        obtain_relic(r, current_relics, master_relics, floor, unknown_removes_by_floor, unknown_upgrades_by_floor, unknown_transforms_by_floor)
+
+
 def process_campfire_choice(campfire_data, current_deck):
     choice = campfire_data['key']
     if choice == 'SMITH':
@@ -219,17 +226,25 @@ def process_events(event_data, current_deck, current_relics):
             upgrade_card(current_deck, card)
 
 
-def process_neow(neow_bonus, current_deck, current_relics, master_relics):
-    # {'THREE_ENEMY_KILL', 'UPGRADE_CARD', 'REMOVE_CARD', 'THREE_SMALL_POTIONS', 'REMOVE_TWO', 'THREE_CARDS', 'THREE_RARE_CARDS', 'TRANSFORM_CARD', 'TWENTY_PERCENT_HP_BONUS', 'ONE_RANDOM_RARE_CARD', 'TEN_PERCENT_HP_BONUS', 'HUNDRED_GOLD', 'TWO_FIFTY_GOLD'}
+def process_neow(neow_bonus, current_deck, current_relics, master_relics, unknown_removes_by_floor, unknown_upgrades_by_floor, unknown_transforms_by_floor, unknown_cards_by_floor):
     if neow_bonus == 'ONE_RARE_RELIC' or neow_bonus == 'RANDOM_COMMON_RELIC':
         current_relics.append(master_relics[1])
     if neow_bonus == 'BOSS_RELIC':
         current_relics[0] = master_relics[0]
     if neow_bonus == 'THREE_ENEMY_KILL':
         current_relics.append('NeowsBlessing')
-
-
-
+    if neow_bonus == 'UPGRADE_CARD':
+        unknown_upgrades_by_floor[0] = [{'type': 'unknown'}]
+    if neow_bonus == 'REMOVE_CARD':
+        unknown_removes_by_floor[0] = 1
+    if neow_bonus == 'REMOVE_TWO':
+        unknown_removes_by_floor[0] = 2
+    if neow_bonus == 'TRANSFORM_CARD':
+        unknown_transforms_by_floor[0] = 1
+    if neow_bonus == 'THREE_CARDS':
+        unknown_cards_by_floor[0] = [{'type': 'unknown'}]
+    if neow_bonus == 'THREE_RARE_CARDS' or neow_bonus == 'ONE_RANDOM_RARE_CARD':
+        unknown_cards_by_floor[0] = [{'type': 'rare'}]
 
 
 def upgrade_card(current_deck, card_to_upgrade):
@@ -237,6 +252,23 @@ def upgrade_card(current_deck, card_to_upgrade):
     if 'earing' in card_to_upgrade:
         print(f'Probably Searing Blow id: {card_to_upgrade}')
     current_deck[card_to_upgrade_index] += '+1'
+
+
+def obtain_relic(relic_to_obtain, current_relics, master_relics, floor, unknown_removes_by_floor, unknown_upgrades_by_floor, unknown_transforms_by_floor):
+    if relic_to_obtain == 'Black Blood':
+        current_relics[0] = 'Black Blood'
+        return
+    if relic_to_obtain == 'Ring of the Serpent':
+        current_relics[0] = 'Ring of the Serpent'
+        return
+    if relic_to_obtain == 'FrozenCore':
+        current_relics[0] = 'FrozenCore'
+        return
+    if relic_to_obtain == 'Calling Bell':
+        current_relics.extend(master_relics[len(current_relics) + 1:len(current_relics) + 4])
+    if relic_to_obtain == 'Empty Cage':
+        unknown_removes_by_floor[floor] = 2
+    current_relics.append(relic_to_obtain)
 
 
 def get_stats_by_floor_with_list(data, data_key):
@@ -318,6 +350,15 @@ def character_spefic_basic_cards(deck, suffix):
             deck[index] = card + suffix
 
 
+def resolve_missing_data(current_deck, current_relics, master_deck, master_relics, unknown_removes_by_floor,
+                         unknown_upgrades_by_floor, unknown_transforms_by_floor, unknown_cards_by_floor):
+    # if current_deck != master_deck:
+    #     if len(current_deck) > len(master_deck) and len(unknown_removes_by_floor) == 1 and len(unknown_upgrades_by_floor) == 0 and len(unknown_transforms_by_floor) == 0 and len(unknown_cards_by_floor) == 0:
+    #         differences = list(set(current_deck) - set(master_deck))
+    #         for key in unknown_removes_by_floor.keys():
+    pass
+
+
 def is_bad_file(data):
     necessary_fields = ['damage_taken', 'event_choices', 'card_choices', 'relics_obtained', 'campfire_choices',
                         'items_purchased', 'item_purchase_floors', 'items_purged', 'items_purged_floors',
@@ -375,7 +416,7 @@ def process_single_file(data_dir, filename):
 
 directory = '2019SpireRuns'
 processed_runs = process_runs(directory)
-# process_single_file(directory, '1547407389.run')
+# process_single_file(directory, '1556952028.run')
 # pprint.pprint(processed_runs[0])
 # write_file(processed_runs)
 
