@@ -53,16 +53,15 @@ def process_runs(data_dir):
                     try:
                         processed_run = process_run(data)
                         file_processed_count += 1
-                        print(f'Processed file sucessfully: {filename}')
-                        print(processed_run)
+                        print(f'{len(processed_run)} training examples successfullly processed from {filename}')
+                        # pp.pprint(processed_run)
                     except RuntimeError as e:
                         file_master_not_match_count += 1
-                        print(filename)
+                        print(f'{filename}\n')
                         pass
                     except Exception as e:
                         file_not_processed_count += 1
                         print(filename)
-                    fight_training_examples.extend(processed_run)
 
     print(f'Files filtered with pre-filter: {bad_file_count}')
     print(f'Files SUCCESSFULLY processed: {file_processed_count}')
