@@ -120,6 +120,7 @@ def process_run(data):
 
         if floor in events_by_floor:
             try_process_data(partial(process_events, events_by_floor[floor], current_deck, current_relics, data['relics'], floor, unknowns), floor, current_deck, current_relics, data, unknowns)
+
         if floor == 0:
             process_neow(data['neow_bonus'], current_deck, current_relics, data['relics'], unknowns)
 
@@ -239,6 +240,8 @@ def process_events(event_data, current_deck, current_relics, master_relics, floo
     if 'cards_upgraded' in event_data:
         for card in event_data['cards_upgraded']:
             upgrade_card(current_deck, card)
+    if 'event_name' in event_data and event_data['event_name'] == 'Vampires':
+        current_deck[:] = [x for x in current_deck if not x.startswith('Strike')]
 
 
 def process_neow(neow_bonus, current_deck, current_relics, master_relics, unknowns):
@@ -285,6 +288,10 @@ def obtain_relic(relic_to_obtain, current_relics, master_relics, floor, unknowns
         current_relics.extend(master_relics[len(current_relics) + 1:len(current_relics) + 4])
     if relic_to_obtain == 'Empty Cage':
         unknown_removes_by_floor[floor] = 2
+    if relic_to_obtain == 'Whetstone':
+        unknown_upgrades_by_floor[floor] = [{'type': 'attack'}, {'type': 'attack'}]
+    if relic_to_obtain == 'War Paint':
+        unknown_upgrades_by_floor[floor] = [{'type': 'skill'}, {'type': 'skill'}]
     current_relics.append(relic_to_obtain)
 
 
