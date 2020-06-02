@@ -1,6 +1,8 @@
 import os
 import json
 from functools import partial
+from collections import Counter
+
 import pprint
 
 BASE_GAME_RELICS = {'Burning Blood', 'Cracked Core', 'PureWater', 'Ring of the Snake', 'Akabeko', 'Anchor', 'Ancient Tea Set', 'Art of War', 'Bag of Marbles', 'Bag of Preparation', 'Blood Vial', 'TestModSTS:BottledPlaceholderRelic', 'Bronze Scales', 'Centennial Puzzle', 'CeramicFish', 'Damaru', 'DataDisk', 'Dream Catcher', 'Happy Flower', 'Juzu Bracelet', 'Lantern', 'MawBank', 'MealTicket', 'Nunchaku', 'Oddly Smooth Stone', 'Omamori', 'Orichalcum', 'Pen Nib', 'TestModSTS:PlaceholderRelic2', 'Potion Belt', 'PreservedInsect', 'Red Skull', 'Regal Pillow', 'TestModSTS:DefaultClickableRelic', 'Smiling Mask', 'Snake Skull', 'Strawberry', 'Boot', 'Tiny Chest', 'Toy Ornithopter', 'Vajra', 'War Paint', 'Whetstone', 'Blue Candle', 'Bottled Flame', 'Bottled Lightning', 'Bottled Tornado', 'Darkstone Periapt', 'Yang', 'Eternal Feather', 'Frozen Egg 2', 'Cables', 'Gremlin Horn', 'HornCleat', 'InkBottle', 'Kunai', 'Letter Opener', 'Matryoshka', 'Meat on the Bone', 'Mercury Hourglass', 'Molten Egg 2', 'Mummified Hand', 'Ninja Scroll', 'Ornamental Fan', 'Pantograph', 'Paper Crane', 'Paper Frog', 'Pear', 'Question Card', 'Self Forming Clay', 'Shuriken', 'Singing Bowl', 'StrikeDummy', 'Sundial', 'Symbiotic Virus', 'TeardropLocket', 'The Courier', 'Toxic Egg 2', 'White Beast Statue', 'Bird Faced Urn', 'Calipers', 'CaptainsWheel', 'Champion Belt', 'Charon\'s Ashes', 'CloakClasp', 'Dead Branch', 'Du-Vu Doll', 'Emotion Chip', 'FossilizedHelix', 'Gambling Chip', 'Ginger', 'Girya', 'GoldenEye', 'Ice Cream', 'Incense Burner', 'Lizard Tail', 'Magic Flower', 'Mango', 'Old Coin', 'Peace Pipe', 'Pocketwatch', 'Prayer Wheel', 'Shovel', 'StoneCalendar', 'The Specimen', 'Thread and Needle', 'Tingsha', 'Torii', 'Tough Bandages', 'TungstenRod', 'Turnip', 'Unceasing Top', 'WingedGreaves', 'Astrolabe', 'Black Blood', 'Black Star', 'Busted Crown', 'Calling Bell', 'Coffee Dripper', 'Cursed Key', 'Ectoplasm', 'Empty Cage', 'FrozenCore', 'Fusion Hammer', 'HolyWater', 'HoveringKite', 'Inserter', 'Mark of Pain', 'Nuclear Battery', 'Pandora\'s Box', 'Philosopher\'s Stone', 'Ring of the Serpent', 'Runic Cube', 'Runic Dome', 'Runic Pyramid', 'SacredBark', 'SlaversCollar', 'Snecko Eye', 'Sozu', 'Tiny House', 'Velvet Choker', 'VioletLotus', 'WristBlade', 'Bloody Idol', 'CultistMask', 'Enchiridion', 'FaceOfCleric', 'Golden Idol', 'GremlinMask', 'Mark of the Bloom', 'MutagenicStrength', 'Nloth\'s Gift', 'NlothsMask', 'Necronomicon', 'NeowsBlessing', 'Nilry\'s Codex', 'Odd Mushroom', 'Red Mask', 'Spirit Poop', 'SsserpentHead', 'WarpedTongs', 'Brimstone', 'Cauldron', 'Chemical X', 'ClockworkSouvenir', 'DollysMirror', 'Frozen Eye', 'HandDrill', 'Lee\'s Waffle', 'Medical Kit', 'Melange', 'Membership Card', 'OrangePellets', 'Orrery', 'PrismaticShard', 'Runic Capacitor', 'Sling', 'Strange Spoon', 'TheAbacus', 'Toolbox', 'TwistedFunnel'}
@@ -91,39 +93,45 @@ def process_run(data):
     unknown_upgrades_by_floor = dict()
     unknown_transforms_by_floor = dict()
     unknown_cards_by_floor = dict()
+    unknowns = (unknown_removes_by_floor, unknown_upgrades_by_floor, unknown_transforms_by_floor, unknown_cards_by_floor)
 
     processed_fights = list()
-    process_neow(data['neow_bonus'], current_deck, current_relics, data['relics'], unknown_removes_by_floor, unknown_upgrades_by_floor, unknown_transforms_by_floor, unknown_cards_by_floor)
-    for floor in range(1, data['floor_reached']):
+    for floor in range(0, data['floor_reached']):
         if floor in battle_stats_by_floor and floor != 1:
-            fight_data = try_process_data(partial(process_battle, data, battle_stats_by_floor[floor], potion_use_by_floor,
-                                     current_deck, current_relics, floor),
-                             floor, current_deck, data)
+            fight_data = process_battle(data, battle_stats_by_floor[floor], potion_use_by_floor, current_deck, current_relics, floor)
             processed_fights.append(fight_data)
 
         if floor in relics_by_floor:
-            process_relics(relics_by_floor[floor], current_relics, data['relics'], floor, unknown_removes_by_floor, unknown_upgrades_by_floor, unknown_transforms_by_floor)
+            process_relics(relics_by_floor[floor], current_relics, data['relics'], floor, unknowns)
 
         if floor in card_choices_by_floor:
             process_card_choice(card_choices_by_floor[floor], current_deck, current_relics)
 
         if floor in campfire_choices_by_floor:
-            try_process_data(partial(process_campfire_choice, campfire_choices_by_floor[floor], current_deck), floor, current_deck, data)
+            restart_needed, new_data = try_process_data(partial(process_campfire_choice, campfire_choices_by_floor[floor], current_deck), floor, current_deck, current_relics, data, unknowns)
+            if restart_needed:
+                return process_run(new_data)
 
         if floor in purchases_by_floor:
-            try_process_data(partial(process_purchases, purchases_by_floor[floor], current_deck, current_relics), floor, current_deck, data)
+            try_process_data(partial(process_purchases, purchases_by_floor[floor], current_deck, current_relics, data['relics'], floor, unknowns), floor, current_deck, current_relics, data, unknowns)
 
         if floor in purges_by_floor:
-            try_process_data(partial(process_purges, purges_by_floor[floor], current_deck), floor, current_deck, data)
+            try_process_data(partial(process_purges, purges_by_floor[floor], current_deck), floor, current_deck, current_relics, data, unknowns)
 
         if floor in events_by_floor:
-            try_process_data(partial(process_events, events_by_floor[floor], current_deck, current_relics), floor, current_deck, data)
+            try_process_data(partial(process_events, events_by_floor[floor], current_deck, current_relics, data['relics'], floor, unknowns), floor, current_deck, current_relics, data, unknowns)
+        if floor == 0:
+            process_neow(data['neow_bonus'], current_deck, current_relics, data['relics'], unknowns)
 
     current_deck.sort()
     master_deck = sorted(data['master_deck'])
     current_relics.sort()
     master_relics = sorted(data['relics'])
     if current_deck != master_deck or current_relics != master_relics:
+        success, new_data = resolve_missing_data(current_deck, current_relics, master_deck=data['master_deck'],
+                                                 master_relics=data['relics'], unknowns=unknowns, master_data=data)
+        if success:
+            return process_run(new_data)
         if current_deck == master_deck:
             print(f'\nSo close!!!!!   XX Relics XX')
         elif current_relics == master_relics:
@@ -141,10 +149,15 @@ def process_run(data):
         return processed_fights
 
 
-def try_process_data(func, floor, current_deck, master_data):
+def try_process_data(func, floor, current_deck, current_relics, master_data, unknowns):
     try:
-        return func()
+        func()
+        return False, None
     except Exception as e:
+        # success, new_data = resolve_missing_data(current_deck, current_relics, master_deck=master_data['master_deck'], master_relics=master_data['relics'], unknowns=unknowns, master_data=master_data)
+        # if success:
+        #     return success, new_data
+        # else:
         floor_reached = master_data['floor_reached']
         master_deck = master_data['master_deck']
         print(f'\nFunction {func.func.__name__} failed on floor {floor} of {floor_reached}')
@@ -185,9 +198,9 @@ def process_card_choice(card_choice_data, current_deck, current_relics):
         current_deck.append(picked_card)
 
 
-def process_relics(relics, current_relics, master_relics, floor, unknown_removes_by_floor, unknown_upgrades_by_floor, unknown_transforms_by_floor):
+def process_relics(relics, current_relics, master_relics, floor, unknowns):
     for r in relics:
-        obtain_relic(r, current_relics, master_relics, floor, unknown_removes_by_floor, unknown_upgrades_by_floor, unknown_transforms_by_floor)
+        obtain_relic(r, current_relics, master_relics, floor, unknowns)
 
 
 def process_campfire_choice(campfire_data, current_deck):
@@ -198,11 +211,12 @@ def process_campfire_choice(campfire_data, current_deck):
         current_deck.remove(campfire_data['data'])
 
 
-def process_purchases(purchase_data, current_deck, current_relics):
+def process_purchases(purchase_data, current_deck, current_relics, master_relics, floor, unknowns):
     purchased_cards = [x for x in purchase_data if x not in BASE_GAME_RELICS and x not in BASE_GAME_POTIONS]
     purchased_relics = [x for x in purchase_data if x not in purchased_cards and x not in BASE_GAME_POTIONS]
     current_deck.extend(purchased_cards)
-    current_relics.extend(purchased_relics)
+    for r in purchased_relics:
+        obtain_relic(r, current_relics, master_relics, floor, unknowns)
 
 
 def process_purges(purge_data, current_deck):
@@ -210,9 +224,10 @@ def process_purges(purge_data, current_deck):
         current_deck.remove(card)
 
 
-def process_events(event_data, current_deck, current_relics):
+def process_events(event_data, current_deck, current_relics, master_relics, floor, unknowns):
     if 'relics_obtained' in event_data:
-        current_relics.extend(event_data['relics_obtained'])
+        for r in event_data['relics_obtained']:
+            obtain_relic(r, current_relics, master_relics, floor, unknowns)
     if 'relics_lost' in event_data:
         for relic in event_data['relics_lost']:
             current_relics.remove(relic)
@@ -226,7 +241,8 @@ def process_events(event_data, current_deck, current_relics):
             upgrade_card(current_deck, card)
 
 
-def process_neow(neow_bonus, current_deck, current_relics, master_relics, unknown_removes_by_floor, unknown_upgrades_by_floor, unknown_transforms_by_floor, unknown_cards_by_floor):
+def process_neow(neow_bonus, current_deck, current_relics, master_relics, unknowns):
+    unknown_removes_by_floor, unknown_upgrades_by_floor, unknown_transforms_by_floor, unknown_cards_by_floor = unknowns
     if neow_bonus == 'ONE_RARE_RELIC' or neow_bonus == 'RANDOM_COMMON_RELIC':
         current_relics.append(master_relics[1])
     if neow_bonus == 'BOSS_RELIC':
@@ -254,7 +270,8 @@ def upgrade_card(current_deck, card_to_upgrade):
     current_deck[card_to_upgrade_index] += '+1'
 
 
-def obtain_relic(relic_to_obtain, current_relics, master_relics, floor, unknown_removes_by_floor, unknown_upgrades_by_floor, unknown_transforms_by_floor):
+def obtain_relic(relic_to_obtain, current_relics, master_relics, floor, unknowns):
+    unknown_removes_by_floor, unknown_upgrades_by_floor, unknown_transforms_by_floor, unknown_cards_by_floor = unknowns
     if relic_to_obtain == 'Black Blood':
         current_relics[0] = 'Black Blood'
         return
@@ -350,13 +367,31 @@ def character_spefic_basic_cards(deck, suffix):
             deck[index] = card + suffix
 
 
-def resolve_missing_data(current_deck, current_relics, master_deck, master_relics, unknown_removes_by_floor,
-                         unknown_upgrades_by_floor, unknown_transforms_by_floor, unknown_cards_by_floor):
-    # if current_deck != master_deck:
-    #     if len(current_deck) > len(master_deck) and len(unknown_removes_by_floor) == 1 and len(unknown_upgrades_by_floor) == 0 and len(unknown_transforms_by_floor) == 0 and len(unknown_cards_by_floor) == 0:
-    #         differences = list(set(current_deck) - set(master_deck))
-    #         for key in unknown_removes_by_floor.keys():
-    pass
+def resolve_missing_data(current_deck, current_relics, master_deck, master_relics, unknowns, master_data):
+    unknown_removes_by_floor, unknown_upgrades_by_floor, unknown_transforms_by_floor, unknown_cards_by_floor = unknowns
+    if current_deck != master_deck:
+        if len(current_deck) > len(master_deck) and len(unknown_removes_by_floor) == 1 and len(unknown_upgrades_by_floor) == 0 and len(unknown_transforms_by_floor) == 0 and len(unknown_cards_by_floor) == 0:
+            differences = list((Counter(current_deck) - Counter(master_deck)).elements())
+            for floor, number_of_removes in unknown_removes_by_floor.items():
+                if len(differences) == number_of_removes:
+                    master_data['items_purged'].extend(differences)
+                    for i in range(number_of_removes):
+                        items_purched_floors = master_data['items_purged_floors']
+                        items_purched_floors.append(floor)
+                    return True, master_data
+        elif len(current_deck) == len(master_deck) and len(unknown_upgrades_by_floor) == 1 and len(unknown_removes_by_floor) == 0 and len(unknown_transforms_by_floor) == 0 and len(unknown_cards_by_floor) == 0:
+            diff1 = list((Counter(current_deck) - Counter(master_deck)).elements())
+            diff2 = list((Counter(master_deck) - Counter(current_deck)).elements())
+            if len(diff1) == len(diff2):
+                upgraded_names_of_unupgraded_cards = [x + "+1" for x in diff1]
+                if upgraded_names_of_unupgraded_cards == diff2:
+                    for floor, upgrade_types in unknown_upgrades_by_floor.items():
+                        if len(diff1) == len(upgrade_types):
+                            for unupgraded_card in diff1:
+                                master_data['campfire_choices'].append({"data": unupgraded_card, "floor": floor, "key": "SMITH"})
+                            return True, master_data
+
+    return False, None
 
 
 def is_bad_file(data):
@@ -416,7 +451,7 @@ def process_single_file(data_dir, filename):
 
 directory = '2019SpireRuns'
 processed_runs = process_runs(directory)
-# process_single_file(directory, '1556952028.run')
+# process_single_file(directory, '1556873247.run')
 # pprint.pprint(processed_runs[0])
 # write_file(processed_runs)
 
