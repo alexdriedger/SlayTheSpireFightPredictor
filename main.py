@@ -36,7 +36,6 @@ def heart_fight_data_process(data):
 
 
 def process_runs(data_dir):
-    runs = list()
     bad_file_count = 0
     total_file_count = 0
     file_not_processed_count = 0
@@ -53,7 +52,8 @@ def process_runs(data_dir):
                     total_file_count += 1
                     processed_run = list()
                     try:
-                        processed_run = process_run(data)
+                        processed_run.clear()
+                        processed_run.extend(process_run(data))
                         file_processed_count += 1
                         print(f'{len(processed_run)} training examples successfullly processed from {filename}')
                         # pp.pprint(processed_run)
@@ -72,7 +72,7 @@ def process_runs(data_dir):
     print(f'Files not processed: {file_not_processed_count} => {((file_not_processed_count / total_file_count) * 100):.1f} %')
     print(f'Total files: {total_file_count}')
     print(f'Number of Training Examples: {len(fight_training_examples)}')
-    return runs
+    return fight_training_examples
 
 
 def process_run(data):
@@ -459,8 +459,8 @@ def process_single_file(data_dir, filename):
 directory = '2019SpireRuns'
 processed_runs = process_runs(directory)
 # process_single_file(directory, '1556873247.run')
-# pprint.pprint(processed_runs[0])
-# write_file(processed_runs)
+# pprint.pprint(processed_runs)
+write_file(processed_runs)
 
 """
 # Keys
