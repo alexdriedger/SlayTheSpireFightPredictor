@@ -2,6 +2,10 @@ import os
 import json
 from functools import partial
 from collections import Counter
+import time
+import gc
+import re
+import datetime
 
 import pprint
 
@@ -14,65 +18,79 @@ BASE_GAME_POWERS = {'Inflame', 'Brutality', 'Juggernaut', 'Berserk', 'Metalliciz
 BASE_GAME_CURSES = {'Regret', 'Writhe', 'AscendersBane', 'Decay', 'Necronomicurse', 'Pain', 'Parasite', 'Doubt', 'Injury', 'Clumsy', 'CurseOfTheBell', 'Normality', 'Pride', 'Shame'}
 
 
-def heart_fight_data_process(data):
-    # gold_per_floor?, seed_source_timestamp?,
-    # master_deck, relics, seed_played, character_chosen, current_hp_per_floor (second last floor and last floor), gold,
-    # victory, max_hp_per_floor (second last floor)
-    new_data = dict()
-
-    new_data['gold'] = data['gold']
-    new_data['master_deck'] = data['master_deck']
-    new_data['relics'] = data['relics']
-    new_data['seed_played'] = data['seed_played']
-    new_data['character_chosen'] = data['character_chosen']
-    new_data['entering_hp'] = data['current_hp_per_floor'][-2]
-    new_data['end_hp'] = data['current_hp_per_floor'][-1]
-    new_data['victory'] = data['victory']
-    new_data['map_hp'] = data['max_hp_per_floor'][-2]
-    new_data['potions_obtained'] = [x['key'] for x in data['potions_obtained']]
-    # Add potions that were picked up to at some point. Pick some random ones for Silver and Bronze
-
-    return new_data
-
-
 def process_runs(data_dir):
+    file_not_opened = 0
     bad_file_count = 0
     total_file_count = 0
     file_not_processed_count = 0
     file_processed_count = 0
     file_master_not_match_count = 0
     fight_training_examples = list()
-    for filename in os.listdir(data_dir):
-        if filename.endswith(".run"):
-            with open(f"{data_dir}/{filename}", 'r') as file:
-                data = json.load(file)
-                if is_bad_file(data):
-                    bad_file_count += 1
-                else:
-                    total_file_count += 1
-                    processed_run = list()
-                    try:
-                        processed_run.clear()
-                        processed_run.extend(process_run(data))
-                        file_processed_count += 1
-                        print(f'{len(processed_run)} training examples successfullly processed from {filename}')
-                        # pp.pprint(processed_run)
-                        fight_training_examples.extend(processed_run)
-                    except RuntimeError as e:
-                        file_master_not_match_count += 1
-                        print(f'{filename}\n')
-                        pass
-                    except Exception as e:
-                        file_not_processed_count += 1
-                        print(filename)
 
-    print(f'Files filtered with pre-filter: {bad_file_count}')
+    count = 0
+    tmp_dir = os.path.join('out', str(round(time.time())))
+    os.mkdir(tmp_dir)
+    for root, dirs, files in os.walk(data_dir):
+        for fname in files:
+            count += 1
+            if len(fight_training_examples) > 40000:
+                print('Saving batch')
+                write_file_name = f'data_{round(time.time())}.json'
+                write_file(fight_training_examples, os.path.join(tmp_dir, write_file_name))
+                fight_training_examples.clear()
+                print('Wrote batch to file')
+                print('Garbage collecting')
+                gc.collect()
+                print('Finished garbage collecting')
+
+            if count % 10000 == 0:
+                gc.collect()
+
+            if count % 200 == 0:
+                print(f'\n\n\nFiles not able to open: {file_not_opened} => {((file_not_opened / total_file_count) * 100):.1f} %')
+                print(f'Files filtered with pre-filter: {bad_file_count} => {((bad_file_count / total_file_count) * 100):.1f} %')
+                print(
+                    f'Files SUCCESSFULLY processed: {file_processed_count} => {((file_processed_count / total_file_count) * 100):.1f} %')
+                print(
+                    f'Files with master deck not matching created deck: {file_master_not_match_count} => {((file_master_not_match_count / total_file_count) * 100):.1f} %')
+                print(
+                    f'Files not processed: {file_not_processed_count} => {((file_not_processed_count / total_file_count) * 100):.1f} %')
+                print(f'Total files: {total_file_count}')
+                print(f'Number of Training Examples in batch: {len(fight_training_examples)}')
+            path = os.path.join(root, fname)
+            if path.endswith(".run.json"):
+                total_file_count += 1
+                try:
+                    with open(path, 'r', encoding='utf8') as file:
+                        data = json.load(file)
+                        if is_bad_file(data):
+                            bad_file_count += 1
+                        else:
+                            processed_run = list()
+                            try:
+                                processed_run.clear()
+                                processed_run.extend(process_run(data))
+                                file_processed_count += 1
+                                fight_training_examples.extend(processed_run)
+                            except RuntimeError as e:
+                                file_master_not_match_count += 1
+                                # print(f'{path}\n')
+                                pass
+                            except Exception as e:
+                                file_not_processed_count += 1
+                                # print(path)
+                except Exception as e:
+                    file_not_opened += 1
+
+    print(f'\n\n\nFiles not able to open: {file_not_opened} => {((file_not_opened / total_file_count) * 100):.1f} %')
+    print(f'Files filtered with pre-filter: {bad_file_count} => {((bad_file_count / total_file_count) * 100):.1f} %')
     print(f'Files SUCCESSFULLY processed: {file_processed_count} => {((file_processed_count / total_file_count) * 100):.1f} %')
     print(f'Files with master deck not matching created deck: {file_master_not_match_count} => {((file_master_not_match_count / total_file_count) * 100):.1f} %')
     print(f'Files not processed: {file_not_processed_count} => {((file_not_processed_count / total_file_count) * 100):.1f} %')
     print(f'Total files: {total_file_count}')
     print(f'Number of Training Examples: {len(fight_training_examples)}')
-    return fight_training_examples
+    write_file_name = f'data_{round(time.time())}.json'
+    write_file(fight_training_examples, os.path.join(tmp_dir, write_file_name))
 
 
 def process_run(data):
@@ -133,18 +151,18 @@ def process_run(data):
                                                  master_relics=data['relics'], unknowns=unknowns, master_data=data)
         if success:
             return process_run(new_data)
-        if current_deck == master_deck:
-            print(f'\nSo close!!!!!   XX Relics XX')
-        elif current_relics == master_relics:
-            print(f'\nSo close!!!!!   XX Deck XX')
-        else:
-            print(f'\nLess close!!!!!   XX Deck and Relics XX')
-
-
-        print(f'Current Deck\t: {sorted(current_deck)}')
-        print(f'Master Deck\t\t: {sorted(master_deck)}')
-        print(f'Current Relics\t: {sorted(current_relics)}')
-        print(f'Master Relics\t: {sorted(master_relics)}\n')
+        # if current_deck == master_deck:
+        #     print(f'\nSo close!!!!!   XX Relics XX')
+        # elif current_relics == master_relics:
+        #     print(f'\nSo close!!!!!   XX Deck XX')
+        # else:
+        #     print(f'\nLess close!!!!!   XX Deck and Relics XX')
+        #
+        #
+        # print(f'Current Deck\t: {sorted(current_deck)}')
+        # print(f'Master Deck\t\t: {sorted(master_deck)}')
+        # print(f'Current Relics\t: {sorted(current_relics)}')
+        # print(f'Master Relics\t: {sorted(master_relics)}\n')
         raise RuntimeError('Final decks or relics did not match')
     else:
         return processed_fights
@@ -161,10 +179,10 @@ def try_process_data(func, floor, current_deck, current_relics, master_data, unk
         # else:
         floor_reached = master_data['floor_reached']
         master_deck = master_data['master_deck']
-        print(f'\nFunction {func.func.__name__} failed on floor {floor} of {floor_reached}')
-        print(f'Reason for exception: {e}')
-        print(f'Current Deck\t: {sorted(current_deck)}')
-        print(f'Master Deck\t\t: {sorted(master_deck)}\n')
+        # print(f'\nFunction {func.func.__name__} failed on floor {floor} of {floor_reached}')
+        # print(f'Reason for exception: {e}')
+        # print(f'Current Deck\t: {sorted(current_deck)}')
+        # print(f'Master Deck\t\t: {sorted(master_deck)}\n')
         raise e
 
 
@@ -268,8 +286,8 @@ def process_neow(neow_bonus, current_deck, current_relics, master_relics, unknow
 
 def upgrade_card(current_deck, card_to_upgrade):
     card_to_upgrade_index = current_deck.index(card_to_upgrade)
-    if 'earing' in card_to_upgrade:
-        print(f'Probably Searing Blow id: {card_to_upgrade}')
+    # if 'earing' in card_to_upgrade:
+        # print(f'Probably Searing Blow id: {card_to_upgrade}')
     current_deck[card_to_upgrade_index] += '+1'
 
 
@@ -401,18 +419,42 @@ def resolve_missing_data(current_deck, current_relics, master_deck, master_relic
     return False, None
 
 
+BUILD_VERSION_REGEX = re.compile('[0-9]{4}-[0-9]{2}-[0-9]{2}$')
+
+
+def valid_build_number(string, character):
+    pattern = re.compile('[0-9]{4}-[0-9]{2}-[0-9]{2}$')
+    if pattern.match(string):
+        m = re.search('(.+)-(.+)-(.+)', string)
+        year = int(m.group(1))
+        month = int(m.group(2))
+        day = int(m.group(3))
+
+        date = datetime.date(year, month, day)
+        if date >= datetime.date(2020, 1, 16):
+            return True
+        elif character in ['IRONCLAD', 'THE_SILENT', 'DEFECT'] and date >= datetime.date(2019, 1, 23):
+            return True
+
+    return False
+
+
 def is_bad_file(data):
     necessary_fields = ['damage_taken', 'event_choices', 'card_choices', 'relics_obtained', 'campfire_choices',
                         'items_purchased', 'item_purchase_floors', 'items_purged', 'items_purged_floors',
-                        'character_chosen', 'boss_relics']
+                        'character_chosen', 'boss_relics', 'floor_reached']
     for field in necessary_fields:
         if field not in data:
-            print(f'File missing field: {field}')
+            # print(f'File missing field: {field}')
             return True
 
     key = 'character_chosen'
     if key not in data or data[key] not in ['IRONCLAD', 'THE_SILENT', 'DEFECT', 'WATCHER']:
-        print(f'Modded character: {data[key]}')
+        # print(f'Modded character: {data[key]}')
+        return True
+
+    key = 'build_version'
+    if key not in data or valid_build_number(data[key], data['character_chosen']) is False:
         return True
 
     key = 'floor_reached'
@@ -443,10 +485,22 @@ def is_bad_file(data):
     if key in data:
         return True
 
+    key = 'circlet_count'
+    if key not in data or data[key] > 0:
+        return True
 
-def write_file(data):
-    with open('out/data.json', 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=4)
+    key = 'floor_reached'
+    if key not in data or data[key] > 60:
+        return True
+
+    key = 'player_experience'
+    if key not in data or data[key] < 100:
+        return True
+
+
+def write_file(data, name):
+    with open(name, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False)
 
 
 def process_single_file(data_dir, filename):
@@ -456,11 +510,9 @@ def process_single_file(data_dir, filename):
         print(f'Result: {result}')
 
 
-directory = '2019SpireRuns'
-processed_runs = process_runs(directory)
+directory = 'SpireLogs Data'
+process_runs(directory)
 # process_single_file(directory, '1556873247.run')
-# pprint.pprint(processed_runs)
-write_file(processed_runs)
 
 """
 # Keys
