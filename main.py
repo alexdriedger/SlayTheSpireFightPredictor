@@ -200,7 +200,7 @@ def try_process_data(func, floor, current_deck, current_relics, master_data, unk
 
 
 def process_battle(master_data, battle_stat, potion_use_by_floor, current_deck, current_relics, floor, score,
-                   act_bosses):
+                   act_bosses, path_per_floor):
     fight_data = dict()
     fight_data['cards'] = list(current_deck)
     fight_data['relics'] = list(current_relics)
@@ -216,8 +216,17 @@ def process_battle(master_data, battle_stat, potion_use_by_floor, current_deck, 
     else:
         hp_change = master_data['current_hp_per_floor'][floor - 2] - master_data['current_hp_per_floor'][floor - 1]
     fight_data['damage_taken'] = hp_change
-    fight_data['next_boss'] = get_next_boss(floor, act_bosses)
+
+    next_boss_floor, fight_data['next_boss'] = get_next_boss(floor, act_bosses)
     fight_data['score'] = score
+    fight_data['remaining_events_before_boss'] = get_remaining_encounters(floor, next_boss_floor, path_per_floor,
+                                                                          encounter_type='?')
+    fight_data['remaining_campfires_before_boss'] = get_remaining_encounters(floor, next_boss_floor, path_per_floor,
+                                                                             encounter_type='R')
+    fight_data['remaining_monsters_before_boss'] = get_remaining_encounters(floor, next_boss_floor, path_per_floor,
+                                                                           encounter_type='M')
+    fight_data['remaining_elites_before_boss'] = get_remaining_encounters(floor, next_boss_floor, path_per_floor,
+                                                                          encounter_type='E')
     return fight_data
 
 
@@ -228,7 +237,30 @@ def get_next_boss(floor, act_bosses):
         if boss_floor - floor > 0 and boss_floor < next_boss_floor:
             next_boss_floor = boss_floor
             next_boss = boss
-    return next_boss
+    return next_boss_floor, next_boss
+
+
+def get_remaining_encounters(current_floor, next_boss_floor, path_per_floor, encounter_type=None):
+    """
+    Used to get the remaining floors of a certain type before the Act Boss.
+    encounter_type can be within the following:
+        'M' - monster
+        '$' - shop
+        'E' - elite
+        'R' - rest (AKA campfire)
+        'BOSS' - act boss
+        'T' - treasure
+        '?' - event
+
+    :param current_floor:
+    :param next_boss_floor:
+    :param path_per_floor:
+    :param encounter_type:
+    :return:
+    """
+    num_encounter_floors = len([floor + 1 for floor, event in enumerate(path_per_floor)
+                                if event == encounter_type and current_floor < floor < next_boss_floor])
+    return num_encounter_floors
 
 
 def process_card_choice(card_choice_data, current_deck, current_relics):
