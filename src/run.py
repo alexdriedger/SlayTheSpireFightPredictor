@@ -2,7 +2,7 @@ import logging
 from collections import Counter
 from functools import partial
 
-from src.process import Process
+from .common import StSGlobals
 
 logging.basicConfig(
     level=logging.INFO,
@@ -29,6 +29,7 @@ class Run:
         self.current_deck = self.get_starting_deck()
         self.current_relics = self.get_starting_relics()
         self.end_game_stats = self.get_end_game_stats()
+        self.processed_fights = []
         self.unknowns = {
             'unknown_removes_by_floor': {},
             'unknown_upgrades_by_floor': {},
@@ -44,7 +45,8 @@ class Run:
             'DEFECT': ['Cracked Core'],
             'WATCHER': ['PureWater'],
         }
-        return character_relics.get(character, logger.info(f'Unsupported character {character}'))
+
+        return character_relics.get(character)
 
     def get_starting_deck(self):
         character = self.run.get('character_chosen')
@@ -150,47 +152,31 @@ class Run:
         return stats_by_floor
 
     def process_run(self):
-        processed_fights = list()
-        for floor in range(0, self.run['floor_reached']):
-            if floor != 1:
-                fight_data = self.process_battle(floor)
-                processed_fights.append(fight_data)
-
+        self.process_neow()
+        for floor in range(1, self.run['floor_reached']):
+            #TODO: Use the relics and cards on floor 1 to determine Neow's blessing
+            self.process_battle(floor)
             self.process_relics(floor)
             self.process_card_choice(floor)
+            self.process_campfire_choice(floor)
+            self.process_purchases(floor)
+            self.process_purges(floor)
+            self.process_events(floor)
 
-            # TODO Better error handling here
-            restart_needed = self.try_process_data(partial(self.process_campfire_choice))
-            if restart_needed:
-                return Run(self.run).process_run()
-
-            self.try_process_data(partial(self.process_purchases, floor))
-            self.try_process_data(partial(self.process_purges, floor))
-            self.try_process_data(partial(self.process_events, floor))
-
-            if floor == 0:
-                self.process_neow()
-
-        if self.current_deck != self.end_game_stats['master_deck'] or self.current_relics != self.end_game_stats[
-            'master_relics']:
+        master_deck = self.end_game_stats['master_deck']
+        master_relics = self.end_game_stats['master_relics']
+        if set(self.current_deck) != set(master_deck) or set(self.current_relics) != set(master_relics):
             success = self.resolve_missing_data()
             if success:
-                return Run(self.run).process_run()
+                return Run(self.run).process_run().processed_fights
             raise RuntimeError('Final decks or relics did not match')
         else:
-            return processed_fights
-
-    def try_process_data(self, func):
-        try:
-            func()
-            return False
-        except Exception as e:
-            raise e
+            return self.processed_fights
 
     def process_battle(self, floor):
-        fight_data = dict()
-        battle_stat = self.stats_by_floor['battle_stats_by_floor'][floor]
+        battle_stat = self.stats_by_floor['battle_stats_by_floor'].get(floor)
         if battle_stat:
+            fight_data = dict()
             fight_data['cards'] = list(self.current_deck)
             fight_data['relics'] = list(self.current_relics)
             fight_data['max_hp'] = self.run['max_hp_per_floor'][floor - 2]
@@ -216,7 +202,7 @@ class Run:
                                                                                          encounter_type='M')
             fight_data['remaining_elites_before_boss'] = self.get_remaining_encounters(floor, next_boss_floor,
                                                                                        encounter_type='E')
-            return fight_data
+            self.processed_fights.append(fight_data)
 
     def get_next_boss(self, floor):
         next_boss_floor = 999
@@ -255,12 +241,12 @@ class Run:
         if card_choice_data:
             picked_card = card_choice_data['picked']
             if picked_card != 'SKIP' and picked_card != 'Singing Bowl':
-                if 'Molten Egg 2' in self.current_relics and picked_card in Process.BASE_GAME_ATTACKS and picked_card[
+                if 'Molten Egg 2' in self.current_relics and picked_card in StSGlobals.BASE_GAME_ATTACKS and picked_card[
                     -2] != '+1':
                     picked_card += '+1'
-                if 'Toxic Egg 2' in self.current_relics and picked_card in Process.BASE_GAME_SKILLS and picked_card[-2] != '+1':
+                if 'Toxic Egg 2' in self.current_relics and picked_card in StSGlobals.BASE_GAME_SKILLS and picked_card[-2] != '+1':
                     picked_card += '+1'
-                if 'Frozen Egg 2' in self.current_relics and picked_card in Process.BASE_GAME_POWERS and picked_card[
+                if 'Frozen Egg 2' in self.current_relics and picked_card in StSGlobals.BASE_GAME_POWERS and picked_card[
                     -2] != '+1':
                     picked_card += '+1'
                 self.current_deck.append(picked_card)
@@ -284,8 +270,8 @@ class Run:
     def process_purchases(self, floor):
         purchase_data = self.stats_by_floor['purchases_by_floor'].get(floor)
         if purchase_data:
-            purchased_cards = [x for x in purchase_data if x not in Process.BASE_GAME_RELICS and x not in Process.BASE_GAME_POTIONS]
-            purchased_relics = [x for x in purchase_data if x not in purchased_cards and x not in Process.BASE_GAME_POTIONS]
+            purchased_cards = [x for x in purchase_data if x not in StSGlobals.BASE_GAME_RELICS and x not in StSGlobals.BASE_GAME_POTIONS]
+            purchased_relics = [x for x in purchase_data if x not in purchased_cards and x not in StSGlobals.BASE_GAME_POTIONS]
             self.current_deck.extend(purchased_cards)
             for r in purchased_relics:
                 self.obtain_relic(r, floor)
