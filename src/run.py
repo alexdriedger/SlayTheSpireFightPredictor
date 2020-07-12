@@ -1,9 +1,8 @@
-import json
 import logging
 from collections import Counter
 from functools import partial
 
-from main import BASE_GAME_ATTACKS, BASE_GAME_POTIONS, BASE_GAME_POWERS, BASE_GAME_RELICS, BASE_GAME_SKILLS
+from src.process import Process
 
 logging.basicConfig(
     level=logging.INFO,
@@ -20,13 +19,12 @@ class Run:
     WIP. Currently reimplements all the methods that were used in main.py
     """
 
-    def __init__(self, run_path):
+    def __init__(self, run):
         """
 
         :param run_path:
         """
-        self.run_path = run_path
-        self.run = self.load_run()
+        self.run = run
         self.stats_by_floor = self.get_by_floor()
         self.current_deck = self.get_starting_deck()
         self.current_relics = self.get_starting_relics()
@@ -37,11 +35,6 @@ class Run:
             'unknown_transforms_by_floor': {},
             'unknown_cards_by_floor': {},
         }
-
-    def load_run(self):
-        with open(self.run_path, 'r', encoding='utf8') as file:
-            data = json.load(file)
-        return data
 
     def get_starting_relics(self):
         character = self.run.get('character_chosen')
@@ -169,7 +162,7 @@ class Run:
             # TODO Better error handling here
             restart_needed = self.try_process_data(partial(self.process_campfire_choice))
             if restart_needed:
-                return Run(self.run_path).process_run()
+                return Run(self.run).process_run()
 
             self.try_process_data(partial(self.process_purchases, floor))
             self.try_process_data(partial(self.process_purges, floor))
@@ -182,7 +175,7 @@ class Run:
             'master_relics']:
             success = self.resolve_missing_data()
             if success:
-                return Run(self.run_path).process_run()
+                return Run(self.run).process_run()
             raise RuntimeError('Final decks or relics did not match')
         else:
             return processed_fights
@@ -262,12 +255,12 @@ class Run:
         if card_choice_data:
             picked_card = card_choice_data['picked']
             if picked_card != 'SKIP' and picked_card != 'Singing Bowl':
-                if 'Molten Egg 2' in self.current_relics and picked_card in BASE_GAME_ATTACKS and picked_card[
+                if 'Molten Egg 2' in self.current_relics and picked_card in Process.BASE_GAME_ATTACKS and picked_card[
                     -2] != '+1':
                     picked_card += '+1'
-                if 'Toxic Egg 2' in self.current_relics and picked_card in BASE_GAME_SKILLS and picked_card[-2] != '+1':
+                if 'Toxic Egg 2' in self.current_relics and picked_card in Process.BASE_GAME_SKILLS and picked_card[-2] != '+1':
                     picked_card += '+1'
-                if 'Frozen Egg 2' in self.current_relics and picked_card in BASE_GAME_POWERS and picked_card[
+                if 'Frozen Egg 2' in self.current_relics and picked_card in Process.BASE_GAME_POWERS and picked_card[
                     -2] != '+1':
                     picked_card += '+1'
                 self.current_deck.append(picked_card)
@@ -291,8 +284,8 @@ class Run:
     def process_purchases(self, floor):
         purchase_data = self.stats_by_floor['purchases_by_floor'].get(floor)
         if purchase_data:
-            purchased_cards = [x for x in purchase_data if x not in BASE_GAME_RELICS and x not in BASE_GAME_POTIONS]
-            purchased_relics = [x for x in purchase_data if x not in purchased_cards and x not in BASE_GAME_POTIONS]
+            purchased_cards = [x for x in purchase_data if x not in Process.BASE_GAME_RELICS and x not in Process.BASE_GAME_POTIONS]
+            purchased_relics = [x for x in purchase_data if x not in purchased_cards and x not in Process.BASE_GAME_POTIONS]
             self.current_deck.extend(purchased_cards)
             for r in purchased_relics:
                 self.obtain_relic(r, floor)
