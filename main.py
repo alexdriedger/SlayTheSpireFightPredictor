@@ -34,6 +34,31 @@ def process_runs(data_dir):
     os.mkdir(tmp_dir)
     for root, dirs, files in os.walk(data_dir):
         for fname in files:
+            count += 1
+            if len(fight_training_examples) > 40000:
+                logger.info('Saving batch')
+                write_file_name = f'data_{round(time.time())}.json'
+                write_file(fight_training_examples, os.path.join(tmp_dir, write_file_name))
+                fight_training_examples.clear()
+                logger.info('Wrote batch to file')
+                logger.info('Garbage collecting')
+                gc.collect()
+                logger.info('Finished garbage collecting')
+
+            if count % 10000 == 0:
+                gc.collect()
+
+            if count % 200 == 0:
+                print(f'\n\n\nFiles not able to open: {file_not_opened} => {((file_not_opened / total_file_count) * 100):.1f} %')
+                print(f'Files filtered with pre-filter: {bad_file_count} => {((bad_file_count / total_file_count) * 100):.1f} %')
+                print(
+                    f'Files SUCCESSFULLY processed: {file_processed_count} => {((file_processed_count / total_file_count) * 100):.1f} %')
+                logger.info(
+                    f'Files with master deck not matching created deck: {file_master_not_match_count} => {((file_master_not_match_count / total_file_count) * 100):.1f} %')
+                logger.info(
+                    f'Files not processed: {file_not_processed_count} => {((file_not_processed_count / total_file_count) * 100):.1f} %')
+                logger.info(f'Total files: {total_file_count}')
+                logger.info(f'Number of Training Examples in batch: {len(fight_training_examples)}')
             path = os.path.join(root, fname)
             if path.endswith(".run.json"):
                 total_file_count += 1
@@ -76,9 +101,9 @@ def process_runs(data_dir):
                             bad_file_count += 1
                         else:
                             if 'ReplayTheSpireMod:Calculation Training+1' in data['master_deck']:
-                                print('Modded file found')
-                                print(data)
-                                print(path)
+                                logger.info('Modded file found')
+                                logger.info(data)
+                                logger.info(path)
                             processed_run = list()
                             try:
                                 processed_run.clear()
@@ -87,11 +112,11 @@ def process_runs(data_dir):
                                 fight_training_examples.extend(processed_run)
                             except RuntimeError as e:
                                 file_master_not_match_count += 1
-                                # print(f'{path}\n')
+                                logger.debug(f'{path}\n')
                                 pass
                             except Exception as e:
                                 file_not_processed_count += 1
-                                # print(path)
+                                logger.debug(path)
                 except Exception as e:
                     file_not_opened += 1
 
@@ -420,7 +445,7 @@ def get_starting_relics(character):
     elif character == 'WATCHER':
         return ['PureWater']
     else:
-        print(f'Unsupported character {character}')
+        logger.info(f'Unsupported character {character}')
 
 
 def get_starting_deck(character, ascension):
@@ -438,7 +463,7 @@ def get_starting_deck(character, ascension):
         basic_deck.extend(['Eruption', 'Vigilance'])
         character_spefic_basic_cards(basic_deck, '_P')
     else:
-        print(f'Unsupported character {character}')
+        logger.info(f'Unsupported character {character}')
     if ascension >= 10:
         basic_deck.append('AscendersBane')
     return basic_deck
@@ -504,19 +529,19 @@ def is_bad_file(data):
                         'character_chosen', 'boss_relics', 'floor_reached', 'master_deck', 'relics']
     for field in necessary_fields:
         if field not in data:
-            # print(f'File missing field: {field}')
+            # logger.info(f'File missing field: {field}')
             return True
 
     # Modded games
     key = 'character_chosen'
     if key not in data or data[key] not in ['IRONCLAD', 'THE_SILENT', 'DEFECT', 'WATCHER']:
-        # print(f'Modded character: {data[key]}')
+        # logger.info(f'Modded character: {data[key]}')
         return True
 
     key = 'master_deck'
     if key not in data or set(data[key]).issubset(BASE_GAME_CARDS_AND_UPGRADES) is False:
         # deck = data[key]
-        # print(f'Modded file. Cards: {deck - BASE_GAME_CARDS_AND_UPGRADES}')
+        # logger.info(f'Modded file. Cards: {deck - BASE_GAME_CARDS_AND_UPGRADES}')
         return True
 
     key = 'relics'
@@ -581,7 +606,7 @@ def process_single_file(data_dir, filename):
     with open(f"{data_dir}/{filename}", 'r') as file:
         data = json.load(file)
         result = process_run(data)
-        print(f'Result: {result}')
+        logger.info(f'Result: {result}')
 
 
 directory = 'SpireLogs Data'
