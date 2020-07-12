@@ -1,1 +1,651 @@
-{"gold_per_floor":[215,365,440,91,91,91,135,135,161,161,186,202,222,245,245,344,344,362,362,362,412,435,435,473,473,521,39,39,60,75,94,94,94],"floor_reached":33,"playtime":1442,"items_purged":["Doubt","Strike_B+1"],"score":530,"play_id":"d2c25796-9fa1-43b3-bfe9-840cb21099e2","local_time":"20190106152838","is_ascension_mode":true,"campfire_choices":[{"data":"Zap","floor":6,"key":"SMITH"},{"floor":8,"key":"REST"},{"data":"Defragment","floor":10,"key":"SMITH"},{"data":"Coolheaded","floor":15,"key":"SMITH"},{"data":"Electrodynamics","floor":23,"key":"SMITH"},{"floor":25,"key":"REST"},{"data":"Capacitor","floor":28,"key":"SMITH"},{"floor":32,"key":"REST"}],"neow_cost":"NONE","seed_source_timestamp":265864386064918,"circlet_count":0,"master_deck":["AscendersBane","Strike_B+1","Strike_B+1","Strike_B+1","Defend_B+1","Defend_B+1","Defend_B+1","Defend_B+1","Zap+1","Dualcast","Ball Lightning","Master of Strategy","Defragment+1","Go for the Eyes","Coolheaded+1","Cold Snap","Electrodynamics+1","Conserve Battery","Heatsinks+1","Capacitor+1","Sunder"],"relics":["Cracked Core","Golden Idol","Shuriken","Ancient Tea Set","Snecko Eye","Darkstone Periapt","Anchor","Membership Card","Singing Bowl"],"potions_floor_usage":[16,22,30,33,33],"damage_taken":[{"damage":7,"enemies":"Jaw Worm","floor":1,"turns":4},{"damage":20,"enemies":"Lagavulin","floor":7,"turns":6},{"damage":5,"enemies":"Small Slimes","floor":11,"turns":3},{"damage":0,"enemies":"2 Louse","floor":12,"turns":1},{"damage":4,"enemies":"Blue Slaver","floor":13,"turns":3},{"damage":5,"enemies":"2 Fungi Beasts","floor":14,"turns":4},{"damage":15,"enemies":"Hexaghost","floor":16,"turns":9},{"damage":6,"enemies":"Spheric Guardian","floor":18,"turns":4},{"damage":9,"enemies":"Chosen","floor":22,"turns":4},{"damage":13,"enemies":"Gremlin Leader","floor":24,"turns":5},{"damage":16,"enemies":"Shelled Parasite and Fungi","floor":29,"turns":5},{"damage":12,"enemies":"Snake Plant","floor":30,"turns":4},{"damage":2,"enemies":"Cultist and Chosen","floor":31,"turns":5},{"damage":44,"enemies":"Automaton","floor":33,"turns":8}],"seed_played":"-1716966502250398084","potions_obtained":[{"floor":1,"key":"Ancient Potion"},{"floor":12,"key":"FearPotion"},{"floor":13,"key":"Weak Potion"},{"floor":14,"key":"Weak Potion"},{"floor":18,"key":"Explosive Potion"},{"floor":30,"key":"AttackPotion"}],"is_trial":false,"path_per_floor":["M","?","?","$","?","R","E","R","T","R","M","M","M","M","R","B",null,"M","?","?","?","M","R","E","R","T","$","R","M","M","M","R","B"],"character_chosen":"DEFECT","items_purchased":["Ball Lightning","Master of Strategy","Membership Card","Capacitor","Singing Bowl","PowerPotion"],"campfire_rested":3,"item_purchase_floors":[4,4,27,27,27,27],"current_hp_per_floor":[57,57,46,46,46,46,26,45,45,45,40,40,36,31,31,16,52,46,46,46,46,37,37,24,43,43,43,43,27,17,17,37,0],"gold":94,"neow_bonus":"HUNDRED_GOLD","is_prod":false,"is_daily":false,"chose_seed":false,"campfire_upgraded":5,"win_rate":0,"timestamp":1546817318,"path_taken":["M","?","?","$","?","R","E","R","T","R","M","M","?","M","R","BOSS","M","?","?","?","?","R","E","R","T","$","R","M","?","M","R","BOSS"],"build_version":"2019-01-03v4","purchased_purges":2,"victory":false,"max_hp_per_floor":[71,71,71,71,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,66,68,68,68],"card_choices":[{"not_picked":["Storm","Sunder","Leap"],"picked":"SKIP","floor":1},{"not_picked":["Barrage","Sweeping Beam"],"picked":"Defragment","floor":7},{"not_picked":["Consume","Lockon","Streamline"],"picked":"SKIP","floor":11},{"not_picked":["Rebound","Force Field"],"picked":"Go for the Eyes","floor":12},{"not_picked":["Beam Cell","Reinforced Body"],"picked":"Coolheaded","floor":13},{"not_picked":["Sweeping Beam","Redo"],"picked":"Cold Snap","floor":14},{"not_picked":["Machine Learning","Creative AI"],"picked":"Electrodynamics","floor":16},{"not_picked":["Ball Lightning","Barrage","Coolheaded"],"picked":"SKIP","floor":18},{"not_picked":["Tempest","Streamline"],"picked":"Conserve Battery","floor":22},{"not_picked":["Barrage","Redo"],"picked":"Heatsinks+1","floor":24},{"not_picked":["Beam Cell","Force Field"],"picked":"Sunder","floor":29},{"not_picked":["Turbo","Barrage","Cold Snap"],"picked":"Singing Bowl","floor":30},{"not_picked":["Hello World","Streamline+1","Rebound"],"picked":"Singing Bowl","floor":31}],"player_experience":4248425,"relics_obtained":[{"floor":7,"key":"Shuriken"},{"floor":9,"key":"Ancient Tea Set"},{"floor":24,"key":"Darkstone Periapt"},{"floor":26,"key":"Anchor"}],"event_choices":[{"damage_healed":0,"gold_gain":150,"player_choice":"AGREE","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Liars Game","floor":2,"gold_loss":0,"cards_obtained":["Doubt"]},{"damage_healed":0,"gold_gain":75,"player_choice":"Gather Gold","damage_taken":11,"max_hp_gain":0,"max_hp_loss":0,"event_name":"World of Goop","floor":3,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Lose Max HP","damage_taken":0,"relics_obtained":["Golden Idol"],"max_hp_gain":0,"max_hp_loss":7,"event_name":"Golden Idol","floor":5,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Simplicity","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Back to Basics","floor":19,"gold_loss":0,"cards_upgraded":["Strike_B","Strike_B","Strike_B","Strike_B","Defend_B","Defend_B","Defend_B","Defend_B"]},{"damage_healed":0,"gold_gain":0,"player_choice":"Ignored","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Vampires","floor":20,"gold_loss":0},{"damage_healed":0,"gold_gain":50,"player_choice":"Stole From Cult","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Nest","floor":21,"gold_loss":0}],"is_beta":true,"boss_relics":[{"not_picked":["Orrery","Velvet Choker"],"picked":"Snecko Eye"}],"items_purged_floors":[4,27],"is_endless":false,"potions_floor_spawned":[1,12,13,14,18,30],"killed_by":"Automaton","ascension_level":20}
+{
+  "gold_per_floor": [
+    215,
+    365,
+    440,
+    91,
+    91,
+    91,
+    135,
+    135,
+    161,
+    161,
+    186,
+    202,
+    222,
+    245,
+    245,
+    344,
+    344,
+    362,
+    362,
+    362,
+    412,
+    435,
+    435,
+    473,
+    473,
+    521,
+    39,
+    39,
+    60,
+    75,
+    94,
+    94,
+    94
+  ],
+  "floor_reached": 33,
+  "playtime": 1442,
+  "items_purged": [
+    "Doubt",
+    "Strike_B+1"
+  ],
+  "score": 530,
+  "play_id": "d2c25796-9fa1-43b3-bfe9-840cb21099e2",
+  "local_time": "20190106152838",
+  "is_ascension_mode": true,
+  "campfire_choices": [
+    {
+      "data": "Zap",
+      "floor": 6,
+      "key": "SMITH"
+    },
+    {
+      "floor": 8,
+      "key": "REST"
+    },
+    {
+      "data": "Defragment",
+      "floor": 10,
+      "key": "SMITH"
+    },
+    {
+      "data": "Coolheaded",
+      "floor": 15,
+      "key": "SMITH"
+    },
+    {
+      "data": "Electrodynamics",
+      "floor": 23,
+      "key": "SMITH"
+    },
+    {
+      "floor": 25,
+      "key": "REST"
+    },
+    {
+      "data": "Capacitor",
+      "floor": 28,
+      "key": "SMITH"
+    },
+    {
+      "floor": 32,
+      "key": "REST"
+    }
+  ],
+  "neow_cost": "NONE",
+  "seed_source_timestamp": 265864386064918,
+  "circlet_count": 0,
+  "master_deck": [
+    "AscendersBane",
+    "Strike_B+1",
+    "Strike_B+1",
+    "Strike_B+1",
+    "Defend_B+1",
+    "Defend_B+1",
+    "Defend_B+1",
+    "Defend_B+1",
+    "Zap+1",
+    "Dualcast",
+    "Ball Lightning",
+    "Master of Strategy",
+    "Defragment+1",
+    "Go for the Eyes",
+    "Coolheaded+1",
+    "Cold Snap",
+    "Electrodynamics+1",
+    "Conserve Battery",
+    "Heatsinks+1",
+    "Capacitor+1",
+    "Sunder"
+  ],
+  "relics": [
+    "Cracked Core",
+    "Golden Idol",
+    "Shuriken",
+    "Ancient Tea Set",
+    "Snecko Eye",
+    "Darkstone Periapt",
+    "Anchor",
+    "Membership Card",
+    "Singing Bowl"
+  ],
+  "potions_floor_usage": [
+    16,
+    22,
+    30,
+    33,
+    33
+  ],
+  "damage_taken": [
+    {
+      "damage": 7,
+      "enemies": "Jaw Worm",
+      "floor": 1,
+      "turns": 4
+    },
+    {
+      "damage": 20,
+      "enemies": "Lagavulin",
+      "floor": 7,
+      "turns": 6
+    },
+    {
+      "damage": 5,
+      "enemies": "Small Slimes",
+      "floor": 11,
+      "turns": 3
+    },
+    {
+      "damage": 0,
+      "enemies": "2 Louse",
+      "floor": 12,
+      "turns": 1
+    },
+    {
+      "damage": 4,
+      "enemies": "Blue Slaver",
+      "floor": 13,
+      "turns": 3
+    },
+    {
+      "damage": 5,
+      "enemies": "2 Fungi Beasts",
+      "floor": 14,
+      "turns": 4
+    },
+    {
+      "damage": 15,
+      "enemies": "Hexaghost",
+      "floor": 16,
+      "turns": 9
+    },
+    {
+      "damage": 6,
+      "enemies": "Spheric Guardian",
+      "floor": 18,
+      "turns": 4
+    },
+    {
+      "damage": 9,
+      "enemies": "Chosen",
+      "floor": 22,
+      "turns": 4
+    },
+    {
+      "damage": 13,
+      "enemies": "Gremlin Leader",
+      "floor": 24,
+      "turns": 5
+    },
+    {
+      "damage": 16,
+      "enemies": "Shelled Parasite and Fungi",
+      "floor": 29,
+      "turns": 5
+    },
+    {
+      "damage": 12,
+      "enemies": "Snake Plant",
+      "floor": 30,
+      "turns": 4
+    },
+    {
+      "damage": 2,
+      "enemies": "Cultist and Chosen",
+      "floor": 31,
+      "turns": 5
+    },
+    {
+      "damage": 44,
+      "enemies": "Automaton",
+      "floor": 33,
+      "turns": 8
+    }
+  ],
+  "seed_played": "-1716966502250398084",
+  "potions_obtained": [
+    {
+      "floor": 1,
+      "key": "Ancient Potion"
+    },
+    {
+      "floor": 12,
+      "key": "FearPotion"
+    },
+    {
+      "floor": 13,
+      "key": "Weak Potion"
+    },
+    {
+      "floor": 14,
+      "key": "Weak Potion"
+    },
+    {
+      "floor": 18,
+      "key": "Explosive Potion"
+    },
+    {
+      "floor": 30,
+      "key": "AttackPotion"
+    }
+  ],
+  "is_trial": false,
+  "path_per_floor": [
+    "M",
+    "?",
+    "?",
+    "$",
+    "?",
+    "R",
+    "E",
+    "R",
+    "T",
+    "R",
+    "M",
+    "M",
+    "M",
+    "M",
+    "R",
+    "B",
+    null,
+    "M",
+    "?",
+    "?",
+    "?",
+    "M",
+    "R",
+    "E",
+    "R",
+    "T",
+    "$",
+    "R",
+    "M",
+    "M",
+    "M",
+    "R",
+    "B"
+  ],
+  "character_chosen": "DEFECT",
+  "items_purchased": [
+    "Ball Lightning",
+    "Master of Strategy",
+    "Membership Card",
+    "Capacitor",
+    "Singing Bowl",
+    "PowerPotion"
+  ],
+  "campfire_rested": 3,
+  "item_purchase_floors": [
+    4,
+    4,
+    27,
+    27,
+    27,
+    27
+  ],
+  "current_hp_per_floor": [
+    57,
+    57,
+    46,
+    46,
+    46,
+    46,
+    26,
+    45,
+    45,
+    45,
+    40,
+    40,
+    36,
+    31,
+    31,
+    16,
+    52,
+    46,
+    46,
+    46,
+    46,
+    37,
+    37,
+    24,
+    43,
+    43,
+    43,
+    43,
+    27,
+    17,
+    17,
+    37,
+    0
+  ],
+  "gold": 94,
+  "neow_bonus": "HUNDRED_GOLD",
+  "is_prod": false,
+  "is_daily": false,
+  "chose_seed": false,
+  "campfire_upgraded": 5,
+  "win_rate": 0,
+  "timestamp": 1546817318,
+  "path_taken": [
+    "M",
+    "?",
+    "?",
+    "$",
+    "?",
+    "R",
+    "E",
+    "R",
+    "T",
+    "R",
+    "M",
+    "M",
+    "?",
+    "M",
+    "R",
+    "BOSS",
+    "M",
+    "?",
+    "?",
+    "?",
+    "?",
+    "R",
+    "E",
+    "R",
+    "T",
+    "$",
+    "R",
+    "M",
+    "?",
+    "M",
+    "R",
+    "BOSS"
+  ],
+  "build_version": "2019-01-03v4",
+  "purchased_purges": 2,
+  "victory": false,
+  "max_hp_per_floor": [
+    71,
+    71,
+    71,
+    71,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    66,
+    68,
+    68,
+    68
+  ],
+  "card_choices": [
+    {
+      "not_picked": [
+        "Storm",
+        "Sunder",
+        "Leap"
+      ],
+      "picked": "SKIP",
+      "floor": 1
+    },
+    {
+      "not_picked": [
+        "Barrage",
+        "Sweeping Beam"
+      ],
+      "picked": "Defragment",
+      "floor": 7
+    },
+    {
+      "not_picked": [
+        "Consume",
+        "Lockon",
+        "Streamline"
+      ],
+      "picked": "SKIP",
+      "floor": 11
+    },
+    {
+      "not_picked": [
+        "Rebound",
+        "Force Field"
+      ],
+      "picked": "Go for the Eyes",
+      "floor": 12
+    },
+    {
+      "not_picked": [
+        "Beam Cell",
+        "Reinforced Body"
+      ],
+      "picked": "Coolheaded",
+      "floor": 13
+    },
+    {
+      "not_picked": [
+        "Sweeping Beam",
+        "Redo"
+      ],
+      "picked": "Cold Snap",
+      "floor": 14
+    },
+    {
+      "not_picked": [
+        "Machine Learning",
+        "Creative AI"
+      ],
+      "picked": "Electrodynamics",
+      "floor": 16
+    },
+    {
+      "not_picked": [
+        "Ball Lightning",
+        "Barrage",
+        "Coolheaded"
+      ],
+      "picked": "SKIP",
+      "floor": 18
+    },
+    {
+      "not_picked": [
+        "Tempest",
+        "Streamline"
+      ],
+      "picked": "Conserve Battery",
+      "floor": 22
+    },
+    {
+      "not_picked": [
+        "Barrage",
+        "Redo"
+      ],
+      "picked": "Heatsinks+1",
+      "floor": 24
+    },
+    {
+      "not_picked": [
+        "Beam Cell",
+        "Force Field"
+      ],
+      "picked": "Sunder",
+      "floor": 29
+    },
+    {
+      "not_picked": [
+        "Turbo",
+        "Barrage",
+        "Cold Snap"
+      ],
+      "picked": "Singing Bowl",
+      "floor": 30
+    },
+    {
+      "not_picked": [
+        "Hello World",
+        "Streamline+1",
+        "Rebound"
+      ],
+      "picked": "Singing Bowl",
+      "floor": 31
+    }
+  ],
+  "player_experience": 4248425,
+  "relics_obtained": [
+    {
+      "floor": 7,
+      "key": "Shuriken"
+    },
+    {
+      "floor": 9,
+      "key": "Ancient Tea Set"
+    },
+    {
+      "floor": 24,
+      "key": "Darkstone Periapt"
+    },
+    {
+      "floor": 26,
+      "key": "Anchor"
+    }
+  ],
+  "event_choices": [
+    {
+      "damage_healed": 0,
+      "gold_gain": 150,
+      "player_choice": "AGREE",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Liars Game",
+      "floor": 2,
+      "gold_loss": 0,
+      "cards_obtained": [
+        "Doubt"
+      ]
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 75,
+      "player_choice": "Gather Gold",
+      "damage_taken": 11,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "World of Goop",
+      "floor": 3,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Lose Max HP",
+      "damage_taken": 0,
+      "relics_obtained": [
+        "Golden Idol"
+      ],
+      "max_hp_gain": 0,
+      "max_hp_loss": 7,
+      "event_name": "Golden Idol",
+      "floor": 5,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Simplicity",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Back to Basics",
+      "floor": 19,
+      "gold_loss": 0,
+      "cards_upgraded": [
+        "Strike_B",
+        "Strike_B",
+        "Strike_B",
+        "Strike_B",
+        "Defend_B",
+        "Defend_B",
+        "Defend_B",
+        "Defend_B"
+      ]
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Ignored",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Vampires",
+      "floor": 20,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 50,
+      "player_choice": "Stole From Cult",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Nest",
+      "floor": 21,
+      "gold_loss": 0
+    }
+  ],
+  "is_beta": true,
+  "boss_relics": [
+    {
+      "not_picked": [
+        "Orrery",
+        "Velvet Choker"
+      ],
+      "picked": "Snecko Eye"
+    }
+  ],
+  "items_purged_floors": [
+    4,
+    27
+  ],
+  "is_endless": false,
+  "potions_floor_spawned": [
+    1,
+    12,
+    13,
+    14,
+    18,
+    30
+  ],
+  "killed_by": "Automaton",
+  "ascension_level": 20
+}

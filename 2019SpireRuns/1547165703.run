@@ -1,1 +1,251 @@
-{"gold_per_floor":[111,111,135,151,76,76,76,120,173,173],"floor_reached":10,"playtime":408,"items_purged":["Strike_B"],"score":132,"play_id":"9066052f-d535-4368-a6ad-fca9161b8296","local_time":"20190110161503","is_ascension_mode":true,"campfire_choices":[{"data":"Zap","floor":6,"key":"SMITH"}],"neow_cost":"NONE","seed_source_timestamp":128089434456696,"circlet_count":0,"master_deck":["AscendersBane","Strike_B","Strike_B","Defend_B","Defend_B","Defend_B","Defend_B","Zap+1","Dualcast","Reinforced Body","Ball Lightning","Sweeping Beam","Creative AI"],"relics":["Cracked Core","Pen Nib","Golden Idol","Bag of Preparation","Anchor"],"potions_floor_usage":[10],"damage_taken":[{"damage":2,"enemies":"Small Slimes","floor":1,"turns":3},{"damage":2,"enemies":"Cultist","floor":3,"turns":4},{"damage":9,"enemies":"Jaw Worm","floor":4,"turns":4},{"damage":47,"enemies":"Gremlin Nob","floor":8,"turns":4},{"damage":12,"enemies":"3 Sentries","floor":10,"turns":4}],"seed_played":"-3982288312417847521","potions_obtained":[{"floor":1,"key":"Dexterity Potion"}],"is_trial":false,"path_per_floor":["M","?","M","M","$","R","?","E","T","E"],"character_chosen":"DEFECT","items_purchased":[],"campfire_rested":0,"item_purchase_floors":[],"current_hp_per_floor":[62,62,60,51,51,51,51,4,4,0],"gold":173,"neow_bonus":"RANDOM_COMMON_RELIC","is_prod":false,"is_daily":false,"chose_seed":false,"campfire_upgraded":1,"win_rate":0,"timestamp":1547165703,"path_taken":["M","?","M","M","$","R","?","E","T","E"],"build_version":"2019-01-09","purchased_purges":1,"victory":false,"max_hp_per_floor":[71,64,64,64,64,64,64,64,64,64],"card_choices":[{"not_picked":["Beam Cell","Turbo"],"picked":"Reinforced Body","floor":1},{"not_picked":["Chaos","Conserve Battery"],"picked":"Ball Lightning","floor":3},{"not_picked":["Barrage","Hello World"],"picked":"Sweeping Beam","floor":4},{"not_picked":["Meteor Strike","Stack","Scrape"],"picked":"SKIP","floor":8}],"player_experience":4289100,"relics_obtained":[{"floor":8,"key":"Bag of Preparation"},{"floor":9,"key":"Anchor"}],"event_choices":[{"damage_healed":0,"gold_gain":0,"player_choice":"Lose Max HP","damage_taken":0,"relics_obtained":["Golden Idol"],"max_hp_gain":0,"max_hp_loss":7,"event_name":"Golden Idol","floor":2,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"cards_transformed":["Strike_B"],"player_choice":"Transformed","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Transmorgrifier","floor":7,"gold_loss":0,"cards_obtained":["Creative AI"]}],"is_beta":true,"boss_relics":[],"items_purged_floors":[5],"is_endless":false,"potions_floor_spawned":[1],"killed_by":"3 Sentries","ascension_level":20}
+{
+  "gold_per_floor": [
+    111,
+    111,
+    135,
+    151,
+    76,
+    76,
+    76,
+    120,
+    173,
+    173
+  ],
+  "floor_reached": 10,
+  "playtime": 408,
+  "items_purged": [
+    "Strike_B"
+  ],
+  "score": 132,
+  "play_id": "9066052f-d535-4368-a6ad-fca9161b8296",
+  "local_time": "20190110161503",
+  "is_ascension_mode": true,
+  "campfire_choices": [
+    {
+      "data": "Zap",
+      "floor": 6,
+      "key": "SMITH"
+    }
+  ],
+  "neow_cost": "NONE",
+  "seed_source_timestamp": 128089434456696,
+  "circlet_count": 0,
+  "master_deck": [
+    "AscendersBane",
+    "Strike_B",
+    "Strike_B",
+    "Defend_B",
+    "Defend_B",
+    "Defend_B",
+    "Defend_B",
+    "Zap+1",
+    "Dualcast",
+    "Reinforced Body",
+    "Ball Lightning",
+    "Sweeping Beam",
+    "Creative AI"
+  ],
+  "relics": [
+    "Cracked Core",
+    "Pen Nib",
+    "Golden Idol",
+    "Bag of Preparation",
+    "Anchor"
+  ],
+  "potions_floor_usage": [
+    10
+  ],
+  "damage_taken": [
+    {
+      "damage": 2,
+      "enemies": "Small Slimes",
+      "floor": 1,
+      "turns": 3
+    },
+    {
+      "damage": 2,
+      "enemies": "Cultist",
+      "floor": 3,
+      "turns": 4
+    },
+    {
+      "damage": 9,
+      "enemies": "Jaw Worm",
+      "floor": 4,
+      "turns": 4
+    },
+    {
+      "damage": 47,
+      "enemies": "Gremlin Nob",
+      "floor": 8,
+      "turns": 4
+    },
+    {
+      "damage": 12,
+      "enemies": "3 Sentries",
+      "floor": 10,
+      "turns": 4
+    }
+  ],
+  "seed_played": "-3982288312417847521",
+  "potions_obtained": [
+    {
+      "floor": 1,
+      "key": "Dexterity Potion"
+    }
+  ],
+  "is_trial": false,
+  "path_per_floor": [
+    "M",
+    "?",
+    "M",
+    "M",
+    "$",
+    "R",
+    "?",
+    "E",
+    "T",
+    "E"
+  ],
+  "character_chosen": "DEFECT",
+  "items_purchased": [],
+  "campfire_rested": 0,
+  "item_purchase_floors": [],
+  "current_hp_per_floor": [
+    62,
+    62,
+    60,
+    51,
+    51,
+    51,
+    51,
+    4,
+    4,
+    0
+  ],
+  "gold": 173,
+  "neow_bonus": "RANDOM_COMMON_RELIC",
+  "is_prod": false,
+  "is_daily": false,
+  "chose_seed": false,
+  "campfire_upgraded": 1,
+  "win_rate": 0,
+  "timestamp": 1547165703,
+  "path_taken": [
+    "M",
+    "?",
+    "M",
+    "M",
+    "$",
+    "R",
+    "?",
+    "E",
+    "T",
+    "E"
+  ],
+  "build_version": "2019-01-09",
+  "purchased_purges": 1,
+  "victory": false,
+  "max_hp_per_floor": [
+    71,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64
+  ],
+  "card_choices": [
+    {
+      "not_picked": [
+        "Beam Cell",
+        "Turbo"
+      ],
+      "picked": "Reinforced Body",
+      "floor": 1
+    },
+    {
+      "not_picked": [
+        "Chaos",
+        "Conserve Battery"
+      ],
+      "picked": "Ball Lightning",
+      "floor": 3
+    },
+    {
+      "not_picked": [
+        "Barrage",
+        "Hello World"
+      ],
+      "picked": "Sweeping Beam",
+      "floor": 4
+    },
+    {
+      "not_picked": [
+        "Meteor Strike",
+        "Stack",
+        "Scrape"
+      ],
+      "picked": "SKIP",
+      "floor": 8
+    }
+  ],
+  "player_experience": 4289100,
+  "relics_obtained": [
+    {
+      "floor": 8,
+      "key": "Bag of Preparation"
+    },
+    {
+      "floor": 9,
+      "key": "Anchor"
+    }
+  ],
+  "event_choices": [
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Lose Max HP",
+      "damage_taken": 0,
+      "relics_obtained": [
+        "Golden Idol"
+      ],
+      "max_hp_gain": 0,
+      "max_hp_loss": 7,
+      "event_name": "Golden Idol",
+      "floor": 2,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "cards_transformed": [
+        "Strike_B"
+      ],
+      "player_choice": "Transformed",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Transmorgrifier",
+      "floor": 7,
+      "gold_loss": 0,
+      "cards_obtained": [
+        "Creative AI"
+      ]
+    }
+  ],
+  "is_beta": true,
+  "boss_relics": [],
+  "items_purged_floors": [
+    5
+  ],
+  "is_endless": false,
+  "potions_floor_spawned": [
+    1
+  ],
+  "killed_by": "3 Sentries",
+  "ascension_level": 20
+}

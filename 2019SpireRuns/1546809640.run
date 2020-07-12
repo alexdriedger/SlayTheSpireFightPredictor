@@ -1,1 +1,1131 @@
-{"gold_per_floor":[367,367,380,455,455,455,471,501,501,501,533,554,574,590,590,667,667,678,678,690,0,18,18,45,95,174,174,174,208,218,238,238,316,316,334,33,33,44,64,99,118,128,174,199,215,244,264,290,290,290,290,290,290,0,31,31],"floor_reached":57,"playtime":5451,"items_purged":["Writhe"],"score":3223,"play_id":"d836a5d2-59c0-4af6-b616-6cfa3725dba4","local_time":"20190106132040","is_ascension_mode":true,"campfire_choices":[{"data":"Bash","floor":6,"key":"SMITH"},{"data":"Headbutt","floor":10,"key":"SMITH"},{"data":"Sword Boomerang","floor":15,"key":"SMITH"},{"data":"Flame Barrier","floor":23,"key":"SMITH"},{"floor":28,"key":"REST"},{"data":"Body Slam","floor":32,"key":"SMITH"},{"floor":49,"key":"RECALL"},{"data":"Burning Pact","floor":53,"key":"SMITH"}],"neow_cost":"TEN_PERCENT_HP_LOSS","seed_source_timestamp":254092441939333,"circlet_count":0,"master_deck":["AscendersBane","Strike_R","Strike_R","Strike_R+1","Strike_R","Defend_R+1","Defend_R","Defend_R","Defend_R","Bash+1","Hemokinesis+1","Shrug It Off","Headbutt+1","Spot Weakness+1","Combust+1","Sword Boomerang+1","Impervious","Corruption+1","True Grit+1","Flame Barrier+1","Body Slam+1","Burning Pact+1","Impervious","Metallicize+1","Mayhem+1","Uppercut+1","Pommel Strike","Feel No Pain+1","Body Slam+1","Evolve+1","Reaper","Havoc","Inflame+1","Feel No Pain+1","Feel No Pain+1","Feel No Pain+1","Corruption+1"],"relics":["Burning Blood","Gambling Chip","Pantograph","Frozen Egg 2","Odd Mushroom","Philosopher\u0027s Stone","Paper Frog","TheAbacus","War Paint","Oddly Smooth Stone","Mummified Hand","Bag of Preparation","The Courier","Lizard Tail","Unceasing Top","Calipers","Vajra","Dead Branch","Regal Pillow","Bronze Scales","Blood Vial"],"potions_floor_usage":[8,16,24,24,33,33,56,56],"damage_taken":[{"damage":1,"enemies":"2 Louse","floor":1,"turns":4},{"damage":6,"enemies":"Jaw Worm","floor":3,"turns":4},{"damage":1,"enemies":"Small Slimes","floor":7,"turns":4},{"damage":21,"enemies":"3 Sentries","floor":8,"turns":9},{"damage":8,"enemies":"Gremlin Nob","floor":11,"turns":3},{"damage":12,"enemies":"The Mushroom Lair","floor":12,"turns":3},{"damage":2,"enemies":"2 Fungi Beasts","floor":13,"turns":3},{"damage":5,"enemies":"Looter","floor":14,"turns":5},{"damage":48,"enemies":"Hexaghost","floor":16,"turns":6},{"damage":4,"enemies":"Chosen","floor":18,"turns":4},{"damage":10,"enemies":"2 Thieves","floor":20,"turns":3},{"damage":8,"enemies":"Centurion and Healer","floor":22,"turns":7},{"damage":18,"enemies":"Gremlin Leader","floor":24,"turns":3},{"damage":2,"enemies":"Book of Stabbing","floor":29,"turns":3},{"damage":5,"enemies":"Sentry and Sphere","floor":30,"turns":4},{"damage":9,"enemies":"Snecko","floor":31,"turns":3},{"damage":49,"enemies":"Collector","floor":33,"turns":6},{"damage":3,"enemies":"3 Shapes","floor":35,"turns":4},{"damage":5,"enemies":"3 Darklings","floor":38,"turns":3},{"damage":0,"enemies":"Transient","floor":39,"turns":6},{"damage":15,"enemies":"Giant Head","floor":40,"turns":6},{"damage":0,"enemies":"Writhing Mass","floor":41,"turns":3},{"damage":2,"enemies":"4 Shapes","floor":42,"turns":3},{"damage":25,"enemies":"Nemesis","floor":44,"turns":5},{"damage":3,"enemies":"Maw","floor":45,"turns":4},{"damage":5,"enemies":"Giant Head","floor":46,"turns":4},{"damage":1,"enemies":"3 Darklings","floor":47,"turns":5},{"damage":12,"enemies":"Reptomancer","floor":48,"turns":1},{"damage":10,"enemies":"Time Eater","floor":50,"turns":7},{"damage":5,"enemies":"Donu and Deca","floor":51,"turns":4},{"damage":6,"enemies":"Shield and Spear","floor":55,"turns":3},{"damage":23,"enemies":"The Heart","floor":56,"turns":6}],"seed_played":"4778521789694977815","potions_obtained":[{"floor":3,"key":"Strength Potion"},{"floor":7,"key":"GamblersBrew"},{"floor":11,"key":"GamblersBrew"},{"floor":12,"key":"AttackPotion"},{"floor":16,"key":"BloodPotion"},{"floor":18,"key":"Strength Potion"},{"floor":24,"key":"GamblersBrew"},{"floor":31,"key":"Regen Potion"},{"floor":39,"key":"PowerPotion"},{"floor":40,"key":"Strength Potion"}],"is_trial":false,"path_per_floor":["M","?","M","?","?","R","M","E","T","R","E","?","M","M","R","B",null,"M","?","M","$","M","R","E","?","T","?","R","E","M","M","R","B",null,"M","$","?","M","M","E","M","M","T","E","M","E","M","E","R","B","B",null,"R","$","E","B",null],"character_chosen":"IRONCLAD","items_purchased":["Paper Frog","TheAbacus","True Grit","War Paint","Metallicize+1","Mayhem+1","PowerPotion","Feel No Pain+1","Feel No Pain+1","Feel No Pain+1","Bronze Scales"],"campfire_rested":1,"item_purchase_floors":[21,21,21,21,36,36,36,54,54,54,54],"current_hp_per_floor":[68,48,48,37,37,37,42,27,27,27,25,19,23,24,24,7,53,55,55,51,51,49,49,37,37,37,37,57,61,62,59,59,39,61,64,64,64,65,68,59,65,68,68,49,52,66,68,62,62,68,68,68,68,68,68,68],"gold":31,"neow_bonus":"TWO_FIFTY_GOLD","is_prod":false,"is_daily":false,"chose_seed":false,"campfire_upgraded":6,"win_rate":0,"timestamp":1546809640,"path_taken":["M","?","M","?","?","R","M","E","T","R","E","?","M","M","R","BOSS","M","?","M","$","?","R","E","?","T","?","R","E","M","M","R","BOSS","M","$","?","M","M","E","?","M","T","E","M","E","?","E","R","BOSS","BOSS","R","$","E","BOSS"],"build_version":"2019-01-03v4","purchased_purges":1,"victory":true,"max_hp_per_floor":[68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68],"card_choices":[{"not_picked":["Flex","Iron Wave"],"picked":"Hemokinesis","floor":1},{"not_picked":["Havoc","True Grit"],"picked":"Shrug It Off","floor":3},{"not_picked":["Clash","Infernal Blade"],"picked":"Headbutt","floor":7},{"not_picked":["Limit Break","Warcry"],"picked":"Spot Weakness","floor":8},{"not_picked":["Flame Barrier","Infernal Blade"],"picked":"Combust","floor":11},{"not_picked":["Pummel","Iron Wave"],"picked":"Sword Boomerang","floor":12},{"not_picked":["Seeing Red","Fire Breathing+1","Anger"],"picked":"SKIP","floor":13},{"not_picked":["Pommel Strike","Carnage","Cleave"],"picked":"SKIP","floor":14},{"not_picked":["Fiend Fire","Dark Embrace+1"],"picked":"Impervious","floor":16},{"not_picked":["Intimidate","Sword Boomerang","Havoc"],"picked":"SKIP","floor":18},{"not_picked":["Iron Wave","Heavy Blade"],"picked":"Corruption+1","floor":20},{"not_picked":["Heavy Blade","Flex"],"picked":"Flame Barrier","floor":22},{"not_picked":["Warcry","Double Tap","Hemokinesis"],"picked":"SKIP","floor":24},{"not_picked":["Sword Boomerang+1","Perfected Strike","Warcry"],"picked":"SKIP","floor":29},{"not_picked":["Sever Soul","Sword Boomerang+1"],"picked":"Body Slam","floor":30},{"not_picked":["True Grit","Rage"],"picked":"Burning Pact","floor":31},{"not_picked":["Double Tap","Limit Break"],"picked":"Impervious","floor":33},{"not_picked":["Perfected Strike+1","True Grit","Sword Boomerang"],"picked":"SKIP","floor":35},{"not_picked":["Seeing Red","Infernal Blade"],"picked":"Uppercut+1","floor":38},{"not_picked":["Clash+1","Reckless Charge"],"picked":"Pommel Strike","floor":39},{"not_picked":["Thunderclap+1","True Grit"],"picked":"Feel No Pain+1","floor":40},{"not_picked":["Twin Strike+1","Pummel+1"],"picked":"Body Slam+1","floor":41},{"not_picked":["Thunderclap","Dropkick+1","Reckless Charge"],"picked":"SKIP","floor":42},{"not_picked":["Armaments+1","Perfected Strike"],"picked":"Evolve+1","floor":44},{"not_picked":["Clothesline","Sever Soul"],"picked":"Reaper","floor":45},{"not_picked":["Thunderclap","Berserk+1","Sword Boomerang"],"picked":"SKIP","floor":46},{"not_picked":["Pommel Strike+1","Anger+1"],"picked":"Havoc","floor":47},{"not_picked":["Pummel","Iron Wave"],"picked":"Inflame+1","floor":48},{"not_picked":["Berserk+1","Cleave"],"picked":"Corruption+1","floor":55}],"player_experience":4236961,"relics_obtained":[{"floor":8,"key":"Gambling Chip"},{"floor":9,"key":"Pantograph"},{"floor":11,"key":"Frozen Egg 2"},{"floor":12,"key":"Odd Mushroom"},{"floor":24,"key":"Oddly Smooth Stone"},{"floor":26,"key":"Mummified Hand"},{"floor":29,"key":"The Courier"},{"floor":40,"key":"Calipers"},{"floor":44,"key":"Vajra"},{"floor":46,"key":"Dead Branch"},{"floor":48,"key":"Regal Pillow"},{"floor":55,"key":"Blood Vial"}],"event_choices":[{"damage_healed":0,"gold_gain":0,"player_choice":"Entered Light","damage_taken":20,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Shining Light","floor":2,"gold_loss":0,"cards_upgraded":["Strike_R","Defend_R"]},{"damage_healed":0,"gold_gain":75,"player_choice":"Gather Gold","damage_taken":11,"max_hp_gain":0,"max_hp_loss":0,"event_name":"World of Goop","floor":4,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Grow","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Living Wall","floor":5,"gold_loss":0,"cards_upgraded":["Hemokinesis"]},{"damage_healed":0,"gold_gain":0,"player_choice":"Fought Mushrooms","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Mushrooms","floor":12,"gold_loss":0},{"cards_removed":["Strike_R"],"damage_healed":0,"gold_gain":0,"player_choice":"Offered Basic","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Bonfire Elementals","floor":19,"gold_loss":0},{"damage_healed":0,"gold_gain":50,"player_choice":"Stole From Cult","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Nest","floor":25,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Opened","damage_taken":0,"relics_obtained":["Bag of Preparation"],"max_hp_gain":0,"max_hp_loss":0,"event_name":"The Mausoleum","floor":27,"gold_loss":0,"cards_obtained":["Writhe"]},{"damage_healed":0,"gold_gain":0,"player_choice":"Gave Potion","damage_taken":0,"relics_obtained":["Unceasing Top"],"max_hp_gain":0,"max_hp_loss":0,"event_name":"WeMeetAgain","floor":37,"gold_loss":0}],"is_beta":true,"boss_relics":[{"not_picked":["Busted Crown","Runic Dome"],"picked":"Philosopher\u0027s Stone"},{"not_picked":["Coffee Dripper","Calling Bell"],"picked":"Lizard Tail"}],"items_purged_floors":[36],"is_endless":false,"potions_floor_spawned":[3,7,11,12,16,18,22,24,31,39,40,41,44,55],"ascension_level":20}
+{
+  "gold_per_floor": [
+    367,
+    367,
+    380,
+    455,
+    455,
+    455,
+    471,
+    501,
+    501,
+    501,
+    533,
+    554,
+    574,
+    590,
+    590,
+    667,
+    667,
+    678,
+    678,
+    690,
+    0,
+    18,
+    18,
+    45,
+    95,
+    174,
+    174,
+    174,
+    208,
+    218,
+    238,
+    238,
+    316,
+    316,
+    334,
+    33,
+    33,
+    44,
+    64,
+    99,
+    118,
+    128,
+    174,
+    199,
+    215,
+    244,
+    264,
+    290,
+    290,
+    290,
+    290,
+    290,
+    290,
+    0,
+    31,
+    31
+  ],
+  "floor_reached": 57,
+  "playtime": 5451,
+  "items_purged": [
+    "Writhe"
+  ],
+  "score": 3223,
+  "play_id": "d836a5d2-59c0-4af6-b616-6cfa3725dba4",
+  "local_time": "20190106132040",
+  "is_ascension_mode": true,
+  "campfire_choices": [
+    {
+      "data": "Bash",
+      "floor": 6,
+      "key": "SMITH"
+    },
+    {
+      "data": "Headbutt",
+      "floor": 10,
+      "key": "SMITH"
+    },
+    {
+      "data": "Sword Boomerang",
+      "floor": 15,
+      "key": "SMITH"
+    },
+    {
+      "data": "Flame Barrier",
+      "floor": 23,
+      "key": "SMITH"
+    },
+    {
+      "floor": 28,
+      "key": "REST"
+    },
+    {
+      "data": "Body Slam",
+      "floor": 32,
+      "key": "SMITH"
+    },
+    {
+      "floor": 49,
+      "key": "RECALL"
+    },
+    {
+      "data": "Burning Pact",
+      "floor": 53,
+      "key": "SMITH"
+    }
+  ],
+  "neow_cost": "TEN_PERCENT_HP_LOSS",
+  "seed_source_timestamp": 254092441939333,
+  "circlet_count": 0,
+  "master_deck": [
+    "AscendersBane",
+    "Strike_R",
+    "Strike_R",
+    "Strike_R+1",
+    "Strike_R",
+    "Defend_R+1",
+    "Defend_R",
+    "Defend_R",
+    "Defend_R",
+    "Bash+1",
+    "Hemokinesis+1",
+    "Shrug It Off",
+    "Headbutt+1",
+    "Spot Weakness+1",
+    "Combust+1",
+    "Sword Boomerang+1",
+    "Impervious",
+    "Corruption+1",
+    "True Grit+1",
+    "Flame Barrier+1",
+    "Body Slam+1",
+    "Burning Pact+1",
+    "Impervious",
+    "Metallicize+1",
+    "Mayhem+1",
+    "Uppercut+1",
+    "Pommel Strike",
+    "Feel No Pain+1",
+    "Body Slam+1",
+    "Evolve+1",
+    "Reaper",
+    "Havoc",
+    "Inflame+1",
+    "Feel No Pain+1",
+    "Feel No Pain+1",
+    "Feel No Pain+1",
+    "Corruption+1"
+  ],
+  "relics": [
+    "Burning Blood",
+    "Gambling Chip",
+    "Pantograph",
+    "Frozen Egg 2",
+    "Odd Mushroom",
+    "Philosopher\u0027s Stone",
+    "Paper Frog",
+    "TheAbacus",
+    "War Paint",
+    "Oddly Smooth Stone",
+    "Mummified Hand",
+    "Bag of Preparation",
+    "The Courier",
+    "Lizard Tail",
+    "Unceasing Top",
+    "Calipers",
+    "Vajra",
+    "Dead Branch",
+    "Regal Pillow",
+    "Bronze Scales",
+    "Blood Vial"
+  ],
+  "potions_floor_usage": [
+    8,
+    16,
+    24,
+    24,
+    33,
+    33,
+    56,
+    56
+  ],
+  "damage_taken": [
+    {
+      "damage": 1,
+      "enemies": "2 Louse",
+      "floor": 1,
+      "turns": 4
+    },
+    {
+      "damage": 6,
+      "enemies": "Jaw Worm",
+      "floor": 3,
+      "turns": 4
+    },
+    {
+      "damage": 1,
+      "enemies": "Small Slimes",
+      "floor": 7,
+      "turns": 4
+    },
+    {
+      "damage": 21,
+      "enemies": "3 Sentries",
+      "floor": 8,
+      "turns": 9
+    },
+    {
+      "damage": 8,
+      "enemies": "Gremlin Nob",
+      "floor": 11,
+      "turns": 3
+    },
+    {
+      "damage": 12,
+      "enemies": "The Mushroom Lair",
+      "floor": 12,
+      "turns": 3
+    },
+    {
+      "damage": 2,
+      "enemies": "2 Fungi Beasts",
+      "floor": 13,
+      "turns": 3
+    },
+    {
+      "damage": 5,
+      "enemies": "Looter",
+      "floor": 14,
+      "turns": 5
+    },
+    {
+      "damage": 48,
+      "enemies": "Hexaghost",
+      "floor": 16,
+      "turns": 6
+    },
+    {
+      "damage": 4,
+      "enemies": "Chosen",
+      "floor": 18,
+      "turns": 4
+    },
+    {
+      "damage": 10,
+      "enemies": "2 Thieves",
+      "floor": 20,
+      "turns": 3
+    },
+    {
+      "damage": 8,
+      "enemies": "Centurion and Healer",
+      "floor": 22,
+      "turns": 7
+    },
+    {
+      "damage": 18,
+      "enemies": "Gremlin Leader",
+      "floor": 24,
+      "turns": 3
+    },
+    {
+      "damage": 2,
+      "enemies": "Book of Stabbing",
+      "floor": 29,
+      "turns": 3
+    },
+    {
+      "damage": 5,
+      "enemies": "Sentry and Sphere",
+      "floor": 30,
+      "turns": 4
+    },
+    {
+      "damage": 9,
+      "enemies": "Snecko",
+      "floor": 31,
+      "turns": 3
+    },
+    {
+      "damage": 49,
+      "enemies": "Collector",
+      "floor": 33,
+      "turns": 6
+    },
+    {
+      "damage": 3,
+      "enemies": "3 Shapes",
+      "floor": 35,
+      "turns": 4
+    },
+    {
+      "damage": 5,
+      "enemies": "3 Darklings",
+      "floor": 38,
+      "turns": 3
+    },
+    {
+      "damage": 0,
+      "enemies": "Transient",
+      "floor": 39,
+      "turns": 6
+    },
+    {
+      "damage": 15,
+      "enemies": "Giant Head",
+      "floor": 40,
+      "turns": 6
+    },
+    {
+      "damage": 0,
+      "enemies": "Writhing Mass",
+      "floor": 41,
+      "turns": 3
+    },
+    {
+      "damage": 2,
+      "enemies": "4 Shapes",
+      "floor": 42,
+      "turns": 3
+    },
+    {
+      "damage": 25,
+      "enemies": "Nemesis",
+      "floor": 44,
+      "turns": 5
+    },
+    {
+      "damage": 3,
+      "enemies": "Maw",
+      "floor": 45,
+      "turns": 4
+    },
+    {
+      "damage": 5,
+      "enemies": "Giant Head",
+      "floor": 46,
+      "turns": 4
+    },
+    {
+      "damage": 1,
+      "enemies": "3 Darklings",
+      "floor": 47,
+      "turns": 5
+    },
+    {
+      "damage": 12,
+      "enemies": "Reptomancer",
+      "floor": 48,
+      "turns": 1
+    },
+    {
+      "damage": 10,
+      "enemies": "Time Eater",
+      "floor": 50,
+      "turns": 7
+    },
+    {
+      "damage": 5,
+      "enemies": "Donu and Deca",
+      "floor": 51,
+      "turns": 4
+    },
+    {
+      "damage": 6,
+      "enemies": "Shield and Spear",
+      "floor": 55,
+      "turns": 3
+    },
+    {
+      "damage": 23,
+      "enemies": "The Heart",
+      "floor": 56,
+      "turns": 6
+    }
+  ],
+  "seed_played": "4778521789694977815",
+  "potions_obtained": [
+    {
+      "floor": 3,
+      "key": "Strength Potion"
+    },
+    {
+      "floor": 7,
+      "key": "GamblersBrew"
+    },
+    {
+      "floor": 11,
+      "key": "GamblersBrew"
+    },
+    {
+      "floor": 12,
+      "key": "AttackPotion"
+    },
+    {
+      "floor": 16,
+      "key": "BloodPotion"
+    },
+    {
+      "floor": 18,
+      "key": "Strength Potion"
+    },
+    {
+      "floor": 24,
+      "key": "GamblersBrew"
+    },
+    {
+      "floor": 31,
+      "key": "Regen Potion"
+    },
+    {
+      "floor": 39,
+      "key": "PowerPotion"
+    },
+    {
+      "floor": 40,
+      "key": "Strength Potion"
+    }
+  ],
+  "is_trial": false,
+  "path_per_floor": [
+    "M",
+    "?",
+    "M",
+    "?",
+    "?",
+    "R",
+    "M",
+    "E",
+    "T",
+    "R",
+    "E",
+    "?",
+    "M",
+    "M",
+    "R",
+    "B",
+    null,
+    "M",
+    "?",
+    "M",
+    "$",
+    "M",
+    "R",
+    "E",
+    "?",
+    "T",
+    "?",
+    "R",
+    "E",
+    "M",
+    "M",
+    "R",
+    "B",
+    null,
+    "M",
+    "$",
+    "?",
+    "M",
+    "M",
+    "E",
+    "M",
+    "M",
+    "T",
+    "E",
+    "M",
+    "E",
+    "M",
+    "E",
+    "R",
+    "B",
+    "B",
+    null,
+    "R",
+    "$",
+    "E",
+    "B",
+    null
+  ],
+  "character_chosen": "IRONCLAD",
+  "items_purchased": [
+    "Paper Frog",
+    "TheAbacus",
+    "True Grit",
+    "War Paint",
+    "Metallicize+1",
+    "Mayhem+1",
+    "PowerPotion",
+    "Feel No Pain+1",
+    "Feel No Pain+1",
+    "Feel No Pain+1",
+    "Bronze Scales"
+  ],
+  "campfire_rested": 1,
+  "item_purchase_floors": [
+    21,
+    21,
+    21,
+    21,
+    36,
+    36,
+    36,
+    54,
+    54,
+    54,
+    54
+  ],
+  "current_hp_per_floor": [
+    68,
+    48,
+    48,
+    37,
+    37,
+    37,
+    42,
+    27,
+    27,
+    27,
+    25,
+    19,
+    23,
+    24,
+    24,
+    7,
+    53,
+    55,
+    55,
+    51,
+    51,
+    49,
+    49,
+    37,
+    37,
+    37,
+    37,
+    57,
+    61,
+    62,
+    59,
+    59,
+    39,
+    61,
+    64,
+    64,
+    64,
+    65,
+    68,
+    59,
+    65,
+    68,
+    68,
+    49,
+    52,
+    66,
+    68,
+    62,
+    62,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68
+  ],
+  "gold": 31,
+  "neow_bonus": "TWO_FIFTY_GOLD",
+  "is_prod": false,
+  "is_daily": false,
+  "chose_seed": false,
+  "campfire_upgraded": 6,
+  "win_rate": 0,
+  "timestamp": 1546809640,
+  "path_taken": [
+    "M",
+    "?",
+    "M",
+    "?",
+    "?",
+    "R",
+    "M",
+    "E",
+    "T",
+    "R",
+    "E",
+    "?",
+    "M",
+    "M",
+    "R",
+    "BOSS",
+    "M",
+    "?",
+    "M",
+    "$",
+    "?",
+    "R",
+    "E",
+    "?",
+    "T",
+    "?",
+    "R",
+    "E",
+    "M",
+    "M",
+    "R",
+    "BOSS",
+    "M",
+    "$",
+    "?",
+    "M",
+    "M",
+    "E",
+    "?",
+    "M",
+    "T",
+    "E",
+    "M",
+    "E",
+    "?",
+    "E",
+    "R",
+    "BOSS",
+    "BOSS",
+    "R",
+    "$",
+    "E",
+    "BOSS"
+  ],
+  "build_version": "2019-01-03v4",
+  "purchased_purges": 1,
+  "victory": true,
+  "max_hp_per_floor": [
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68
+  ],
+  "card_choices": [
+    {
+      "not_picked": [
+        "Flex",
+        "Iron Wave"
+      ],
+      "picked": "Hemokinesis",
+      "floor": 1
+    },
+    {
+      "not_picked": [
+        "Havoc",
+        "True Grit"
+      ],
+      "picked": "Shrug It Off",
+      "floor": 3
+    },
+    {
+      "not_picked": [
+        "Clash",
+        "Infernal Blade"
+      ],
+      "picked": "Headbutt",
+      "floor": 7
+    },
+    {
+      "not_picked": [
+        "Limit Break",
+        "Warcry"
+      ],
+      "picked": "Spot Weakness",
+      "floor": 8
+    },
+    {
+      "not_picked": [
+        "Flame Barrier",
+        "Infernal Blade"
+      ],
+      "picked": "Combust",
+      "floor": 11
+    },
+    {
+      "not_picked": [
+        "Pummel",
+        "Iron Wave"
+      ],
+      "picked": "Sword Boomerang",
+      "floor": 12
+    },
+    {
+      "not_picked": [
+        "Seeing Red",
+        "Fire Breathing+1",
+        "Anger"
+      ],
+      "picked": "SKIP",
+      "floor": 13
+    },
+    {
+      "not_picked": [
+        "Pommel Strike",
+        "Carnage",
+        "Cleave"
+      ],
+      "picked": "SKIP",
+      "floor": 14
+    },
+    {
+      "not_picked": [
+        "Fiend Fire",
+        "Dark Embrace+1"
+      ],
+      "picked": "Impervious",
+      "floor": 16
+    },
+    {
+      "not_picked": [
+        "Intimidate",
+        "Sword Boomerang",
+        "Havoc"
+      ],
+      "picked": "SKIP",
+      "floor": 18
+    },
+    {
+      "not_picked": [
+        "Iron Wave",
+        "Heavy Blade"
+      ],
+      "picked": "Corruption+1",
+      "floor": 20
+    },
+    {
+      "not_picked": [
+        "Heavy Blade",
+        "Flex"
+      ],
+      "picked": "Flame Barrier",
+      "floor": 22
+    },
+    {
+      "not_picked": [
+        "Warcry",
+        "Double Tap",
+        "Hemokinesis"
+      ],
+      "picked": "SKIP",
+      "floor": 24
+    },
+    {
+      "not_picked": [
+        "Sword Boomerang+1",
+        "Perfected Strike",
+        "Warcry"
+      ],
+      "picked": "SKIP",
+      "floor": 29
+    },
+    {
+      "not_picked": [
+        "Sever Soul",
+        "Sword Boomerang+1"
+      ],
+      "picked": "Body Slam",
+      "floor": 30
+    },
+    {
+      "not_picked": [
+        "True Grit",
+        "Rage"
+      ],
+      "picked": "Burning Pact",
+      "floor": 31
+    },
+    {
+      "not_picked": [
+        "Double Tap",
+        "Limit Break"
+      ],
+      "picked": "Impervious",
+      "floor": 33
+    },
+    {
+      "not_picked": [
+        "Perfected Strike+1",
+        "True Grit",
+        "Sword Boomerang"
+      ],
+      "picked": "SKIP",
+      "floor": 35
+    },
+    {
+      "not_picked": [
+        "Seeing Red",
+        "Infernal Blade"
+      ],
+      "picked": "Uppercut+1",
+      "floor": 38
+    },
+    {
+      "not_picked": [
+        "Clash+1",
+        "Reckless Charge"
+      ],
+      "picked": "Pommel Strike",
+      "floor": 39
+    },
+    {
+      "not_picked": [
+        "Thunderclap+1",
+        "True Grit"
+      ],
+      "picked": "Feel No Pain+1",
+      "floor": 40
+    },
+    {
+      "not_picked": [
+        "Twin Strike+1",
+        "Pummel+1"
+      ],
+      "picked": "Body Slam+1",
+      "floor": 41
+    },
+    {
+      "not_picked": [
+        "Thunderclap",
+        "Dropkick+1",
+        "Reckless Charge"
+      ],
+      "picked": "SKIP",
+      "floor": 42
+    },
+    {
+      "not_picked": [
+        "Armaments+1",
+        "Perfected Strike"
+      ],
+      "picked": "Evolve+1",
+      "floor": 44
+    },
+    {
+      "not_picked": [
+        "Clothesline",
+        "Sever Soul"
+      ],
+      "picked": "Reaper",
+      "floor": 45
+    },
+    {
+      "not_picked": [
+        "Thunderclap",
+        "Berserk+1",
+        "Sword Boomerang"
+      ],
+      "picked": "SKIP",
+      "floor": 46
+    },
+    {
+      "not_picked": [
+        "Pommel Strike+1",
+        "Anger+1"
+      ],
+      "picked": "Havoc",
+      "floor": 47
+    },
+    {
+      "not_picked": [
+        "Pummel",
+        "Iron Wave"
+      ],
+      "picked": "Inflame+1",
+      "floor": 48
+    },
+    {
+      "not_picked": [
+        "Berserk+1",
+        "Cleave"
+      ],
+      "picked": "Corruption+1",
+      "floor": 55
+    }
+  ],
+  "player_experience": 4236961,
+  "relics_obtained": [
+    {
+      "floor": 8,
+      "key": "Gambling Chip"
+    },
+    {
+      "floor": 9,
+      "key": "Pantograph"
+    },
+    {
+      "floor": 11,
+      "key": "Frozen Egg 2"
+    },
+    {
+      "floor": 12,
+      "key": "Odd Mushroom"
+    },
+    {
+      "floor": 24,
+      "key": "Oddly Smooth Stone"
+    },
+    {
+      "floor": 26,
+      "key": "Mummified Hand"
+    },
+    {
+      "floor": 29,
+      "key": "The Courier"
+    },
+    {
+      "floor": 40,
+      "key": "Calipers"
+    },
+    {
+      "floor": 44,
+      "key": "Vajra"
+    },
+    {
+      "floor": 46,
+      "key": "Dead Branch"
+    },
+    {
+      "floor": 48,
+      "key": "Regal Pillow"
+    },
+    {
+      "floor": 55,
+      "key": "Blood Vial"
+    }
+  ],
+  "event_choices": [
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Entered Light",
+      "damage_taken": 20,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Shining Light",
+      "floor": 2,
+      "gold_loss": 0,
+      "cards_upgraded": [
+        "Strike_R",
+        "Defend_R"
+      ]
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 75,
+      "player_choice": "Gather Gold",
+      "damage_taken": 11,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "World of Goop",
+      "floor": 4,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Grow",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Living Wall",
+      "floor": 5,
+      "gold_loss": 0,
+      "cards_upgraded": [
+        "Hemokinesis"
+      ]
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Fought Mushrooms",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Mushrooms",
+      "floor": 12,
+      "gold_loss": 0
+    },
+    {
+      "cards_removed": [
+        "Strike_R"
+      ],
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Offered Basic",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Bonfire Elementals",
+      "floor": 19,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 50,
+      "player_choice": "Stole From Cult",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Nest",
+      "floor": 25,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Opened",
+      "damage_taken": 0,
+      "relics_obtained": [
+        "Bag of Preparation"
+      ],
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "The Mausoleum",
+      "floor": 27,
+      "gold_loss": 0,
+      "cards_obtained": [
+        "Writhe"
+      ]
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Gave Potion",
+      "damage_taken": 0,
+      "relics_obtained": [
+        "Unceasing Top"
+      ],
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "WeMeetAgain",
+      "floor": 37,
+      "gold_loss": 0
+    }
+  ],
+  "is_beta": true,
+  "boss_relics": [
+    {
+      "not_picked": [
+        "Busted Crown",
+        "Runic Dome"
+      ],
+      "picked": "Philosopher\u0027s Stone"
+    },
+    {
+      "not_picked": [
+        "Coffee Dripper",
+        "Calling Bell"
+      ],
+      "picked": "Lizard Tail"
+    }
+  ],
+  "items_purged_floors": [
+    36
+  ],
+  "is_endless": false,
+  "potions_floor_spawned": [
+    3,
+    7,
+    11,
+    12,
+    16,
+    18,
+    22,
+    24,
+    31,
+    39,
+    40,
+    41,
+    44,
+    55
+  ],
+  "ascension_level": 20
+}

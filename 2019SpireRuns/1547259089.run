@@ -1,1 +1,262 @@
-{"gold_per_floor":[361,34,45,65,65,97,97,125,125,125],"floor_reached":10,"playtime":675,"items_purged":["Strike_R"],"score":152,"play_id":"9997196f-82d9-4311-af54-5bb61f8596b4","local_time":"20190111181129","is_ascension_mode":true,"campfire_choices":[{"data":"Bash","floor":7,"key":"SMITH"}],"neow_cost":"TEN_PERCENT_HP_LOSS","seed_source_timestamp":221207848905788,"circlet_count":0,"master_deck":["AscendersBane","Strike_R","Strike_R","Strike_R","Defend_R","Defend_R","Defend_R","Defend_R","Bash+1","Iron Wave","Pummel","Clothesline","Pommel Strike","Armaments","Warcry"],"relics":["Burning Blood","Lantern","Letter Opener","Molten Egg 2","Toxic Egg 2"],"potions_floor_usage":[6,8],"damage_taken":[{"damage":2,"enemies":"2 Louse","floor":1,"turns":3},{"damage":2,"enemies":"Cultist","floor":3,"turns":4},{"damage":7,"enemies":"Jaw Worm","floor":4,"turns":2},{"damage":30,"enemies":"3 Sentries","floor":6,"turns":10},{"damage":19,"enemies":"Gremlin Nob","floor":8,"turns":4},{"damage":28,"enemies":"Lagavulin","floor":10,"turns":6}],"seed_played":"-9006905953474667926","potions_obtained":[{"floor":1,"key":"EssenceOfSteel"}],"is_trial":false,"path_per_floor":["M","$","M","M","?","E","R","E","T","E"],"character_chosen":"IRONCLAD","items_purchased":["Lantern","Poison Potion","Pummel"],"campfire_rested":0,"item_purchase_floors":[2,2,2],"current_hp_per_floor":[68,68,68,67,60,36,36,23,23,0],"gold":125,"neow_bonus":"TWO_FIFTY_GOLD","is_prod":false,"is_daily":false,"chose_seed":false,"campfire_upgraded":1,"win_rate":0,"timestamp":1547259089,"path_taken":["M","$","M","M","?","E","R","E","T","E"],"build_version":"2019-01-10","purchased_purges":1,"victory":false,"max_hp_per_floor":[68,68,68,68,68,68,68,68,68,68],"card_choices":[{"not_picked":["Dropkick","Armaments"],"picked":"Iron Wave","floor":1},{"not_picked":["Twin Strike","Havoc"],"picked":"Clothesline","floor":3},{"not_picked":["True Grit","Clash"],"picked":"Pommel Strike","floor":4},{"not_picked":["Feel No Pain","Clash"],"picked":"Armaments","floor":6},{"not_picked":["Sever Soul","Perfected Strike"],"picked":"Warcry","floor":8}],"player_experience":4296001,"relics_obtained":[{"floor":6,"key":"Letter Opener"},{"floor":8,"key":"Molten Egg 2"},{"floor":9,"key":"Toxic Egg 2"}],"event_choices":[{"cards_removed":["Strike_R"],"damage_healed":0,"gold_gain":0,"player_choice":"Card Removal","damage_taken":7,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Golden Wing","floor":5,"gold_loss":0}],"is_beta":true,"boss_relics":[],"items_purged_floors":[2],"is_endless":false,"potions_floor_spawned":[1],"killed_by":"Lagavulin","ascension_level":20}
+{
+  "gold_per_floor": [
+    361,
+    34,
+    45,
+    65,
+    65,
+    97,
+    97,
+    125,
+    125,
+    125
+  ],
+  "floor_reached": 10,
+  "playtime": 675,
+  "items_purged": [
+    "Strike_R"
+  ],
+  "score": 152,
+  "play_id": "9997196f-82d9-4311-af54-5bb61f8596b4",
+  "local_time": "20190111181129",
+  "is_ascension_mode": true,
+  "campfire_choices": [
+    {
+      "data": "Bash",
+      "floor": 7,
+      "key": "SMITH"
+    }
+  ],
+  "neow_cost": "TEN_PERCENT_HP_LOSS",
+  "seed_source_timestamp": 221207848905788,
+  "circlet_count": 0,
+  "master_deck": [
+    "AscendersBane",
+    "Strike_R",
+    "Strike_R",
+    "Strike_R",
+    "Defend_R",
+    "Defend_R",
+    "Defend_R",
+    "Defend_R",
+    "Bash+1",
+    "Iron Wave",
+    "Pummel",
+    "Clothesline",
+    "Pommel Strike",
+    "Armaments",
+    "Warcry"
+  ],
+  "relics": [
+    "Burning Blood",
+    "Lantern",
+    "Letter Opener",
+    "Molten Egg 2",
+    "Toxic Egg 2"
+  ],
+  "potions_floor_usage": [
+    6,
+    8
+  ],
+  "damage_taken": [
+    {
+      "damage": 2,
+      "enemies": "2 Louse",
+      "floor": 1,
+      "turns": 3
+    },
+    {
+      "damage": 2,
+      "enemies": "Cultist",
+      "floor": 3,
+      "turns": 4
+    },
+    {
+      "damage": 7,
+      "enemies": "Jaw Worm",
+      "floor": 4,
+      "turns": 2
+    },
+    {
+      "damage": 30,
+      "enemies": "3 Sentries",
+      "floor": 6,
+      "turns": 10
+    },
+    {
+      "damage": 19,
+      "enemies": "Gremlin Nob",
+      "floor": 8,
+      "turns": 4
+    },
+    {
+      "damage": 28,
+      "enemies": "Lagavulin",
+      "floor": 10,
+      "turns": 6
+    }
+  ],
+  "seed_played": "-9006905953474667926",
+  "potions_obtained": [
+    {
+      "floor": 1,
+      "key": "EssenceOfSteel"
+    }
+  ],
+  "is_trial": false,
+  "path_per_floor": [
+    "M",
+    "$",
+    "M",
+    "M",
+    "?",
+    "E",
+    "R",
+    "E",
+    "T",
+    "E"
+  ],
+  "character_chosen": "IRONCLAD",
+  "items_purchased": [
+    "Lantern",
+    "Poison Potion",
+    "Pummel"
+  ],
+  "campfire_rested": 0,
+  "item_purchase_floors": [
+    2,
+    2,
+    2
+  ],
+  "current_hp_per_floor": [
+    68,
+    68,
+    68,
+    67,
+    60,
+    36,
+    36,
+    23,
+    23,
+    0
+  ],
+  "gold": 125,
+  "neow_bonus": "TWO_FIFTY_GOLD",
+  "is_prod": false,
+  "is_daily": false,
+  "chose_seed": false,
+  "campfire_upgraded": 1,
+  "win_rate": 0,
+  "timestamp": 1547259089,
+  "path_taken": [
+    "M",
+    "$",
+    "M",
+    "M",
+    "?",
+    "E",
+    "R",
+    "E",
+    "T",
+    "E"
+  ],
+  "build_version": "2019-01-10",
+  "purchased_purges": 1,
+  "victory": false,
+  "max_hp_per_floor": [
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68
+  ],
+  "card_choices": [
+    {
+      "not_picked": [
+        "Dropkick",
+        "Armaments"
+      ],
+      "picked": "Iron Wave",
+      "floor": 1
+    },
+    {
+      "not_picked": [
+        "Twin Strike",
+        "Havoc"
+      ],
+      "picked": "Clothesline",
+      "floor": 3
+    },
+    {
+      "not_picked": [
+        "True Grit",
+        "Clash"
+      ],
+      "picked": "Pommel Strike",
+      "floor": 4
+    },
+    {
+      "not_picked": [
+        "Feel No Pain",
+        "Clash"
+      ],
+      "picked": "Armaments",
+      "floor": 6
+    },
+    {
+      "not_picked": [
+        "Sever Soul",
+        "Perfected Strike"
+      ],
+      "picked": "Warcry",
+      "floor": 8
+    }
+  ],
+  "player_experience": 4296001,
+  "relics_obtained": [
+    {
+      "floor": 6,
+      "key": "Letter Opener"
+    },
+    {
+      "floor": 8,
+      "key": "Molten Egg 2"
+    },
+    {
+      "floor": 9,
+      "key": "Toxic Egg 2"
+    }
+  ],
+  "event_choices": [
+    {
+      "cards_removed": [
+        "Strike_R"
+      ],
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Card Removal",
+      "damage_taken": 7,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Golden Wing",
+      "floor": 5,
+      "gold_loss": 0
+    }
+  ],
+  "is_beta": true,
+  "boss_relics": [],
+  "items_purged_floors": [
+    2
+  ],
+  "is_endless": false,
+  "potions_floor_spawned": [
+    1
+  ],
+  "killed_by": "Lagavulin",
+  "ascension_level": 20
+}

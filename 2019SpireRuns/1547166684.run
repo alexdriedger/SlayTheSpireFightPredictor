@@ -1,1 +1,359 @@
-{"gold_per_floor":[118,137,147,162,162,195,195,214,214,45,45,78,3,21,21,21],"floor_reached":16,"playtime":959,"items_purged":["Strike_R"],"score":224,"play_id":"d8a52eda-a622-4418-997b-1a09aa21b217","local_time":"20190110163124","is_ascension_mode":true,"campfire_choices":[{"data":"Inflame","floor":7,"key":"SMITH"},{"data":"Sword Boomerang","floor":11,"key":"SMITH"},{"data":"Sword Boomerang","floor":15,"key":"SMITH"}],"neow_cost":"NONE","seed_source_timestamp":128519181832403,"circlet_count":0,"master_deck":["AscendersBane","Strike_R","Strike_R","Strike_R","Defend_R","Defend_R","Defend_R","Defend_R","Bash+1","Inflame+1","Clothesline","Headbutt","Brutality","Sword Boomerang+1","Sword Boomerang+1","Shrug It Off"],"relics":["Burning Blood","Singing Bowl","Paper Frog","Happy Flower","Pen Nib"],"potions_floor_usage":[4,6,12,14],"damage_taken":[{"damage":2,"enemies":"Cultist","floor":1,"turns":4},{"damage":12,"enemies":"Jaw Worm","floor":2,"turns":3},{"damage":3,"enemies":"2 Louse","floor":3,"turns":2},{"damage":5,"enemies":"Blue Slaver","floor":4,"turns":5},{"damage":8,"enemies":"Gremlin Nob","floor":6,"turns":3},{"damage":14,"enemies":"3 Louse","floor":8,"turns":4},{"damage":19,"enemies":"3 Sentries","floor":12,"turns":6},{"damage":2,"enemies":"Exordium Wildlife","floor":14,"turns":3},{"damage":47,"enemies":"The Guardian","floor":16,"turns":9}],"seed_played":"1067185077284413287","potions_obtained":[{"floor":1,"key":"Block Potion"},{"floor":2,"key":"Poison Potion"},{"floor":8,"key":"Fire Potion"},{"floor":12,"key":"Fire Potion"}],"is_trial":false,"path_per_floor":["M","M","M","M","?","E","R","M","T","$","R","E","$","M","R","B"],"character_chosen":"IRONCLAD","items_purchased":["Happy Flower"],"campfire_rested":0,"item_purchase_floors":[10],"current_hp_per_floor":[72,66,69,70,63,61,61,53,53,53,53,40,40,44,44,0],"gold":21,"neow_bonus":"UPGRADE_CARD","is_prod":false,"is_daily":false,"chose_seed":false,"campfire_upgraded":3,"win_rate":0,"timestamp":1547166684,"path_taken":["M","M","?","M","?","E","R","M","T","$","R","E","$","M","R","BOSS"],"build_version":"2019-01-09","purchased_purges":1,"victory":false,"max_hp_per_floor":[75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75],"card_choices":[{"not_picked":["Corruption","Dropkick"],"picked":"Inflame","floor":1},{"not_picked":["Power Through","Evolve"],"picked":"Clothesline","floor":2},{"not_picked":["Reckless Charge","Wild Strike","Blood for Blood"],"picked":"SKIP","floor":3},{"not_picked":["Burning Pact","Flex"],"picked":"Headbutt","floor":4},{"not_picked":["Body Slam","Whirlwind"],"picked":"Brutality","floor":6},{"not_picked":["Sever Soul","Uppercut"],"picked":"Sword Boomerang","floor":8},{"not_picked":["Clash","Iron Wave"],"picked":"Sword Boomerang","floor":12},{"not_picked":["Reckless Charge","Iron Wave"],"picked":"Shrug It Off","floor":14}],"player_experience":4289508,"relics_obtained":[{"floor":6,"key":"Singing Bowl"},{"floor":9,"key":"Paper Frog"},{"floor":12,"key":"Pen Nib"}],"event_choices":[{"cards_removed":["Strike_R"],"damage_healed":0,"gold_gain":0,"player_choice":"Card Removal","damage_taken":7,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Golden Wing","floor":5,"gold_loss":0}],"is_beta":true,"boss_relics":[],"items_purged_floors":[13],"is_endless":false,"potions_floor_spawned":[1,2,8,12],"killed_by":"The Guardian","ascension_level":20}
+{
+  "gold_per_floor": [
+    118,
+    137,
+    147,
+    162,
+    162,
+    195,
+    195,
+    214,
+    214,
+    45,
+    45,
+    78,
+    3,
+    21,
+    21,
+    21
+  ],
+  "floor_reached": 16,
+  "playtime": 959,
+  "items_purged": [
+    "Strike_R"
+  ],
+  "score": 224,
+  "play_id": "d8a52eda-a622-4418-997b-1a09aa21b217",
+  "local_time": "20190110163124",
+  "is_ascension_mode": true,
+  "campfire_choices": [
+    {
+      "data": "Inflame",
+      "floor": 7,
+      "key": "SMITH"
+    },
+    {
+      "data": "Sword Boomerang",
+      "floor": 11,
+      "key": "SMITH"
+    },
+    {
+      "data": "Sword Boomerang",
+      "floor": 15,
+      "key": "SMITH"
+    }
+  ],
+  "neow_cost": "NONE",
+  "seed_source_timestamp": 128519181832403,
+  "circlet_count": 0,
+  "master_deck": [
+    "AscendersBane",
+    "Strike_R",
+    "Strike_R",
+    "Strike_R",
+    "Defend_R",
+    "Defend_R",
+    "Defend_R",
+    "Defend_R",
+    "Bash+1",
+    "Inflame+1",
+    "Clothesline",
+    "Headbutt",
+    "Brutality",
+    "Sword Boomerang+1",
+    "Sword Boomerang+1",
+    "Shrug It Off"
+  ],
+  "relics": [
+    "Burning Blood",
+    "Singing Bowl",
+    "Paper Frog",
+    "Happy Flower",
+    "Pen Nib"
+  ],
+  "potions_floor_usage": [
+    4,
+    6,
+    12,
+    14
+  ],
+  "damage_taken": [
+    {
+      "damage": 2,
+      "enemies": "Cultist",
+      "floor": 1,
+      "turns": 4
+    },
+    {
+      "damage": 12,
+      "enemies": "Jaw Worm",
+      "floor": 2,
+      "turns": 3
+    },
+    {
+      "damage": 3,
+      "enemies": "2 Louse",
+      "floor": 3,
+      "turns": 2
+    },
+    {
+      "damage": 5,
+      "enemies": "Blue Slaver",
+      "floor": 4,
+      "turns": 5
+    },
+    {
+      "damage": 8,
+      "enemies": "Gremlin Nob",
+      "floor": 6,
+      "turns": 3
+    },
+    {
+      "damage": 14,
+      "enemies": "3 Louse",
+      "floor": 8,
+      "turns": 4
+    },
+    {
+      "damage": 19,
+      "enemies": "3 Sentries",
+      "floor": 12,
+      "turns": 6
+    },
+    {
+      "damage": 2,
+      "enemies": "Exordium Wildlife",
+      "floor": 14,
+      "turns": 3
+    },
+    {
+      "damage": 47,
+      "enemies": "The Guardian",
+      "floor": 16,
+      "turns": 9
+    }
+  ],
+  "seed_played": "1067185077284413287",
+  "potions_obtained": [
+    {
+      "floor": 1,
+      "key": "Block Potion"
+    },
+    {
+      "floor": 2,
+      "key": "Poison Potion"
+    },
+    {
+      "floor": 8,
+      "key": "Fire Potion"
+    },
+    {
+      "floor": 12,
+      "key": "Fire Potion"
+    }
+  ],
+  "is_trial": false,
+  "path_per_floor": [
+    "M",
+    "M",
+    "M",
+    "M",
+    "?",
+    "E",
+    "R",
+    "M",
+    "T",
+    "$",
+    "R",
+    "E",
+    "$",
+    "M",
+    "R",
+    "B"
+  ],
+  "character_chosen": "IRONCLAD",
+  "items_purchased": [
+    "Happy Flower"
+  ],
+  "campfire_rested": 0,
+  "item_purchase_floors": [
+    10
+  ],
+  "current_hp_per_floor": [
+    72,
+    66,
+    69,
+    70,
+    63,
+    61,
+    61,
+    53,
+    53,
+    53,
+    53,
+    40,
+    40,
+    44,
+    44,
+    0
+  ],
+  "gold": 21,
+  "neow_bonus": "UPGRADE_CARD",
+  "is_prod": false,
+  "is_daily": false,
+  "chose_seed": false,
+  "campfire_upgraded": 3,
+  "win_rate": 0,
+  "timestamp": 1547166684,
+  "path_taken": [
+    "M",
+    "M",
+    "?",
+    "M",
+    "?",
+    "E",
+    "R",
+    "M",
+    "T",
+    "$",
+    "R",
+    "E",
+    "$",
+    "M",
+    "R",
+    "BOSS"
+  ],
+  "build_version": "2019-01-09",
+  "purchased_purges": 1,
+  "victory": false,
+  "max_hp_per_floor": [
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75
+  ],
+  "card_choices": [
+    {
+      "not_picked": [
+        "Corruption",
+        "Dropkick"
+      ],
+      "picked": "Inflame",
+      "floor": 1
+    },
+    {
+      "not_picked": [
+        "Power Through",
+        "Evolve"
+      ],
+      "picked": "Clothesline",
+      "floor": 2
+    },
+    {
+      "not_picked": [
+        "Reckless Charge",
+        "Wild Strike",
+        "Blood for Blood"
+      ],
+      "picked": "SKIP",
+      "floor": 3
+    },
+    {
+      "not_picked": [
+        "Burning Pact",
+        "Flex"
+      ],
+      "picked": "Headbutt",
+      "floor": 4
+    },
+    {
+      "not_picked": [
+        "Body Slam",
+        "Whirlwind"
+      ],
+      "picked": "Brutality",
+      "floor": 6
+    },
+    {
+      "not_picked": [
+        "Sever Soul",
+        "Uppercut"
+      ],
+      "picked": "Sword Boomerang",
+      "floor": 8
+    },
+    {
+      "not_picked": [
+        "Clash",
+        "Iron Wave"
+      ],
+      "picked": "Sword Boomerang",
+      "floor": 12
+    },
+    {
+      "not_picked": [
+        "Reckless Charge",
+        "Iron Wave"
+      ],
+      "picked": "Shrug It Off",
+      "floor": 14
+    }
+  ],
+  "player_experience": 4289508,
+  "relics_obtained": [
+    {
+      "floor": 6,
+      "key": "Singing Bowl"
+    },
+    {
+      "floor": 9,
+      "key": "Paper Frog"
+    },
+    {
+      "floor": 12,
+      "key": "Pen Nib"
+    }
+  ],
+  "event_choices": [
+    {
+      "cards_removed": [
+        "Strike_R"
+      ],
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Card Removal",
+      "damage_taken": 7,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Golden Wing",
+      "floor": 5,
+      "gold_loss": 0
+    }
+  ],
+  "is_beta": true,
+  "boss_relics": [],
+  "items_purged_floors": [
+    13
+  ],
+  "is_endless": false,
+  "potions_floor_spawned": [
+    1,
+    2,
+    8,
+    12
+  ],
+  "killed_by": "The Guardian",
+  "ascension_level": 20
+}

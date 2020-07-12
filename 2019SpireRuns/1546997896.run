@@ -1,1 +1,713 @@
-{"gold_per_floor":[113,113,125,125,138,156,81,81,108,108,144,144,184,203,203,302,302,325,325,325,325,325,325,341,341,341,341,354,369,369,369,369,468,468,487,505,630,710,710],"floor_reached":39,"playtime":2385,"items_purged":["Strike_B"],"score":924,"play_id":"96dd3fc6-9ec3-4484-b479-0297be22e852","local_time":"20190108173816","is_ascension_mode":true,"campfire_choices":[{"data":"Zap","floor":8,"key":"SMITH"},{"data":"Loop","floor":10,"key":"SMITH"},{"data":"Ball Lightning","floor":12,"key":"SMITH"},{"floor":15,"key":"REST"},{"floor":23,"key":"REST"},{"data":"Coolheaded","floor":25,"key":"SMITH"},{"data":"Capacitor","floor":27,"key":"SMITH"},{"floor":30,"key":"REST"},{"data":"Rainbow","floor":32,"key":"SMITH"}],"neow_cost":"TEN_PERCENT_HP_LOSS","seed_source_timestamp":71318152423943,"circlet_count":0,"master_deck":["AscendersBane","Strike_B","Strike_B","Defend_B","Defend_B+1","Defend_B+1","Zap+1","Dualcast","Rainbow+1","Conserve Battery","Hologram","Loop+1","Ball Lightning+1","Coolheaded+1","Undo","BootSequence","Echo Form","Capacitor+1","Cold Snap","Conserve Battery+1"],"relics":["Cracked Core","Golden Idol","Regal Pillow","War Paint","Juzu Bracelet","Busted Crown","Nilry\u0027s Codex","The Courier","Inserter","Peace Pipe","Pantograph"],"potions_floor_usage":[18,36,37],"damage_taken":[{"damage":5,"enemies":"2 Louse","floor":1,"turns":2},{"damage":0,"enemies":"Jaw Worm","floor":3,"turns":4},{"damage":0,"enemies":"Small Slimes","floor":5,"turns":3},{"damage":1,"enemies":"Looter","floor":6,"turns":4},{"damage":5,"enemies":"Lagavulin","floor":11,"turns":5},{"damage":23,"enemies":"3 Sentries","floor":13,"turns":7},{"damage":6,"enemies":"3 Louse","floor":14,"turns":3},{"damage":18,"enemies":"Slime Boss","floor":16,"turns":6},{"damage":10,"enemies":"Shell Parasite","floor":18,"turns":5},{"damage":2,"enemies":"3 Byrds","floor":24,"turns":5},{"damage":10,"enemies":"Centurion and Healer","floor":28,"turns":7},{"damage":16,"enemies":"Chosen and Byrds","floor":29,"turns":8},{"damage":0,"enemies":"Champ","floor":33,"turns":14},{"damage":21,"enemies":"3 Darklings","floor":35,"turns":11},{"damage":3,"enemies":"3 Shapes","floor":36,"turns":4},{"damage":0,"enemies":"Mind Bloom Boss Battle","floor":37,"turns":9},{"damage":34,"enemies":"Spire Growth","floor":39,"turns":4}],"seed_played":"-4564519744913380055","potions_obtained":[{"floor":5,"key":"SteroidPotion"},{"floor":6,"key":"Weak Potion"},{"floor":24,"key":"Explosive Potion"}],"is_trial":false,"path_per_floor":["M","?","M","?","M","M","$","R","T","R","E","R","E","M","R","B",null,"M","?","?","?","?","R","M","R","T","R","M","M","R","?","R","B",null,"M","M","?","T","M"],"character_chosen":"DEFECT","items_purchased":[],"campfire_rested":3,"item_purchase_floors":[],"current_hp_per_floor":[59,52,52,52,52,51,51,51,51,51,46,46,23,17,49,31,51,41,41,41,41,20,52,50,50,50,50,40,24,56,56,56,56,58,37,34,34,34,0],"gold":710,"neow_bonus":"THREE_RARE_CARDS","is_prod":false,"is_daily":false,"chose_seed":false,"campfire_upgraded":6,"win_rate":0,"timestamp":1546997896,"path_taken":["M","?","M","?","M","M","$","R","T","R","E","R","E","M","R","BOSS","M","?","?","?","?","R","M","R","T","R","M","M","R","?","R","BOSS","M","M","?","?","M"],"build_version":"2019-01-07","purchased_purges":1,"victory":false,"max_hp_per_floor":[64,64,64,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58],"card_choices":[{"not_picked":["Multi-Cast","All For One"],"picked":"Rainbow","floor":0},{"not_picked":["Coolheaded","Beam Cell"],"picked":"Conserve Battery","floor":1},{"not_picked":["Stack","Lockon"],"picked":"Hologram","floor":3},{"not_picked":["Static Discharge","Rebound"],"picked":"Loop","floor":5},{"not_picked":["Cold Snap","Melter"],"picked":"Ball Lightning","floor":6},{"not_picked":["Self Repair","Creative AI"],"picked":"Coolheaded","floor":11},{"not_picked":["Beam Cell","Sweeping Beam"],"picked":"Undo","floor":13},{"not_picked":["Gash","Sweeping Beam"],"picked":"BootSequence","floor":14},{"not_picked":["Hyperbeam","Reboot"],"picked":"Echo Form","floor":16},{"not_picked":["Gash+1"],"picked":"SKIP","floor":18},{"not_picked":[],"picked":"Cold Snap","floor":24},{"not_picked":[],"picked":"Conserve Battery+1","floor":28},{"not_picked":["Lockon"],"picked":"SKIP","floor":29},{"not_picked":["Hologram"],"picked":"SKIP","floor":35},{"not_picked":["Conserve Battery"],"picked":"SKIP","floor":36}],"player_experience":4256742,"relics_obtained":[{"floor":9,"key":"Regal Pillow"},{"floor":11,"key":"War Paint"},{"floor":13,"key":"Juzu Bracelet"},{"floor":22,"key":"Nilry\u0027s Codex"},{"floor":26,"key":"The Courier"},{"floor":37,"key":"Peace Pipe"},{"floor":38,"key":"Pantograph"}],"event_choices":[{"cards_removed":["Defend_B"],"damage_healed":0,"gold_gain":0,"player_choice":"Card Removal","damage_taken":7,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Golden Wing","floor":2,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Lose Max HP","damage_taken":0,"relics_obtained":["Golden Idol"],"max_hp_gain":0,"max_hp_loss":6,"event_name":"Golden Idol","floor":4,"gold_loss":0},{"cards_removed":["Strike_B"],"damage_healed":0,"gold_gain":0,"player_choice":"Elegance","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Back to Basics","floor":19,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Read","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"The Library","floor":20,"gold_loss":0,"cards_obtained":["Capacitor"]},{"damage_healed":0,"gold_gain":0,"player_choice":"Ignored","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"The Mausoleum","floor":21,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Obtained Book","damage_taken":21,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Cursed Tome","floor":22,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Ignored","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Vampires","floor":31,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Fight","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"MindBloom","floor":37,"gold_loss":0}],"is_beta":true,"boss_relics":[{"not_picked":["Runic Dome","Orrery"],"picked":"Busted Crown"},{"not_picked":["Fusion Hammer","Eternal Feather"],"picked":"Inserter"}],"items_purged_floors":[7],"is_endless":false,"potions_floor_spawned":[5,6,13,16,24,33,35],"killed_by":"Spire Growth","ascension_level":20}
+{
+  "gold_per_floor": [
+    113,
+    113,
+    125,
+    125,
+    138,
+    156,
+    81,
+    81,
+    108,
+    108,
+    144,
+    144,
+    184,
+    203,
+    203,
+    302,
+    302,
+    325,
+    325,
+    325,
+    325,
+    325,
+    325,
+    341,
+    341,
+    341,
+    341,
+    354,
+    369,
+    369,
+    369,
+    369,
+    468,
+    468,
+    487,
+    505,
+    630,
+    710,
+    710
+  ],
+  "floor_reached": 39,
+  "playtime": 2385,
+  "items_purged": [
+    "Strike_B"
+  ],
+  "score": 924,
+  "play_id": "96dd3fc6-9ec3-4484-b479-0297be22e852",
+  "local_time": "20190108173816",
+  "is_ascension_mode": true,
+  "campfire_choices": [
+    {
+      "data": "Zap",
+      "floor": 8,
+      "key": "SMITH"
+    },
+    {
+      "data": "Loop",
+      "floor": 10,
+      "key": "SMITH"
+    },
+    {
+      "data": "Ball Lightning",
+      "floor": 12,
+      "key": "SMITH"
+    },
+    {
+      "floor": 15,
+      "key": "REST"
+    },
+    {
+      "floor": 23,
+      "key": "REST"
+    },
+    {
+      "data": "Coolheaded",
+      "floor": 25,
+      "key": "SMITH"
+    },
+    {
+      "data": "Capacitor",
+      "floor": 27,
+      "key": "SMITH"
+    },
+    {
+      "floor": 30,
+      "key": "REST"
+    },
+    {
+      "data": "Rainbow",
+      "floor": 32,
+      "key": "SMITH"
+    }
+  ],
+  "neow_cost": "TEN_PERCENT_HP_LOSS",
+  "seed_source_timestamp": 71318152423943,
+  "circlet_count": 0,
+  "master_deck": [
+    "AscendersBane",
+    "Strike_B",
+    "Strike_B",
+    "Defend_B",
+    "Defend_B+1",
+    "Defend_B+1",
+    "Zap+1",
+    "Dualcast",
+    "Rainbow+1",
+    "Conserve Battery",
+    "Hologram",
+    "Loop+1",
+    "Ball Lightning+1",
+    "Coolheaded+1",
+    "Undo",
+    "BootSequence",
+    "Echo Form",
+    "Capacitor+1",
+    "Cold Snap",
+    "Conserve Battery+1"
+  ],
+  "relics": [
+    "Cracked Core",
+    "Golden Idol",
+    "Regal Pillow",
+    "War Paint",
+    "Juzu Bracelet",
+    "Busted Crown",
+    "Nilry\u0027s Codex",
+    "The Courier",
+    "Inserter",
+    "Peace Pipe",
+    "Pantograph"
+  ],
+  "potions_floor_usage": [
+    18,
+    36,
+    37
+  ],
+  "damage_taken": [
+    {
+      "damage": 5,
+      "enemies": "2 Louse",
+      "floor": 1,
+      "turns": 2
+    },
+    {
+      "damage": 0,
+      "enemies": "Jaw Worm",
+      "floor": 3,
+      "turns": 4
+    },
+    {
+      "damage": 0,
+      "enemies": "Small Slimes",
+      "floor": 5,
+      "turns": 3
+    },
+    {
+      "damage": 1,
+      "enemies": "Looter",
+      "floor": 6,
+      "turns": 4
+    },
+    {
+      "damage": 5,
+      "enemies": "Lagavulin",
+      "floor": 11,
+      "turns": 5
+    },
+    {
+      "damage": 23,
+      "enemies": "3 Sentries",
+      "floor": 13,
+      "turns": 7
+    },
+    {
+      "damage": 6,
+      "enemies": "3 Louse",
+      "floor": 14,
+      "turns": 3
+    },
+    {
+      "damage": 18,
+      "enemies": "Slime Boss",
+      "floor": 16,
+      "turns": 6
+    },
+    {
+      "damage": 10,
+      "enemies": "Shell Parasite",
+      "floor": 18,
+      "turns": 5
+    },
+    {
+      "damage": 2,
+      "enemies": "3 Byrds",
+      "floor": 24,
+      "turns": 5
+    },
+    {
+      "damage": 10,
+      "enemies": "Centurion and Healer",
+      "floor": 28,
+      "turns": 7
+    },
+    {
+      "damage": 16,
+      "enemies": "Chosen and Byrds",
+      "floor": 29,
+      "turns": 8
+    },
+    {
+      "damage": 0,
+      "enemies": "Champ",
+      "floor": 33,
+      "turns": 14
+    },
+    {
+      "damage": 21,
+      "enemies": "3 Darklings",
+      "floor": 35,
+      "turns": 11
+    },
+    {
+      "damage": 3,
+      "enemies": "3 Shapes",
+      "floor": 36,
+      "turns": 4
+    },
+    {
+      "damage": 0,
+      "enemies": "Mind Bloom Boss Battle",
+      "floor": 37,
+      "turns": 9
+    },
+    {
+      "damage": 34,
+      "enemies": "Spire Growth",
+      "floor": 39,
+      "turns": 4
+    }
+  ],
+  "seed_played": "-4564519744913380055",
+  "potions_obtained": [
+    {
+      "floor": 5,
+      "key": "SteroidPotion"
+    },
+    {
+      "floor": 6,
+      "key": "Weak Potion"
+    },
+    {
+      "floor": 24,
+      "key": "Explosive Potion"
+    }
+  ],
+  "is_trial": false,
+  "path_per_floor": [
+    "M",
+    "?",
+    "M",
+    "?",
+    "M",
+    "M",
+    "$",
+    "R",
+    "T",
+    "R",
+    "E",
+    "R",
+    "E",
+    "M",
+    "R",
+    "B",
+    null,
+    "M",
+    "?",
+    "?",
+    "?",
+    "?",
+    "R",
+    "M",
+    "R",
+    "T",
+    "R",
+    "M",
+    "M",
+    "R",
+    "?",
+    "R",
+    "B",
+    null,
+    "M",
+    "M",
+    "?",
+    "T",
+    "M"
+  ],
+  "character_chosen": "DEFECT",
+  "items_purchased": [],
+  "campfire_rested": 3,
+  "item_purchase_floors": [],
+  "current_hp_per_floor": [
+    59,
+    52,
+    52,
+    52,
+    52,
+    51,
+    51,
+    51,
+    51,
+    51,
+    46,
+    46,
+    23,
+    17,
+    49,
+    31,
+    51,
+    41,
+    41,
+    41,
+    41,
+    20,
+    52,
+    50,
+    50,
+    50,
+    50,
+    40,
+    24,
+    56,
+    56,
+    56,
+    56,
+    58,
+    37,
+    34,
+    34,
+    34,
+    0
+  ],
+  "gold": 710,
+  "neow_bonus": "THREE_RARE_CARDS",
+  "is_prod": false,
+  "is_daily": false,
+  "chose_seed": false,
+  "campfire_upgraded": 6,
+  "win_rate": 0,
+  "timestamp": 1546997896,
+  "path_taken": [
+    "M",
+    "?",
+    "M",
+    "?",
+    "M",
+    "M",
+    "$",
+    "R",
+    "T",
+    "R",
+    "E",
+    "R",
+    "E",
+    "M",
+    "R",
+    "BOSS",
+    "M",
+    "?",
+    "?",
+    "?",
+    "?",
+    "R",
+    "M",
+    "R",
+    "T",
+    "R",
+    "M",
+    "M",
+    "R",
+    "?",
+    "R",
+    "BOSS",
+    "M",
+    "M",
+    "?",
+    "?",
+    "M"
+  ],
+  "build_version": "2019-01-07",
+  "purchased_purges": 1,
+  "victory": false,
+  "max_hp_per_floor": [
+    64,
+    64,
+    64,
+    58,
+    58,
+    58,
+    58,
+    58,
+    58,
+    58,
+    58,
+    58,
+    58,
+    58,
+    58,
+    58,
+    58,
+    58,
+    58,
+    58,
+    58,
+    58,
+    58,
+    58,
+    58,
+    58,
+    58,
+    58,
+    58,
+    58,
+    58,
+    58,
+    58,
+    58,
+    58,
+    58,
+    58,
+    58,
+    58
+  ],
+  "card_choices": [
+    {
+      "not_picked": [
+        "Multi-Cast",
+        "All For One"
+      ],
+      "picked": "Rainbow",
+      "floor": 0
+    },
+    {
+      "not_picked": [
+        "Coolheaded",
+        "Beam Cell"
+      ],
+      "picked": "Conserve Battery",
+      "floor": 1
+    },
+    {
+      "not_picked": [
+        "Stack",
+        "Lockon"
+      ],
+      "picked": "Hologram",
+      "floor": 3
+    },
+    {
+      "not_picked": [
+        "Static Discharge",
+        "Rebound"
+      ],
+      "picked": "Loop",
+      "floor": 5
+    },
+    {
+      "not_picked": [
+        "Cold Snap",
+        "Melter"
+      ],
+      "picked": "Ball Lightning",
+      "floor": 6
+    },
+    {
+      "not_picked": [
+        "Self Repair",
+        "Creative AI"
+      ],
+      "picked": "Coolheaded",
+      "floor": 11
+    },
+    {
+      "not_picked": [
+        "Beam Cell",
+        "Sweeping Beam"
+      ],
+      "picked": "Undo",
+      "floor": 13
+    },
+    {
+      "not_picked": [
+        "Gash",
+        "Sweeping Beam"
+      ],
+      "picked": "BootSequence",
+      "floor": 14
+    },
+    {
+      "not_picked": [
+        "Hyperbeam",
+        "Reboot"
+      ],
+      "picked": "Echo Form",
+      "floor": 16
+    },
+    {
+      "not_picked": [
+        "Gash+1"
+      ],
+      "picked": "SKIP",
+      "floor": 18
+    },
+    {
+      "not_picked": [],
+      "picked": "Cold Snap",
+      "floor": 24
+    },
+    {
+      "not_picked": [],
+      "picked": "Conserve Battery+1",
+      "floor": 28
+    },
+    {
+      "not_picked": [
+        "Lockon"
+      ],
+      "picked": "SKIP",
+      "floor": 29
+    },
+    {
+      "not_picked": [
+        "Hologram"
+      ],
+      "picked": "SKIP",
+      "floor": 35
+    },
+    {
+      "not_picked": [
+        "Conserve Battery"
+      ],
+      "picked": "SKIP",
+      "floor": 36
+    }
+  ],
+  "player_experience": 4256742,
+  "relics_obtained": [
+    {
+      "floor": 9,
+      "key": "Regal Pillow"
+    },
+    {
+      "floor": 11,
+      "key": "War Paint"
+    },
+    {
+      "floor": 13,
+      "key": "Juzu Bracelet"
+    },
+    {
+      "floor": 22,
+      "key": "Nilry\u0027s Codex"
+    },
+    {
+      "floor": 26,
+      "key": "The Courier"
+    },
+    {
+      "floor": 37,
+      "key": "Peace Pipe"
+    },
+    {
+      "floor": 38,
+      "key": "Pantograph"
+    }
+  ],
+  "event_choices": [
+    {
+      "cards_removed": [
+        "Defend_B"
+      ],
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Card Removal",
+      "damage_taken": 7,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Golden Wing",
+      "floor": 2,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Lose Max HP",
+      "damage_taken": 0,
+      "relics_obtained": [
+        "Golden Idol"
+      ],
+      "max_hp_gain": 0,
+      "max_hp_loss": 6,
+      "event_name": "Golden Idol",
+      "floor": 4,
+      "gold_loss": 0
+    },
+    {
+      "cards_removed": [
+        "Strike_B"
+      ],
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Elegance",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Back to Basics",
+      "floor": 19,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Read",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "The Library",
+      "floor": 20,
+      "gold_loss": 0,
+      "cards_obtained": [
+        "Capacitor"
+      ]
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Ignored",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "The Mausoleum",
+      "floor": 21,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Obtained Book",
+      "damage_taken": 21,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Cursed Tome",
+      "floor": 22,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Ignored",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Vampires",
+      "floor": 31,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Fight",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "MindBloom",
+      "floor": 37,
+      "gold_loss": 0
+    }
+  ],
+  "is_beta": true,
+  "boss_relics": [
+    {
+      "not_picked": [
+        "Runic Dome",
+        "Orrery"
+      ],
+      "picked": "Busted Crown"
+    },
+    {
+      "not_picked": [
+        "Fusion Hammer",
+        "Eternal Feather"
+      ],
+      "picked": "Inserter"
+    }
+  ],
+  "items_purged_floors": [
+    7
+  ],
+  "is_endless": false,
+  "potions_floor_spawned": [
+    5,
+    6,
+    13,
+    16,
+    24,
+    33,
+    35
+  ],
+  "killed_by": "Spire Growth",
+  "ascension_level": 20
+}

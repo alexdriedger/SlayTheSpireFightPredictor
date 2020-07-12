@@ -1,1 +1,197 @@
-{"gold_per_floor":[119,119,119,140,155,155],"floor_reached":6,"playtime":422,"items_purged":[],"score":72,"play_id":"053cb3e1-37cf-423a-8044-60fe7fe58cb7","local_time":"20190101150109","is_ascension_mode":true,"campfire_choices":[],"neow_cost":"NONE","seed_source_timestamp":15652136174987,"circlet_count":0,"master_deck":["AscendersBane","Strike_B","Strike_B","Strike_B","Defend_B","Defend_B","Defend_B","Defend_B","Zap+1","Dualcast","BootSequence","Coolheaded","Genetic Algorithm"],"relics":["Cracked Core","Golden Idol"],"potions_floor_usage":[6,6],"damage_taken":[{"damage":9,"enemies":"Jaw Worm","floor":1,"turns":4},{"damage":4,"enemies":"Small Slimes","floor":4,"turns":4},{"damage":0,"enemies":"2 Louse","floor":5,"turns":3},{"damage":66,"enemies":"Gremlin Nob","floor":6,"turns":4}],"seed_played":"-1809836565579468070","potions_obtained":[{"floor":1,"key":"Regen Potion"},{"floor":5,"key":"LiquidBronze"}],"is_trial":false,"path_per_floor":["M","?","?","M","M","E"],"character_chosen":"DEFECT","items_purchased":[],"campfire_rested":0,"item_purchase_floors":[],"current_hp_per_floor":[55,55,55,51,51,0],"gold":155,"neow_bonus":"REMOVE_CARD","is_prod":false,"is_daily":false,"chose_seed":false,"campfire_upgraded":0,"win_rate":0,"timestamp":1546383669,"path_taken":["M","?","?","M","M","E"],"build_version":"2018-12-25","purchased_purges":0,"victory":false,"max_hp_per_floor":[71,64,64,64,64,64],"card_choices":[{"not_picked":["Leap","White Noise"],"picked":"BootSequence","floor":1},{"not_picked":["Heatsinks","Go for the Eyes"],"picked":"Coolheaded","floor":4},{"not_picked":["Storm","Leap"],"picked":"Genetic Algorithm","floor":5}],"player_experience":4139057,"relics_obtained":[],"event_choices":[{"damage_healed":0,"gold_gain":0,"player_choice":"Lose Max HP","damage_taken":0,"relics_obtained":["Golden Idol"],"max_hp_gain":0,"max_hp_loss":7,"event_name":"Golden Idol","floor":2,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Grow","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Living Wall","floor":3,"gold_loss":0,"cards_upgraded":["Zap"]}],"is_beta":true,"boss_relics":[],"items_purged_floors":[],"is_endless":false,"potions_floor_spawned":[1,5],"killed_by":"Gremlin Nob","ascension_level":20}
+{
+  "gold_per_floor": [
+    119,
+    119,
+    119,
+    140,
+    155,
+    155
+  ],
+  "floor_reached": 6,
+  "playtime": 422,
+  "items_purged": [],
+  "score": 72,
+  "play_id": "053cb3e1-37cf-423a-8044-60fe7fe58cb7",
+  "local_time": "20190101150109",
+  "is_ascension_mode": true,
+  "campfire_choices": [],
+  "neow_cost": "NONE",
+  "seed_source_timestamp": 15652136174987,
+  "circlet_count": 0,
+  "master_deck": [
+    "AscendersBane",
+    "Strike_B",
+    "Strike_B",
+    "Strike_B",
+    "Defend_B",
+    "Defend_B",
+    "Defend_B",
+    "Defend_B",
+    "Zap+1",
+    "Dualcast",
+    "BootSequence",
+    "Coolheaded",
+    "Genetic Algorithm"
+  ],
+  "relics": [
+    "Cracked Core",
+    "Golden Idol"
+  ],
+  "potions_floor_usage": [
+    6,
+    6
+  ],
+  "damage_taken": [
+    {
+      "damage": 9,
+      "enemies": "Jaw Worm",
+      "floor": 1,
+      "turns": 4
+    },
+    {
+      "damage": 4,
+      "enemies": "Small Slimes",
+      "floor": 4,
+      "turns": 4
+    },
+    {
+      "damage": 0,
+      "enemies": "2 Louse",
+      "floor": 5,
+      "turns": 3
+    },
+    {
+      "damage": 66,
+      "enemies": "Gremlin Nob",
+      "floor": 6,
+      "turns": 4
+    }
+  ],
+  "seed_played": "-1809836565579468070",
+  "potions_obtained": [
+    {
+      "floor": 1,
+      "key": "Regen Potion"
+    },
+    {
+      "floor": 5,
+      "key": "LiquidBronze"
+    }
+  ],
+  "is_trial": false,
+  "path_per_floor": [
+    "M",
+    "?",
+    "?",
+    "M",
+    "M",
+    "E"
+  ],
+  "character_chosen": "DEFECT",
+  "items_purchased": [],
+  "campfire_rested": 0,
+  "item_purchase_floors": [],
+  "current_hp_per_floor": [
+    55,
+    55,
+    55,
+    51,
+    51,
+    0
+  ],
+  "gold": 155,
+  "neow_bonus": "REMOVE_CARD",
+  "is_prod": false,
+  "is_daily": false,
+  "chose_seed": false,
+  "campfire_upgraded": 0,
+  "win_rate": 0,
+  "timestamp": 1546383669,
+  "path_taken": [
+    "M",
+    "?",
+    "?",
+    "M",
+    "M",
+    "E"
+  ],
+  "build_version": "2018-12-25",
+  "purchased_purges": 0,
+  "victory": false,
+  "max_hp_per_floor": [
+    71,
+    64,
+    64,
+    64,
+    64,
+    64
+  ],
+  "card_choices": [
+    {
+      "not_picked": [
+        "Leap",
+        "White Noise"
+      ],
+      "picked": "BootSequence",
+      "floor": 1
+    },
+    {
+      "not_picked": [
+        "Heatsinks",
+        "Go for the Eyes"
+      ],
+      "picked": "Coolheaded",
+      "floor": 4
+    },
+    {
+      "not_picked": [
+        "Storm",
+        "Leap"
+      ],
+      "picked": "Genetic Algorithm",
+      "floor": 5
+    }
+  ],
+  "player_experience": 4139057,
+  "relics_obtained": [],
+  "event_choices": [
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Lose Max HP",
+      "damage_taken": 0,
+      "relics_obtained": [
+        "Golden Idol"
+      ],
+      "max_hp_gain": 0,
+      "max_hp_loss": 7,
+      "event_name": "Golden Idol",
+      "floor": 2,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Grow",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Living Wall",
+      "floor": 3,
+      "gold_loss": 0,
+      "cards_upgraded": [
+        "Zap"
+      ]
+    }
+  ],
+  "is_beta": true,
+  "boss_relics": [],
+  "items_purged_floors": [],
+  "is_endless": false,
+  "potions_floor_spawned": [
+    1,
+    5
+  ],
+  "killed_by": "Gremlin Nob",
+  "ascension_level": 20
+}

@@ -1,1 +1,702 @@
-{"gold_per_floor":[110,123,138,38,56,56,85,85,85,98,116,131,131,162,162,239,239,256,266,277,295,220,247,247,282,359,387,403,403,413,413,413,413],"floor_reached":33,"playtime":3117,"items_purged":[],"score":642,"play_id":"3bfb51a5-2095-4e64-90c4-83079d434a10","local_time":"20190101130348","is_ascension_mode":true,"campfire_choices":[{"data":"Combust","floor":6,"key":"SMITH"},{"data":"Immolate","floor":8,"key":"SMITH"},{"data":"Clothesline","floor":13,"key":"SMITH"},{"data":"True Grit","floor":15,"key":"SMITH"},{"floor":24,"key":"REST"},{"floor":29,"key":"REST"},{"data":"Offering","floor":32,"key":"SMITH"}],"neow_cost":"NONE","seed_source_timestamp":5915521330409,"circlet_count":0,"master_deck":["AscendersBane","Strike_R","Strike_R","Strike_R","Strike_R","Defend_R","Defend_R","Defend_R","Defend_R","Bash","Clothesline+1","Iron Wave","Armaments","Combust+1","True Grit+1","Immolate+1","Burning Pact","Flame Barrier","Burning Pact","Immolate","Shockwave","Rupture+1","Power Through","Offering+1","Shrug It Off","Body Slam","Ghostly","Ghostly","Ghostly"],"relics":["Burning Blood","Smiling Mask","Mercury Hourglass","Nunchaku","Velvet Choker","Matryoshka","Torii","Lantern","Bottled Tornado","Ancient Tea Set"],"potions_floor_usage":[7,14,21,25,27,33],"damage_taken":[{"damage":0,"enemies":"2 Louse","floor":1,"turns":2},{"damage":6,"enemies":"Small Slimes","floor":2,"turns":5},{"damage":2,"enemies":"Cultist","floor":3,"turns":4},{"damage":20,"enemies":"Lots of Slimes","floor":5,"turns":3},{"damage":30,"enemies":"Gremlin Nob","floor":7,"turns":4},{"damage":4,"enemies":"Looter","floor":10,"turns":3},{"damage":6,"enemies":"Exordium Thugs","floor":11,"turns":3},{"damage":3,"enemies":"Exordium Wildlife","floor":12,"turns":3},{"damage":8,"enemies":"3 Sentries","floor":14,"turns":4},{"damage":35,"enemies":"The Guardian","floor":16,"turns":17},{"damage":1,"enemies":"2 Thieves","floor":18,"turns":3},{"damage":10,"enemies":"Shell Parasite","floor":19,"turns":3},{"damage":19,"enemies":"Snake Plant","floor":20,"turns":5},{"damage":12,"enemies":"Shelled Parasite and Fungi","floor":21,"turns":4},{"damage":21,"enemies":"Slavers","floor":23,"turns":3},{"damage":34,"enemies":"Gremlin Leader","floor":25,"turns":5},{"damage":14,"enemies":"Book of Stabbing","floor":27,"turns":4},{"damage":4,"enemies":"3 Cultists","floor":28,"turns":3},{"damage":22,"enemies":"Snecko","floor":30,"turns":4},{"damage":56,"enemies":"Champ","floor":33,"turns":13}],"seed_played":"-141364526236076123","potions_obtained":[{"floor":1,"key":"Dexterity Potion"},{"floor":5,"key":"Swift Potion"},{"floor":7,"key":"SteroidPotion"},{"floor":12,"key":"BloodPotion"},{"floor":18,"key":"Explosive Potion"},{"floor":20,"key":"Ancient Potion"},{"floor":23,"key":"Block Potion"},{"floor":25,"key":"AttackPotion"}],"is_trial":false,"path_per_floor":["M","M","M","$","M","R","E","R","T","M","M","M","R","E","R","B",null,"M","M","M","M","?","E","R","E","T","E","M","R","M","?","R","B"],"character_chosen":"IRONCLAD","items_purchased":["Combust","True Grit"],"campfire_rested":2,"item_purchase_floors":[4,4],"current_hp_per_floor":[81,81,82,82,68,68,44,44,44,46,46,49,49,55,55,26,68,73,69,56,50,50,35,59,31,31,23,25,49,33,33,33,0],"gold":413,"neow_bonus":"TEN_PERCENT_HP_BONUS","is_prod":false,"is_daily":false,"chose_seed":false,"campfire_upgraded":5,"win_rate":0,"timestamp":1546376628,"path_taken":["M","M","M","$","M","R","E","R","T","M","M","M","R","E","R","BOSS","M","M","M","M","?","E","R","E","T","E","M","R","M","?","R","BOSS"],"build_version":"2018-12-25","purchased_purges":0,"victory":false,"max_hp_per_floor":[82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,41,41,41],"card_choices":[{"not_picked":["Flex","Pommel Strike"],"picked":"Clothesline","floor":1},{"not_picked":["Flex","Dropkick"],"picked":"Iron Wave","floor":2},{"not_picked":["Second Wind","Uppercut"],"picked":"Armaments","floor":3},{"not_picked":["Sentinel","Heavy Blade","Cleave"],"picked":"SKIP","floor":5},{"not_picked":["Anger","Inflame"],"picked":"Immolate","floor":7},{"not_picked":["Armaments","Sword Boomerang","Second Wind"],"picked":"SKIP","floor":10},{"not_picked":["Anger","Flex"],"picked":"Burning Pact","floor":11},{"not_picked":["Iron Wave","Carnage"],"picked":"Flame Barrier","floor":12},{"not_picked":["Bloodletting","Pommel Strike"],"picked":"Burning Pact","floor":14},{"not_picked":["Brutality","Berserk"],"picked":"Immolate","floor":16},{"not_picked":["Thunderclap+1","Wild Strike"],"picked":"Shockwave","floor":18},{"not_picked":["Flex","Bloodletting+1","True Grit"],"picked":"SKIP","floor":19},{"not_picked":["Combust","Infernal Blade"],"picked":"Rupture+1","floor":20},{"not_picked":["Havoc","Perfected Strike"],"picked":"Power Through","floor":21},{"not_picked":["Iron Wave","Pummel"],"picked":"Offering","floor":23},{"not_picked":["Thunderclap","Rupture+1"],"picked":"Shrug It Off","floor":25},{"not_picked":["Wild Strike+1","Flex","Twin Strike"],"picked":"SKIP","floor":27},{"not_picked":["Perfected Strike","Carnage"],"picked":"Body Slam","floor":28},{"not_picked":["Iron Wave","Whirlwind","Body Slam"],"picked":"SKIP","floor":30}],"player_experience":4129706,"relics_obtained":[{"floor":7,"key":"Smiling Mask"},{"floor":9,"key":"Mercury Hourglass"},{"floor":14,"key":"Nunchaku"},{"floor":23,"key":"Matryoshka"},{"floor":25,"key":"Torii"},{"floor":26,"key":"Lantern"},{"floor":26,"key":"Bottled Tornado"},{"floor":27,"key":"Ancient Tea Set"}],"event_choices":[{"cards_removed":["Strike_R"],"damage_healed":0,"gold_gain":0,"player_choice":"Gave Gold","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Beggar","floor":22,"gold_loss":75},{"damage_healed":0,"gold_gain":0,"player_choice":"Became a Ghost","damage_taken":0,"max_hp_gain":0,"max_hp_loss":41,"event_name":"Ghosts","floor":31,"gold_loss":0,"cards_obtained":["Ghostly","Ghostly","Ghostly"]}],"is_beta":true,"boss_relics":[{"not_picked":["Pandora\u0027s Box","Black Blood"],"picked":"Velvet Choker"}],"items_purged_floors":[],"is_endless":false,"potions_floor_spawned":[1,5,7,10,12,18,20,23,25],"killed_by":"Champ","ascension_level":20}
+{
+  "gold_per_floor": [
+    110,
+    123,
+    138,
+    38,
+    56,
+    56,
+    85,
+    85,
+    85,
+    98,
+    116,
+    131,
+    131,
+    162,
+    162,
+    239,
+    239,
+    256,
+    266,
+    277,
+    295,
+    220,
+    247,
+    247,
+    282,
+    359,
+    387,
+    403,
+    403,
+    413,
+    413,
+    413,
+    413
+  ],
+  "floor_reached": 33,
+  "playtime": 3117,
+  "items_purged": [],
+  "score": 642,
+  "play_id": "3bfb51a5-2095-4e64-90c4-83079d434a10",
+  "local_time": "20190101130348",
+  "is_ascension_mode": true,
+  "campfire_choices": [
+    {
+      "data": "Combust",
+      "floor": 6,
+      "key": "SMITH"
+    },
+    {
+      "data": "Immolate",
+      "floor": 8,
+      "key": "SMITH"
+    },
+    {
+      "data": "Clothesline",
+      "floor": 13,
+      "key": "SMITH"
+    },
+    {
+      "data": "True Grit",
+      "floor": 15,
+      "key": "SMITH"
+    },
+    {
+      "floor": 24,
+      "key": "REST"
+    },
+    {
+      "floor": 29,
+      "key": "REST"
+    },
+    {
+      "data": "Offering",
+      "floor": 32,
+      "key": "SMITH"
+    }
+  ],
+  "neow_cost": "NONE",
+  "seed_source_timestamp": 5915521330409,
+  "circlet_count": 0,
+  "master_deck": [
+    "AscendersBane",
+    "Strike_R",
+    "Strike_R",
+    "Strike_R",
+    "Strike_R",
+    "Defend_R",
+    "Defend_R",
+    "Defend_R",
+    "Defend_R",
+    "Bash",
+    "Clothesline+1",
+    "Iron Wave",
+    "Armaments",
+    "Combust+1",
+    "True Grit+1",
+    "Immolate+1",
+    "Burning Pact",
+    "Flame Barrier",
+    "Burning Pact",
+    "Immolate",
+    "Shockwave",
+    "Rupture+1",
+    "Power Through",
+    "Offering+1",
+    "Shrug It Off",
+    "Body Slam",
+    "Ghostly",
+    "Ghostly",
+    "Ghostly"
+  ],
+  "relics": [
+    "Burning Blood",
+    "Smiling Mask",
+    "Mercury Hourglass",
+    "Nunchaku",
+    "Velvet Choker",
+    "Matryoshka",
+    "Torii",
+    "Lantern",
+    "Bottled Tornado",
+    "Ancient Tea Set"
+  ],
+  "potions_floor_usage": [
+    7,
+    14,
+    21,
+    25,
+    27,
+    33
+  ],
+  "damage_taken": [
+    {
+      "damage": 0,
+      "enemies": "2 Louse",
+      "floor": 1,
+      "turns": 2
+    },
+    {
+      "damage": 6,
+      "enemies": "Small Slimes",
+      "floor": 2,
+      "turns": 5
+    },
+    {
+      "damage": 2,
+      "enemies": "Cultist",
+      "floor": 3,
+      "turns": 4
+    },
+    {
+      "damage": 20,
+      "enemies": "Lots of Slimes",
+      "floor": 5,
+      "turns": 3
+    },
+    {
+      "damage": 30,
+      "enemies": "Gremlin Nob",
+      "floor": 7,
+      "turns": 4
+    },
+    {
+      "damage": 4,
+      "enemies": "Looter",
+      "floor": 10,
+      "turns": 3
+    },
+    {
+      "damage": 6,
+      "enemies": "Exordium Thugs",
+      "floor": 11,
+      "turns": 3
+    },
+    {
+      "damage": 3,
+      "enemies": "Exordium Wildlife",
+      "floor": 12,
+      "turns": 3
+    },
+    {
+      "damage": 8,
+      "enemies": "3 Sentries",
+      "floor": 14,
+      "turns": 4
+    },
+    {
+      "damage": 35,
+      "enemies": "The Guardian",
+      "floor": 16,
+      "turns": 17
+    },
+    {
+      "damage": 1,
+      "enemies": "2 Thieves",
+      "floor": 18,
+      "turns": 3
+    },
+    {
+      "damage": 10,
+      "enemies": "Shell Parasite",
+      "floor": 19,
+      "turns": 3
+    },
+    {
+      "damage": 19,
+      "enemies": "Snake Plant",
+      "floor": 20,
+      "turns": 5
+    },
+    {
+      "damage": 12,
+      "enemies": "Shelled Parasite and Fungi",
+      "floor": 21,
+      "turns": 4
+    },
+    {
+      "damage": 21,
+      "enemies": "Slavers",
+      "floor": 23,
+      "turns": 3
+    },
+    {
+      "damage": 34,
+      "enemies": "Gremlin Leader",
+      "floor": 25,
+      "turns": 5
+    },
+    {
+      "damage": 14,
+      "enemies": "Book of Stabbing",
+      "floor": 27,
+      "turns": 4
+    },
+    {
+      "damage": 4,
+      "enemies": "3 Cultists",
+      "floor": 28,
+      "turns": 3
+    },
+    {
+      "damage": 22,
+      "enemies": "Snecko",
+      "floor": 30,
+      "turns": 4
+    },
+    {
+      "damage": 56,
+      "enemies": "Champ",
+      "floor": 33,
+      "turns": 13
+    }
+  ],
+  "seed_played": "-141364526236076123",
+  "potions_obtained": [
+    {
+      "floor": 1,
+      "key": "Dexterity Potion"
+    },
+    {
+      "floor": 5,
+      "key": "Swift Potion"
+    },
+    {
+      "floor": 7,
+      "key": "SteroidPotion"
+    },
+    {
+      "floor": 12,
+      "key": "BloodPotion"
+    },
+    {
+      "floor": 18,
+      "key": "Explosive Potion"
+    },
+    {
+      "floor": 20,
+      "key": "Ancient Potion"
+    },
+    {
+      "floor": 23,
+      "key": "Block Potion"
+    },
+    {
+      "floor": 25,
+      "key": "AttackPotion"
+    }
+  ],
+  "is_trial": false,
+  "path_per_floor": [
+    "M",
+    "M",
+    "M",
+    "$",
+    "M",
+    "R",
+    "E",
+    "R",
+    "T",
+    "M",
+    "M",
+    "M",
+    "R",
+    "E",
+    "R",
+    "B",
+    null,
+    "M",
+    "M",
+    "M",
+    "M",
+    "?",
+    "E",
+    "R",
+    "E",
+    "T",
+    "E",
+    "M",
+    "R",
+    "M",
+    "?",
+    "R",
+    "B"
+  ],
+  "character_chosen": "IRONCLAD",
+  "items_purchased": [
+    "Combust",
+    "True Grit"
+  ],
+  "campfire_rested": 2,
+  "item_purchase_floors": [
+    4,
+    4
+  ],
+  "current_hp_per_floor": [
+    81,
+    81,
+    82,
+    82,
+    68,
+    68,
+    44,
+    44,
+    44,
+    46,
+    46,
+    49,
+    49,
+    55,
+    55,
+    26,
+    68,
+    73,
+    69,
+    56,
+    50,
+    50,
+    35,
+    59,
+    31,
+    31,
+    23,
+    25,
+    49,
+    33,
+    33,
+    33,
+    0
+  ],
+  "gold": 413,
+  "neow_bonus": "TEN_PERCENT_HP_BONUS",
+  "is_prod": false,
+  "is_daily": false,
+  "chose_seed": false,
+  "campfire_upgraded": 5,
+  "win_rate": 0,
+  "timestamp": 1546376628,
+  "path_taken": [
+    "M",
+    "M",
+    "M",
+    "$",
+    "M",
+    "R",
+    "E",
+    "R",
+    "T",
+    "M",
+    "M",
+    "M",
+    "R",
+    "E",
+    "R",
+    "BOSS",
+    "M",
+    "M",
+    "M",
+    "M",
+    "?",
+    "E",
+    "R",
+    "E",
+    "T",
+    "E",
+    "M",
+    "R",
+    "M",
+    "?",
+    "R",
+    "BOSS"
+  ],
+  "build_version": "2018-12-25",
+  "purchased_purges": 0,
+  "victory": false,
+  "max_hp_per_floor": [
+    82,
+    82,
+    82,
+    82,
+    82,
+    82,
+    82,
+    82,
+    82,
+    82,
+    82,
+    82,
+    82,
+    82,
+    82,
+    82,
+    82,
+    82,
+    82,
+    82,
+    82,
+    82,
+    82,
+    82,
+    82,
+    82,
+    82,
+    82,
+    82,
+    82,
+    41,
+    41,
+    41
+  ],
+  "card_choices": [
+    {
+      "not_picked": [
+        "Flex",
+        "Pommel Strike"
+      ],
+      "picked": "Clothesline",
+      "floor": 1
+    },
+    {
+      "not_picked": [
+        "Flex",
+        "Dropkick"
+      ],
+      "picked": "Iron Wave",
+      "floor": 2
+    },
+    {
+      "not_picked": [
+        "Second Wind",
+        "Uppercut"
+      ],
+      "picked": "Armaments",
+      "floor": 3
+    },
+    {
+      "not_picked": [
+        "Sentinel",
+        "Heavy Blade",
+        "Cleave"
+      ],
+      "picked": "SKIP",
+      "floor": 5
+    },
+    {
+      "not_picked": [
+        "Anger",
+        "Inflame"
+      ],
+      "picked": "Immolate",
+      "floor": 7
+    },
+    {
+      "not_picked": [
+        "Armaments",
+        "Sword Boomerang",
+        "Second Wind"
+      ],
+      "picked": "SKIP",
+      "floor": 10
+    },
+    {
+      "not_picked": [
+        "Anger",
+        "Flex"
+      ],
+      "picked": "Burning Pact",
+      "floor": 11
+    },
+    {
+      "not_picked": [
+        "Iron Wave",
+        "Carnage"
+      ],
+      "picked": "Flame Barrier",
+      "floor": 12
+    },
+    {
+      "not_picked": [
+        "Bloodletting",
+        "Pommel Strike"
+      ],
+      "picked": "Burning Pact",
+      "floor": 14
+    },
+    {
+      "not_picked": [
+        "Brutality",
+        "Berserk"
+      ],
+      "picked": "Immolate",
+      "floor": 16
+    },
+    {
+      "not_picked": [
+        "Thunderclap+1",
+        "Wild Strike"
+      ],
+      "picked": "Shockwave",
+      "floor": 18
+    },
+    {
+      "not_picked": [
+        "Flex",
+        "Bloodletting+1",
+        "True Grit"
+      ],
+      "picked": "SKIP",
+      "floor": 19
+    },
+    {
+      "not_picked": [
+        "Combust",
+        "Infernal Blade"
+      ],
+      "picked": "Rupture+1",
+      "floor": 20
+    },
+    {
+      "not_picked": [
+        "Havoc",
+        "Perfected Strike"
+      ],
+      "picked": "Power Through",
+      "floor": 21
+    },
+    {
+      "not_picked": [
+        "Iron Wave",
+        "Pummel"
+      ],
+      "picked": "Offering",
+      "floor": 23
+    },
+    {
+      "not_picked": [
+        "Thunderclap",
+        "Rupture+1"
+      ],
+      "picked": "Shrug It Off",
+      "floor": 25
+    },
+    {
+      "not_picked": [
+        "Wild Strike+1",
+        "Flex",
+        "Twin Strike"
+      ],
+      "picked": "SKIP",
+      "floor": 27
+    },
+    {
+      "not_picked": [
+        "Perfected Strike",
+        "Carnage"
+      ],
+      "picked": "Body Slam",
+      "floor": 28
+    },
+    {
+      "not_picked": [
+        "Iron Wave",
+        "Whirlwind",
+        "Body Slam"
+      ],
+      "picked": "SKIP",
+      "floor": 30
+    }
+  ],
+  "player_experience": 4129706,
+  "relics_obtained": [
+    {
+      "floor": 7,
+      "key": "Smiling Mask"
+    },
+    {
+      "floor": 9,
+      "key": "Mercury Hourglass"
+    },
+    {
+      "floor": 14,
+      "key": "Nunchaku"
+    },
+    {
+      "floor": 23,
+      "key": "Matryoshka"
+    },
+    {
+      "floor": 25,
+      "key": "Torii"
+    },
+    {
+      "floor": 26,
+      "key": "Lantern"
+    },
+    {
+      "floor": 26,
+      "key": "Bottled Tornado"
+    },
+    {
+      "floor": 27,
+      "key": "Ancient Tea Set"
+    }
+  ],
+  "event_choices": [
+    {
+      "cards_removed": [
+        "Strike_R"
+      ],
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Gave Gold",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Beggar",
+      "floor": 22,
+      "gold_loss": 75
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Became a Ghost",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 41,
+      "event_name": "Ghosts",
+      "floor": 31,
+      "gold_loss": 0,
+      "cards_obtained": [
+        "Ghostly",
+        "Ghostly",
+        "Ghostly"
+      ]
+    }
+  ],
+  "is_beta": true,
+  "boss_relics": [
+    {
+      "not_picked": [
+        "Pandora\u0027s Box",
+        "Black Blood"
+      ],
+      "picked": "Velvet Choker"
+    }
+  ],
+  "items_purged_floors": [],
+  "is_endless": false,
+  "potions_floor_spawned": [
+    1,
+    5,
+    7,
+    10,
+    12,
+    18,
+    20,
+    23,
+    25
+  ],
+  "killed_by": "Champ",
+  "ascension_level": 20
+}

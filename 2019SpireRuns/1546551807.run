@@ -1,1 +1,372 @@
-{"gold_per_floor":[110,110,129,145,163,163,163,38,65,98,98,117,133,166,166,166],"floor_reached":16,"playtime":1033,"items_purged":["Strike_G"],"score":224,"play_id":"df83dcca-b29f-48d4-bfdd-9e4b7da2509e","local_time":"20190103134327","is_ascension_mode":true,"campfire_choices":[{"data":"Dash","floor":6,"key":"SMITH"},{"floor":11,"key":"REST"},{"floor":15,"key":"REST"}],"neow_cost":"NONE","seed_source_timestamp":762726011996,"circlet_count":0,"master_deck":["AscendersBane","Defend_G","Defend_G","Defend_G","Defend_G","Defend_G","Strike_G","Strike_G","Strike_G+1","Strike_G","Survivor","Neutralize+1","Quick Slash","Dash","Endless Agony","Dash+1","Infinite Blades","Predator","Deadly Poison","A Thousand Cuts"],"relics":["Ring of the Snake","Smiling Mask","Snake Skull","Art of War","Pocketwatch"],"potions_floor_usage":[13,14,14,14],"damage_taken":[{"damage":5,"enemies":"2 Louse","floor":1,"turns":4},{"damage":4,"enemies":"Small Slimes","floor":3,"turns":3},{"damage":0,"enemies":"Cultist","floor":4,"turns":4},{"damage":0,"enemies":"Blue Slaver","floor":5,"turns":4},{"damage":14,"enemies":"Gremlin Nob","floor":10,"turns":4},{"damage":11,"enemies":"Lots of Slimes","floor":12,"turns":5},{"damage":11,"enemies":"Exordium Thugs","floor":13,"turns":4},{"damage":2,"enemies":"3 Sentries","floor":14,"turns":6},{"damage":38,"enemies":"Slime Boss","floor":16,"turns":3}],"seed_played":"-1947374606950374857","potions_obtained":[{"floor":1,"key":"EntropicBrew"},{"floor":4,"key":"GamblersBrew"},{"floor":5,"key":"Swift Potion"},{"floor":7,"key":"AttackPotion"}],"is_trial":false,"path_per_floor":["M","?","M","M","M","R","?","$","T","E","R","M","M","E","R","B"],"character_chosen":"THE_SILENT","items_purchased":["Infinite Blades"],"campfire_rested":2,"item_purchase_floors":[8],"current_hp_per_floor":[54,34,30,30,30,30,30,30,30,16,35,24,13,11,30,0],"gold":166,"neow_bonus":"RANDOM_COMMON_RELIC","is_prod":false,"is_daily":false,"chose_seed":false,"campfire_upgraded":1,"win_rate":0,"timestamp":1546551807,"path_taken":["M","?","M","M","M","R","?","$","T","E","R","M","?","E","R","BOSS"],"build_version":"2019-01-02","purchased_purges":1,"victory":false,"max_hp_per_floor":[66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66],"card_choices":[{"not_picked":["Distraction","Flying Knee"],"picked":"Quick Slash","floor":1},{"not_picked":["PiercingWail","Concentrate"],"picked":"Dash","floor":3},{"not_picked":["Dodge and Roll","Deflect"],"picked":"Endless Agony","floor":4},{"not_picked":["Blade Dance","Cloak And Dagger"],"picked":"Dash","floor":5},{"not_picked":["All Out Attack","Acrobatics"],"picked":"Predator","floor":10},{"not_picked":["Heel Hook","Dagger Throw"],"picked":"Deadly Poison","floor":12},{"not_picked":["Choke","Dagger Throw","Flying Knee"],"picked":"SKIP","floor":13},{"not_picked":["Crippling Poison","Masterful Stab"],"picked":"A Thousand Cuts","floor":14}],"player_experience":4209216,"relics_obtained":[{"floor":9,"key":"Snake Skull"},{"floor":10,"key":"Art of War"},{"floor":14,"key":"Pocketwatch"}],"event_choices":[{"damage_healed":0,"gold_gain":0,"player_choice":"Entered Light","damage_taken":20,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Shining Light","floor":2,"gold_loss":0,"cards_upgraded":["Strike_G","Neutralize"]},{"damage_healed":0,"gold_gain":0,"player_choice":"Got Potions","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Lab","floor":7,"gold_loss":0}],"is_beta":true,"boss_relics":[],"items_purged_floors":[8],"is_endless":false,"potions_floor_spawned":[1,4,5],"killed_by":"Slime Boss","ascension_level":20}
+{
+  "gold_per_floor": [
+    110,
+    110,
+    129,
+    145,
+    163,
+    163,
+    163,
+    38,
+    65,
+    98,
+    98,
+    117,
+    133,
+    166,
+    166,
+    166
+  ],
+  "floor_reached": 16,
+  "playtime": 1033,
+  "items_purged": [
+    "Strike_G"
+  ],
+  "score": 224,
+  "play_id": "df83dcca-b29f-48d4-bfdd-9e4b7da2509e",
+  "local_time": "20190103134327",
+  "is_ascension_mode": true,
+  "campfire_choices": [
+    {
+      "data": "Dash",
+      "floor": 6,
+      "key": "SMITH"
+    },
+    {
+      "floor": 11,
+      "key": "REST"
+    },
+    {
+      "floor": 15,
+      "key": "REST"
+    }
+  ],
+  "neow_cost": "NONE",
+  "seed_source_timestamp": 762726011996,
+  "circlet_count": 0,
+  "master_deck": [
+    "AscendersBane",
+    "Defend_G",
+    "Defend_G",
+    "Defend_G",
+    "Defend_G",
+    "Defend_G",
+    "Strike_G",
+    "Strike_G",
+    "Strike_G+1",
+    "Strike_G",
+    "Survivor",
+    "Neutralize+1",
+    "Quick Slash",
+    "Dash",
+    "Endless Agony",
+    "Dash+1",
+    "Infinite Blades",
+    "Predator",
+    "Deadly Poison",
+    "A Thousand Cuts"
+  ],
+  "relics": [
+    "Ring of the Snake",
+    "Smiling Mask",
+    "Snake Skull",
+    "Art of War",
+    "Pocketwatch"
+  ],
+  "potions_floor_usage": [
+    13,
+    14,
+    14,
+    14
+  ],
+  "damage_taken": [
+    {
+      "damage": 5,
+      "enemies": "2 Louse",
+      "floor": 1,
+      "turns": 4
+    },
+    {
+      "damage": 4,
+      "enemies": "Small Slimes",
+      "floor": 3,
+      "turns": 3
+    },
+    {
+      "damage": 0,
+      "enemies": "Cultist",
+      "floor": 4,
+      "turns": 4
+    },
+    {
+      "damage": 0,
+      "enemies": "Blue Slaver",
+      "floor": 5,
+      "turns": 4
+    },
+    {
+      "damage": 14,
+      "enemies": "Gremlin Nob",
+      "floor": 10,
+      "turns": 4
+    },
+    {
+      "damage": 11,
+      "enemies": "Lots of Slimes",
+      "floor": 12,
+      "turns": 5
+    },
+    {
+      "damage": 11,
+      "enemies": "Exordium Thugs",
+      "floor": 13,
+      "turns": 4
+    },
+    {
+      "damage": 2,
+      "enemies": "3 Sentries",
+      "floor": 14,
+      "turns": 6
+    },
+    {
+      "damage": 38,
+      "enemies": "Slime Boss",
+      "floor": 16,
+      "turns": 3
+    }
+  ],
+  "seed_played": "-1947374606950374857",
+  "potions_obtained": [
+    {
+      "floor": 1,
+      "key": "EntropicBrew"
+    },
+    {
+      "floor": 4,
+      "key": "GamblersBrew"
+    },
+    {
+      "floor": 5,
+      "key": "Swift Potion"
+    },
+    {
+      "floor": 7,
+      "key": "AttackPotion"
+    }
+  ],
+  "is_trial": false,
+  "path_per_floor": [
+    "M",
+    "?",
+    "M",
+    "M",
+    "M",
+    "R",
+    "?",
+    "$",
+    "T",
+    "E",
+    "R",
+    "M",
+    "M",
+    "E",
+    "R",
+    "B"
+  ],
+  "character_chosen": "THE_SILENT",
+  "items_purchased": [
+    "Infinite Blades"
+  ],
+  "campfire_rested": 2,
+  "item_purchase_floors": [
+    8
+  ],
+  "current_hp_per_floor": [
+    54,
+    34,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    16,
+    35,
+    24,
+    13,
+    11,
+    30,
+    0
+  ],
+  "gold": 166,
+  "neow_bonus": "RANDOM_COMMON_RELIC",
+  "is_prod": false,
+  "is_daily": false,
+  "chose_seed": false,
+  "campfire_upgraded": 1,
+  "win_rate": 0,
+  "timestamp": 1546551807,
+  "path_taken": [
+    "M",
+    "?",
+    "M",
+    "M",
+    "M",
+    "R",
+    "?",
+    "$",
+    "T",
+    "E",
+    "R",
+    "M",
+    "?",
+    "E",
+    "R",
+    "BOSS"
+  ],
+  "build_version": "2019-01-02",
+  "purchased_purges": 1,
+  "victory": false,
+  "max_hp_per_floor": [
+    66,
+    66,
+    66,
+    66,
+    66,
+    66,
+    66,
+    66,
+    66,
+    66,
+    66,
+    66,
+    66,
+    66,
+    66,
+    66
+  ],
+  "card_choices": [
+    {
+      "not_picked": [
+        "Distraction",
+        "Flying Knee"
+      ],
+      "picked": "Quick Slash",
+      "floor": 1
+    },
+    {
+      "not_picked": [
+        "PiercingWail",
+        "Concentrate"
+      ],
+      "picked": "Dash",
+      "floor": 3
+    },
+    {
+      "not_picked": [
+        "Dodge and Roll",
+        "Deflect"
+      ],
+      "picked": "Endless Agony",
+      "floor": 4
+    },
+    {
+      "not_picked": [
+        "Blade Dance",
+        "Cloak And Dagger"
+      ],
+      "picked": "Dash",
+      "floor": 5
+    },
+    {
+      "not_picked": [
+        "All Out Attack",
+        "Acrobatics"
+      ],
+      "picked": "Predator",
+      "floor": 10
+    },
+    {
+      "not_picked": [
+        "Heel Hook",
+        "Dagger Throw"
+      ],
+      "picked": "Deadly Poison",
+      "floor": 12
+    },
+    {
+      "not_picked": [
+        "Choke",
+        "Dagger Throw",
+        "Flying Knee"
+      ],
+      "picked": "SKIP",
+      "floor": 13
+    },
+    {
+      "not_picked": [
+        "Crippling Poison",
+        "Masterful Stab"
+      ],
+      "picked": "A Thousand Cuts",
+      "floor": 14
+    }
+  ],
+  "player_experience": 4209216,
+  "relics_obtained": [
+    {
+      "floor": 9,
+      "key": "Snake Skull"
+    },
+    {
+      "floor": 10,
+      "key": "Art of War"
+    },
+    {
+      "floor": 14,
+      "key": "Pocketwatch"
+    }
+  ],
+  "event_choices": [
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Entered Light",
+      "damage_taken": 20,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Shining Light",
+      "floor": 2,
+      "gold_loss": 0,
+      "cards_upgraded": [
+        "Strike_G",
+        "Neutralize"
+      ]
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Got Potions",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Lab",
+      "floor": 7,
+      "gold_loss": 0
+    }
+  ],
+  "is_beta": true,
+  "boss_relics": [],
+  "items_purged_floors": [
+    8
+  ],
+  "is_endless": false,
+  "potions_floor_spawned": [
+    1,
+    4,
+    5
+  ],
+  "killed_by": "Slime Boss",
+  "ascension_level": 20
+}

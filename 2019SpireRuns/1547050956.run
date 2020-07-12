@@ -1,1 +1,483 @@
-{"gold_per_floor":[368,381,531,545,76,76,76,47,47,59,59,92,110,140,140,217,217,234,159,177,177],"floor_reached":21,"playtime":1201,"items_purged":["Doubt"],"score":378,"play_id":"02aa76ac-6fcb-4472-ab06-69397d59b747","local_time":"20190109082236","is_ascension_mode":true,"campfire_choices":[{"data":"Zap","floor":6,"key":"SMITH"},{"data":"Flash of Steel","floor":15,"key":"SMITH"}],"neow_cost":"TEN_PERCENT_HP_LOSS","seed_source_timestamp":12547467522212,"circlet_count":0,"master_deck":["AscendersBane","Strike_B+1","Strike_B","Strike_B+1","Defend_B","Defend_B","Defend_B","Defend_B","Zap+1","Dualcast","Glacier","Chill","Flash of Steel+1","Cold Snap","Genetic Algorithm","Ball Lightning","Gash","Buffer","Ball Lightning","Sweeping Beam"],"relics":["Cracked Core","Ornamental Fan","Mercury Hourglass","Centennial Puzzle","Vajra","Whetstone","Sozu"],"potions_floor_usage":[12,14,16,21],"damage_taken":[{"damage":1,"enemies":"Small Slimes","floor":1,"turns":3},{"damage":4,"enemies":"Jaw Worm","floor":2,"turns":3},{"damage":2,"enemies":"2 Louse","floor":4,"turns":4},{"damage":0,"enemies":"2 Fungi Beasts","floor":10,"turns":3},{"damage":3,"enemies":"Lagavulin","floor":12,"turns":6},{"damage":0,"enemies":"3 Louse","floor":13,"turns":3},{"damage":4,"enemies":"Gremlin Nob","floor":14,"turns":3},{"damage":11,"enemies":"The Guardian","floor":16,"turns":11},{"damage":7,"enemies":"Spheric Guardian","floor":18,"turns":3},{"damage":0,"enemies":"Shell Parasite","floor":20,"turns":4},{"damage":18,"enemies":"Colosseum Slavers","floor":21,"turns":3},{"damage":43,"enemies":"Colosseum Nobs","floor":21,"turns":4}],"seed_played":"2936158487899987431","potions_obtained":[{"floor":2,"key":"FearPotion"},{"floor":10,"key":"Weak Potion"},{"floor":12,"key":"Block Potion"},{"floor":14,"key":"Poison Potion"}],"is_trial":false,"path_per_floor":["M","M","?","M","$","R","?","$","T","M","T","E","M","E","R","B",null,"M","?","M","?"],"character_chosen":"DEFECT","items_purchased":["Ornamental Fan","Flash of Steel","Cold Snap"],"campfire_rested":0,"item_purchase_floors":[5,5,8],"current_hp_per_floor":[63,59,59,57,57,57,62,62,62,62,62,59,59,55,55,44,63,56,56,56,0],"gold":177,"neow_bonus":"TWO_FIFTY_GOLD","is_prod":false,"is_daily":false,"chose_seed":false,"campfire_upgraded":2,"win_rate":0,"timestamp":1547050956,"path_taken":["M","M","?","M","$","R","?","?","T","M","?","E","M","E","R","BOSS","M","?","M","?"],"build_version":"2019-01-08","purchased_purges":1,"victory":false,"max_hp_per_floor":[64,64,64,64,64,64,69,69,69,69,69,69,69,69,69,69,69,69,69,69,69],"card_choices":[{"not_picked":["Redo","Chaos","Beam Cell"],"picked":"SKIP","floor":1},{"not_picked":["Conserve Battery","Scrape"],"picked":"Glacier","floor":2},{"not_picked":["Conserve Battery","Creative AI"],"picked":"Chill","floor":4},{"not_picked":["Barrage","Chaos","Leap"],"picked":"SKIP","floor":10},{"not_picked":["Chill","Stack"],"picked":"Genetic Algorithm","floor":12},{"not_picked":["Beam Cell","Hologram"],"picked":"Ball Lightning","floor":13},{"not_picked":["Barrage","Leap"],"picked":"Gash","floor":14},{"not_picked":["Amplify","Multi-Cast"],"picked":"Buffer","floor":16},{"not_picked":["Doom and Gloom","White Noise"],"picked":"Ball Lightning","floor":18},{"not_picked":["Go for the Eyes","Static Discharge"],"picked":"Sweeping Beam","floor":20}],"player_experience":4265887,"relics_obtained":[{"floor":9,"key":"Mercury Hourglass"},{"floor":11,"key":"Centennial Puzzle"},{"floor":12,"key":"Vajra"},{"floor":14,"key":"Whetstone"}],"event_choices":[{"damage_healed":0,"gold_gain":150,"player_choice":"AGREE","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Liars Game","floor":3,"gold_loss":0,"cards_obtained":["Doubt"]},{"damage_healed":0,"gold_gain":0,"player_choice":"Donut","damage_taken":0,"max_hp_gain":5,"max_hp_loss":0,"event_name":"Big Fish","floor":7,"gold_loss":0},{"cards_removed":["Strike_B"],"damage_healed":0,"gold_gain":0,"player_choice":"Gave Gold","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Beggar","floor":19,"gold_loss":75},{"damage_healed":0,"gold_gain":0,"player_choice":"Fight","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Colosseum","floor":21,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Fought Nobs","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Colosseum","floor":21,"gold_loss":0}],"is_beta":true,"boss_relics":[{"not_picked":["FrozenCore","Velvet Choker"],"picked":"Sozu"}],"items_purged_floors":[5],"is_endless":false,"potions_floor_spawned":[2,10,12,14,18],"killed_by":"Colosseum Nobs","ascension_level":20}
+{
+  "gold_per_floor": [
+    368,
+    381,
+    531,
+    545,
+    76,
+    76,
+    76,
+    47,
+    47,
+    59,
+    59,
+    92,
+    110,
+    140,
+    140,
+    217,
+    217,
+    234,
+    159,
+    177,
+    177
+  ],
+  "floor_reached": 21,
+  "playtime": 1201,
+  "items_purged": [
+    "Doubt"
+  ],
+  "score": 378,
+  "play_id": "02aa76ac-6fcb-4472-ab06-69397d59b747",
+  "local_time": "20190109082236",
+  "is_ascension_mode": true,
+  "campfire_choices": [
+    {
+      "data": "Zap",
+      "floor": 6,
+      "key": "SMITH"
+    },
+    {
+      "data": "Flash of Steel",
+      "floor": 15,
+      "key": "SMITH"
+    }
+  ],
+  "neow_cost": "TEN_PERCENT_HP_LOSS",
+  "seed_source_timestamp": 12547467522212,
+  "circlet_count": 0,
+  "master_deck": [
+    "AscendersBane",
+    "Strike_B+1",
+    "Strike_B",
+    "Strike_B+1",
+    "Defend_B",
+    "Defend_B",
+    "Defend_B",
+    "Defend_B",
+    "Zap+1",
+    "Dualcast",
+    "Glacier",
+    "Chill",
+    "Flash of Steel+1",
+    "Cold Snap",
+    "Genetic Algorithm",
+    "Ball Lightning",
+    "Gash",
+    "Buffer",
+    "Ball Lightning",
+    "Sweeping Beam"
+  ],
+  "relics": [
+    "Cracked Core",
+    "Ornamental Fan",
+    "Mercury Hourglass",
+    "Centennial Puzzle",
+    "Vajra",
+    "Whetstone",
+    "Sozu"
+  ],
+  "potions_floor_usage": [
+    12,
+    14,
+    16,
+    21
+  ],
+  "damage_taken": [
+    {
+      "damage": 1,
+      "enemies": "Small Slimes",
+      "floor": 1,
+      "turns": 3
+    },
+    {
+      "damage": 4,
+      "enemies": "Jaw Worm",
+      "floor": 2,
+      "turns": 3
+    },
+    {
+      "damage": 2,
+      "enemies": "2 Louse",
+      "floor": 4,
+      "turns": 4
+    },
+    {
+      "damage": 0,
+      "enemies": "2 Fungi Beasts",
+      "floor": 10,
+      "turns": 3
+    },
+    {
+      "damage": 3,
+      "enemies": "Lagavulin",
+      "floor": 12,
+      "turns": 6
+    },
+    {
+      "damage": 0,
+      "enemies": "3 Louse",
+      "floor": 13,
+      "turns": 3
+    },
+    {
+      "damage": 4,
+      "enemies": "Gremlin Nob",
+      "floor": 14,
+      "turns": 3
+    },
+    {
+      "damage": 11,
+      "enemies": "The Guardian",
+      "floor": 16,
+      "turns": 11
+    },
+    {
+      "damage": 7,
+      "enemies": "Spheric Guardian",
+      "floor": 18,
+      "turns": 3
+    },
+    {
+      "damage": 0,
+      "enemies": "Shell Parasite",
+      "floor": 20,
+      "turns": 4
+    },
+    {
+      "damage": 18,
+      "enemies": "Colosseum Slavers",
+      "floor": 21,
+      "turns": 3
+    },
+    {
+      "damage": 43,
+      "enemies": "Colosseum Nobs",
+      "floor": 21,
+      "turns": 4
+    }
+  ],
+  "seed_played": "2936158487899987431",
+  "potions_obtained": [
+    {
+      "floor": 2,
+      "key": "FearPotion"
+    },
+    {
+      "floor": 10,
+      "key": "Weak Potion"
+    },
+    {
+      "floor": 12,
+      "key": "Block Potion"
+    },
+    {
+      "floor": 14,
+      "key": "Poison Potion"
+    }
+  ],
+  "is_trial": false,
+  "path_per_floor": [
+    "M",
+    "M",
+    "?",
+    "M",
+    "$",
+    "R",
+    "?",
+    "$",
+    "T",
+    "M",
+    "T",
+    "E",
+    "M",
+    "E",
+    "R",
+    "B",
+    null,
+    "M",
+    "?",
+    "M",
+    "?"
+  ],
+  "character_chosen": "DEFECT",
+  "items_purchased": [
+    "Ornamental Fan",
+    "Flash of Steel",
+    "Cold Snap"
+  ],
+  "campfire_rested": 0,
+  "item_purchase_floors": [
+    5,
+    5,
+    8
+  ],
+  "current_hp_per_floor": [
+    63,
+    59,
+    59,
+    57,
+    57,
+    57,
+    62,
+    62,
+    62,
+    62,
+    62,
+    59,
+    59,
+    55,
+    55,
+    44,
+    63,
+    56,
+    56,
+    56,
+    0
+  ],
+  "gold": 177,
+  "neow_bonus": "TWO_FIFTY_GOLD",
+  "is_prod": false,
+  "is_daily": false,
+  "chose_seed": false,
+  "campfire_upgraded": 2,
+  "win_rate": 0,
+  "timestamp": 1547050956,
+  "path_taken": [
+    "M",
+    "M",
+    "?",
+    "M",
+    "$",
+    "R",
+    "?",
+    "?",
+    "T",
+    "M",
+    "?",
+    "E",
+    "M",
+    "E",
+    "R",
+    "BOSS",
+    "M",
+    "?",
+    "M",
+    "?"
+  ],
+  "build_version": "2019-01-08",
+  "purchased_purges": 1,
+  "victory": false,
+  "max_hp_per_floor": [
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    69,
+    69,
+    69,
+    69,
+    69,
+    69,
+    69,
+    69,
+    69,
+    69,
+    69,
+    69,
+    69,
+    69,
+    69
+  ],
+  "card_choices": [
+    {
+      "not_picked": [
+        "Redo",
+        "Chaos",
+        "Beam Cell"
+      ],
+      "picked": "SKIP",
+      "floor": 1
+    },
+    {
+      "not_picked": [
+        "Conserve Battery",
+        "Scrape"
+      ],
+      "picked": "Glacier",
+      "floor": 2
+    },
+    {
+      "not_picked": [
+        "Conserve Battery",
+        "Creative AI"
+      ],
+      "picked": "Chill",
+      "floor": 4
+    },
+    {
+      "not_picked": [
+        "Barrage",
+        "Chaos",
+        "Leap"
+      ],
+      "picked": "SKIP",
+      "floor": 10
+    },
+    {
+      "not_picked": [
+        "Chill",
+        "Stack"
+      ],
+      "picked": "Genetic Algorithm",
+      "floor": 12
+    },
+    {
+      "not_picked": [
+        "Beam Cell",
+        "Hologram"
+      ],
+      "picked": "Ball Lightning",
+      "floor": 13
+    },
+    {
+      "not_picked": [
+        "Barrage",
+        "Leap"
+      ],
+      "picked": "Gash",
+      "floor": 14
+    },
+    {
+      "not_picked": [
+        "Amplify",
+        "Multi-Cast"
+      ],
+      "picked": "Buffer",
+      "floor": 16
+    },
+    {
+      "not_picked": [
+        "Doom and Gloom",
+        "White Noise"
+      ],
+      "picked": "Ball Lightning",
+      "floor": 18
+    },
+    {
+      "not_picked": [
+        "Go for the Eyes",
+        "Static Discharge"
+      ],
+      "picked": "Sweeping Beam",
+      "floor": 20
+    }
+  ],
+  "player_experience": 4265887,
+  "relics_obtained": [
+    {
+      "floor": 9,
+      "key": "Mercury Hourglass"
+    },
+    {
+      "floor": 11,
+      "key": "Centennial Puzzle"
+    },
+    {
+      "floor": 12,
+      "key": "Vajra"
+    },
+    {
+      "floor": 14,
+      "key": "Whetstone"
+    }
+  ],
+  "event_choices": [
+    {
+      "damage_healed": 0,
+      "gold_gain": 150,
+      "player_choice": "AGREE",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Liars Game",
+      "floor": 3,
+      "gold_loss": 0,
+      "cards_obtained": [
+        "Doubt"
+      ]
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Donut",
+      "damage_taken": 0,
+      "max_hp_gain": 5,
+      "max_hp_loss": 0,
+      "event_name": "Big Fish",
+      "floor": 7,
+      "gold_loss": 0
+    },
+    {
+      "cards_removed": [
+        "Strike_B"
+      ],
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Gave Gold",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Beggar",
+      "floor": 19,
+      "gold_loss": 75
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Fight",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Colosseum",
+      "floor": 21,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Fought Nobs",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Colosseum",
+      "floor": 21,
+      "gold_loss": 0
+    }
+  ],
+  "is_beta": true,
+  "boss_relics": [
+    {
+      "not_picked": [
+        "FrozenCore",
+        "Velvet Choker"
+      ],
+      "picked": "Sozu"
+    }
+  ],
+  "items_purged_floors": [
+    5
+  ],
+  "is_endless": false,
+  "potions_floor_spawned": [
+    2,
+    10,
+    12,
+    14,
+    18
+  ],
+  "killed_by": "Colosseum Nobs",
+  "ascension_level": 20
+}

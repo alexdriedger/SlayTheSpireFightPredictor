@@ -1,1 +1,543 @@
-{"gold_per_floor":[113,113,123,48,62,62,87,97,97,97,108,108,118,137,137,213,213,232,232,246,261,261,261,289,289,363,363],"floor_reached":27,"playtime":1442,"items_purged":["Strike_R"],"score":470,"play_id":"d98030f7-ed54-41e1-b311-57294e57b900","local_time":"20190113114938","is_ascension_mode":true,"campfire_choices":[{"data":"Twin Strike","floor":6,"key":"SMITH"},{"data":"Armaments","floor":10,"key":"SMITH"},{"data":"Inflame","floor":12,"key":"SMITH"},{"data":"True Grit","floor":15,"key":"SMITH"},{"floor":23,"key":"REST"},{"floor":25,"key":"REST"}],"neow_cost":"NONE","seed_source_timestamp":370329556175030,"circlet_count":0,"master_deck":["AscendersBane","Strike_R","Strike_R","Strike_R","Defend_R","Defend_R","Defend_R","Defend_R","Bash+1","Battle Trance","Twin Strike+1","Armaments+1","Clothesline","Inflame+1","Uppercut","True Grit+1","Impervious","Metallicize","Disarm","Doubt"],"relics":["Burning Blood","Nunchaku","Matryoshka","Cursed Key","Nilry\u0027s Codex","Bottled Lightning","Blue Candle","Self Forming Clay"],"potions_floor_usage":[20,24,24],"damage_taken":[{"damage":7,"enemies":"Jaw Worm","floor":1,"turns":3},{"damage":2,"enemies":"Cultist","floor":3,"turns":4},{"damage":1,"enemies":"Small Slimes","floor":5,"turns":5},{"damage":8,"enemies":"Gremlin Nob","floor":7,"turns":3},{"damage":0,"enemies":"Blue Slaver","floor":8,"turns":4},{"damage":3,"enemies":"3 Louse","floor":11,"turns":3},{"damage":10,"enemies":"Gremlin Gang","floor":13,"turns":4},{"damage":13,"enemies":"Large Slime","floor":14,"turns":5},{"damage":42,"enemies":"Hexaghost","floor":16,"turns":11},{"damage":8,"enemies":"Spheric Guardian","floor":18,"turns":3},{"damage":2,"enemies":"3 Byrds","floor":20,"turns":5},{"damage":5,"enemies":"Snecko","floor":21,"turns":4},{"damage":38,"enemies":"Slavers","floor":24,"turns":7},{"damage":44,"enemies":"Gremlin Leader","floor":27,"turns":5}],"seed_played":"7847023670708501623","potions_obtained":[{"floor":5,"key":"BloodPotion"},{"floor":11,"key":"Block Potion"},{"floor":13,"key":"Strength Potion"},{"floor":21,"key":"Poison Potion"}],"is_trial":false,"path_per_floor":["M","?","M","$","M","R","E","M","T","R","M","R","M","M","R","B",null,"M","?","M","M","?","R","E","R","T","E"],"character_chosen":"IRONCLAD","items_purchased":[],"campfire_rested":2,"item_purchase_floors":[],"current_hp_per_floor":[67,67,71,71,75,75,73,75,75,75,75,75,71,64,64,28,63,61,40,44,45,24,48,16,40,40,0],"gold":363,"neow_bonus":"UPGRADE_CARD","is_prod":false,"is_daily":false,"chose_seed":false,"campfire_upgraded":4,"win_rate":0,"timestamp":1547408978,"path_taken":["M","?","M","$","M","R","E","M","T","R","M","R","?","M","R","BOSS","M","?","M","M","?","R","E","R","T","E"],"build_version":"2019-01-10","purchased_purges":1,"victory":false,"max_hp_per_floor":[75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,80,80,80,80,80,80],"card_choices":[{"not_picked":["Iron Wave","Warcry","Bloodletting"],"picked":"SKIP","floor":1},{"not_picked":["Anger","Pommel Strike"],"picked":"Battle Trance","floor":3},{"not_picked":["Thunderclap","Sentinel"],"picked":"Twin Strike","floor":5},{"not_picked":["Dual Wield","Perfected Strike"],"picked":"Armaments","floor":7},{"not_picked":["Wild Strike","Entrench"],"picked":"Clothesline","floor":8},{"not_picked":["Spot Weakness","Clash"],"picked":"Inflame","floor":11},{"not_picked":["Blood for Blood","Wild Strike"],"picked":"Uppercut","floor":13},{"not_picked":["Havoc","Warcry"],"picked":"True Grit","floor":14},{"not_picked":["Bludgeon","Dark Embrace"],"picked":"Impervious","floor":16},{"not_picked":["Iron Wave","Perfected Strike","Clothesline"],"picked":"SKIP","floor":18},{"not_picked":["Hemokinesis","Body Slam","Berserk"],"picked":"SKIP","floor":20},{"not_picked":["Blood for Blood","Perfected Strike"],"picked":"Metallicize","floor":21},{"not_picked":["Wild Strike","Anger"],"picked":"Disarm","floor":24}],"player_experience":4323474,"relics_obtained":[{"floor":7,"key":"Nunchaku"},{"floor":9,"key":"Matryoshka"},{"floor":19,"key":"Nilry\u0027s Codex"},{"floor":24,"key":"Bottled Lightning"},{"floor":26,"key":"Blue Candle"},{"floor":26,"key":"Self Forming Clay"}],"event_choices":[{"cards_removed":["Strike_R"],"damage_healed":0,"gold_gain":0,"player_choice":"Card Removal","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Wheel of Change","floor":2,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Obtained Book","damage_taken":21,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Cursed Tome","floor":19,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Shed Blood","damage_taken":26,"max_hp_gain":5,"max_hp_loss":0,"event_name":"Forgotten Altar","floor":22,"gold_loss":0}],"is_beta":true,"boss_relics":[{"not_picked":["Black Blood","White Beast Statue"],"picked":"Cursed Key"}],"items_purged_floors":[4],"is_endless":false,"potions_floor_spawned":[5,11,13,14,21],"killed_by":"Gremlin Leader","ascension_level":20}
+{
+  "gold_per_floor": [
+    113,
+    113,
+    123,
+    48,
+    62,
+    62,
+    87,
+    97,
+    97,
+    97,
+    108,
+    108,
+    118,
+    137,
+    137,
+    213,
+    213,
+    232,
+    232,
+    246,
+    261,
+    261,
+    261,
+    289,
+    289,
+    363,
+    363
+  ],
+  "floor_reached": 27,
+  "playtime": 1442,
+  "items_purged": [
+    "Strike_R"
+  ],
+  "score": 470,
+  "play_id": "d98030f7-ed54-41e1-b311-57294e57b900",
+  "local_time": "20190113114938",
+  "is_ascension_mode": true,
+  "campfire_choices": [
+    {
+      "data": "Twin Strike",
+      "floor": 6,
+      "key": "SMITH"
+    },
+    {
+      "data": "Armaments",
+      "floor": 10,
+      "key": "SMITH"
+    },
+    {
+      "data": "Inflame",
+      "floor": 12,
+      "key": "SMITH"
+    },
+    {
+      "data": "True Grit",
+      "floor": 15,
+      "key": "SMITH"
+    },
+    {
+      "floor": 23,
+      "key": "REST"
+    },
+    {
+      "floor": 25,
+      "key": "REST"
+    }
+  ],
+  "neow_cost": "NONE",
+  "seed_source_timestamp": 370329556175030,
+  "circlet_count": 0,
+  "master_deck": [
+    "AscendersBane",
+    "Strike_R",
+    "Strike_R",
+    "Strike_R",
+    "Defend_R",
+    "Defend_R",
+    "Defend_R",
+    "Defend_R",
+    "Bash+1",
+    "Battle Trance",
+    "Twin Strike+1",
+    "Armaments+1",
+    "Clothesline",
+    "Inflame+1",
+    "Uppercut",
+    "True Grit+1",
+    "Impervious",
+    "Metallicize",
+    "Disarm",
+    "Doubt"
+  ],
+  "relics": [
+    "Burning Blood",
+    "Nunchaku",
+    "Matryoshka",
+    "Cursed Key",
+    "Nilry\u0027s Codex",
+    "Bottled Lightning",
+    "Blue Candle",
+    "Self Forming Clay"
+  ],
+  "potions_floor_usage": [
+    20,
+    24,
+    24
+  ],
+  "damage_taken": [
+    {
+      "damage": 7,
+      "enemies": "Jaw Worm",
+      "floor": 1,
+      "turns": 3
+    },
+    {
+      "damage": 2,
+      "enemies": "Cultist",
+      "floor": 3,
+      "turns": 4
+    },
+    {
+      "damage": 1,
+      "enemies": "Small Slimes",
+      "floor": 5,
+      "turns": 5
+    },
+    {
+      "damage": 8,
+      "enemies": "Gremlin Nob",
+      "floor": 7,
+      "turns": 3
+    },
+    {
+      "damage": 0,
+      "enemies": "Blue Slaver",
+      "floor": 8,
+      "turns": 4
+    },
+    {
+      "damage": 3,
+      "enemies": "3 Louse",
+      "floor": 11,
+      "turns": 3
+    },
+    {
+      "damage": 10,
+      "enemies": "Gremlin Gang",
+      "floor": 13,
+      "turns": 4
+    },
+    {
+      "damage": 13,
+      "enemies": "Large Slime",
+      "floor": 14,
+      "turns": 5
+    },
+    {
+      "damage": 42,
+      "enemies": "Hexaghost",
+      "floor": 16,
+      "turns": 11
+    },
+    {
+      "damage": 8,
+      "enemies": "Spheric Guardian",
+      "floor": 18,
+      "turns": 3
+    },
+    {
+      "damage": 2,
+      "enemies": "3 Byrds",
+      "floor": 20,
+      "turns": 5
+    },
+    {
+      "damage": 5,
+      "enemies": "Snecko",
+      "floor": 21,
+      "turns": 4
+    },
+    {
+      "damage": 38,
+      "enemies": "Slavers",
+      "floor": 24,
+      "turns": 7
+    },
+    {
+      "damage": 44,
+      "enemies": "Gremlin Leader",
+      "floor": 27,
+      "turns": 5
+    }
+  ],
+  "seed_played": "7847023670708501623",
+  "potions_obtained": [
+    {
+      "floor": 5,
+      "key": "BloodPotion"
+    },
+    {
+      "floor": 11,
+      "key": "Block Potion"
+    },
+    {
+      "floor": 13,
+      "key": "Strength Potion"
+    },
+    {
+      "floor": 21,
+      "key": "Poison Potion"
+    }
+  ],
+  "is_trial": false,
+  "path_per_floor": [
+    "M",
+    "?",
+    "M",
+    "$",
+    "M",
+    "R",
+    "E",
+    "M",
+    "T",
+    "R",
+    "M",
+    "R",
+    "M",
+    "M",
+    "R",
+    "B",
+    null,
+    "M",
+    "?",
+    "M",
+    "M",
+    "?",
+    "R",
+    "E",
+    "R",
+    "T",
+    "E"
+  ],
+  "character_chosen": "IRONCLAD",
+  "items_purchased": [],
+  "campfire_rested": 2,
+  "item_purchase_floors": [],
+  "current_hp_per_floor": [
+    67,
+    67,
+    71,
+    71,
+    75,
+    75,
+    73,
+    75,
+    75,
+    75,
+    75,
+    75,
+    71,
+    64,
+    64,
+    28,
+    63,
+    61,
+    40,
+    44,
+    45,
+    24,
+    48,
+    16,
+    40,
+    40,
+    0
+  ],
+  "gold": 363,
+  "neow_bonus": "UPGRADE_CARD",
+  "is_prod": false,
+  "is_daily": false,
+  "chose_seed": false,
+  "campfire_upgraded": 4,
+  "win_rate": 0,
+  "timestamp": 1547408978,
+  "path_taken": [
+    "M",
+    "?",
+    "M",
+    "$",
+    "M",
+    "R",
+    "E",
+    "M",
+    "T",
+    "R",
+    "M",
+    "R",
+    "?",
+    "M",
+    "R",
+    "BOSS",
+    "M",
+    "?",
+    "M",
+    "M",
+    "?",
+    "R",
+    "E",
+    "R",
+    "T",
+    "E"
+  ],
+  "build_version": "2019-01-10",
+  "purchased_purges": 1,
+  "victory": false,
+  "max_hp_per_floor": [
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80
+  ],
+  "card_choices": [
+    {
+      "not_picked": [
+        "Iron Wave",
+        "Warcry",
+        "Bloodletting"
+      ],
+      "picked": "SKIP",
+      "floor": 1
+    },
+    {
+      "not_picked": [
+        "Anger",
+        "Pommel Strike"
+      ],
+      "picked": "Battle Trance",
+      "floor": 3
+    },
+    {
+      "not_picked": [
+        "Thunderclap",
+        "Sentinel"
+      ],
+      "picked": "Twin Strike",
+      "floor": 5
+    },
+    {
+      "not_picked": [
+        "Dual Wield",
+        "Perfected Strike"
+      ],
+      "picked": "Armaments",
+      "floor": 7
+    },
+    {
+      "not_picked": [
+        "Wild Strike",
+        "Entrench"
+      ],
+      "picked": "Clothesline",
+      "floor": 8
+    },
+    {
+      "not_picked": [
+        "Spot Weakness",
+        "Clash"
+      ],
+      "picked": "Inflame",
+      "floor": 11
+    },
+    {
+      "not_picked": [
+        "Blood for Blood",
+        "Wild Strike"
+      ],
+      "picked": "Uppercut",
+      "floor": 13
+    },
+    {
+      "not_picked": [
+        "Havoc",
+        "Warcry"
+      ],
+      "picked": "True Grit",
+      "floor": 14
+    },
+    {
+      "not_picked": [
+        "Bludgeon",
+        "Dark Embrace"
+      ],
+      "picked": "Impervious",
+      "floor": 16
+    },
+    {
+      "not_picked": [
+        "Iron Wave",
+        "Perfected Strike",
+        "Clothesline"
+      ],
+      "picked": "SKIP",
+      "floor": 18
+    },
+    {
+      "not_picked": [
+        "Hemokinesis",
+        "Body Slam",
+        "Berserk"
+      ],
+      "picked": "SKIP",
+      "floor": 20
+    },
+    {
+      "not_picked": [
+        "Blood for Blood",
+        "Perfected Strike"
+      ],
+      "picked": "Metallicize",
+      "floor": 21
+    },
+    {
+      "not_picked": [
+        "Wild Strike",
+        "Anger"
+      ],
+      "picked": "Disarm",
+      "floor": 24
+    }
+  ],
+  "player_experience": 4323474,
+  "relics_obtained": [
+    {
+      "floor": 7,
+      "key": "Nunchaku"
+    },
+    {
+      "floor": 9,
+      "key": "Matryoshka"
+    },
+    {
+      "floor": 19,
+      "key": "Nilry\u0027s Codex"
+    },
+    {
+      "floor": 24,
+      "key": "Bottled Lightning"
+    },
+    {
+      "floor": 26,
+      "key": "Blue Candle"
+    },
+    {
+      "floor": 26,
+      "key": "Self Forming Clay"
+    }
+  ],
+  "event_choices": [
+    {
+      "cards_removed": [
+        "Strike_R"
+      ],
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Card Removal",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Wheel of Change",
+      "floor": 2,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Obtained Book",
+      "damage_taken": 21,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Cursed Tome",
+      "floor": 19,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Shed Blood",
+      "damage_taken": 26,
+      "max_hp_gain": 5,
+      "max_hp_loss": 0,
+      "event_name": "Forgotten Altar",
+      "floor": 22,
+      "gold_loss": 0
+    }
+  ],
+  "is_beta": true,
+  "boss_relics": [
+    {
+      "not_picked": [
+        "Black Blood",
+        "White Beast Statue"
+      ],
+      "picked": "Cursed Key"
+    }
+  ],
+  "items_purged_floors": [
+    4
+  ],
+  "is_endless": false,
+  "potions_floor_spawned": [
+    5,
+    11,
+    13,
+    14,
+    21
+  ],
+  "killed_by": "Gremlin Leader",
+  "ascension_level": 20
+}

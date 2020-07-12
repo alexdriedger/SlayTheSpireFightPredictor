@@ -1,1 +1,697 @@
-{"gold_per_floor":[115,40,40,40,90,121,141,141,441,453,170,170,45,64,64,136,136,153,42,53,53,53,53,85,34,104,133,133,167,167,182,182,261,261,281,281,292,310,310],"floor_reached":39,"playtime":2498,"items_purged":["Strike_B","Strike_B","Strike_B"],"score":920,"play_id":"430009bd-3eb4-4dcb-92e8-05889ad8e23b","local_time":"20190102162851","is_ascension_mode":true,"campfire_choices":[{"data":"Defragment","floor":8,"key":"SMITH"},{"data":"Static Discharge","floor":12,"key":"SMITH"},{"data":"Loop","floor":15,"key":"SMITH"},{"floor":23,"key":"REST"},{"floor":28,"key":"REST"},{"floor":30,"key":"REST"},{"floor":32,"key":"REST"}],"neow_cost":"NONE","seed_source_timestamp":105236636979062,"circlet_count":0,"master_deck":["AscendersBane","Strike_B","Defend_B","Defend_B","Defend_B","Defend_B","Zap","Dualcast","Defragment+1","Chill","Static Discharge+1","Conserve Battery","Loop+1","Dark Shackles","Coolheaded","Biased Cognition","Cold Snap","Undo","Machine Learning+1","Coolheaded","Hologram","Recycle","Coolheaded","Hologram"],"relics":["Cracked Core","Dodecahedron","Dream Catcher","Old Coin","Busted Crown","Nloth\u0027s Gift","Frozen Egg 2","Letter Opener","Emotion Chip","Matryoshka","Sozu"],"potions_floor_usage":[16,24,24],"damage_taken":[{"damage":0,"enemies":"Jaw Worm","floor":1,"turns":1},{"damage":0,"enemies":"Gremlin Nob","floor":6,"turns":1},{"damage":0,"enemies":"2 Louse","floor":7,"turns":1},{"damage":3,"enemies":"Small Slimes","floor":10,"turns":3},{"damage":2,"enemies":"Red Slaver","floor":14,"turns":4},{"damage":38,"enemies":"Slime Boss","floor":16,"turns":10},{"damage":21,"enemies":"2 Thieves","floor":18,"turns":2},{"damage":1,"enemies":"3 Byrds","floor":20,"turns":6},{"damage":20,"enemies":"Gremlin Leader","floor":24,"turns":5},{"damage":18,"enemies":"Book of Stabbing","floor":27,"turns":4},{"damage":17,"enemies":"Slavers","floor":29,"turns":5},{"damage":1,"enemies":"Sentry and Sphere","floor":31,"turns":7},{"damage":31,"enemies":"Automaton","floor":33,"turns":12},{"damage":17,"enemies":"3 Darklings","floor":35,"turns":5},{"damage":1,"enemies":"Orb Walker","floor":37,"turns":5},{"damage":32,"enemies":"Spire Growth","floor":38,"turns":5},{"damage":18,"enemies":"Transient","floor":39,"turns":1}],"seed_played":"-8958248918717792381","potions_obtained":[{"floor":1,"key":"Regen Potion"},{"floor":10,"key":"FearPotion"},{"floor":14,"key":"FocusPotion"},{"floor":18,"key":"FearPotion"},{"floor":20,"key":"FocusPotion"},{"floor":31,"key":"Poison Potion"},{"floor":33,"key":"Explosive Potion"}],"is_trial":false,"path_per_floor":["M","$","?","?","?","E","M","R","T","M","$","R","$","M","R","B",null,"M","$","M","$","?","R","E","$","T","E","R","E","R","M","R","B",null,"M","?","M","M","M"],"character_chosen":"DEFECT","items_purchased":["Loop","Dark Shackles","Cold Snap","Undo","Coolheaded"],"campfire_rested":4,"item_purchase_floors":[11,11,19,19,25],"current_hp_per_floor":[64,64,64,53,53,53,53,53,53,50,50,50,50,48,48,25,60,39,39,38,38,38,59,39,39,39,21,42,25,46,45,66,35,62,45,45,44,12,0],"gold":310,"neow_bonus":"THREE_ENEMY_KILL","is_prod":false,"is_daily":false,"chose_seed":false,"campfire_upgraded":3,"win_rate":0,"timestamp":1546475331,"path_taken":["M","$","?","?","?","E","?","R","T","M","$","R","?","M","R","BOSS","M","?","M","$","?","R","E","$","T","E","R","E","R","?","R","BOSS","M","?","M","M","M"],"build_version":"2019-01-01v2","purchased_purges":3,"victory":false,"max_hp_per_floor":[71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71],"card_choices":[{"not_picked":["Reinforced Body","Beam Cell"],"picked":"Defragment","floor":1},{"not_picked":["Hologram","Go for the Eyes"],"picked":"Chill","floor":6},{"not_picked":["Lockon","Go for the Eyes"],"picked":"Static Discharge","floor":7},{"not_picked":["Beam Cell","Leap"],"picked":"Conserve Battery","floor":10},{"not_picked":["Stack","Tempest"],"picked":"Coolheaded","floor":14},{"not_picked":["Amplify","Machine Learning"],"picked":"Biased Cognition","floor":16},{"not_picked":["Rip and Tear"],"picked":"SKIP","floor":18},{"not_picked":["Leap"],"picked":"SKIP","floor":20},{"not_picked":[],"picked":"Machine Learning","floor":24},{"not_picked":[],"picked":"Hologram","floor":27},{"not_picked":["Rip and Tear"],"picked":"SKIP","floor":29},{"not_picked":[],"picked":"Recycle","floor":30},{"not_picked":[],"picked":"Coolheaded","floor":31},{"not_picked":[],"picked":"Hologram","floor":35},{"not_picked":["Steam Power+1"],"picked":"SKIP","floor":37},{"not_picked":["Auto Shields"],"picked":"SKIP","floor":38}],"player_experience":4203008,"relics_obtained":[{"floor":6,"key":"Dream Catcher"},{"floor":9,"key":"Old Coin"},{"floor":24,"key":"Frozen Egg 2"},{"floor":26,"key":"Letter Opener"},{"floor":27,"key":"Emotion Chip"},{"floor":29,"key":"Matryoshka"}],"event_choices":[{"damage_healed":0,"gold_gain":0,"player_choice":"Ignored","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Liars Game","floor":3,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Success","damage_taken":11,"relics_obtained":["Dodecahedron"],"max_hp_gain":0,"max_hp_loss":0,"event_name":"Scrap Ooze","floor":4,"gold_loss":0},{"damage_healed":0,"gold_gain":50,"player_choice":"Pray","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Golden Shrine","floor":5,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Traded Relic","damage_taken":0,"relics_obtained":["Nloth\u0027s Gift"],"max_hp_gain":0,"max_hp_loss":0,"event_name":"N\u0027loth","floor":22,"relics_lost":["NeowsBlessing"],"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Got Potions","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Lab","floor":36,"gold_loss":0}],"is_beta":true,"boss_relics":[{"not_picked":["Lizard Tail","Coffee Dripper"],"picked":"Busted Crown"},{"not_picked":["Black Star","Cursed Key"],"picked":"Sozu"}],"items_purged_floors":[2,11,13],"is_endless":false,"potions_floor_spawned":[1,10,14,18,20,31,33,37],"killed_by":"Transient","ascension_level":20}
+{
+  "gold_per_floor": [
+    115,
+    40,
+    40,
+    40,
+    90,
+    121,
+    141,
+    141,
+    441,
+    453,
+    170,
+    170,
+    45,
+    64,
+    64,
+    136,
+    136,
+    153,
+    42,
+    53,
+    53,
+    53,
+    53,
+    85,
+    34,
+    104,
+    133,
+    133,
+    167,
+    167,
+    182,
+    182,
+    261,
+    261,
+    281,
+    281,
+    292,
+    310,
+    310
+  ],
+  "floor_reached": 39,
+  "playtime": 2498,
+  "items_purged": [
+    "Strike_B",
+    "Strike_B",
+    "Strike_B"
+  ],
+  "score": 920,
+  "play_id": "430009bd-3eb4-4dcb-92e8-05889ad8e23b",
+  "local_time": "20190102162851",
+  "is_ascension_mode": true,
+  "campfire_choices": [
+    {
+      "data": "Defragment",
+      "floor": 8,
+      "key": "SMITH"
+    },
+    {
+      "data": "Static Discharge",
+      "floor": 12,
+      "key": "SMITH"
+    },
+    {
+      "data": "Loop",
+      "floor": 15,
+      "key": "SMITH"
+    },
+    {
+      "floor": 23,
+      "key": "REST"
+    },
+    {
+      "floor": 28,
+      "key": "REST"
+    },
+    {
+      "floor": 30,
+      "key": "REST"
+    },
+    {
+      "floor": 32,
+      "key": "REST"
+    }
+  ],
+  "neow_cost": "NONE",
+  "seed_source_timestamp": 105236636979062,
+  "circlet_count": 0,
+  "master_deck": [
+    "AscendersBane",
+    "Strike_B",
+    "Defend_B",
+    "Defend_B",
+    "Defend_B",
+    "Defend_B",
+    "Zap",
+    "Dualcast",
+    "Defragment+1",
+    "Chill",
+    "Static Discharge+1",
+    "Conserve Battery",
+    "Loop+1",
+    "Dark Shackles",
+    "Coolheaded",
+    "Biased Cognition",
+    "Cold Snap",
+    "Undo",
+    "Machine Learning+1",
+    "Coolheaded",
+    "Hologram",
+    "Recycle",
+    "Coolheaded",
+    "Hologram"
+  ],
+  "relics": [
+    "Cracked Core",
+    "Dodecahedron",
+    "Dream Catcher",
+    "Old Coin",
+    "Busted Crown",
+    "Nloth\u0027s Gift",
+    "Frozen Egg 2",
+    "Letter Opener",
+    "Emotion Chip",
+    "Matryoshka",
+    "Sozu"
+  ],
+  "potions_floor_usage": [
+    16,
+    24,
+    24
+  ],
+  "damage_taken": [
+    {
+      "damage": 0,
+      "enemies": "Jaw Worm",
+      "floor": 1,
+      "turns": 1
+    },
+    {
+      "damage": 0,
+      "enemies": "Gremlin Nob",
+      "floor": 6,
+      "turns": 1
+    },
+    {
+      "damage": 0,
+      "enemies": "2 Louse",
+      "floor": 7,
+      "turns": 1
+    },
+    {
+      "damage": 3,
+      "enemies": "Small Slimes",
+      "floor": 10,
+      "turns": 3
+    },
+    {
+      "damage": 2,
+      "enemies": "Red Slaver",
+      "floor": 14,
+      "turns": 4
+    },
+    {
+      "damage": 38,
+      "enemies": "Slime Boss",
+      "floor": 16,
+      "turns": 10
+    },
+    {
+      "damage": 21,
+      "enemies": "2 Thieves",
+      "floor": 18,
+      "turns": 2
+    },
+    {
+      "damage": 1,
+      "enemies": "3 Byrds",
+      "floor": 20,
+      "turns": 6
+    },
+    {
+      "damage": 20,
+      "enemies": "Gremlin Leader",
+      "floor": 24,
+      "turns": 5
+    },
+    {
+      "damage": 18,
+      "enemies": "Book of Stabbing",
+      "floor": 27,
+      "turns": 4
+    },
+    {
+      "damage": 17,
+      "enemies": "Slavers",
+      "floor": 29,
+      "turns": 5
+    },
+    {
+      "damage": 1,
+      "enemies": "Sentry and Sphere",
+      "floor": 31,
+      "turns": 7
+    },
+    {
+      "damage": 31,
+      "enemies": "Automaton",
+      "floor": 33,
+      "turns": 12
+    },
+    {
+      "damage": 17,
+      "enemies": "3 Darklings",
+      "floor": 35,
+      "turns": 5
+    },
+    {
+      "damage": 1,
+      "enemies": "Orb Walker",
+      "floor": 37,
+      "turns": 5
+    },
+    {
+      "damage": 32,
+      "enemies": "Spire Growth",
+      "floor": 38,
+      "turns": 5
+    },
+    {
+      "damage": 18,
+      "enemies": "Transient",
+      "floor": 39,
+      "turns": 1
+    }
+  ],
+  "seed_played": "-8958248918717792381",
+  "potions_obtained": [
+    {
+      "floor": 1,
+      "key": "Regen Potion"
+    },
+    {
+      "floor": 10,
+      "key": "FearPotion"
+    },
+    {
+      "floor": 14,
+      "key": "FocusPotion"
+    },
+    {
+      "floor": 18,
+      "key": "FearPotion"
+    },
+    {
+      "floor": 20,
+      "key": "FocusPotion"
+    },
+    {
+      "floor": 31,
+      "key": "Poison Potion"
+    },
+    {
+      "floor": 33,
+      "key": "Explosive Potion"
+    }
+  ],
+  "is_trial": false,
+  "path_per_floor": [
+    "M",
+    "$",
+    "?",
+    "?",
+    "?",
+    "E",
+    "M",
+    "R",
+    "T",
+    "M",
+    "$",
+    "R",
+    "$",
+    "M",
+    "R",
+    "B",
+    null,
+    "M",
+    "$",
+    "M",
+    "$",
+    "?",
+    "R",
+    "E",
+    "$",
+    "T",
+    "E",
+    "R",
+    "E",
+    "R",
+    "M",
+    "R",
+    "B",
+    null,
+    "M",
+    "?",
+    "M",
+    "M",
+    "M"
+  ],
+  "character_chosen": "DEFECT",
+  "items_purchased": [
+    "Loop",
+    "Dark Shackles",
+    "Cold Snap",
+    "Undo",
+    "Coolheaded"
+  ],
+  "campfire_rested": 4,
+  "item_purchase_floors": [
+    11,
+    11,
+    19,
+    19,
+    25
+  ],
+  "current_hp_per_floor": [
+    64,
+    64,
+    64,
+    53,
+    53,
+    53,
+    53,
+    53,
+    53,
+    50,
+    50,
+    50,
+    50,
+    48,
+    48,
+    25,
+    60,
+    39,
+    39,
+    38,
+    38,
+    38,
+    59,
+    39,
+    39,
+    39,
+    21,
+    42,
+    25,
+    46,
+    45,
+    66,
+    35,
+    62,
+    45,
+    45,
+    44,
+    12,
+    0
+  ],
+  "gold": 310,
+  "neow_bonus": "THREE_ENEMY_KILL",
+  "is_prod": false,
+  "is_daily": false,
+  "chose_seed": false,
+  "campfire_upgraded": 3,
+  "win_rate": 0,
+  "timestamp": 1546475331,
+  "path_taken": [
+    "M",
+    "$",
+    "?",
+    "?",
+    "?",
+    "E",
+    "?",
+    "R",
+    "T",
+    "M",
+    "$",
+    "R",
+    "?",
+    "M",
+    "R",
+    "BOSS",
+    "M",
+    "?",
+    "M",
+    "$",
+    "?",
+    "R",
+    "E",
+    "$",
+    "T",
+    "E",
+    "R",
+    "E",
+    "R",
+    "?",
+    "R",
+    "BOSS",
+    "M",
+    "?",
+    "M",
+    "M",
+    "M"
+  ],
+  "build_version": "2019-01-01v2",
+  "purchased_purges": 3,
+  "victory": false,
+  "max_hp_per_floor": [
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71
+  ],
+  "card_choices": [
+    {
+      "not_picked": [
+        "Reinforced Body",
+        "Beam Cell"
+      ],
+      "picked": "Defragment",
+      "floor": 1
+    },
+    {
+      "not_picked": [
+        "Hologram",
+        "Go for the Eyes"
+      ],
+      "picked": "Chill",
+      "floor": 6
+    },
+    {
+      "not_picked": [
+        "Lockon",
+        "Go for the Eyes"
+      ],
+      "picked": "Static Discharge",
+      "floor": 7
+    },
+    {
+      "not_picked": [
+        "Beam Cell",
+        "Leap"
+      ],
+      "picked": "Conserve Battery",
+      "floor": 10
+    },
+    {
+      "not_picked": [
+        "Stack",
+        "Tempest"
+      ],
+      "picked": "Coolheaded",
+      "floor": 14
+    },
+    {
+      "not_picked": [
+        "Amplify",
+        "Machine Learning"
+      ],
+      "picked": "Biased Cognition",
+      "floor": 16
+    },
+    {
+      "not_picked": [
+        "Rip and Tear"
+      ],
+      "picked": "SKIP",
+      "floor": 18
+    },
+    {
+      "not_picked": [
+        "Leap"
+      ],
+      "picked": "SKIP",
+      "floor": 20
+    },
+    {
+      "not_picked": [],
+      "picked": "Machine Learning",
+      "floor": 24
+    },
+    {
+      "not_picked": [],
+      "picked": "Hologram",
+      "floor": 27
+    },
+    {
+      "not_picked": [
+        "Rip and Tear"
+      ],
+      "picked": "SKIP",
+      "floor": 29
+    },
+    {
+      "not_picked": [],
+      "picked": "Recycle",
+      "floor": 30
+    },
+    {
+      "not_picked": [],
+      "picked": "Coolheaded",
+      "floor": 31
+    },
+    {
+      "not_picked": [],
+      "picked": "Hologram",
+      "floor": 35
+    },
+    {
+      "not_picked": [
+        "Steam Power+1"
+      ],
+      "picked": "SKIP",
+      "floor": 37
+    },
+    {
+      "not_picked": [
+        "Auto Shields"
+      ],
+      "picked": "SKIP",
+      "floor": 38
+    }
+  ],
+  "player_experience": 4203008,
+  "relics_obtained": [
+    {
+      "floor": 6,
+      "key": "Dream Catcher"
+    },
+    {
+      "floor": 9,
+      "key": "Old Coin"
+    },
+    {
+      "floor": 24,
+      "key": "Frozen Egg 2"
+    },
+    {
+      "floor": 26,
+      "key": "Letter Opener"
+    },
+    {
+      "floor": 27,
+      "key": "Emotion Chip"
+    },
+    {
+      "floor": 29,
+      "key": "Matryoshka"
+    }
+  ],
+  "event_choices": [
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Ignored",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Liars Game",
+      "floor": 3,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Success",
+      "damage_taken": 11,
+      "relics_obtained": [
+        "Dodecahedron"
+      ],
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Scrap Ooze",
+      "floor": 4,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 50,
+      "player_choice": "Pray",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Golden Shrine",
+      "floor": 5,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Traded Relic",
+      "damage_taken": 0,
+      "relics_obtained": [
+        "Nloth\u0027s Gift"
+      ],
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "N\u0027loth",
+      "floor": 22,
+      "relics_lost": [
+        "NeowsBlessing"
+      ],
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Got Potions",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Lab",
+      "floor": 36,
+      "gold_loss": 0
+    }
+  ],
+  "is_beta": true,
+  "boss_relics": [
+    {
+      "not_picked": [
+        "Lizard Tail",
+        "Coffee Dripper"
+      ],
+      "picked": "Busted Crown"
+    },
+    {
+      "not_picked": [
+        "Black Star",
+        "Cursed Key"
+      ],
+      "picked": "Sozu"
+    }
+  ],
+  "items_purged_floors": [
+    2,
+    11,
+    13
+  ],
+  "is_endless": false,
+  "potions_floor_spawned": [
+    1,
+    10,
+    14,
+    18,
+    20,
+    31,
+    33,
+    37
+  ],
+  "killed_by": "Transient",
+  "ascension_level": 20
+}

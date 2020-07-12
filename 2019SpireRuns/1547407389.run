@@ -1,1 +1,505 @@
-{"gold_per_floor":[109,123,99,114,189,189,224,224,224,224,259,269,303,303,303,374,374,385,385,1,12,12,12,29,29],"floor_reached":25,"playtime":1542,"items_purged":["Strike_B"],"score":438,"play_id":"a097e9c8-6025-47a2-be16-365b14cbd4ce","local_time":"20190113112309","is_ascension_mode":true,"campfire_choices":[{"data":"Zap","floor":6,"key":"SMITH"},{"floor":8,"key":"REST"},{"floor":10,"key":"REST"},{"data":"Darkness","floor":15,"key":"SMITH"},{"floor":23,"key":"REST"}],"neow_cost":"NONE","seed_source_timestamp":368639398221449,"circlet_count":0,"master_deck":["AscendersBane","Strike_B","Strike_B","Strike_B","Defend_B","Defend_B","Defend_B","Defend_B","Zap+1","Dualcast","Cold Snap","Cold Snap","Ball Lightning","Coolheaded","Ball Lightning","Darkness+1","Seek","Echo Form","Defragment","Skim","Writhe","Leap"],"relics":["Cracked Core","NeowsBlessing","Mercury Hourglass","Oddly Smooth Stone","Gremlin Horn","Strawberry","Fusion Hammer","Bottled Lightning","Molten Egg 2"],"potions_floor_usage":[7,24,25],"damage_taken":[{"damage":0,"enemies":"Cultist","floor":1,"turns":1},{"damage":0,"enemies":"Jaw Worm","floor":2,"turns":1},{"damage":0,"enemies":"Small Slimes","floor":4,"turns":1},{"damage":34,"enemies":"3 Sentries","floor":7,"turns":7},{"damage":12,"enemies":"Lagavulin","floor":11,"turns":5},{"damage":1,"enemies":"Looter","floor":12,"turns":3},{"damage":5,"enemies":"3 Sentries","floor":13,"turns":5},{"damage":34,"enemies":"The Guardian","floor":16,"turns":10},{"damage":19,"enemies":"Shell Parasite","floor":18,"turns":4},{"damage":6,"enemies":"3 Byrds","floor":21,"turns":3},{"damage":29,"enemies":"Shelled Parasite and Fungi","floor":24,"turns":4},{"damage":14,"enemies":"Snake Plant","floor":25,"turns":1}],"seed_played":"-8150713719323876822","potions_obtained":[{"floor":2,"key":"AttackPotion"},{"floor":7,"key":"Swift Potion"},{"floor":11,"key":"PowerPotion"},{"floor":24,"key":"Ancient Potion"}],"is_trial":false,"path_per_floor":["M","M","$","M","?","R","E","R","T","R","E","M","E","T","R","B",null,"M","?","$","M","?","R","M","M"],"character_chosen":"DEFECT","items_purchased":["Cold Snap","Bottled Lightning","Defragment"],"campfire_rested":3,"item_purchase_floors":[3,20,20],"current_hp_per_floor":[64,64,64,64,53,53,19,40,40,61,49,48,43,50,50,16,63,44,22,22,16,16,40,11,0],"gold":29,"neow_bonus":"THREE_ENEMY_KILL","is_prod":false,"is_daily":false,"chose_seed":false,"campfire_upgraded":2,"win_rate":0,"timestamp":1547407389,"path_taken":["M","M","$","?","?","R","E","R","T","R","E","M","E","?","R","BOSS","M","?","$","M","?","R","M","M"],"build_version":"2019-01-10","purchased_purges":1,"victory":false,"max_hp_per_floor":[71,71,71,71,71,71,71,71,71,71,71,71,71,78,78,78,78,78,83,83,83,83,83,83,83],"card_choices":[{"not_picked":["Go for the Eyes","Rip and Tear"],"picked":"Cold Snap","floor":1},{"not_picked":["Recycle","Hello World","Reprogram"],"picked":"SKIP","floor":2},{"not_picked":["Glacier","Redo"],"picked":"Ball Lightning","floor":4},{"not_picked":["Chaos","Loop"],"picked":"Coolheaded","floor":7},{"not_picked":["Conserve Battery","Hyperbeam"],"picked":"Ball Lightning","floor":11},{"not_picked":["Steam","Stack"],"picked":"Darkness","floor":12},{"not_picked":["Creative AI","Blizzard"],"picked":"Seek","floor":13},{"not_picked":["Multi-Cast","Fission"],"picked":"Echo Form","floor":16},{"not_picked":["Stack","Redo","Reprogram"],"picked":"SKIP","floor":18},{"not_picked":["Consume","Streamline"],"picked":"Skim","floor":21},{"not_picked":["Rebound+1","Compile Driver+1"],"picked":"Leap","floor":24}],"player_experience":4321932,"relics_obtained":[{"floor":7,"key":"Mercury Hourglass"},{"floor":11,"key":"Oddly Smooth Stone"},{"floor":13,"key":"Gremlin Horn"},{"floor":14,"key":"Strawberry"}],"event_choices":[{"damage_healed":0,"gold_gain":75,"player_choice":"Gather Gold","damage_taken":11,"max_hp_gain":0,"max_hp_loss":0,"event_name":"World of Goop","floor":5,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Shed Blood","damage_taken":27,"max_hp_gain":5,"max_hp_loss":0,"event_name":"Forgotten Altar","floor":19,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Opened","damage_taken":0,"relics_obtained":["Molten Egg 2"],"max_hp_gain":0,"max_hp_loss":0,"event_name":"The Mausoleum","floor":22,"gold_loss":0,"cards_obtained":["Writhe"]}],"is_beta":true,"boss_relics":[{"not_picked":["Runic Dome","Pandora\u0027s Box"],"picked":"Fusion Hammer"}],"items_purged_floors":[20],"is_endless":false,"potions_floor_spawned":[2,7,11,12,21,24],"killed_by":"Snake Plant","ascension_level":20}
+{
+  "gold_per_floor": [
+    109,
+    123,
+    99,
+    114,
+    189,
+    189,
+    224,
+    224,
+    224,
+    224,
+    259,
+    269,
+    303,
+    303,
+    303,
+    374,
+    374,
+    385,
+    385,
+    1,
+    12,
+    12,
+    12,
+    29,
+    29
+  ],
+  "floor_reached": 25,
+  "playtime": 1542,
+  "items_purged": [
+    "Strike_B"
+  ],
+  "score": 438,
+  "play_id": "a097e9c8-6025-47a2-be16-365b14cbd4ce",
+  "local_time": "20190113112309",
+  "is_ascension_mode": true,
+  "campfire_choices": [
+    {
+      "data": "Zap",
+      "floor": 6,
+      "key": "SMITH"
+    },
+    {
+      "floor": 8,
+      "key": "REST"
+    },
+    {
+      "floor": 10,
+      "key": "REST"
+    },
+    {
+      "data": "Darkness",
+      "floor": 15,
+      "key": "SMITH"
+    },
+    {
+      "floor": 23,
+      "key": "REST"
+    }
+  ],
+  "neow_cost": "NONE",
+  "seed_source_timestamp": 368639398221449,
+  "circlet_count": 0,
+  "master_deck": [
+    "AscendersBane",
+    "Strike_B",
+    "Strike_B",
+    "Strike_B",
+    "Defend_B",
+    "Defend_B",
+    "Defend_B",
+    "Defend_B",
+    "Zap+1",
+    "Dualcast",
+    "Cold Snap",
+    "Cold Snap",
+    "Ball Lightning",
+    "Coolheaded",
+    "Ball Lightning",
+    "Darkness+1",
+    "Seek",
+    "Echo Form",
+    "Defragment",
+    "Skim",
+    "Writhe",
+    "Leap"
+  ],
+  "relics": [
+    "Cracked Core",
+    "NeowsBlessing",
+    "Mercury Hourglass",
+    "Oddly Smooth Stone",
+    "Gremlin Horn",
+    "Strawberry",
+    "Fusion Hammer",
+    "Bottled Lightning",
+    "Molten Egg 2"
+  ],
+  "potions_floor_usage": [
+    7,
+    24,
+    25
+  ],
+  "damage_taken": [
+    {
+      "damage": 0,
+      "enemies": "Cultist",
+      "floor": 1,
+      "turns": 1
+    },
+    {
+      "damage": 0,
+      "enemies": "Jaw Worm",
+      "floor": 2,
+      "turns": 1
+    },
+    {
+      "damage": 0,
+      "enemies": "Small Slimes",
+      "floor": 4,
+      "turns": 1
+    },
+    {
+      "damage": 34,
+      "enemies": "3 Sentries",
+      "floor": 7,
+      "turns": 7
+    },
+    {
+      "damage": 12,
+      "enemies": "Lagavulin",
+      "floor": 11,
+      "turns": 5
+    },
+    {
+      "damage": 1,
+      "enemies": "Looter",
+      "floor": 12,
+      "turns": 3
+    },
+    {
+      "damage": 5,
+      "enemies": "3 Sentries",
+      "floor": 13,
+      "turns": 5
+    },
+    {
+      "damage": 34,
+      "enemies": "The Guardian",
+      "floor": 16,
+      "turns": 10
+    },
+    {
+      "damage": 19,
+      "enemies": "Shell Parasite",
+      "floor": 18,
+      "turns": 4
+    },
+    {
+      "damage": 6,
+      "enemies": "3 Byrds",
+      "floor": 21,
+      "turns": 3
+    },
+    {
+      "damage": 29,
+      "enemies": "Shelled Parasite and Fungi",
+      "floor": 24,
+      "turns": 4
+    },
+    {
+      "damage": 14,
+      "enemies": "Snake Plant",
+      "floor": 25,
+      "turns": 1
+    }
+  ],
+  "seed_played": "-8150713719323876822",
+  "potions_obtained": [
+    {
+      "floor": 2,
+      "key": "AttackPotion"
+    },
+    {
+      "floor": 7,
+      "key": "Swift Potion"
+    },
+    {
+      "floor": 11,
+      "key": "PowerPotion"
+    },
+    {
+      "floor": 24,
+      "key": "Ancient Potion"
+    }
+  ],
+  "is_trial": false,
+  "path_per_floor": [
+    "M",
+    "M",
+    "$",
+    "M",
+    "?",
+    "R",
+    "E",
+    "R",
+    "T",
+    "R",
+    "E",
+    "M",
+    "E",
+    "T",
+    "R",
+    "B",
+    null,
+    "M",
+    "?",
+    "$",
+    "M",
+    "?",
+    "R",
+    "M",
+    "M"
+  ],
+  "character_chosen": "DEFECT",
+  "items_purchased": [
+    "Cold Snap",
+    "Bottled Lightning",
+    "Defragment"
+  ],
+  "campfire_rested": 3,
+  "item_purchase_floors": [
+    3,
+    20,
+    20
+  ],
+  "current_hp_per_floor": [
+    64,
+    64,
+    64,
+    64,
+    53,
+    53,
+    19,
+    40,
+    40,
+    61,
+    49,
+    48,
+    43,
+    50,
+    50,
+    16,
+    63,
+    44,
+    22,
+    22,
+    16,
+    16,
+    40,
+    11,
+    0
+  ],
+  "gold": 29,
+  "neow_bonus": "THREE_ENEMY_KILL",
+  "is_prod": false,
+  "is_daily": false,
+  "chose_seed": false,
+  "campfire_upgraded": 2,
+  "win_rate": 0,
+  "timestamp": 1547407389,
+  "path_taken": [
+    "M",
+    "M",
+    "$",
+    "?",
+    "?",
+    "R",
+    "E",
+    "R",
+    "T",
+    "R",
+    "E",
+    "M",
+    "E",
+    "?",
+    "R",
+    "BOSS",
+    "M",
+    "?",
+    "$",
+    "M",
+    "?",
+    "R",
+    "M",
+    "M"
+  ],
+  "build_version": "2019-01-10",
+  "purchased_purges": 1,
+  "victory": false,
+  "max_hp_per_floor": [
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    78,
+    78,
+    78,
+    78,
+    78,
+    83,
+    83,
+    83,
+    83,
+    83,
+    83,
+    83
+  ],
+  "card_choices": [
+    {
+      "not_picked": [
+        "Go for the Eyes",
+        "Rip and Tear"
+      ],
+      "picked": "Cold Snap",
+      "floor": 1
+    },
+    {
+      "not_picked": [
+        "Recycle",
+        "Hello World",
+        "Reprogram"
+      ],
+      "picked": "SKIP",
+      "floor": 2
+    },
+    {
+      "not_picked": [
+        "Glacier",
+        "Redo"
+      ],
+      "picked": "Ball Lightning",
+      "floor": 4
+    },
+    {
+      "not_picked": [
+        "Chaos",
+        "Loop"
+      ],
+      "picked": "Coolheaded",
+      "floor": 7
+    },
+    {
+      "not_picked": [
+        "Conserve Battery",
+        "Hyperbeam"
+      ],
+      "picked": "Ball Lightning",
+      "floor": 11
+    },
+    {
+      "not_picked": [
+        "Steam",
+        "Stack"
+      ],
+      "picked": "Darkness",
+      "floor": 12
+    },
+    {
+      "not_picked": [
+        "Creative AI",
+        "Blizzard"
+      ],
+      "picked": "Seek",
+      "floor": 13
+    },
+    {
+      "not_picked": [
+        "Multi-Cast",
+        "Fission"
+      ],
+      "picked": "Echo Form",
+      "floor": 16
+    },
+    {
+      "not_picked": [
+        "Stack",
+        "Redo",
+        "Reprogram"
+      ],
+      "picked": "SKIP",
+      "floor": 18
+    },
+    {
+      "not_picked": [
+        "Consume",
+        "Streamline"
+      ],
+      "picked": "Skim",
+      "floor": 21
+    },
+    {
+      "not_picked": [
+        "Rebound+1",
+        "Compile Driver+1"
+      ],
+      "picked": "Leap",
+      "floor": 24
+    }
+  ],
+  "player_experience": 4321932,
+  "relics_obtained": [
+    {
+      "floor": 7,
+      "key": "Mercury Hourglass"
+    },
+    {
+      "floor": 11,
+      "key": "Oddly Smooth Stone"
+    },
+    {
+      "floor": 13,
+      "key": "Gremlin Horn"
+    },
+    {
+      "floor": 14,
+      "key": "Strawberry"
+    }
+  ],
+  "event_choices": [
+    {
+      "damage_healed": 0,
+      "gold_gain": 75,
+      "player_choice": "Gather Gold",
+      "damage_taken": 11,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "World of Goop",
+      "floor": 5,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Shed Blood",
+      "damage_taken": 27,
+      "max_hp_gain": 5,
+      "max_hp_loss": 0,
+      "event_name": "Forgotten Altar",
+      "floor": 19,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Opened",
+      "damage_taken": 0,
+      "relics_obtained": [
+        "Molten Egg 2"
+      ],
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "The Mausoleum",
+      "floor": 22,
+      "gold_loss": 0,
+      "cards_obtained": [
+        "Writhe"
+      ]
+    }
+  ],
+  "is_beta": true,
+  "boss_relics": [
+    {
+      "not_picked": [
+        "Runic Dome",
+        "Pandora\u0027s Box"
+      ],
+      "picked": "Fusion Hammer"
+    }
+  ],
+  "items_purged_floors": [
+    20
+  ],
+  "is_endless": false,
+  "potions_floor_spawned": [
+    2,
+    7,
+    11,
+    12,
+    21,
+    24
+  ],
+  "killed_by": "Snake Plant",
+  "ascension_level": 20
+}

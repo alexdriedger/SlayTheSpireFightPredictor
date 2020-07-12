@@ -1,1 +1,923 @@
-{"gold_per_floor":[110,185,185,203,219,219,59,84,84,118,118,43,43,68,68,146,146,163,163,30,30,30,57,57,81,81,113,113,146,159,191,191,265,265,277,277,12,12,26,60,60,92,141,141,141,141,176,192,192,192,192],"floor_reached":51,"playtime":3710,"items_purged":["Strike_R","Strike_R"],"score":1742,"play_id":"f1b02f21-e597-4b15-a172-ee4138a1b636","local_time":"20190102173750","is_ascension_mode":true,"campfire_choices":[{"data":"Bash","floor":6,"key":"SMITH"},{"data":"Fiend Fire","floor":11,"key":"SMITH"},{"data":"Battle Trance","floor":13,"key":"SMITH"},{"data":"True Grit","floor":15,"key":"SMITH"},{"data":"Immolate","floor":24,"key":"SMITH"},{"floor":28,"key":"REST"},{"data":"True Grit","floor":32,"key":"SMITH"},{"data":"Armaments","floor":41,"key":"SMITH"},{"floor":44,"key":"REST"},{"floor":49,"key":"RECALL"}],"neow_cost":"NONE","seed_source_timestamp":108165321243499,"circlet_count":0,"master_deck":["AscendersBane","Strike_R","Defend_R","Defend_R","Defend_R","Defend_R","Bash+1","Battle Trance+1","Rampage","True Grit+1","Uppercut","Fiend Fire+1","Immolate+1","Burning Pact","Shrug It Off","RitualDagger","True Grit+1","Headbutt","Feed","Flame Barrier","Good Instincts","Armaments+1","Dark Embrace","Body Slam+1","Limit Break","Sword Boomerang"],"relics":["Burning Blood","Lantern","WingedGreaves","Ornamental Fan","Du-Vu Doll","Bag of Marbles","Sozu","Omamori","Strawberry","Red Skull","Blood Vial","Oddly Smooth Stone","Dream Catcher","Runic Pyramid","Vajra","Singing Bowl","Orichalcum","Frozen Egg 2"],"potions_floor_usage":[8,10],"damage_taken":[{"damage":1,"enemies":"Cultist","floor":1,"turns":4},{"damage":4,"enemies":"Small Slimes","floor":4,"turns":4},{"damage":7,"enemies":"Jaw Worm","floor":5,"turns":5},{"damage":25,"enemies":"Lagavulin","floor":8,"turns":7},{"damage":9,"enemies":"3 Sentries","floor":10,"turns":10},{"damage":0,"enemies":"Gremlin Nob","floor":14,"turns":1},{"damage":14,"enemies":"The Guardian","floor":16,"turns":8},{"damage":3,"enemies":"3 Byrds","floor":18,"turns":4},{"damage":1,"enemies":"Gremlin Leader","floor":23,"turns":5},{"damage":36,"enemies":"Book of Stabbing","floor":27,"turns":3},{"damage":0,"enemies":"Gremlin Leader","floor":29,"turns":4},{"damage":0,"enemies":"2 Thieves","floor":30,"turns":3},{"damage":12,"enemies":"Slavers","floor":31,"turns":4},{"damage":27,"enemies":"Champ","floor":33,"turns":10},{"damage":0,"enemies":"Orb Walker","floor":35,"turns":3},{"damage":18,"enemies":"3 Darklings","floor":39,"turns":4},{"damage":30,"enemies":"Nemesis","floor":40,"turns":7},{"damage":33,"enemies":"Giant Head","floor":42,"turns":6},{"damage":40,"enemies":"Nemesis","floor":47,"turns":11},{"damage":0,"enemies":"Spire Growth","floor":48,"turns":3},{"damage":10,"enemies":"Awakened One","floor":50,"turns":14},{"damage":69,"enemies":"Donu and Deca","floor":51,"turns":6}],"seed_played":"6023574992953979088","potions_obtained":[{"floor":1,"key":"Block Potion"},{"floor":3,"key":"PowerPotion"},{"floor":10,"key":"Weak Potion"}],"is_trial":false,"path_per_floor":["M","?","?","M","M","R","$","E","T","E","R","?","R","E","R","B",null,"M","?","$","?","?","E","R","T","T","E","R","E","M","E","R","B",null,"M","?","$","?","M","E","R","E","T","R","$","$","E","M","R","B","B"],"character_chosen":"IRONCLAD","items_purchased":["Lantern","Shrug It Off","Vajra"],"campfire_rested":2,"item_purchase_floors":[7,20,37],"current_hp_per_floor":[80,69,69,71,70,70,70,51,51,48,48,48,48,54,54,46,73,76,52,52,52,46,51,51,58,58,28,56,64,72,68,68,49,83,94,84,84,84,77,58,58,33,33,65,65,65,37,48,48,50,0],"gold":192,"neow_bonus":"TEN_PERCENT_HP_BONUS","is_prod":false,"is_daily":false,"chose_seed":false,"campfire_upgraded":7,"win_rate":0,"timestamp":1546479470,"path_taken":["M","?","?","?","M","R","$","E","T","E","R","?","R","E","R","BOSS","M","?","$","?","?","E","R","?","T","E","R","E","M","E","R","BOSS","M","?","$","?","?","E","R","E","T","R","?","$","E","M","R","BOSS","BOSS"],"build_version":"2019-01-01v2","purchased_purges":2,"victory":false,"max_hp_per_floor":[82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,87,87,87,87,87,87,94,94,94,94,94,94,94,94,94,94,97,97,97,97,100,103,103,103,103,105,105,105,109,112,112,116,116],"card_choices":[{"not_picked":["Heavy Blade","Twin Strike"],"picked":"Battle Trance","floor":1},{"not_picked":["Second Wind","Sever Soul"],"picked":"Rampage","floor":4},{"not_picked":["Blood for Blood","Shockwave"],"picked":"True Grit","floor":5},{"not_picked":["Perfected Strike","Exhume"],"picked":"Uppercut","floor":8},{"not_picked":["Shrug It Off","Dropkick"],"picked":"Fiend Fire","floor":10},{"not_picked":["Clash","Sentinel","Combust"],"picked":"SKIP","floor":14},{"not_picked":["Fiend Fire","Reaper"],"picked":"Immolate","floor":16},{"not_picked":["Seeing Red","Twin Strike"],"picked":"Burning Pact","floor":18},{"not_picked":["Reckless Charge","Anger","Power Through"],"picked":"SKIP","floor":23},{"not_picked":["Havoc+1","Ghostly Armor"],"picked":"True Grit","floor":27},{"not_picked":["Armaments","Clash","Sever Soul"],"picked":"SKIP","floor":29},{"not_picked":["Perfected Strike","Blood for Blood","Wild Strike"],"picked":"SKIP","floor":30},{"not_picked":["Perfected Strike","Armaments"],"picked":"Headbutt","floor":31},{"not_picked":["Berserk","Fiend Fire"],"picked":"Feed","floor":33},{"not_picked":["Havoc+1","Cleave"],"picked":"Flame Barrier","floor":35},{"not_picked":["Deep Breath","Trip"],"picked":"Good Instincts","floor":36},{"not_picked":["Headbutt","Rampage"],"picked":"Armaments","floor":39},{"not_picked":["Uppercut","Twin Strike+1"],"picked":"Dark Embrace","floor":40},{"not_picked":["Clash","Armaments"],"picked":"Body Slam+1","floor":42},{"not_picked":["Body Slam","Sentinel","Perfected Strike"],"picked":"Singing Bowl","floor":44},{"not_picked":["Clothesline","Sword Boomerang"],"picked":"Limit Break","floor":47},{"not_picked":["Armaments","Clothesline+1"],"picked":"Sword Boomerang","floor":48}],"player_experience":4205506,"relics_obtained":[{"floor":8,"key":"WingedGreaves"},{"floor":9,"key":"Ornamental Fan"},{"floor":10,"key":"Du-Vu Doll"},{"floor":14,"key":"Bag of Marbles"},{"floor":23,"key":"Omamori"},{"floor":25,"key":"Strawberry"},{"floor":26,"key":"Red Skull"},{"floor":27,"key":"Blood Vial"},{"floor":29,"key":"Oddly Smooth Stone"},{"floor":31,"key":"Dream Catcher"},{"floor":40,"key":"Singing Bowl"},{"floor":42,"key":"Orichalcum"},{"floor":47,"key":"Frozen Egg 2"}],"event_choices":[{"damage_healed":0,"gold_gain":75,"player_choice":"Gather Gold","damage_taken":11,"max_hp_gain":0,"max_hp_loss":0,"event_name":"World of Goop","floor":2,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Got Potions","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Lab","floor":3,"gold_loss":0},{"cards_removed":["Strike_R"],"damage_healed":0,"gold_gain":0,"player_choice":"Card Removal","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"The Cleric","floor":12,"gold_loss":75},{"damage_healed":0,"gold_gain":0,"player_choice":"Shed Blood","damage_taken":29,"max_hp_gain":5,"max_hp_loss":0,"event_name":"Forgotten Altar","floor":19,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Ignored","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Ghosts","floor":21,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Joined the Cult","damage_taken":6,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Nest","floor":22,"gold_loss":0,"cards_obtained":["RitualDagger"]},{"damage_healed":0,"gold_gain":0,"player_choice":"Memory 3","damage_taken":10,"max_hp_gain":0,"max_hp_loss":0,"event_name":"SensoryStone","floor":36,"gold_loss":0},{"cards_removed":["Strike_R"],"damage_healed":0,"gold_gain":0,"player_choice":"Offered Basic","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Bonfire Elementals","floor":38,"gold_loss":0}],"is_beta":true,"boss_relics":[{"not_picked":["Empty Cage","Calling Bell"],"picked":"Sozu"},{"not_picked":["Mark of Pain","Astrolabe"],"picked":"Runic Pyramid"}],"items_purged_floors":[20,37],"is_endless":false,"potions_floor_spawned":[1,5,10,23,27,30,40,42],"killed_by":"Donu and Deca","ascension_level":20}
+{
+  "gold_per_floor": [
+    110,
+    185,
+    185,
+    203,
+    219,
+    219,
+    59,
+    84,
+    84,
+    118,
+    118,
+    43,
+    43,
+    68,
+    68,
+    146,
+    146,
+    163,
+    163,
+    30,
+    30,
+    30,
+    57,
+    57,
+    81,
+    81,
+    113,
+    113,
+    146,
+    159,
+    191,
+    191,
+    265,
+    265,
+    277,
+    277,
+    12,
+    12,
+    26,
+    60,
+    60,
+    92,
+    141,
+    141,
+    141,
+    141,
+    176,
+    192,
+    192,
+    192,
+    192
+  ],
+  "floor_reached": 51,
+  "playtime": 3710,
+  "items_purged": [
+    "Strike_R",
+    "Strike_R"
+  ],
+  "score": 1742,
+  "play_id": "f1b02f21-e597-4b15-a172-ee4138a1b636",
+  "local_time": "20190102173750",
+  "is_ascension_mode": true,
+  "campfire_choices": [
+    {
+      "data": "Bash",
+      "floor": 6,
+      "key": "SMITH"
+    },
+    {
+      "data": "Fiend Fire",
+      "floor": 11,
+      "key": "SMITH"
+    },
+    {
+      "data": "Battle Trance",
+      "floor": 13,
+      "key": "SMITH"
+    },
+    {
+      "data": "True Grit",
+      "floor": 15,
+      "key": "SMITH"
+    },
+    {
+      "data": "Immolate",
+      "floor": 24,
+      "key": "SMITH"
+    },
+    {
+      "floor": 28,
+      "key": "REST"
+    },
+    {
+      "data": "True Grit",
+      "floor": 32,
+      "key": "SMITH"
+    },
+    {
+      "data": "Armaments",
+      "floor": 41,
+      "key": "SMITH"
+    },
+    {
+      "floor": 44,
+      "key": "REST"
+    },
+    {
+      "floor": 49,
+      "key": "RECALL"
+    }
+  ],
+  "neow_cost": "NONE",
+  "seed_source_timestamp": 108165321243499,
+  "circlet_count": 0,
+  "master_deck": [
+    "AscendersBane",
+    "Strike_R",
+    "Defend_R",
+    "Defend_R",
+    "Defend_R",
+    "Defend_R",
+    "Bash+1",
+    "Battle Trance+1",
+    "Rampage",
+    "True Grit+1",
+    "Uppercut",
+    "Fiend Fire+1",
+    "Immolate+1",
+    "Burning Pact",
+    "Shrug It Off",
+    "RitualDagger",
+    "True Grit+1",
+    "Headbutt",
+    "Feed",
+    "Flame Barrier",
+    "Good Instincts",
+    "Armaments+1",
+    "Dark Embrace",
+    "Body Slam+1",
+    "Limit Break",
+    "Sword Boomerang"
+  ],
+  "relics": [
+    "Burning Blood",
+    "Lantern",
+    "WingedGreaves",
+    "Ornamental Fan",
+    "Du-Vu Doll",
+    "Bag of Marbles",
+    "Sozu",
+    "Omamori",
+    "Strawberry",
+    "Red Skull",
+    "Blood Vial",
+    "Oddly Smooth Stone",
+    "Dream Catcher",
+    "Runic Pyramid",
+    "Vajra",
+    "Singing Bowl",
+    "Orichalcum",
+    "Frozen Egg 2"
+  ],
+  "potions_floor_usage": [
+    8,
+    10
+  ],
+  "damage_taken": [
+    {
+      "damage": 1,
+      "enemies": "Cultist",
+      "floor": 1,
+      "turns": 4
+    },
+    {
+      "damage": 4,
+      "enemies": "Small Slimes",
+      "floor": 4,
+      "turns": 4
+    },
+    {
+      "damage": 7,
+      "enemies": "Jaw Worm",
+      "floor": 5,
+      "turns": 5
+    },
+    {
+      "damage": 25,
+      "enemies": "Lagavulin",
+      "floor": 8,
+      "turns": 7
+    },
+    {
+      "damage": 9,
+      "enemies": "3 Sentries",
+      "floor": 10,
+      "turns": 10
+    },
+    {
+      "damage": 0,
+      "enemies": "Gremlin Nob",
+      "floor": 14,
+      "turns": 1
+    },
+    {
+      "damage": 14,
+      "enemies": "The Guardian",
+      "floor": 16,
+      "turns": 8
+    },
+    {
+      "damage": 3,
+      "enemies": "3 Byrds",
+      "floor": 18,
+      "turns": 4
+    },
+    {
+      "damage": 1,
+      "enemies": "Gremlin Leader",
+      "floor": 23,
+      "turns": 5
+    },
+    {
+      "damage": 36,
+      "enemies": "Book of Stabbing",
+      "floor": 27,
+      "turns": 3
+    },
+    {
+      "damage": 0,
+      "enemies": "Gremlin Leader",
+      "floor": 29,
+      "turns": 4
+    },
+    {
+      "damage": 0,
+      "enemies": "2 Thieves",
+      "floor": 30,
+      "turns": 3
+    },
+    {
+      "damage": 12,
+      "enemies": "Slavers",
+      "floor": 31,
+      "turns": 4
+    },
+    {
+      "damage": 27,
+      "enemies": "Champ",
+      "floor": 33,
+      "turns": 10
+    },
+    {
+      "damage": 0,
+      "enemies": "Orb Walker",
+      "floor": 35,
+      "turns": 3
+    },
+    {
+      "damage": 18,
+      "enemies": "3 Darklings",
+      "floor": 39,
+      "turns": 4
+    },
+    {
+      "damage": 30,
+      "enemies": "Nemesis",
+      "floor": 40,
+      "turns": 7
+    },
+    {
+      "damage": 33,
+      "enemies": "Giant Head",
+      "floor": 42,
+      "turns": 6
+    },
+    {
+      "damage": 40,
+      "enemies": "Nemesis",
+      "floor": 47,
+      "turns": 11
+    },
+    {
+      "damage": 0,
+      "enemies": "Spire Growth",
+      "floor": 48,
+      "turns": 3
+    },
+    {
+      "damage": 10,
+      "enemies": "Awakened One",
+      "floor": 50,
+      "turns": 14
+    },
+    {
+      "damage": 69,
+      "enemies": "Donu and Deca",
+      "floor": 51,
+      "turns": 6
+    }
+  ],
+  "seed_played": "6023574992953979088",
+  "potions_obtained": [
+    {
+      "floor": 1,
+      "key": "Block Potion"
+    },
+    {
+      "floor": 3,
+      "key": "PowerPotion"
+    },
+    {
+      "floor": 10,
+      "key": "Weak Potion"
+    }
+  ],
+  "is_trial": false,
+  "path_per_floor": [
+    "M",
+    "?",
+    "?",
+    "M",
+    "M",
+    "R",
+    "$",
+    "E",
+    "T",
+    "E",
+    "R",
+    "?",
+    "R",
+    "E",
+    "R",
+    "B",
+    null,
+    "M",
+    "?",
+    "$",
+    "?",
+    "?",
+    "E",
+    "R",
+    "T",
+    "T",
+    "E",
+    "R",
+    "E",
+    "M",
+    "E",
+    "R",
+    "B",
+    null,
+    "M",
+    "?",
+    "$",
+    "?",
+    "M",
+    "E",
+    "R",
+    "E",
+    "T",
+    "R",
+    "$",
+    "$",
+    "E",
+    "M",
+    "R",
+    "B",
+    "B"
+  ],
+  "character_chosen": "IRONCLAD",
+  "items_purchased": [
+    "Lantern",
+    "Shrug It Off",
+    "Vajra"
+  ],
+  "campfire_rested": 2,
+  "item_purchase_floors": [
+    7,
+    20,
+    37
+  ],
+  "current_hp_per_floor": [
+    80,
+    69,
+    69,
+    71,
+    70,
+    70,
+    70,
+    51,
+    51,
+    48,
+    48,
+    48,
+    48,
+    54,
+    54,
+    46,
+    73,
+    76,
+    52,
+    52,
+    52,
+    46,
+    51,
+    51,
+    58,
+    58,
+    28,
+    56,
+    64,
+    72,
+    68,
+    68,
+    49,
+    83,
+    94,
+    84,
+    84,
+    84,
+    77,
+    58,
+    58,
+    33,
+    33,
+    65,
+    65,
+    65,
+    37,
+    48,
+    48,
+    50,
+    0
+  ],
+  "gold": 192,
+  "neow_bonus": "TEN_PERCENT_HP_BONUS",
+  "is_prod": false,
+  "is_daily": false,
+  "chose_seed": false,
+  "campfire_upgraded": 7,
+  "win_rate": 0,
+  "timestamp": 1546479470,
+  "path_taken": [
+    "M",
+    "?",
+    "?",
+    "?",
+    "M",
+    "R",
+    "$",
+    "E",
+    "T",
+    "E",
+    "R",
+    "?",
+    "R",
+    "E",
+    "R",
+    "BOSS",
+    "M",
+    "?",
+    "$",
+    "?",
+    "?",
+    "E",
+    "R",
+    "?",
+    "T",
+    "E",
+    "R",
+    "E",
+    "M",
+    "E",
+    "R",
+    "BOSS",
+    "M",
+    "?",
+    "$",
+    "?",
+    "?",
+    "E",
+    "R",
+    "E",
+    "T",
+    "R",
+    "?",
+    "$",
+    "E",
+    "M",
+    "R",
+    "BOSS",
+    "BOSS"
+  ],
+  "build_version": "2019-01-01v2",
+  "purchased_purges": 2,
+  "victory": false,
+  "max_hp_per_floor": [
+    82,
+    82,
+    82,
+    82,
+    82,
+    82,
+    82,
+    82,
+    82,
+    82,
+    82,
+    82,
+    82,
+    82,
+    82,
+    82,
+    82,
+    82,
+    87,
+    87,
+    87,
+    87,
+    87,
+    87,
+    94,
+    94,
+    94,
+    94,
+    94,
+    94,
+    94,
+    94,
+    94,
+    94,
+    97,
+    97,
+    97,
+    97,
+    100,
+    103,
+    103,
+    103,
+    103,
+    105,
+    105,
+    105,
+    109,
+    112,
+    112,
+    116,
+    116
+  ],
+  "card_choices": [
+    {
+      "not_picked": [
+        "Heavy Blade",
+        "Twin Strike"
+      ],
+      "picked": "Battle Trance",
+      "floor": 1
+    },
+    {
+      "not_picked": [
+        "Second Wind",
+        "Sever Soul"
+      ],
+      "picked": "Rampage",
+      "floor": 4
+    },
+    {
+      "not_picked": [
+        "Blood for Blood",
+        "Shockwave"
+      ],
+      "picked": "True Grit",
+      "floor": 5
+    },
+    {
+      "not_picked": [
+        "Perfected Strike",
+        "Exhume"
+      ],
+      "picked": "Uppercut",
+      "floor": 8
+    },
+    {
+      "not_picked": [
+        "Shrug It Off",
+        "Dropkick"
+      ],
+      "picked": "Fiend Fire",
+      "floor": 10
+    },
+    {
+      "not_picked": [
+        "Clash",
+        "Sentinel",
+        "Combust"
+      ],
+      "picked": "SKIP",
+      "floor": 14
+    },
+    {
+      "not_picked": [
+        "Fiend Fire",
+        "Reaper"
+      ],
+      "picked": "Immolate",
+      "floor": 16
+    },
+    {
+      "not_picked": [
+        "Seeing Red",
+        "Twin Strike"
+      ],
+      "picked": "Burning Pact",
+      "floor": 18
+    },
+    {
+      "not_picked": [
+        "Reckless Charge",
+        "Anger",
+        "Power Through"
+      ],
+      "picked": "SKIP",
+      "floor": 23
+    },
+    {
+      "not_picked": [
+        "Havoc+1",
+        "Ghostly Armor"
+      ],
+      "picked": "True Grit",
+      "floor": 27
+    },
+    {
+      "not_picked": [
+        "Armaments",
+        "Clash",
+        "Sever Soul"
+      ],
+      "picked": "SKIP",
+      "floor": 29
+    },
+    {
+      "not_picked": [
+        "Perfected Strike",
+        "Blood for Blood",
+        "Wild Strike"
+      ],
+      "picked": "SKIP",
+      "floor": 30
+    },
+    {
+      "not_picked": [
+        "Perfected Strike",
+        "Armaments"
+      ],
+      "picked": "Headbutt",
+      "floor": 31
+    },
+    {
+      "not_picked": [
+        "Berserk",
+        "Fiend Fire"
+      ],
+      "picked": "Feed",
+      "floor": 33
+    },
+    {
+      "not_picked": [
+        "Havoc+1",
+        "Cleave"
+      ],
+      "picked": "Flame Barrier",
+      "floor": 35
+    },
+    {
+      "not_picked": [
+        "Deep Breath",
+        "Trip"
+      ],
+      "picked": "Good Instincts",
+      "floor": 36
+    },
+    {
+      "not_picked": [
+        "Headbutt",
+        "Rampage"
+      ],
+      "picked": "Armaments",
+      "floor": 39
+    },
+    {
+      "not_picked": [
+        "Uppercut",
+        "Twin Strike+1"
+      ],
+      "picked": "Dark Embrace",
+      "floor": 40
+    },
+    {
+      "not_picked": [
+        "Clash",
+        "Armaments"
+      ],
+      "picked": "Body Slam+1",
+      "floor": 42
+    },
+    {
+      "not_picked": [
+        "Body Slam",
+        "Sentinel",
+        "Perfected Strike"
+      ],
+      "picked": "Singing Bowl",
+      "floor": 44
+    },
+    {
+      "not_picked": [
+        "Clothesline",
+        "Sword Boomerang"
+      ],
+      "picked": "Limit Break",
+      "floor": 47
+    },
+    {
+      "not_picked": [
+        "Armaments",
+        "Clothesline+1"
+      ],
+      "picked": "Sword Boomerang",
+      "floor": 48
+    }
+  ],
+  "player_experience": 4205506,
+  "relics_obtained": [
+    {
+      "floor": 8,
+      "key": "WingedGreaves"
+    },
+    {
+      "floor": 9,
+      "key": "Ornamental Fan"
+    },
+    {
+      "floor": 10,
+      "key": "Du-Vu Doll"
+    },
+    {
+      "floor": 14,
+      "key": "Bag of Marbles"
+    },
+    {
+      "floor": 23,
+      "key": "Omamori"
+    },
+    {
+      "floor": 25,
+      "key": "Strawberry"
+    },
+    {
+      "floor": 26,
+      "key": "Red Skull"
+    },
+    {
+      "floor": 27,
+      "key": "Blood Vial"
+    },
+    {
+      "floor": 29,
+      "key": "Oddly Smooth Stone"
+    },
+    {
+      "floor": 31,
+      "key": "Dream Catcher"
+    },
+    {
+      "floor": 40,
+      "key": "Singing Bowl"
+    },
+    {
+      "floor": 42,
+      "key": "Orichalcum"
+    },
+    {
+      "floor": 47,
+      "key": "Frozen Egg 2"
+    }
+  ],
+  "event_choices": [
+    {
+      "damage_healed": 0,
+      "gold_gain": 75,
+      "player_choice": "Gather Gold",
+      "damage_taken": 11,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "World of Goop",
+      "floor": 2,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Got Potions",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Lab",
+      "floor": 3,
+      "gold_loss": 0
+    },
+    {
+      "cards_removed": [
+        "Strike_R"
+      ],
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Card Removal",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "The Cleric",
+      "floor": 12,
+      "gold_loss": 75
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Shed Blood",
+      "damage_taken": 29,
+      "max_hp_gain": 5,
+      "max_hp_loss": 0,
+      "event_name": "Forgotten Altar",
+      "floor": 19,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Ignored",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Ghosts",
+      "floor": 21,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Joined the Cult",
+      "damage_taken": 6,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Nest",
+      "floor": 22,
+      "gold_loss": 0,
+      "cards_obtained": [
+        "RitualDagger"
+      ]
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Memory 3",
+      "damage_taken": 10,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "SensoryStone",
+      "floor": 36,
+      "gold_loss": 0
+    },
+    {
+      "cards_removed": [
+        "Strike_R"
+      ],
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Offered Basic",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Bonfire Elementals",
+      "floor": 38,
+      "gold_loss": 0
+    }
+  ],
+  "is_beta": true,
+  "boss_relics": [
+    {
+      "not_picked": [
+        "Empty Cage",
+        "Calling Bell"
+      ],
+      "picked": "Sozu"
+    },
+    {
+      "not_picked": [
+        "Mark of Pain",
+        "Astrolabe"
+      ],
+      "picked": "Runic Pyramid"
+    }
+  ],
+  "items_purged_floors": [
+    20,
+    37
+  ],
+  "is_endless": false,
+  "potions_floor_spawned": [
+    1,
+    5,
+    10,
+    23,
+    27,
+    30,
+    40,
+    42
+  ],
+  "killed_by": "Donu and Deca",
+  "ascension_level": 20
+}

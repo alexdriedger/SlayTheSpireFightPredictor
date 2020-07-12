@@ -1,1 +1,664 @@
-{"gold_per_floor":[115,126,106,117,134,134,166,166,166,166,182,202,127,141,141,218,218,234,234,248,248,268,268,268,268,268,281,292,292,304,337,337,337],"floor_reached":33,"playtime":2394,"items_purged":["Strike_G"],"score":542,"play_id":"b66243f9-1332-46a1-8918-72192afa3af4","local_time":"20190112153928","is_ascension_mode":true,"campfire_choices":[{"data":"Deadly Poison","floor":6,"key":"SMITH"},{"data":"Neutralize","floor":10,"key":"SMITH"},{"data":"Crippling Poison","floor":15,"key":"SMITH"},{"data":"Noxious Fumes","floor":23,"key":"SMITH"},{"floor":29,"key":"REST"},{"data":"Burst","floor":32,"key":"SMITH"}],"neow_cost":"PERCENT_DAMAGE","seed_source_timestamp":296767119971754,"circlet_count":0,"master_deck":["AscendersBane","Defend_G+1","Defend_G+1","Defend_G+1","Defend_G+1","Defend_G+1","Strike_G+1","Strike_G+1","Strike_G+1","Strike_G+1","Survivor","Neutralize+1","Deadly Poison+1","Dagger Spray","Die Die Die","Dodge and Roll","PiercingWail","Crippling Poison+1","Backflip","Adrenaline","Noxious Fumes+1","Cloak And Dagger+1","Burst+1","Backstab"],"relics":["Ring of the Snake","Ginger","PreservedInsect","Potion Belt","Runic Pyramid","Enchiridion","Bottled Lightning"],"potions_floor_usage":[5,7,16,27,31,33,33],"damage_taken":[{"damage":0,"enemies":"2 Louse","floor":1,"turns":2},{"damage":1,"enemies":"Cultist","floor":2,"turns":4},{"damage":2,"enemies":"Jaw Worm","floor":4,"turns":4},{"damage":11,"enemies":"Red Slaver","floor":5,"turns":6},{"damage":24,"enemies":"Lagavulin","floor":7,"turns":6},{"damage":11,"enemies":"Large Slime","floor":11,"turns":6},{"damage":1,"enemies":"Exordium Wildlife","floor":12,"turns":3},{"damage":12,"enemies":"Exordium Thugs","floor":14,"turns":6},{"damage":22,"enemies":"Hexaghost","floor":16,"turns":14},{"damage":7,"enemies":"2 Thieves","floor":18,"turns":3},{"damage":0,"enemies":"3 Byrds","floor":20,"turns":4},{"damage":0,"enemies":"Centurion and Healer","floor":22,"turns":7},{"damage":1,"enemies":"3 Cultists","floor":27,"turns":5},{"damage":0,"enemies":"Snake Plant","floor":28,"turns":4},{"damage":5,"enemies":"Cultist and Chosen","floor":30,"turns":5},{"damage":3,"enemies":"Slavers","floor":31,"turns":3},{"damage":21,"enemies":"Champ","floor":33,"turns":14}],"seed_played":"3917687790351231158","potions_obtained":[{"floor":2,"key":"Weak Potion"},{"floor":3,"key":"Swift Potion"},{"floor":5,"key":"PowerPotion"},{"floor":14,"key":"Strength Potion"},{"floor":16,"key":"GhostInAJar"},{"floor":18,"key":"SkillPotion"},{"floor":28,"key":"PowerPotion"}],"is_trial":false,"path_per_floor":["M","M","?","M","M","R","E","?","T","R","M","M","$","M","R","B",null,"M","?","M","?","M","R","?","?","T","M","M","R","M","E","R","B"],"character_chosen":"THE_SILENT","items_purchased":[],"campfire_rested":1,"item_purchase_floors":[],"current_hp_per_floor":[44,43,43,41,30,30,6,66,66,66,55,54,54,42,42,20,55,48,27,27,27,27,27,9,9,9,8,8,29,24,21,21,0],"gold":337,"neow_bonus":"ONE_RARE_RELIC","is_prod":false,"is_daily":false,"chose_seed":false,"campfire_upgraded":5,"win_rate":0,"timestamp":1547336368,"path_taken":["M","M","?","M","?","R","E","?","T","R","M","?","$","M","R","BOSS","M","?","M","?","?","R","?","?","T","M","?","R","M","E","R","BOSS"],"build_version":"2019-01-10","purchased_purges":1,"victory":false,"max_hp_per_floor":[66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,71,71,71,71,71,71,71,71,71,71],"card_choices":[{"not_picked":["Prepared","PiercingWail"],"picked":"Deadly Poison","floor":1},{"not_picked":["Deflect","Bane"],"picked":"Dagger Spray","floor":2},{"not_picked":["Underhanded Strike","Backflip"],"picked":"Infinite Blades","floor":4},{"not_picked":["Backflip","Concentrate"],"picked":"Die Die Die","floor":5},{"not_picked":["Catalyst","Masterful Stab"],"picked":"Dodge and Roll","floor":7},{"not_picked":["Deflect","All Out Attack"],"picked":"PiercingWail","floor":11},{"not_picked":["Sucker Punch","Prepared"],"picked":"Crippling Poison","floor":12},{"not_picked":["Burst","Underhanded Strike"],"picked":"Backflip","floor":14},{"not_picked":["Envenom","Phantasmal Killer"],"picked":"Adrenaline","floor":16},{"not_picked":["Dodge and Roll","PiercingWail"],"picked":"Noxious Fumes","floor":18},{"not_picked":["Caltrops","Bane"],"picked":"Cloak And Dagger+1","floor":20},{"not_picked":["Poisoned Stab","Acrobatics","Slice"],"picked":"SKIP","floor":27},{"not_picked":["Backflip","Sucker Punch"],"picked":"Burst","floor":28},{"not_picked":["Poisoned Stab","All Out Attack"],"picked":"Backstab","floor":30},{"not_picked":["Bane","Dagger Throw","Dodge and Roll"],"picked":"SKIP","floor":31}],"player_experience":4319538,"relics_obtained":[{"floor":7,"key":"PreservedInsect"},{"floor":9,"key":"Potion Belt"},{"floor":19,"key":"Enchiridion"},{"floor":31,"key":"Bottled Lightning"}],"event_choices":[{"damage_healed":0,"gold_gain":0,"player_choice":"Bought 1 Potion","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"The Woman in Blue","floor":3,"gold_loss":0},{"cards_removed":["Infinite Blades"],"damage_healed":60,"gold_gain":0,"player_choice":"Offered Uncommon","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Bonfire Elementals","floor":8,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Obtained Book","damage_taken":21,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Cursed Tome","floor":19,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Simplicity","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Back to Basics","floor":21,"gold_loss":0,"cards_upgraded":["Defend_G","Defend_G","Defend_G","Defend_G","Defend_G","Strike_G","Strike_G","Strike_G","Strike_G"]},{"damage_healed":0,"gold_gain":0,"player_choice":"Shed Blood","damage_taken":23,"max_hp_gain":5,"max_hp_loss":0,"event_name":"Forgotten Altar","floor":24,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Ignored","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"N\u0027loth","floor":25,"gold_loss":0}],"is_beta":true,"boss_relics":[{"not_picked":["Runic Dome","Empty Cage"],"picked":"Runic Pyramid"}],"items_purged_floors":[13],"is_endless":false,"potions_floor_spawned":[2,4,5,14,16,18,28],"killed_by":"Champ","ascension_level":20}
+{
+  "gold_per_floor": [
+    115,
+    126,
+    106,
+    117,
+    134,
+    134,
+    166,
+    166,
+    166,
+    166,
+    182,
+    202,
+    127,
+    141,
+    141,
+    218,
+    218,
+    234,
+    234,
+    248,
+    248,
+    268,
+    268,
+    268,
+    268,
+    268,
+    281,
+    292,
+    292,
+    304,
+    337,
+    337,
+    337
+  ],
+  "floor_reached": 33,
+  "playtime": 2394,
+  "items_purged": [
+    "Strike_G"
+  ],
+  "score": 542,
+  "play_id": "b66243f9-1332-46a1-8918-72192afa3af4",
+  "local_time": "20190112153928",
+  "is_ascension_mode": true,
+  "campfire_choices": [
+    {
+      "data": "Deadly Poison",
+      "floor": 6,
+      "key": "SMITH"
+    },
+    {
+      "data": "Neutralize",
+      "floor": 10,
+      "key": "SMITH"
+    },
+    {
+      "data": "Crippling Poison",
+      "floor": 15,
+      "key": "SMITH"
+    },
+    {
+      "data": "Noxious Fumes",
+      "floor": 23,
+      "key": "SMITH"
+    },
+    {
+      "floor": 29,
+      "key": "REST"
+    },
+    {
+      "data": "Burst",
+      "floor": 32,
+      "key": "SMITH"
+    }
+  ],
+  "neow_cost": "PERCENT_DAMAGE",
+  "seed_source_timestamp": 296767119971754,
+  "circlet_count": 0,
+  "master_deck": [
+    "AscendersBane",
+    "Defend_G+1",
+    "Defend_G+1",
+    "Defend_G+1",
+    "Defend_G+1",
+    "Defend_G+1",
+    "Strike_G+1",
+    "Strike_G+1",
+    "Strike_G+1",
+    "Strike_G+1",
+    "Survivor",
+    "Neutralize+1",
+    "Deadly Poison+1",
+    "Dagger Spray",
+    "Die Die Die",
+    "Dodge and Roll",
+    "PiercingWail",
+    "Crippling Poison+1",
+    "Backflip",
+    "Adrenaline",
+    "Noxious Fumes+1",
+    "Cloak And Dagger+1",
+    "Burst+1",
+    "Backstab"
+  ],
+  "relics": [
+    "Ring of the Snake",
+    "Ginger",
+    "PreservedInsect",
+    "Potion Belt",
+    "Runic Pyramid",
+    "Enchiridion",
+    "Bottled Lightning"
+  ],
+  "potions_floor_usage": [
+    5,
+    7,
+    16,
+    27,
+    31,
+    33,
+    33
+  ],
+  "damage_taken": [
+    {
+      "damage": 0,
+      "enemies": "2 Louse",
+      "floor": 1,
+      "turns": 2
+    },
+    {
+      "damage": 1,
+      "enemies": "Cultist",
+      "floor": 2,
+      "turns": 4
+    },
+    {
+      "damage": 2,
+      "enemies": "Jaw Worm",
+      "floor": 4,
+      "turns": 4
+    },
+    {
+      "damage": 11,
+      "enemies": "Red Slaver",
+      "floor": 5,
+      "turns": 6
+    },
+    {
+      "damage": 24,
+      "enemies": "Lagavulin",
+      "floor": 7,
+      "turns": 6
+    },
+    {
+      "damage": 11,
+      "enemies": "Large Slime",
+      "floor": 11,
+      "turns": 6
+    },
+    {
+      "damage": 1,
+      "enemies": "Exordium Wildlife",
+      "floor": 12,
+      "turns": 3
+    },
+    {
+      "damage": 12,
+      "enemies": "Exordium Thugs",
+      "floor": 14,
+      "turns": 6
+    },
+    {
+      "damage": 22,
+      "enemies": "Hexaghost",
+      "floor": 16,
+      "turns": 14
+    },
+    {
+      "damage": 7,
+      "enemies": "2 Thieves",
+      "floor": 18,
+      "turns": 3
+    },
+    {
+      "damage": 0,
+      "enemies": "3 Byrds",
+      "floor": 20,
+      "turns": 4
+    },
+    {
+      "damage": 0,
+      "enemies": "Centurion and Healer",
+      "floor": 22,
+      "turns": 7
+    },
+    {
+      "damage": 1,
+      "enemies": "3 Cultists",
+      "floor": 27,
+      "turns": 5
+    },
+    {
+      "damage": 0,
+      "enemies": "Snake Plant",
+      "floor": 28,
+      "turns": 4
+    },
+    {
+      "damage": 5,
+      "enemies": "Cultist and Chosen",
+      "floor": 30,
+      "turns": 5
+    },
+    {
+      "damage": 3,
+      "enemies": "Slavers",
+      "floor": 31,
+      "turns": 3
+    },
+    {
+      "damage": 21,
+      "enemies": "Champ",
+      "floor": 33,
+      "turns": 14
+    }
+  ],
+  "seed_played": "3917687790351231158",
+  "potions_obtained": [
+    {
+      "floor": 2,
+      "key": "Weak Potion"
+    },
+    {
+      "floor": 3,
+      "key": "Swift Potion"
+    },
+    {
+      "floor": 5,
+      "key": "PowerPotion"
+    },
+    {
+      "floor": 14,
+      "key": "Strength Potion"
+    },
+    {
+      "floor": 16,
+      "key": "GhostInAJar"
+    },
+    {
+      "floor": 18,
+      "key": "SkillPotion"
+    },
+    {
+      "floor": 28,
+      "key": "PowerPotion"
+    }
+  ],
+  "is_trial": false,
+  "path_per_floor": [
+    "M",
+    "M",
+    "?",
+    "M",
+    "M",
+    "R",
+    "E",
+    "?",
+    "T",
+    "R",
+    "M",
+    "M",
+    "$",
+    "M",
+    "R",
+    "B",
+    null,
+    "M",
+    "?",
+    "M",
+    "?",
+    "M",
+    "R",
+    "?",
+    "?",
+    "T",
+    "M",
+    "M",
+    "R",
+    "M",
+    "E",
+    "R",
+    "B"
+  ],
+  "character_chosen": "THE_SILENT",
+  "items_purchased": [],
+  "campfire_rested": 1,
+  "item_purchase_floors": [],
+  "current_hp_per_floor": [
+    44,
+    43,
+    43,
+    41,
+    30,
+    30,
+    6,
+    66,
+    66,
+    66,
+    55,
+    54,
+    54,
+    42,
+    42,
+    20,
+    55,
+    48,
+    27,
+    27,
+    27,
+    27,
+    27,
+    9,
+    9,
+    9,
+    8,
+    8,
+    29,
+    24,
+    21,
+    21,
+    0
+  ],
+  "gold": 337,
+  "neow_bonus": "ONE_RARE_RELIC",
+  "is_prod": false,
+  "is_daily": false,
+  "chose_seed": false,
+  "campfire_upgraded": 5,
+  "win_rate": 0,
+  "timestamp": 1547336368,
+  "path_taken": [
+    "M",
+    "M",
+    "?",
+    "M",
+    "?",
+    "R",
+    "E",
+    "?",
+    "T",
+    "R",
+    "M",
+    "?",
+    "$",
+    "M",
+    "R",
+    "BOSS",
+    "M",
+    "?",
+    "M",
+    "?",
+    "?",
+    "R",
+    "?",
+    "?",
+    "T",
+    "M",
+    "?",
+    "R",
+    "M",
+    "E",
+    "R",
+    "BOSS"
+  ],
+  "build_version": "2019-01-10",
+  "purchased_purges": 1,
+  "victory": false,
+  "max_hp_per_floor": [
+    66,
+    66,
+    66,
+    66,
+    66,
+    66,
+    66,
+    66,
+    66,
+    66,
+    66,
+    66,
+    66,
+    66,
+    66,
+    66,
+    66,
+    66,
+    66,
+    66,
+    66,
+    66,
+    66,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71
+  ],
+  "card_choices": [
+    {
+      "not_picked": [
+        "Prepared",
+        "PiercingWail"
+      ],
+      "picked": "Deadly Poison",
+      "floor": 1
+    },
+    {
+      "not_picked": [
+        "Deflect",
+        "Bane"
+      ],
+      "picked": "Dagger Spray",
+      "floor": 2
+    },
+    {
+      "not_picked": [
+        "Underhanded Strike",
+        "Backflip"
+      ],
+      "picked": "Infinite Blades",
+      "floor": 4
+    },
+    {
+      "not_picked": [
+        "Backflip",
+        "Concentrate"
+      ],
+      "picked": "Die Die Die",
+      "floor": 5
+    },
+    {
+      "not_picked": [
+        "Catalyst",
+        "Masterful Stab"
+      ],
+      "picked": "Dodge and Roll",
+      "floor": 7
+    },
+    {
+      "not_picked": [
+        "Deflect",
+        "All Out Attack"
+      ],
+      "picked": "PiercingWail",
+      "floor": 11
+    },
+    {
+      "not_picked": [
+        "Sucker Punch",
+        "Prepared"
+      ],
+      "picked": "Crippling Poison",
+      "floor": 12
+    },
+    {
+      "not_picked": [
+        "Burst",
+        "Underhanded Strike"
+      ],
+      "picked": "Backflip",
+      "floor": 14
+    },
+    {
+      "not_picked": [
+        "Envenom",
+        "Phantasmal Killer"
+      ],
+      "picked": "Adrenaline",
+      "floor": 16
+    },
+    {
+      "not_picked": [
+        "Dodge and Roll",
+        "PiercingWail"
+      ],
+      "picked": "Noxious Fumes",
+      "floor": 18
+    },
+    {
+      "not_picked": [
+        "Caltrops",
+        "Bane"
+      ],
+      "picked": "Cloak And Dagger+1",
+      "floor": 20
+    },
+    {
+      "not_picked": [
+        "Poisoned Stab",
+        "Acrobatics",
+        "Slice"
+      ],
+      "picked": "SKIP",
+      "floor": 27
+    },
+    {
+      "not_picked": [
+        "Backflip",
+        "Sucker Punch"
+      ],
+      "picked": "Burst",
+      "floor": 28
+    },
+    {
+      "not_picked": [
+        "Poisoned Stab",
+        "All Out Attack"
+      ],
+      "picked": "Backstab",
+      "floor": 30
+    },
+    {
+      "not_picked": [
+        "Bane",
+        "Dagger Throw",
+        "Dodge and Roll"
+      ],
+      "picked": "SKIP",
+      "floor": 31
+    }
+  ],
+  "player_experience": 4319538,
+  "relics_obtained": [
+    {
+      "floor": 7,
+      "key": "PreservedInsect"
+    },
+    {
+      "floor": 9,
+      "key": "Potion Belt"
+    },
+    {
+      "floor": 19,
+      "key": "Enchiridion"
+    },
+    {
+      "floor": 31,
+      "key": "Bottled Lightning"
+    }
+  ],
+  "event_choices": [
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Bought 1 Potion",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "The Woman in Blue",
+      "floor": 3,
+      "gold_loss": 0
+    },
+    {
+      "cards_removed": [
+        "Infinite Blades"
+      ],
+      "damage_healed": 60,
+      "gold_gain": 0,
+      "player_choice": "Offered Uncommon",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Bonfire Elementals",
+      "floor": 8,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Obtained Book",
+      "damage_taken": 21,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Cursed Tome",
+      "floor": 19,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Simplicity",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Back to Basics",
+      "floor": 21,
+      "gold_loss": 0,
+      "cards_upgraded": [
+        "Defend_G",
+        "Defend_G",
+        "Defend_G",
+        "Defend_G",
+        "Defend_G",
+        "Strike_G",
+        "Strike_G",
+        "Strike_G",
+        "Strike_G"
+      ]
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Shed Blood",
+      "damage_taken": 23,
+      "max_hp_gain": 5,
+      "max_hp_loss": 0,
+      "event_name": "Forgotten Altar",
+      "floor": 24,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Ignored",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "N\u0027loth",
+      "floor": 25,
+      "gold_loss": 0
+    }
+  ],
+  "is_beta": true,
+  "boss_relics": [
+    {
+      "not_picked": [
+        "Runic Dome",
+        "Empty Cage"
+      ],
+      "picked": "Runic Pyramid"
+    }
+  ],
+  "items_purged_floors": [
+    13
+  ],
+  "is_endless": false,
+  "potions_floor_spawned": [
+    2,
+    4,
+    5,
+    14,
+    16,
+    18,
+    28
+  ],
+  "killed_by": "Champ",
+  "ascension_level": 20
+}

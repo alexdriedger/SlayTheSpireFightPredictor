@@ -1,1 +1,339 @@
-{"gold_per_floor":[111,186,186,186,197,197,212,237,237,45,45,71,71,90,90,90],"floor_reached":16,"playtime":1022,"items_purged":[],"score":216,"play_id":"784bd461-8bc9-4fad-a715-a743d089fa77","local_time":"20190111175926","is_ascension_mode":true,"campfire_choices":[{"data":"Strike_B","floor":6,"key":"SMITH"},{"floor":11,"key":"REST"},{"data":"Defragment","floor":15,"key":"SMITH"}],"neow_cost":"NONE","seed_source_timestamp":220137986799307,"circlet_count":0,"master_deck":["AscendersBane","Strike_B","Strike_B","Strike_B","Strike_B+1","Defend_B","Defend_B","Defend_B","Defend_B","Zap+1","Dualcast","Conserve Battery","Rebound","Streamline","Defragment+1","Coolheaded","Heatsinks","Skim"],"relics":["Cracked Core","Vajra","Mummified Hand","DataDisk","Gremlin Horn"],"potions_floor_usage":[16,16],"damage_taken":[{"damage":2,"enemies":"Jaw Worm","floor":1,"turns":3},{"damage":0,"enemies":"2 Louse","floor":5,"turns":3},{"damage":0,"enemies":"Cultist","floor":7,"turns":3},{"damage":32,"enemies":"Gremlin Nob","floor":8,"turns":4},{"damage":13,"enemies":"Lagavulin","floor":12,"turns":6},{"damage":6,"enemies":"Gremlin Gang","floor":14,"turns":4},{"damage":38,"enemies":"Slime Boss","floor":16,"turns":7}],"seed_played":"-8725885393865336928","potions_obtained":[{"floor":8,"key":"SteroidPotion"},{"floor":14,"key":"SpeedPotion"}],"is_trial":false,"path_per_floor":["M","?","?","?","M","R","M","E","T","$","R","E","$","M","R","B"],"character_chosen":"DEFECT","items_purchased":["DataDisk","Coolheaded"],"campfire_rested":1,"item_purchase_floors":[10,10],"current_hp_per_floor":[69,58,58,58,58,58,58,26,26,26,49,36,36,30,30,0],"gold":90,"neow_bonus":"TEN_PERCENT_HP_BONUS","is_prod":false,"is_daily":false,"chose_seed":false,"campfire_upgraded":2,"win_rate":0,"timestamp":1547258366,"path_taken":["M","?","?","?","M","R","M","E","T","$","R","E","$","M","R","BOSS"],"build_version":"2019-01-10","purchased_purges":0,"victory":false,"max_hp_per_floor":[78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78],"card_choices":[{"not_picked":["Beam Cell","Go for the Eyes"],"picked":"Conserve Battery","floor":1},{"not_picked":["Storm","Leap"],"picked":"Rebound","floor":5},{"not_picked":["Reinforced Body","Auto Shields"],"picked":"Streamline","floor":7},{"not_picked":["Fission","Barrage"],"picked":"Defragment","floor":8},{"not_picked":["Streamline","Rebound"],"picked":"Heatsinks","floor":12},{"not_picked":["Recycle","Scrape"],"picked":"Skim","floor":14}],"player_experience":4294979,"relics_obtained":[{"floor":8,"key":"Vajra"},{"floor":9,"key":"Mummified Hand"},{"floor":12,"key":"Gremlin Horn"}],"event_choices":[{"damage_healed":0,"gold_gain":75,"player_choice":"Gather Gold","damage_taken":11,"max_hp_gain":0,"max_hp_loss":0,"event_name":"World of Goop","floor":2,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Ignored","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Liars Game","floor":3,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Upgraded","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Upgrade Shrine","floor":4,"gold_loss":0,"cards_upgraded":["Zap"]}],"is_beta":true,"boss_relics":[],"items_purged_floors":[],"is_endless":false,"potions_floor_spawned":[8,14],"killed_by":"Slime Boss","ascension_level":20}
+{
+  "gold_per_floor": [
+    111,
+    186,
+    186,
+    186,
+    197,
+    197,
+    212,
+    237,
+    237,
+    45,
+    45,
+    71,
+    71,
+    90,
+    90,
+    90
+  ],
+  "floor_reached": 16,
+  "playtime": 1022,
+  "items_purged": [],
+  "score": 216,
+  "play_id": "784bd461-8bc9-4fad-a715-a743d089fa77",
+  "local_time": "20190111175926",
+  "is_ascension_mode": true,
+  "campfire_choices": [
+    {
+      "data": "Strike_B",
+      "floor": 6,
+      "key": "SMITH"
+    },
+    {
+      "floor": 11,
+      "key": "REST"
+    },
+    {
+      "data": "Defragment",
+      "floor": 15,
+      "key": "SMITH"
+    }
+  ],
+  "neow_cost": "NONE",
+  "seed_source_timestamp": 220137986799307,
+  "circlet_count": 0,
+  "master_deck": [
+    "AscendersBane",
+    "Strike_B",
+    "Strike_B",
+    "Strike_B",
+    "Strike_B+1",
+    "Defend_B",
+    "Defend_B",
+    "Defend_B",
+    "Defend_B",
+    "Zap+1",
+    "Dualcast",
+    "Conserve Battery",
+    "Rebound",
+    "Streamline",
+    "Defragment+1",
+    "Coolheaded",
+    "Heatsinks",
+    "Skim"
+  ],
+  "relics": [
+    "Cracked Core",
+    "Vajra",
+    "Mummified Hand",
+    "DataDisk",
+    "Gremlin Horn"
+  ],
+  "potions_floor_usage": [
+    16,
+    16
+  ],
+  "damage_taken": [
+    {
+      "damage": 2,
+      "enemies": "Jaw Worm",
+      "floor": 1,
+      "turns": 3
+    },
+    {
+      "damage": 0,
+      "enemies": "2 Louse",
+      "floor": 5,
+      "turns": 3
+    },
+    {
+      "damage": 0,
+      "enemies": "Cultist",
+      "floor": 7,
+      "turns": 3
+    },
+    {
+      "damage": 32,
+      "enemies": "Gremlin Nob",
+      "floor": 8,
+      "turns": 4
+    },
+    {
+      "damage": 13,
+      "enemies": "Lagavulin",
+      "floor": 12,
+      "turns": 6
+    },
+    {
+      "damage": 6,
+      "enemies": "Gremlin Gang",
+      "floor": 14,
+      "turns": 4
+    },
+    {
+      "damage": 38,
+      "enemies": "Slime Boss",
+      "floor": 16,
+      "turns": 7
+    }
+  ],
+  "seed_played": "-8725885393865336928",
+  "potions_obtained": [
+    {
+      "floor": 8,
+      "key": "SteroidPotion"
+    },
+    {
+      "floor": 14,
+      "key": "SpeedPotion"
+    }
+  ],
+  "is_trial": false,
+  "path_per_floor": [
+    "M",
+    "?",
+    "?",
+    "?",
+    "M",
+    "R",
+    "M",
+    "E",
+    "T",
+    "$",
+    "R",
+    "E",
+    "$",
+    "M",
+    "R",
+    "B"
+  ],
+  "character_chosen": "DEFECT",
+  "items_purchased": [
+    "DataDisk",
+    "Coolheaded"
+  ],
+  "campfire_rested": 1,
+  "item_purchase_floors": [
+    10,
+    10
+  ],
+  "current_hp_per_floor": [
+    69,
+    58,
+    58,
+    58,
+    58,
+    58,
+    58,
+    26,
+    26,
+    26,
+    49,
+    36,
+    36,
+    30,
+    30,
+    0
+  ],
+  "gold": 90,
+  "neow_bonus": "TEN_PERCENT_HP_BONUS",
+  "is_prod": false,
+  "is_daily": false,
+  "chose_seed": false,
+  "campfire_upgraded": 2,
+  "win_rate": 0,
+  "timestamp": 1547258366,
+  "path_taken": [
+    "M",
+    "?",
+    "?",
+    "?",
+    "M",
+    "R",
+    "M",
+    "E",
+    "T",
+    "$",
+    "R",
+    "E",
+    "$",
+    "M",
+    "R",
+    "BOSS"
+  ],
+  "build_version": "2019-01-10",
+  "purchased_purges": 0,
+  "victory": false,
+  "max_hp_per_floor": [
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78
+  ],
+  "card_choices": [
+    {
+      "not_picked": [
+        "Beam Cell",
+        "Go for the Eyes"
+      ],
+      "picked": "Conserve Battery",
+      "floor": 1
+    },
+    {
+      "not_picked": [
+        "Storm",
+        "Leap"
+      ],
+      "picked": "Rebound",
+      "floor": 5
+    },
+    {
+      "not_picked": [
+        "Reinforced Body",
+        "Auto Shields"
+      ],
+      "picked": "Streamline",
+      "floor": 7
+    },
+    {
+      "not_picked": [
+        "Fission",
+        "Barrage"
+      ],
+      "picked": "Defragment",
+      "floor": 8
+    },
+    {
+      "not_picked": [
+        "Streamline",
+        "Rebound"
+      ],
+      "picked": "Heatsinks",
+      "floor": 12
+    },
+    {
+      "not_picked": [
+        "Recycle",
+        "Scrape"
+      ],
+      "picked": "Skim",
+      "floor": 14
+    }
+  ],
+  "player_experience": 4294979,
+  "relics_obtained": [
+    {
+      "floor": 8,
+      "key": "Vajra"
+    },
+    {
+      "floor": 9,
+      "key": "Mummified Hand"
+    },
+    {
+      "floor": 12,
+      "key": "Gremlin Horn"
+    }
+  ],
+  "event_choices": [
+    {
+      "damage_healed": 0,
+      "gold_gain": 75,
+      "player_choice": "Gather Gold",
+      "damage_taken": 11,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "World of Goop",
+      "floor": 2,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Ignored",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Liars Game",
+      "floor": 3,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Upgraded",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Upgrade Shrine",
+      "floor": 4,
+      "gold_loss": 0,
+      "cards_upgraded": [
+        "Zap"
+      ]
+    }
+  ],
+  "is_beta": true,
+  "boss_relics": [],
+  "items_purged_floors": [],
+  "is_endless": false,
+  "potions_floor_spawned": [
+    8,
+    14
+  ],
+  "killed_by": "Slime Boss",
+  "ascension_level": 20
+}

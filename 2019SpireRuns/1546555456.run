@@ -1,1 +1,653 @@
-{"gold_per_floor":[111,36,36,47,67,67,96,56,56,85,103,103,113,143,143,217,217,233,244,263,283,173,173,47,47,74,106,143,155,217,229,241,253],"floor_reached":33,"playtime":3622,"items_purged":["Strike_B","Strike_B"],"score":670,"play_id":"f6dda111-c32c-4400-9405-56fb616a9a74","local_time":"20190103144416","is_ascension_mode":true,"campfire_choices":[{"data":"Zap","floor":6,"key":"SMITH"},{"floor":12,"key":"REST"},{"data":"Capacitor","floor":15,"key":"SMITH"},{"floor":23,"key":"REST"},{"floor":25,"key":"REST"},{"floor":32,"key":"REST"}],"neow_cost":"PERCENT_DAMAGE","seed_source_timestamp":1825548844795,"circlet_count":0,"master_deck":["AscendersBane","Strike_B","Defend_B+1","Defend_B+1","Defend_B","Defend_B","Zap+1","Dualcast","Doom and Gloom","Sweeping Beam","Ball Lightning","Undo+1","Capacitor+1","Glacier","Electrodynamics","Darkness","Conserve Battery+1","Skim","Conserve Battery"],"relics":["Cracked Core","Thread and Needle","War Paint","Darkstone Periapt","Gambling Chip","Pen Nib","Runic Dome","MawBank","The Courier"],"potions_floor_usage":[8,10,16,16,28,28],"damage_taken":[{"damage":0,"enemies":"Jaw Worm","floor":1,"turns":4},{"damage":0,"enemies":"2 Louse","floor":4,"turns":3},{"damage":2,"enemies":"Cultist","floor":5,"turns":3},{"damage":32,"enemies":"Gremlin Nob","floor":7,"turns":4},{"damage":3,"enemies":"Lagavulin","floor":10,"turns":7},{"damage":6,"enemies":"Gremlin Gang","floor":11,"turns":3},{"damage":4,"enemies":"Blue Slaver","floor":13,"turns":3},{"damage":15,"enemies":"3 Sentries","floor":14,"turns":4},{"damage":0,"enemies":"Hexaghost","floor":16,"turns":10},{"damage":3,"enemies":"Spheric Guardian","floor":18,"turns":4},{"damage":3,"enemies":"3 Byrds","floor":19,"turns":4},{"damage":12,"enemies":"Snake Plant","floor":20,"turns":6},{"damage":22,"enemies":"Shelled Parasite and Fungi","floor":21,"turns":8},{"damage":26,"enemies":"Chosen and Byrds","floor":27,"turns":6},{"damage":26,"enemies":"Book of Stabbing","floor":28,"turns":4},{"damage":37,"enemies":"Champ","floor":33,"turns":18}],"seed_played":"-1324368750796881870","potions_obtained":[{"floor":5,"key":"LiquidBronze"},{"floor":8,"key":"Fruit Juice"},{"floor":8,"key":"Explosive Potion"},{"floor":10,"key":"SpeedPotion"},{"floor":14,"key":"EssenceOfSteel"},{"floor":16,"key":"PowerPotion"},{"floor":20,"key":"PowerPotion"},{"floor":28,"key":"FearPotion"}],"is_trial":false,"path_per_floor":["M","$","?","M","M","R","E","?","T","E","M","R","M","E","R","B",null,"M","M","M","M","?","R","$","R","T","M","E","?","?","T","R","B"],"character_chosen":"DEFECT","items_purchased":["Conserve Battery"],"campfire_rested":4,"item_purchase_floors":[24],"current_hp_per_floor":[46,46,46,46,44,44,12,17,17,14,8,30,26,11,11,11,60,57,54,42,20,20,42,42,64,64,38,12,12,12,12,34,0],"gold":253,"neow_bonus":"ONE_RARE_RELIC","is_prod":false,"is_daily":false,"chose_seed":false,"campfire_upgraded":2,"win_rate":0,"timestamp":1546555456,"path_taken":["M","$","?","M","M","R","E","?","T","E","M","R","?","E","R","BOSS","M","?","M","?","?","R","$","R","T","?","E","?","?","?","R","BOSS"],"build_version":"2019-01-02","purchased_purges":2,"victory":false,"max_hp_per_floor":[71,71,71,71,71,71,71,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76],"card_choices":[{"not_picked":["Leap","Rebound"],"picked":"Doom and Gloom","floor":1},{"not_picked":["Redo","Chaos"],"picked":"Sweeping Beam","floor":4},{"not_picked":["Tempest","Sweeping Beam"],"picked":"Ball Lightning","floor":5},{"not_picked":["Redo","Rainbow"],"picked":"Undo","floor":7},{"not_picked":["Stack","Fusion"],"picked":"Capacitor","floor":10},{"not_picked":["Go for the Eyes","Skim","Aggregate"],"picked":"SKIP","floor":11},{"not_picked":["Steam","Thunder Strike","Sweeping Beam"],"picked":"SKIP","floor":13},{"not_picked":["Coolheaded","Double Energy"],"picked":"Glacier","floor":14},{"not_picked":["Machine Learning","Echo Form"],"picked":"Electrodynamics","floor":16},{"not_picked":["Heatsinks","Gash"],"picked":"Darkness","floor":18},{"not_picked":["Rebound","Stack"],"picked":"Conserve Battery+1","floor":19},{"not_picked":["Stack","Steam"],"picked":"Skim","floor":20},{"not_picked":["Reprogram","Gash","Turbo"],"picked":"SKIP","floor":21},{"not_picked":["Rip and Tear","Compile Driver","Leap"],"picked":"SKIP","floor":27},{"not_picked":["Genetic Algorithm","FTL","Darkness"],"picked":"SKIP","floor":28}],"player_experience":4210249,"relics_obtained":[{"floor":7,"key":"War Paint"},{"floor":9,"key":"Darkstone Periapt"},{"floor":10,"key":"Gambling Chip"},{"floor":14,"key":"Pen Nib"},{"floor":26,"key":"MawBank"},{"floor":28,"key":"The Courier"}],"event_choices":[{"damage_healed":0,"gold_gain":0,"player_choice":"Ignored","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Liars Game","floor":3,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Bought 3 Potions","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"The Woman in Blue","floor":8,"gold_loss":0},{"cards_removed":["Strike_B"],"damage_healed":0,"gold_gain":0,"player_choice":"Upgrade and Remove","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Designer","floor":22,"gold_loss":110,"cards_upgraded":["Defend_B"]},{"damage_healed":0,"gold_gain":0,"player_choice":"Ignored","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Cursed Tome","floor":29,"gold_loss":0},{"damage_healed":0,"gold_gain":50,"player_choice":"Stole From Cult","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Nest","floor":30,"gold_loss":0}],"is_beta":true,"boss_relics":[{"not_picked":["FrozenCore","Lizard Tail"],"picked":"Runic Dome"}],"items_purged_floors":[2,24],"is_endless":false,"potions_floor_spawned":[5,10,14,16,20,27,28],"killed_by":"Champ","ascension_level":20}
+{
+  "gold_per_floor": [
+    111,
+    36,
+    36,
+    47,
+    67,
+    67,
+    96,
+    56,
+    56,
+    85,
+    103,
+    103,
+    113,
+    143,
+    143,
+    217,
+    217,
+    233,
+    244,
+    263,
+    283,
+    173,
+    173,
+    47,
+    47,
+    74,
+    106,
+    143,
+    155,
+    217,
+    229,
+    241,
+    253
+  ],
+  "floor_reached": 33,
+  "playtime": 3622,
+  "items_purged": [
+    "Strike_B",
+    "Strike_B"
+  ],
+  "score": 670,
+  "play_id": "f6dda111-c32c-4400-9405-56fb616a9a74",
+  "local_time": "20190103144416",
+  "is_ascension_mode": true,
+  "campfire_choices": [
+    {
+      "data": "Zap",
+      "floor": 6,
+      "key": "SMITH"
+    },
+    {
+      "floor": 12,
+      "key": "REST"
+    },
+    {
+      "data": "Capacitor",
+      "floor": 15,
+      "key": "SMITH"
+    },
+    {
+      "floor": 23,
+      "key": "REST"
+    },
+    {
+      "floor": 25,
+      "key": "REST"
+    },
+    {
+      "floor": 32,
+      "key": "REST"
+    }
+  ],
+  "neow_cost": "PERCENT_DAMAGE",
+  "seed_source_timestamp": 1825548844795,
+  "circlet_count": 0,
+  "master_deck": [
+    "AscendersBane",
+    "Strike_B",
+    "Defend_B+1",
+    "Defend_B+1",
+    "Defend_B",
+    "Defend_B",
+    "Zap+1",
+    "Dualcast",
+    "Doom and Gloom",
+    "Sweeping Beam",
+    "Ball Lightning",
+    "Undo+1",
+    "Capacitor+1",
+    "Glacier",
+    "Electrodynamics",
+    "Darkness",
+    "Conserve Battery+1",
+    "Skim",
+    "Conserve Battery"
+  ],
+  "relics": [
+    "Cracked Core",
+    "Thread and Needle",
+    "War Paint",
+    "Darkstone Periapt",
+    "Gambling Chip",
+    "Pen Nib",
+    "Runic Dome",
+    "MawBank",
+    "The Courier"
+  ],
+  "potions_floor_usage": [
+    8,
+    10,
+    16,
+    16,
+    28,
+    28
+  ],
+  "damage_taken": [
+    {
+      "damage": 0,
+      "enemies": "Jaw Worm",
+      "floor": 1,
+      "turns": 4
+    },
+    {
+      "damage": 0,
+      "enemies": "2 Louse",
+      "floor": 4,
+      "turns": 3
+    },
+    {
+      "damage": 2,
+      "enemies": "Cultist",
+      "floor": 5,
+      "turns": 3
+    },
+    {
+      "damage": 32,
+      "enemies": "Gremlin Nob",
+      "floor": 7,
+      "turns": 4
+    },
+    {
+      "damage": 3,
+      "enemies": "Lagavulin",
+      "floor": 10,
+      "turns": 7
+    },
+    {
+      "damage": 6,
+      "enemies": "Gremlin Gang",
+      "floor": 11,
+      "turns": 3
+    },
+    {
+      "damage": 4,
+      "enemies": "Blue Slaver",
+      "floor": 13,
+      "turns": 3
+    },
+    {
+      "damage": 15,
+      "enemies": "3 Sentries",
+      "floor": 14,
+      "turns": 4
+    },
+    {
+      "damage": 0,
+      "enemies": "Hexaghost",
+      "floor": 16,
+      "turns": 10
+    },
+    {
+      "damage": 3,
+      "enemies": "Spheric Guardian",
+      "floor": 18,
+      "turns": 4
+    },
+    {
+      "damage": 3,
+      "enemies": "3 Byrds",
+      "floor": 19,
+      "turns": 4
+    },
+    {
+      "damage": 12,
+      "enemies": "Snake Plant",
+      "floor": 20,
+      "turns": 6
+    },
+    {
+      "damage": 22,
+      "enemies": "Shelled Parasite and Fungi",
+      "floor": 21,
+      "turns": 8
+    },
+    {
+      "damage": 26,
+      "enemies": "Chosen and Byrds",
+      "floor": 27,
+      "turns": 6
+    },
+    {
+      "damage": 26,
+      "enemies": "Book of Stabbing",
+      "floor": 28,
+      "turns": 4
+    },
+    {
+      "damage": 37,
+      "enemies": "Champ",
+      "floor": 33,
+      "turns": 18
+    }
+  ],
+  "seed_played": "-1324368750796881870",
+  "potions_obtained": [
+    {
+      "floor": 5,
+      "key": "LiquidBronze"
+    },
+    {
+      "floor": 8,
+      "key": "Fruit Juice"
+    },
+    {
+      "floor": 8,
+      "key": "Explosive Potion"
+    },
+    {
+      "floor": 10,
+      "key": "SpeedPotion"
+    },
+    {
+      "floor": 14,
+      "key": "EssenceOfSteel"
+    },
+    {
+      "floor": 16,
+      "key": "PowerPotion"
+    },
+    {
+      "floor": 20,
+      "key": "PowerPotion"
+    },
+    {
+      "floor": 28,
+      "key": "FearPotion"
+    }
+  ],
+  "is_trial": false,
+  "path_per_floor": [
+    "M",
+    "$",
+    "?",
+    "M",
+    "M",
+    "R",
+    "E",
+    "?",
+    "T",
+    "E",
+    "M",
+    "R",
+    "M",
+    "E",
+    "R",
+    "B",
+    null,
+    "M",
+    "M",
+    "M",
+    "M",
+    "?",
+    "R",
+    "$",
+    "R",
+    "T",
+    "M",
+    "E",
+    "?",
+    "?",
+    "T",
+    "R",
+    "B"
+  ],
+  "character_chosen": "DEFECT",
+  "items_purchased": [
+    "Conserve Battery"
+  ],
+  "campfire_rested": 4,
+  "item_purchase_floors": [
+    24
+  ],
+  "current_hp_per_floor": [
+    46,
+    46,
+    46,
+    46,
+    44,
+    44,
+    12,
+    17,
+    17,
+    14,
+    8,
+    30,
+    26,
+    11,
+    11,
+    11,
+    60,
+    57,
+    54,
+    42,
+    20,
+    20,
+    42,
+    42,
+    64,
+    64,
+    38,
+    12,
+    12,
+    12,
+    12,
+    34,
+    0
+  ],
+  "gold": 253,
+  "neow_bonus": "ONE_RARE_RELIC",
+  "is_prod": false,
+  "is_daily": false,
+  "chose_seed": false,
+  "campfire_upgraded": 2,
+  "win_rate": 0,
+  "timestamp": 1546555456,
+  "path_taken": [
+    "M",
+    "$",
+    "?",
+    "M",
+    "M",
+    "R",
+    "E",
+    "?",
+    "T",
+    "E",
+    "M",
+    "R",
+    "?",
+    "E",
+    "R",
+    "BOSS",
+    "M",
+    "?",
+    "M",
+    "?",
+    "?",
+    "R",
+    "$",
+    "R",
+    "T",
+    "?",
+    "E",
+    "?",
+    "?",
+    "?",
+    "R",
+    "BOSS"
+  ],
+  "build_version": "2019-01-02",
+  "purchased_purges": 2,
+  "victory": false,
+  "max_hp_per_floor": [
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    76,
+    76,
+    76,
+    76,
+    76,
+    76,
+    76,
+    76,
+    76,
+    76,
+    76,
+    76,
+    76,
+    76,
+    76,
+    76,
+    76,
+    76,
+    76,
+    76,
+    76,
+    76,
+    76,
+    76,
+    76,
+    76
+  ],
+  "card_choices": [
+    {
+      "not_picked": [
+        "Leap",
+        "Rebound"
+      ],
+      "picked": "Doom and Gloom",
+      "floor": 1
+    },
+    {
+      "not_picked": [
+        "Redo",
+        "Chaos"
+      ],
+      "picked": "Sweeping Beam",
+      "floor": 4
+    },
+    {
+      "not_picked": [
+        "Tempest",
+        "Sweeping Beam"
+      ],
+      "picked": "Ball Lightning",
+      "floor": 5
+    },
+    {
+      "not_picked": [
+        "Redo",
+        "Rainbow"
+      ],
+      "picked": "Undo",
+      "floor": 7
+    },
+    {
+      "not_picked": [
+        "Stack",
+        "Fusion"
+      ],
+      "picked": "Capacitor",
+      "floor": 10
+    },
+    {
+      "not_picked": [
+        "Go for the Eyes",
+        "Skim",
+        "Aggregate"
+      ],
+      "picked": "SKIP",
+      "floor": 11
+    },
+    {
+      "not_picked": [
+        "Steam",
+        "Thunder Strike",
+        "Sweeping Beam"
+      ],
+      "picked": "SKIP",
+      "floor": 13
+    },
+    {
+      "not_picked": [
+        "Coolheaded",
+        "Double Energy"
+      ],
+      "picked": "Glacier",
+      "floor": 14
+    },
+    {
+      "not_picked": [
+        "Machine Learning",
+        "Echo Form"
+      ],
+      "picked": "Electrodynamics",
+      "floor": 16
+    },
+    {
+      "not_picked": [
+        "Heatsinks",
+        "Gash"
+      ],
+      "picked": "Darkness",
+      "floor": 18
+    },
+    {
+      "not_picked": [
+        "Rebound",
+        "Stack"
+      ],
+      "picked": "Conserve Battery+1",
+      "floor": 19
+    },
+    {
+      "not_picked": [
+        "Stack",
+        "Steam"
+      ],
+      "picked": "Skim",
+      "floor": 20
+    },
+    {
+      "not_picked": [
+        "Reprogram",
+        "Gash",
+        "Turbo"
+      ],
+      "picked": "SKIP",
+      "floor": 21
+    },
+    {
+      "not_picked": [
+        "Rip and Tear",
+        "Compile Driver",
+        "Leap"
+      ],
+      "picked": "SKIP",
+      "floor": 27
+    },
+    {
+      "not_picked": [
+        "Genetic Algorithm",
+        "FTL",
+        "Darkness"
+      ],
+      "picked": "SKIP",
+      "floor": 28
+    }
+  ],
+  "player_experience": 4210249,
+  "relics_obtained": [
+    {
+      "floor": 7,
+      "key": "War Paint"
+    },
+    {
+      "floor": 9,
+      "key": "Darkstone Periapt"
+    },
+    {
+      "floor": 10,
+      "key": "Gambling Chip"
+    },
+    {
+      "floor": 14,
+      "key": "Pen Nib"
+    },
+    {
+      "floor": 26,
+      "key": "MawBank"
+    },
+    {
+      "floor": 28,
+      "key": "The Courier"
+    }
+  ],
+  "event_choices": [
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Ignored",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Liars Game",
+      "floor": 3,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Bought 3 Potions",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "The Woman in Blue",
+      "floor": 8,
+      "gold_loss": 0
+    },
+    {
+      "cards_removed": [
+        "Strike_B"
+      ],
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Upgrade and Remove",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Designer",
+      "floor": 22,
+      "gold_loss": 110,
+      "cards_upgraded": [
+        "Defend_B"
+      ]
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Ignored",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Cursed Tome",
+      "floor": 29,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 50,
+      "player_choice": "Stole From Cult",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Nest",
+      "floor": 30,
+      "gold_loss": 0
+    }
+  ],
+  "is_beta": true,
+  "boss_relics": [
+    {
+      "not_picked": [
+        "FrozenCore",
+        "Lizard Tail"
+      ],
+      "picked": "Runic Dome"
+    }
+  ],
+  "items_purged_floors": [
+    2,
+    24
+  ],
+  "is_endless": false,
+  "potions_floor_spawned": [
+    5,
+    10,
+    14,
+    16,
+    20,
+    27,
+    28
+  ],
+  "killed_by": "Champ",
+  "ascension_level": 20
+}

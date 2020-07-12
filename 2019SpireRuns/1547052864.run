@@ -1,1 +1,618 @@
-{"gold_per_floor":[117,18,35,50,50,50,72,103,153,78,78,112,112,126,126,200,200,213,229,9,9,9,9,19,19,19,30,45,64,64],"floor_reached":30,"playtime":1864,"items_purged":["Strike_R"],"score":580,"play_id":"52b65521-df5b-4f86-b628-b466e7ae5b59","local_time":"20190109085424","is_ascension_mode":true,"campfire_choices":[{"data":"True Grit","floor":6.0,"key":"SMITH"},{"floor":11,"key":"REST"},{"data":"Hemokinesis","floor":13,"key":"SMITH"},{"data":"Carnage","floor":15,"key":"SMITH"},{"data":"Apotheosis","floor":23,"key":"SMITH"},{"floor":25,"key":"REST"}],"neow_cost":"NONE","seed_source_timestamp":13766142921261,"circlet_count":0,"master_deck":["AscendersBane","Strike_R+1","Strike_R+1","Defend_R","Defend_R","Defend_R","Bash+1","Armaments","Feel No Pain","Clothesline+1","True Grit+1","Feel No Pain","Havoc","Hemokinesis+1","True Grit","Feel No Pain","Carnage+1","Brutality","Thunderclap","Spot Weakness","Apotheosis+1","Anger","Sword Boomerang","Body Slam","Battle Trance","Pommel Strike"],"special_seed":0,"relics":["Burning Blood","Odd Mushroom","Dream Catcher","Whetstone","Omamori","Empty Cage","Bottled Lightning"],"potions_floor_usage":[12,16,24,28,29],"damage_taken":[{"damage":7.0,"enemies":"Cultist","floor":1.0,"turns":4.0},{"damage":5.0,"enemies":"Jaw Worm","floor":3.0,"turns":4.0},{"damage":14.0,"enemies":"2 Louse","floor":4.0,"turns":5.0},{"damage":41.0,"enemies":"The Mushroom Lair","floor":7.0,"turns":9.0},{"damage":6.0,"enemies":"3 Sentries","floor":8.0,"turns":17.0},{"damage":21,"enemies":"Gremlin Nob","floor":12,"turns":4},{"damage":4,"enemies":"Blue Slaver","floor":14,"turns":5},{"damage":4,"enemies":"Slime Boss","floor":16,"turns":8},{"damage":13,"enemies":"Spheric Guardian","floor":18,"turns":10},{"damage":29,"enemies":"2 Thieves","floor":19,"turns":5},{"damage":25,"enemies":"Snecko","floor":24,"turns":9},{"damage":31,"enemies":"Centurion and Healer","floor":27,"turns":8},{"damage":9,"enemies":"Shelled Parasite and Fungi","floor":28,"turns":5},{"damage":24,"enemies":"Chosen and Byrds","floor":29,"turns":11},{"damage":13,"enemies":"Colosseum Slavers","floor":30,"turns":1}],"seed_played":"-7655734219502733299","potions_obtained":[{"floor":7.0,"key":"Poison Potion"},{"floor":12,"key":"EssenceOfSteel"},{"floor":14,"key":"SteroidPotion"},{"floor":19,"key":"Block Potion"},{"floor":28,"key":"Regen Potion"}],"is_trial":false,"path_per_floor":["M","$","M","M","?","R","?","E","T","$","R","E","R","M","R","B",null,"M","M","$","?","$","R","M","R","T","M","M","M","?"],"character_chosen":"IRONCLAD","items_purchased":["Feel No Pain","Clothesline","Apotheosis","Anger"],"campfire_rested":2,"item_purchase_floors":[2,2,20,20],"current_hp_per_floor":[67,67,68,60,60,60,25,25,25,25,47,32,32,34,34,36,65,58,35,35,35,35,35,16,38,38,13,10,7,0],"gold":64,"neow_bonus":"UPGRADE_CARD","is_prod":false,"is_daily":false,"chose_seed":false,"campfire_upgraded":4,"win_rate":0,"timestamp":1547052864,"path_taken":["M","$","M","?","?","R","?","E","T","$","R","E","R","M","R","BOSS","M","M","$","?","$","R","M","R","T","M","M","?","?"],"build_version":"2019-01-08","purchased_purges":1,"victory":false,"max_hp_per_floor":[75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75],"card_choices":[{"not_picked":["Cleave","Havoc"],"picked":"Armaments","floor":1.0},{"not_picked":["Second Wind","Wild Strike"],"picked":"True Grit","floor":3.0},{"not_picked":["Sentinel","Iron Wave"],"picked":"Feel No Pain","floor":4.0},{"not_picked":["Flex","Twin Strike"],"picked":"Havoc","floor":7.0},{"not_picked":["Power Through","Double Tap"],"picked":"Hemokinesis","floor":8.0},{"not_picked":["Sentinel","Warcry"],"picked":"True Grit","floor":11},{"not_picked":["Seeing Red","Thunderclap"],"picked":"Feel No Pain","floor":12},{"not_picked":["Cleave","Twin Strike"],"picked":"Carnage","floor":14},{"not_picked":["Barricade","Berserk"],"picked":"Brutality","floor":16},{"not_picked":["Headbutt","Armaments"],"picked":"Thunderclap","floor":18},{"not_picked":["Clash","Havoc"],"picked":"Spot Weakness","floor":19},{"not_picked":["Armaments","Pommel Strike"],"picked":"Sword Boomerang","floor":24},{"not_picked":["Headbutt","Havoc"],"picked":"Body Slam","floor":25},{"not_picked":["Wild Strike+1","Heavy Blade"],"picked":"Battle Trance","floor":27},{"not_picked":["Blood for Blood","Perfected Strike"],"picked":"Pommel Strike","floor":28},{"not_picked":["Anger","Cleave","Pommel Strike"],"picked":"SKIP","floor":29}],"player_experience":4267088,"relics_obtained":[{"floor":7.0,"key":"Odd Mushroom"},{"floor":8.0,"key":"Dream Catcher"},{"floor":9.0,"key":"Whetstone"},{"floor":12,"key":"Omamori"},{"floor":26,"key":"Bottled Lightning"}],"event_choices":[{"damage_healed":0.0,"max_hp_gain":0.0,"max_hp_loss":0.0,"gold_gain":0.0,"event_name":"Living Wall","player_choice":"Grow","floor":5.0,"gold_loss":0.0,"damage_taken":0.0,"cards_upgraded":["Clothesline"]},{"damage_healed":0.0,"max_hp_gain":0.0,"max_hp_loss":0.0,"gold_gain":0.0,"event_name":"Mushrooms","player_choice":"Fought Mushrooms","floor":7.0,"gold_loss":0.0,"damage_taken":0.0},{"cards_removed":["Defend_R"],"damage_healed":0,"gold_gain":0,"player_choice":"Card Removal","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Wheel of Change","floor":21,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Fight","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Colosseum","floor":30,"gold_loss":0}],"is_beta":true,"boss_relics":[{"not_picked":["White Beast Statue","Busted Crown"],"picked":"Empty Cage"}],"items_purged_floors":[10],"is_endless":false,"potions_floor_spawned":[7,12,14,19,28],"killed_by":"Colosseum Slavers","ascension_level":20}
+{
+  "gold_per_floor": [
+    117,
+    18,
+    35,
+    50,
+    50,
+    50,
+    72,
+    103,
+    153,
+    78,
+    78,
+    112,
+    112,
+    126,
+    126,
+    200,
+    200,
+    213,
+    229,
+    9,
+    9,
+    9,
+    9,
+    19,
+    19,
+    19,
+    30,
+    45,
+    64,
+    64
+  ],
+  "floor_reached": 30,
+  "playtime": 1864,
+  "items_purged": [
+    "Strike_R"
+  ],
+  "score": 580,
+  "play_id": "52b65521-df5b-4f86-b628-b466e7ae5b59",
+  "local_time": "20190109085424",
+  "is_ascension_mode": true,
+  "campfire_choices": [
+    {
+      "data": "True Grit",
+      "floor": 6.0,
+      "key": "SMITH"
+    },
+    {
+      "floor": 11,
+      "key": "REST"
+    },
+    {
+      "data": "Hemokinesis",
+      "floor": 13,
+      "key": "SMITH"
+    },
+    {
+      "data": "Carnage",
+      "floor": 15,
+      "key": "SMITH"
+    },
+    {
+      "data": "Apotheosis",
+      "floor": 23,
+      "key": "SMITH"
+    },
+    {
+      "floor": 25,
+      "key": "REST"
+    }
+  ],
+  "neow_cost": "NONE",
+  "seed_source_timestamp": 13766142921261,
+  "circlet_count": 0,
+  "master_deck": [
+    "AscendersBane",
+    "Strike_R+1",
+    "Strike_R+1",
+    "Defend_R",
+    "Defend_R",
+    "Defend_R",
+    "Bash+1",
+    "Armaments",
+    "Feel No Pain",
+    "Clothesline+1",
+    "True Grit+1",
+    "Feel No Pain",
+    "Havoc",
+    "Hemokinesis+1",
+    "True Grit",
+    "Feel No Pain",
+    "Carnage+1",
+    "Brutality",
+    "Thunderclap",
+    "Spot Weakness",
+    "Apotheosis+1",
+    "Anger",
+    "Sword Boomerang",
+    "Body Slam",
+    "Battle Trance",
+    "Pommel Strike"
+  ],
+  "special_seed": 0,
+  "relics": [
+    "Burning Blood",
+    "Odd Mushroom",
+    "Dream Catcher",
+    "Whetstone",
+    "Omamori",
+    "Empty Cage",
+    "Bottled Lightning"
+  ],
+  "potions_floor_usage": [
+    12,
+    16,
+    24,
+    28,
+    29
+  ],
+  "damage_taken": [
+    {
+      "damage": 7.0,
+      "enemies": "Cultist",
+      "floor": 1.0,
+      "turns": 4.0
+    },
+    {
+      "damage": 5.0,
+      "enemies": "Jaw Worm",
+      "floor": 3.0,
+      "turns": 4.0
+    },
+    {
+      "damage": 14.0,
+      "enemies": "2 Louse",
+      "floor": 4.0,
+      "turns": 5.0
+    },
+    {
+      "damage": 41.0,
+      "enemies": "The Mushroom Lair",
+      "floor": 7.0,
+      "turns": 9.0
+    },
+    {
+      "damage": 6.0,
+      "enemies": "3 Sentries",
+      "floor": 8.0,
+      "turns": 17.0
+    },
+    {
+      "damage": 21,
+      "enemies": "Gremlin Nob",
+      "floor": 12,
+      "turns": 4
+    },
+    {
+      "damage": 4,
+      "enemies": "Blue Slaver",
+      "floor": 14,
+      "turns": 5
+    },
+    {
+      "damage": 4,
+      "enemies": "Slime Boss",
+      "floor": 16,
+      "turns": 8
+    },
+    {
+      "damage": 13,
+      "enemies": "Spheric Guardian",
+      "floor": 18,
+      "turns": 10
+    },
+    {
+      "damage": 29,
+      "enemies": "2 Thieves",
+      "floor": 19,
+      "turns": 5
+    },
+    {
+      "damage": 25,
+      "enemies": "Snecko",
+      "floor": 24,
+      "turns": 9
+    },
+    {
+      "damage": 31,
+      "enemies": "Centurion and Healer",
+      "floor": 27,
+      "turns": 8
+    },
+    {
+      "damage": 9,
+      "enemies": "Shelled Parasite and Fungi",
+      "floor": 28,
+      "turns": 5
+    },
+    {
+      "damage": 24,
+      "enemies": "Chosen and Byrds",
+      "floor": 29,
+      "turns": 11
+    },
+    {
+      "damage": 13,
+      "enemies": "Colosseum Slavers",
+      "floor": 30,
+      "turns": 1
+    }
+  ],
+  "seed_played": "-7655734219502733299",
+  "potions_obtained": [
+    {
+      "floor": 7.0,
+      "key": "Poison Potion"
+    },
+    {
+      "floor": 12,
+      "key": "EssenceOfSteel"
+    },
+    {
+      "floor": 14,
+      "key": "SteroidPotion"
+    },
+    {
+      "floor": 19,
+      "key": "Block Potion"
+    },
+    {
+      "floor": 28,
+      "key": "Regen Potion"
+    }
+  ],
+  "is_trial": false,
+  "path_per_floor": [
+    "M",
+    "$",
+    "M",
+    "M",
+    "?",
+    "R",
+    "?",
+    "E",
+    "T",
+    "$",
+    "R",
+    "E",
+    "R",
+    "M",
+    "R",
+    "B",
+    null,
+    "M",
+    "M",
+    "$",
+    "?",
+    "$",
+    "R",
+    "M",
+    "R",
+    "T",
+    "M",
+    "M",
+    "M",
+    "?"
+  ],
+  "character_chosen": "IRONCLAD",
+  "items_purchased": [
+    "Feel No Pain",
+    "Clothesline",
+    "Apotheosis",
+    "Anger"
+  ],
+  "campfire_rested": 2,
+  "item_purchase_floors": [
+    2,
+    2,
+    20,
+    20
+  ],
+  "current_hp_per_floor": [
+    67,
+    67,
+    68,
+    60,
+    60,
+    60,
+    25,
+    25,
+    25,
+    25,
+    47,
+    32,
+    32,
+    34,
+    34,
+    36,
+    65,
+    58,
+    35,
+    35,
+    35,
+    35,
+    35,
+    16,
+    38,
+    38,
+    13,
+    10,
+    7,
+    0
+  ],
+  "gold": 64,
+  "neow_bonus": "UPGRADE_CARD",
+  "is_prod": false,
+  "is_daily": false,
+  "chose_seed": false,
+  "campfire_upgraded": 4,
+  "win_rate": 0,
+  "timestamp": 1547052864,
+  "path_taken": [
+    "M",
+    "$",
+    "M",
+    "?",
+    "?",
+    "R",
+    "?",
+    "E",
+    "T",
+    "$",
+    "R",
+    "E",
+    "R",
+    "M",
+    "R",
+    "BOSS",
+    "M",
+    "M",
+    "$",
+    "?",
+    "$",
+    "R",
+    "M",
+    "R",
+    "T",
+    "M",
+    "M",
+    "?",
+    "?"
+  ],
+  "build_version": "2019-01-08",
+  "purchased_purges": 1,
+  "victory": false,
+  "max_hp_per_floor": [
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75
+  ],
+  "card_choices": [
+    {
+      "not_picked": [
+        "Cleave",
+        "Havoc"
+      ],
+      "picked": "Armaments",
+      "floor": 1.0
+    },
+    {
+      "not_picked": [
+        "Second Wind",
+        "Wild Strike"
+      ],
+      "picked": "True Grit",
+      "floor": 3.0
+    },
+    {
+      "not_picked": [
+        "Sentinel",
+        "Iron Wave"
+      ],
+      "picked": "Feel No Pain",
+      "floor": 4.0
+    },
+    {
+      "not_picked": [
+        "Flex",
+        "Twin Strike"
+      ],
+      "picked": "Havoc",
+      "floor": 7.0
+    },
+    {
+      "not_picked": [
+        "Power Through",
+        "Double Tap"
+      ],
+      "picked": "Hemokinesis",
+      "floor": 8.0
+    },
+    {
+      "not_picked": [
+        "Sentinel",
+        "Warcry"
+      ],
+      "picked": "True Grit",
+      "floor": 11
+    },
+    {
+      "not_picked": [
+        "Seeing Red",
+        "Thunderclap"
+      ],
+      "picked": "Feel No Pain",
+      "floor": 12
+    },
+    {
+      "not_picked": [
+        "Cleave",
+        "Twin Strike"
+      ],
+      "picked": "Carnage",
+      "floor": 14
+    },
+    {
+      "not_picked": [
+        "Barricade",
+        "Berserk"
+      ],
+      "picked": "Brutality",
+      "floor": 16
+    },
+    {
+      "not_picked": [
+        "Headbutt",
+        "Armaments"
+      ],
+      "picked": "Thunderclap",
+      "floor": 18
+    },
+    {
+      "not_picked": [
+        "Clash",
+        "Havoc"
+      ],
+      "picked": "Spot Weakness",
+      "floor": 19
+    },
+    {
+      "not_picked": [
+        "Armaments",
+        "Pommel Strike"
+      ],
+      "picked": "Sword Boomerang",
+      "floor": 24
+    },
+    {
+      "not_picked": [
+        "Headbutt",
+        "Havoc"
+      ],
+      "picked": "Body Slam",
+      "floor": 25
+    },
+    {
+      "not_picked": [
+        "Wild Strike+1",
+        "Heavy Blade"
+      ],
+      "picked": "Battle Trance",
+      "floor": 27
+    },
+    {
+      "not_picked": [
+        "Blood for Blood",
+        "Perfected Strike"
+      ],
+      "picked": "Pommel Strike",
+      "floor": 28
+    },
+    {
+      "not_picked": [
+        "Anger",
+        "Cleave",
+        "Pommel Strike"
+      ],
+      "picked": "SKIP",
+      "floor": 29
+    }
+  ],
+  "player_experience": 4267088,
+  "relics_obtained": [
+    {
+      "floor": 7.0,
+      "key": "Odd Mushroom"
+    },
+    {
+      "floor": 8.0,
+      "key": "Dream Catcher"
+    },
+    {
+      "floor": 9.0,
+      "key": "Whetstone"
+    },
+    {
+      "floor": 12,
+      "key": "Omamori"
+    },
+    {
+      "floor": 26,
+      "key": "Bottled Lightning"
+    }
+  ],
+  "event_choices": [
+    {
+      "damage_healed": 0.0,
+      "max_hp_gain": 0.0,
+      "max_hp_loss": 0.0,
+      "gold_gain": 0.0,
+      "event_name": "Living Wall",
+      "player_choice": "Grow",
+      "floor": 5.0,
+      "gold_loss": 0.0,
+      "damage_taken": 0.0,
+      "cards_upgraded": [
+        "Clothesline"
+      ]
+    },
+    {
+      "damage_healed": 0.0,
+      "max_hp_gain": 0.0,
+      "max_hp_loss": 0.0,
+      "gold_gain": 0.0,
+      "event_name": "Mushrooms",
+      "player_choice": "Fought Mushrooms",
+      "floor": 7.0,
+      "gold_loss": 0.0,
+      "damage_taken": 0.0
+    },
+    {
+      "cards_removed": [
+        "Defend_R"
+      ],
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Card Removal",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Wheel of Change",
+      "floor": 21,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Fight",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Colosseum",
+      "floor": 30,
+      "gold_loss": 0
+    }
+  ],
+  "is_beta": true,
+  "boss_relics": [
+    {
+      "not_picked": [
+        "White Beast Statue",
+        "Busted Crown"
+      ],
+      "picked": "Empty Cage"
+    }
+  ],
+  "items_purged_floors": [
+    10
+  ],
+  "is_endless": false,
+  "potions_floor_spawned": [
+    7,
+    12,
+    14,
+    19,
+    28
+  ],
+  "killed_by": "Colosseum Slavers",
+  "ascension_level": 20
+}

@@ -1,1 +1,752 @@
-{"gold_per_floor":[117,133,208,208,188,188,229,229,229,229,245,269,307,327,327,426,426,445,460,24,49,73,73,73,87,87,2,2,2,2,36,36,129,129,150,164,228,228],"floor_reached":38,"playtime":2714,"items_purged":["Strike_B"],"score":858,"play_id":"4db425e2-e412-42cd-a635-b6094307b8cb","local_time":"20190109103248","is_ascension_mode":true,"campfire_choices":[{"data":"Zap","floor":6,"key":"SMITH"},{"data":"Self Repair","floor":8,"key":"SMITH"},{"data":"Conserve Battery","floor":10,"key":"SMITH"},{"data":"Electrodynamics","floor":15,"key":"SMITH"},{"floor":23,"key":"REST"},{"data":"Tempest","floor":29,"key":"SMITH"},{"data":"Loop","floor":32,"key":"SMITH"}],"neow_cost":"NONE","seed_source_timestamp":18847734500616,"circlet_count":0,"master_deck":["AscendersBane","Strike_B","Defend_B","Defend_B","Defend_B","Defend_B+1","Zap+1","Dualcast","Self Repair+1","Cold Snap","Conserve Battery+1","Electrodynamics+1","Echo Form","Conserve Battery","Glacier","Genetic Algorithm","Glacier","Rainbow+1","Tempest+1","Shame","Multi-Cast","Capacitor","Loop+1","Biased Cognition","Coolheaded"],"relics":["Cracked Core","NeowsBlessing","Golden Idol","Blood Vial","Art of War","Blue Candle","Sozu","Bottled Tornado","Strawberry","War Paint","Black Star","Girya"],"potions_floor_usage":[13,16,33],"damage_taken":[{"damage":0,"enemies":"Cultist","floor":1,"turns":1},{"damage":0,"enemies":"Small Slimes","floor":2,"turns":2},{"damage":0,"enemies":"Lagavulin","floor":7,"turns":1},{"damage":0,"enemies":"2 Louse","floor":11,"turns":2},{"damage":9,"enemies":"Red Slaver","floor":12,"turns":3},{"damage":22,"enemies":"Gremlin Nob","floor":13,"turns":4},{"damage":8,"enemies":"Exordium Thugs","floor":14,"turns":3},{"damage":11,"enemies":"The Guardian","floor":16,"turns":12},{"damage":17,"enemies":"Spheric Guardian","floor":18,"turns":5},{"damage":41,"enemies":"Chosen","floor":19,"turns":8},{"damage":37,"enemies":"Snake Plant","floor":21,"turns":8},{"damage":12,"enemies":"Snecko","floor":22,"turns":8},{"damage":15,"enemies":"Centurion and Healer","floor":25,"turns":5},{"damage":40,"enemies":"Book of Stabbing","floor":31,"turns":4},{"damage":24,"enemies":"Automaton","floor":33,"turns":12},{"damage":1,"enemies":"3 Shapes","floor":35,"turns":5},{"damage":40,"enemies":"3 Darklings","floor":36,"turns":7},{"damage":51,"enemies":"2 Orb Walkers","floor":37,"turns":4},{"damage":30,"enemies":"Spire Growth","floor":38,"turns":5}],"seed_played":"1818688917813782788","potions_obtained":[{"floor":1,"key":"Weak Potion"},{"floor":2,"key":"Explosive Potion"},{"floor":5,"key":"PowerPotion"},{"floor":7,"key":"Poison Potion"},{"floor":16,"key":"EssenceOfSteel"}],"is_trial":false,"path_per_floor":["M","M","?","?","?","R","E","R","T","R","M","M","E","M","R","B",null,"M","M","$","M","M","R","?","M","T","$","?","R","?","E","R","B",null,"M","M","?","M"],"character_chosen":"DEFECT","items_purchased":["Bottled Tornado","Glacier","Tempest"],"campfire_rested":1,"item_purchase_floors":[20,20,27],"current_hp_per_floor":[64,71,60,36,36,36,36,36,36,36,48,51,41,45,45,46,65,60,41,41,26,36,57,71,71,71,71,78,78,78,38,38,26,65,78,58,9,0],"gold":228,"neow_bonus":"THREE_ENEMY_KILL","is_prod":false,"is_daily":false,"chose_seed":false,"campfire_upgraded":6,"win_rate":0,"timestamp":1547058768,"path_taken":["M","M","?","?","?","R","E","R","T","R","M","M","E","?","R","BOSS","M","M","$","M","M","R","?","M","T","?","?","R","?","E","R","BOSS","M","M","?","M"],"build_version":"2019-01-08","purchased_purges":1,"victory":false,"max_hp_per_floor":[71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,78,78,78,78,78,78,78,78,78,78,78],"card_choices":[{"not_picked":["Beam Cell","Gash"],"picked":"Self Repair","floor":1},{"not_picked":["Redo","Gash"],"picked":"Cold Snap","floor":2},{"not_picked":["Turbo","Go for the Eyes"],"picked":"Conserve Battery","floor":7},{"not_picked":["Conserve Battery","Leap","Tempest"],"picked":"SKIP","floor":11},{"not_picked":["Doom and Gloom","Tempest"],"picked":"Electrodynamics","floor":12},{"not_picked":["Redo","Cold Snap","Hologram"],"picked":"SKIP","floor":13},{"not_picked":["Sweeping Beam","Multi-Cast","Leap"],"picked":"SKIP","floor":14},{"not_picked":["Core Surge","Fission"],"picked":"Echo Form","floor":16},{"not_picked":["Gash","Go for the Eyes"],"picked":"Conserve Battery","floor":18},{"not_picked":["Rebound","Stack","Streamline"],"picked":"SKIP","floor":19},{"not_picked":["Hologram","Steam"],"picked":"Genetic Algorithm","floor":21},{"not_picked":["Gash","Steam"],"picked":"Glacier","floor":22},{"not_picked":["Stack","Cold Snap"],"picked":"Rainbow","floor":25},{"not_picked":["Ball Lightning","Reprogram"],"picked":"Loop","floor":31},{"not_picked":["Electrodynamics","Meteor Strike"],"picked":"Biased Cognition","floor":33},{"not_picked":["BootSequence+1","Steam"],"picked":"Coolheaded","floor":35},{"not_picked":["Reinforced Body","Redo","Sunder"],"picked":"SKIP","floor":36}],"player_experience":4272112,"relics_obtained":[{"floor":7,"key":"Blood Vial"},{"floor":9,"key":"Art of War"},{"floor":13,"key":"Blue Candle"},{"floor":31,"key":"War Paint"},{"floor":37,"key":"Girya"}],"event_choices":[{"damage_healed":0,"gold_gain":75,"player_choice":"Gather Gold","damage_taken":11,"max_hp_gain":0,"max_hp_loss":0,"event_name":"World of Goop","floor":3,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Take Damage","damage_taken":24,"relics_obtained":["Golden Idol"],"max_hp_gain":0,"max_hp_loss":0,"event_name":"Golden Idol","floor":4,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Bought 1 Potion","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"The Woman in Blue","floor":5,"gold_loss":0},{"damage_healed":14,"gold_gain":0,"player_choice":"Full Heal","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Wheel of Change","floor":24,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Stole Relic","damage_taken":0,"relics_obtained":["Strawberry"],"max_hp_gain":0,"max_hp_loss":0,"event_name":"Addict","floor":28,"gold_loss":0,"cards_obtained":["Shame"]},{"damage_healed":0,"gold_gain":0,"cards_transformed":["Strike_B","Strike_B"],"player_choice":"Became Test Subject","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Drug Dealer","floor":30,"gold_loss":0,"cards_obtained":["Multi-Cast","Capacitor"]},{"damage_healed":0,"gold_gain":0,"player_choice":"Fight","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Mysterious Sphere","floor":37,"gold_loss":0}],"is_beta":true,"boss_relics":[{"not_picked":["Lizard Tail","Ectoplasm"],"picked":"Sozu"},{"not_picked":["Calling Bell","Velvet Choker"],"picked":"Black Star"}],"items_purged_floors":[20],"is_endless":false,"potions_floor_spawned":[1,2,7,16,21,22,25,33],"killed_by":"Spire Growth","ascension_level":20}
+{
+  "gold_per_floor": [
+    117,
+    133,
+    208,
+    208,
+    188,
+    188,
+    229,
+    229,
+    229,
+    229,
+    245,
+    269,
+    307,
+    327,
+    327,
+    426,
+    426,
+    445,
+    460,
+    24,
+    49,
+    73,
+    73,
+    73,
+    87,
+    87,
+    2,
+    2,
+    2,
+    2,
+    36,
+    36,
+    129,
+    129,
+    150,
+    164,
+    228,
+    228
+  ],
+  "floor_reached": 38,
+  "playtime": 2714,
+  "items_purged": [
+    "Strike_B"
+  ],
+  "score": 858,
+  "play_id": "4db425e2-e412-42cd-a635-b6094307b8cb",
+  "local_time": "20190109103248",
+  "is_ascension_mode": true,
+  "campfire_choices": [
+    {
+      "data": "Zap",
+      "floor": 6,
+      "key": "SMITH"
+    },
+    {
+      "data": "Self Repair",
+      "floor": 8,
+      "key": "SMITH"
+    },
+    {
+      "data": "Conserve Battery",
+      "floor": 10,
+      "key": "SMITH"
+    },
+    {
+      "data": "Electrodynamics",
+      "floor": 15,
+      "key": "SMITH"
+    },
+    {
+      "floor": 23,
+      "key": "REST"
+    },
+    {
+      "data": "Tempest",
+      "floor": 29,
+      "key": "SMITH"
+    },
+    {
+      "data": "Loop",
+      "floor": 32,
+      "key": "SMITH"
+    }
+  ],
+  "neow_cost": "NONE",
+  "seed_source_timestamp": 18847734500616,
+  "circlet_count": 0,
+  "master_deck": [
+    "AscendersBane",
+    "Strike_B",
+    "Defend_B",
+    "Defend_B",
+    "Defend_B",
+    "Defend_B+1",
+    "Zap+1",
+    "Dualcast",
+    "Self Repair+1",
+    "Cold Snap",
+    "Conserve Battery+1",
+    "Electrodynamics+1",
+    "Echo Form",
+    "Conserve Battery",
+    "Glacier",
+    "Genetic Algorithm",
+    "Glacier",
+    "Rainbow+1",
+    "Tempest+1",
+    "Shame",
+    "Multi-Cast",
+    "Capacitor",
+    "Loop+1",
+    "Biased Cognition",
+    "Coolheaded"
+  ],
+  "relics": [
+    "Cracked Core",
+    "NeowsBlessing",
+    "Golden Idol",
+    "Blood Vial",
+    "Art of War",
+    "Blue Candle",
+    "Sozu",
+    "Bottled Tornado",
+    "Strawberry",
+    "War Paint",
+    "Black Star",
+    "Girya"
+  ],
+  "potions_floor_usage": [
+    13,
+    16,
+    33
+  ],
+  "damage_taken": [
+    {
+      "damage": 0,
+      "enemies": "Cultist",
+      "floor": 1,
+      "turns": 1
+    },
+    {
+      "damage": 0,
+      "enemies": "Small Slimes",
+      "floor": 2,
+      "turns": 2
+    },
+    {
+      "damage": 0,
+      "enemies": "Lagavulin",
+      "floor": 7,
+      "turns": 1
+    },
+    {
+      "damage": 0,
+      "enemies": "2 Louse",
+      "floor": 11,
+      "turns": 2
+    },
+    {
+      "damage": 9,
+      "enemies": "Red Slaver",
+      "floor": 12,
+      "turns": 3
+    },
+    {
+      "damage": 22,
+      "enemies": "Gremlin Nob",
+      "floor": 13,
+      "turns": 4
+    },
+    {
+      "damage": 8,
+      "enemies": "Exordium Thugs",
+      "floor": 14,
+      "turns": 3
+    },
+    {
+      "damage": 11,
+      "enemies": "The Guardian",
+      "floor": 16,
+      "turns": 12
+    },
+    {
+      "damage": 17,
+      "enemies": "Spheric Guardian",
+      "floor": 18,
+      "turns": 5
+    },
+    {
+      "damage": 41,
+      "enemies": "Chosen",
+      "floor": 19,
+      "turns": 8
+    },
+    {
+      "damage": 37,
+      "enemies": "Snake Plant",
+      "floor": 21,
+      "turns": 8
+    },
+    {
+      "damage": 12,
+      "enemies": "Snecko",
+      "floor": 22,
+      "turns": 8
+    },
+    {
+      "damage": 15,
+      "enemies": "Centurion and Healer",
+      "floor": 25,
+      "turns": 5
+    },
+    {
+      "damage": 40,
+      "enemies": "Book of Stabbing",
+      "floor": 31,
+      "turns": 4
+    },
+    {
+      "damage": 24,
+      "enemies": "Automaton",
+      "floor": 33,
+      "turns": 12
+    },
+    {
+      "damage": 1,
+      "enemies": "3 Shapes",
+      "floor": 35,
+      "turns": 5
+    },
+    {
+      "damage": 40,
+      "enemies": "3 Darklings",
+      "floor": 36,
+      "turns": 7
+    },
+    {
+      "damage": 51,
+      "enemies": "2 Orb Walkers",
+      "floor": 37,
+      "turns": 4
+    },
+    {
+      "damage": 30,
+      "enemies": "Spire Growth",
+      "floor": 38,
+      "turns": 5
+    }
+  ],
+  "seed_played": "1818688917813782788",
+  "potions_obtained": [
+    {
+      "floor": 1,
+      "key": "Weak Potion"
+    },
+    {
+      "floor": 2,
+      "key": "Explosive Potion"
+    },
+    {
+      "floor": 5,
+      "key": "PowerPotion"
+    },
+    {
+      "floor": 7,
+      "key": "Poison Potion"
+    },
+    {
+      "floor": 16,
+      "key": "EssenceOfSteel"
+    }
+  ],
+  "is_trial": false,
+  "path_per_floor": [
+    "M",
+    "M",
+    "?",
+    "?",
+    "?",
+    "R",
+    "E",
+    "R",
+    "T",
+    "R",
+    "M",
+    "M",
+    "E",
+    "M",
+    "R",
+    "B",
+    null,
+    "M",
+    "M",
+    "$",
+    "M",
+    "M",
+    "R",
+    "?",
+    "M",
+    "T",
+    "$",
+    "?",
+    "R",
+    "?",
+    "E",
+    "R",
+    "B",
+    null,
+    "M",
+    "M",
+    "?",
+    "M"
+  ],
+  "character_chosen": "DEFECT",
+  "items_purchased": [
+    "Bottled Tornado",
+    "Glacier",
+    "Tempest"
+  ],
+  "campfire_rested": 1,
+  "item_purchase_floors": [
+    20,
+    20,
+    27
+  ],
+  "current_hp_per_floor": [
+    64,
+    71,
+    60,
+    36,
+    36,
+    36,
+    36,
+    36,
+    36,
+    36,
+    48,
+    51,
+    41,
+    45,
+    45,
+    46,
+    65,
+    60,
+    41,
+    41,
+    26,
+    36,
+    57,
+    71,
+    71,
+    71,
+    71,
+    78,
+    78,
+    78,
+    38,
+    38,
+    26,
+    65,
+    78,
+    58,
+    9,
+    0
+  ],
+  "gold": 228,
+  "neow_bonus": "THREE_ENEMY_KILL",
+  "is_prod": false,
+  "is_daily": false,
+  "chose_seed": false,
+  "campfire_upgraded": 6,
+  "win_rate": 0,
+  "timestamp": 1547058768,
+  "path_taken": [
+    "M",
+    "M",
+    "?",
+    "?",
+    "?",
+    "R",
+    "E",
+    "R",
+    "T",
+    "R",
+    "M",
+    "M",
+    "E",
+    "?",
+    "R",
+    "BOSS",
+    "M",
+    "M",
+    "$",
+    "M",
+    "M",
+    "R",
+    "?",
+    "M",
+    "T",
+    "?",
+    "?",
+    "R",
+    "?",
+    "E",
+    "R",
+    "BOSS",
+    "M",
+    "M",
+    "?",
+    "M"
+  ],
+  "build_version": "2019-01-08",
+  "purchased_purges": 1,
+  "victory": false,
+  "max_hp_per_floor": [
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78
+  ],
+  "card_choices": [
+    {
+      "not_picked": [
+        "Beam Cell",
+        "Gash"
+      ],
+      "picked": "Self Repair",
+      "floor": 1
+    },
+    {
+      "not_picked": [
+        "Redo",
+        "Gash"
+      ],
+      "picked": "Cold Snap",
+      "floor": 2
+    },
+    {
+      "not_picked": [
+        "Turbo",
+        "Go for the Eyes"
+      ],
+      "picked": "Conserve Battery",
+      "floor": 7
+    },
+    {
+      "not_picked": [
+        "Conserve Battery",
+        "Leap",
+        "Tempest"
+      ],
+      "picked": "SKIP",
+      "floor": 11
+    },
+    {
+      "not_picked": [
+        "Doom and Gloom",
+        "Tempest"
+      ],
+      "picked": "Electrodynamics",
+      "floor": 12
+    },
+    {
+      "not_picked": [
+        "Redo",
+        "Cold Snap",
+        "Hologram"
+      ],
+      "picked": "SKIP",
+      "floor": 13
+    },
+    {
+      "not_picked": [
+        "Sweeping Beam",
+        "Multi-Cast",
+        "Leap"
+      ],
+      "picked": "SKIP",
+      "floor": 14
+    },
+    {
+      "not_picked": [
+        "Core Surge",
+        "Fission"
+      ],
+      "picked": "Echo Form",
+      "floor": 16
+    },
+    {
+      "not_picked": [
+        "Gash",
+        "Go for the Eyes"
+      ],
+      "picked": "Conserve Battery",
+      "floor": 18
+    },
+    {
+      "not_picked": [
+        "Rebound",
+        "Stack",
+        "Streamline"
+      ],
+      "picked": "SKIP",
+      "floor": 19
+    },
+    {
+      "not_picked": [
+        "Hologram",
+        "Steam"
+      ],
+      "picked": "Genetic Algorithm",
+      "floor": 21
+    },
+    {
+      "not_picked": [
+        "Gash",
+        "Steam"
+      ],
+      "picked": "Glacier",
+      "floor": 22
+    },
+    {
+      "not_picked": [
+        "Stack",
+        "Cold Snap"
+      ],
+      "picked": "Rainbow",
+      "floor": 25
+    },
+    {
+      "not_picked": [
+        "Ball Lightning",
+        "Reprogram"
+      ],
+      "picked": "Loop",
+      "floor": 31
+    },
+    {
+      "not_picked": [
+        "Electrodynamics",
+        "Meteor Strike"
+      ],
+      "picked": "Biased Cognition",
+      "floor": 33
+    },
+    {
+      "not_picked": [
+        "BootSequence+1",
+        "Steam"
+      ],
+      "picked": "Coolheaded",
+      "floor": 35
+    },
+    {
+      "not_picked": [
+        "Reinforced Body",
+        "Redo",
+        "Sunder"
+      ],
+      "picked": "SKIP",
+      "floor": 36
+    }
+  ],
+  "player_experience": 4272112,
+  "relics_obtained": [
+    {
+      "floor": 7,
+      "key": "Blood Vial"
+    },
+    {
+      "floor": 9,
+      "key": "Art of War"
+    },
+    {
+      "floor": 13,
+      "key": "Blue Candle"
+    },
+    {
+      "floor": 31,
+      "key": "War Paint"
+    },
+    {
+      "floor": 37,
+      "key": "Girya"
+    }
+  ],
+  "event_choices": [
+    {
+      "damage_healed": 0,
+      "gold_gain": 75,
+      "player_choice": "Gather Gold",
+      "damage_taken": 11,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "World of Goop",
+      "floor": 3,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Take Damage",
+      "damage_taken": 24,
+      "relics_obtained": [
+        "Golden Idol"
+      ],
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Golden Idol",
+      "floor": 4,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Bought 1 Potion",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "The Woman in Blue",
+      "floor": 5,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 14,
+      "gold_gain": 0,
+      "player_choice": "Full Heal",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Wheel of Change",
+      "floor": 24,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Stole Relic",
+      "damage_taken": 0,
+      "relics_obtained": [
+        "Strawberry"
+      ],
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Addict",
+      "floor": 28,
+      "gold_loss": 0,
+      "cards_obtained": [
+        "Shame"
+      ]
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "cards_transformed": [
+        "Strike_B",
+        "Strike_B"
+      ],
+      "player_choice": "Became Test Subject",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Drug Dealer",
+      "floor": 30,
+      "gold_loss": 0,
+      "cards_obtained": [
+        "Multi-Cast",
+        "Capacitor"
+      ]
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Fight",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Mysterious Sphere",
+      "floor": 37,
+      "gold_loss": 0
+    }
+  ],
+  "is_beta": true,
+  "boss_relics": [
+    {
+      "not_picked": [
+        "Lizard Tail",
+        "Ectoplasm"
+      ],
+      "picked": "Sozu"
+    },
+    {
+      "not_picked": [
+        "Calling Bell",
+        "Velvet Choker"
+      ],
+      "picked": "Black Star"
+    }
+  ],
+  "items_purged_floors": [
+    20
+  ],
+  "is_endless": false,
+  "potions_floor_spawned": [
+    1,
+    2,
+    7,
+    16,
+    21,
+    22,
+    25,
+    33
+  ],
+  "killed_by": "Spire Growth",
+  "ascension_level": 20
+}

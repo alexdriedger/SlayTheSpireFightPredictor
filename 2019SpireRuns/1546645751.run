@@ -1,1 +1,820 @@
-{"gold_per_floor":[119,44,44,67,80,80,98,133,133,166,184,84,84,117,117,208,208,227,16,16,16,27,27,41,41,341,361,361,411,425,81,81,155,155,173,185,203,39,39],"floor_reached":39,"playtime":2716,"items_purged":["Strike_B","Writhe"],"score":882,"play_id":"caade5fb-8f14-42e0-bb65-7ddeb4466629","local_time":"20190104154911","is_ascension_mode":true,"campfire_choices":[{"data":"Sunder","floor":6.0,"key":"SMITH"},{"data":"Defragment","floor":13.0,"key":"SMITH"},{"data":"Consume","floor":15.0,"key":"SMITH"},{"floor":23,"key":"REST"},{"floor":32,"key":"REST"}],"neow_cost":"NONE","seed_source_timestamp":0,"circlet_count":0,"master_deck":["AscendersBane","Strike_B","Strike_B","Defend_B","Defend_B","Defend_B+1","Defend_B","Zap+1","Dualcast","Rebound","Sunder+1","Go for the Eyes","Consume+1","Defragment+1","Conserve Battery","Cold Snap","Ball Lightning","Buffer","Steam","Static Discharge","Recycle","Creative AI","Echo Form","Cold Snap","Coolheaded","Heatsinks"],"special_seed":0,"relics":["Cracked Core","NeowsBlessing","Bloody Idol","Odd Mushroom","Question Card","Thread and Needle","Cables","Black Star","ClockworkSouvenir","MutagenicStrength","Old Coin","War Paint","Happy Flower","Cursed Key"],"potions_floor_usage":[22,27,30,33,37,39,39],"damage_taken":[{"damage":0.0,"enemies":"Cultist","floor":1.0,"turns":1.0},{"damage":0.0,"enemies":"Small Slimes","floor":4.0,"turns":1.0},{"damage":0.0,"enemies":"Jaw Worm","floor":5.0,"turns":1.0},{"damage":2.0,"enemies":"3 Louse","floor":7.0,"turns":4.0},{"damage":9.0,"enemies":"The Mushroom Lair","floor":8.0,"turns":4.0},{"damage":20.0,"enemies":"3 Sentries","floor":10.0,"turns":7.0},{"damage":0.0,"enemies":"Large Slime","floor":11.0,"turns":4.0},{"damage":12.0,"enemies":"Lagavulin","floor":14.0,"turns":7.0},{"damage":2.0,"enemies":"Hexaghost","floor":16.0,"turns":8.0},{"damage":23,"enemies":"3 Byrds","floor":18,"turns":5},{"damage":22,"enemies":"Colosseum Slavers","floor":20,"turns":5},{"damage":5,"enemies":"Shell Parasite","floor":22,"turns":7},{"damage":0,"enemies":"Centurion and Healer","floor":24,"turns":8},{"damage":27,"enemies":"3 Cultists","floor":27,"turns":5},{"damage":0,"enemies":"Chosen and Byrds","floor":30,"turns":6},{"damage":0,"enemies":"Champ","floor":33,"turns":23},{"damage":53,"enemies":"3 Darklings","floor":35,"turns":5},{"damage":3,"enemies":"3 Shapes","floor":36,"turns":6},{"damage":0,"enemies":"Sphere and 2 Shapes","floor":37,"turns":6},{"damage":21,"enemies":"Jaw Worm Horde","floor":39,"turns":2}],"seed_played":"369999863785671124","potions_obtained":[{"floor":4.0,"key":"Block Potion"},{"floor":5.0,"key":"EssenceOfSteel"},{"floor":10.0,"key":"Ancient Potion"},{"floor":18,"key":"Swift Potion"},{"floor":22,"key":"Strength Potion"},{"floor":27,"key":"Poison Potion"},{"floor":35,"key":"GamblersBrew"}],"is_trial":false,"path_per_floor":["M","?","?","M","M","R","M","?","T","E","M","$","R","E","R","B",null,"M","$","?","?","M","R","M","?","T","M","?","?","M","$","R","B",null,"M","M","M","$","M"],"character_chosen":"DEFECT","items_purchased":["Cold Snap","ClockworkSouvenir","Happy Flower","EssenceOfSteel","Heatsinks","FocusPotion"],"campfire_rested":2,"item_purchase_floors":[12,19,31,31,38,38],"current_hp_per_floor":[64,64,64,64,64,64,62,53,53,33,33,33,33,21,21,19,53,30,30,8,8,8,27,32,32,37,15,15,20,25,25,44,49,60,12,14,19,19,0],"gold":39,"neow_bonus":"THREE_ENEMY_KILL","is_prod":false,"is_daily":false,"chose_seed":false,"campfire_upgraded":3,"win_rate":0,"timestamp":1546645751,"path_taken":["M","?","?","M","M","R","M","?","T","E","M","$","R","E","R","BOSS","M","$","?","?","M","R","M","?","T","M","?","?","M","$","R","BOSS","M","M","?","$","?"],"build_version":"2019-01-03v4","purchased_purges":2,"victory":false,"max_hp_per_floor":[71,71,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64],"card_choices":[{"not_picked":["Stack","Redo","Melter"],"picked":"SKIP","floor":1.0},{"not_picked":["Streamline","Stack"],"picked":"Rebound","floor":4.0},{"not_picked":["Blizzard","Streamline"],"picked":"Sunder","floor":5.0},{"not_picked":["Stack","Reboot"],"picked":"Go for the Eyes","floor":7.0},{"not_picked":["Hologram","Steam"],"picked":"Consume","floor":8.0},{"not_picked":["Sunder","Chaos","Undo"],"picked":"Defragment","floor":10.0},{"not_picked":["Scrape","Turbo","Go for the Eyes"],"picked":"Conserve Battery","floor":11.0},{"not_picked":["Steam","Turbo","Hologram"],"picked":"Ball Lightning","floor":14.0},{"not_picked":["Multi-Cast","Reboot","All For One"],"picked":"Buffer","floor":16.0},{"not_picked":["Streamline","Barrage","Sweeping Beam","Steam Power"],"picked":"SKIP","floor":18},{"not_picked":["Barrage","Scrape","Gash+1"],"picked":"Steam","floor":22},{"not_picked":["FTL","Melter+1","Go for the Eyes"],"picked":"Static Discharge","floor":24},{"not_picked":["Redo","Turbo","Gash"],"picked":"Recycle","floor":27},{"not_picked":["Recycle","Heatsinks","Lockon"],"picked":"Creative AI","floor":30},{"not_picked":["Reboot","Fission","Biased Cognition"],"picked":"Echo Form","floor":33},{"not_picked":["Blizzard+1","Steam","Rebound+1"],"picked":"Cold Snap","floor":35},{"not_picked":["Rebound","Go for the Eyes","Hologram"],"picked":"Coolheaded","floor":36},{"not_picked":["Stack","Scrape+1","Rebound","Sweeping Beam+1"],"picked":"SKIP","floor":37}],"player_experience":4234245,"relics_obtained":[{"floor":8.0,"key":"Odd Mushroom"},{"floor":9.0,"key":"Question Card"},{"floor":10.0,"key":"Thread and Needle"},{"floor":14.0,"key":"Cables"},{"floor":26,"key":"Old Coin"}],"event_choices":[{"cards_removed":["Strike_B"],"damage_healed":0.0,"max_hp_gain":0.0,"max_hp_loss":0.0,"gold_gain":0.0,"event_name":"The Cleric","player_choice":"Card Removal","floor":2.0,"gold_loss":75.0,"damage_taken":0.0},{"damage_healed":0.0,"max_hp_gain":0.0,"max_hp_loss":7.0,"gold_gain":0.0,"event_name":"Golden Idol","player_choice":"Lose Max HP","floor":3.0,"gold_loss":0.0,"damage_taken":0.0,"relics_obtained":["Golden Idol"]},{"damage_healed":0.0,"max_hp_gain":0.0,"max_hp_loss":0.0,"gold_gain":0.0,"event_name":"Mushrooms","player_choice":"Fought Mushrooms","floor":8.0,"gold_loss":0.0,"damage_taken":0.0},{"damage_healed":0,"gold_gain":0,"player_choice":"Fight","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Colosseum","floor":20,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Fled From Nobs","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Colosseum","floor":20,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Gave Idol","damage_taken":0,"relics_obtained":["Bloody Idol"],"max_hp_gain":0,"max_hp_loss":0,"event_name":"Forgotten Altar","floor":21,"relics_lost":["Golden Idol"],"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Inject Mutagens","damage_taken":0,"relics_obtained":["MutagenicStrength"],"max_hp_gain":0,"max_hp_loss":0,"event_name":"Drug Dealer","floor":25,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Opened","damage_taken":0,"relics_obtained":["War Paint"],"max_hp_gain":0,"max_hp_loss":0,"event_name":"The Mausoleum","floor":28,"gold_loss":0,"cards_obtained":["Writhe"]},{"damage_healed":0,"gold_gain":100,"player_choice":"Bet on Murderer","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"The Joust","floor":29,"gold_loss":50}],"is_beta":true,"boss_relics":[{"not_picked":["FrozenCore","Busted Crown"],"picked":"Black Star"},{"not_picked":["Orrery","White Beast Statue"],"picked":"Cursed Key"}],"items_purged_floors":[12,31],"is_endless":false,"potions_floor_spawned":[4,5,10,18,22,27,35],"killed_by":"Jaw Worm Horde","ascension_level":20}
+{
+  "gold_per_floor": [
+    119,
+    44,
+    44,
+    67,
+    80,
+    80,
+    98,
+    133,
+    133,
+    166,
+    184,
+    84,
+    84,
+    117,
+    117,
+    208,
+    208,
+    227,
+    16,
+    16,
+    16,
+    27,
+    27,
+    41,
+    41,
+    341,
+    361,
+    361,
+    411,
+    425,
+    81,
+    81,
+    155,
+    155,
+    173,
+    185,
+    203,
+    39,
+    39
+  ],
+  "floor_reached": 39,
+  "playtime": 2716,
+  "items_purged": [
+    "Strike_B",
+    "Writhe"
+  ],
+  "score": 882,
+  "play_id": "caade5fb-8f14-42e0-bb65-7ddeb4466629",
+  "local_time": "20190104154911",
+  "is_ascension_mode": true,
+  "campfire_choices": [
+    {
+      "data": "Sunder",
+      "floor": 6.0,
+      "key": "SMITH"
+    },
+    {
+      "data": "Defragment",
+      "floor": 13.0,
+      "key": "SMITH"
+    },
+    {
+      "data": "Consume",
+      "floor": 15.0,
+      "key": "SMITH"
+    },
+    {
+      "floor": 23,
+      "key": "REST"
+    },
+    {
+      "floor": 32,
+      "key": "REST"
+    }
+  ],
+  "neow_cost": "NONE",
+  "seed_source_timestamp": 0,
+  "circlet_count": 0,
+  "master_deck": [
+    "AscendersBane",
+    "Strike_B",
+    "Strike_B",
+    "Defend_B",
+    "Defend_B",
+    "Defend_B+1",
+    "Defend_B",
+    "Zap+1",
+    "Dualcast",
+    "Rebound",
+    "Sunder+1",
+    "Go for the Eyes",
+    "Consume+1",
+    "Defragment+1",
+    "Conserve Battery",
+    "Cold Snap",
+    "Ball Lightning",
+    "Buffer",
+    "Steam",
+    "Static Discharge",
+    "Recycle",
+    "Creative AI",
+    "Echo Form",
+    "Cold Snap",
+    "Coolheaded",
+    "Heatsinks"
+  ],
+  "special_seed": 0,
+  "relics": [
+    "Cracked Core",
+    "NeowsBlessing",
+    "Bloody Idol",
+    "Odd Mushroom",
+    "Question Card",
+    "Thread and Needle",
+    "Cables",
+    "Black Star",
+    "ClockworkSouvenir",
+    "MutagenicStrength",
+    "Old Coin",
+    "War Paint",
+    "Happy Flower",
+    "Cursed Key"
+  ],
+  "potions_floor_usage": [
+    22,
+    27,
+    30,
+    33,
+    37,
+    39,
+    39
+  ],
+  "damage_taken": [
+    {
+      "damage": 0.0,
+      "enemies": "Cultist",
+      "floor": 1.0,
+      "turns": 1.0
+    },
+    {
+      "damage": 0.0,
+      "enemies": "Small Slimes",
+      "floor": 4.0,
+      "turns": 1.0
+    },
+    {
+      "damage": 0.0,
+      "enemies": "Jaw Worm",
+      "floor": 5.0,
+      "turns": 1.0
+    },
+    {
+      "damage": 2.0,
+      "enemies": "3 Louse",
+      "floor": 7.0,
+      "turns": 4.0
+    },
+    {
+      "damage": 9.0,
+      "enemies": "The Mushroom Lair",
+      "floor": 8.0,
+      "turns": 4.0
+    },
+    {
+      "damage": 20.0,
+      "enemies": "3 Sentries",
+      "floor": 10.0,
+      "turns": 7.0
+    },
+    {
+      "damage": 0.0,
+      "enemies": "Large Slime",
+      "floor": 11.0,
+      "turns": 4.0
+    },
+    {
+      "damage": 12.0,
+      "enemies": "Lagavulin",
+      "floor": 14.0,
+      "turns": 7.0
+    },
+    {
+      "damage": 2.0,
+      "enemies": "Hexaghost",
+      "floor": 16.0,
+      "turns": 8.0
+    },
+    {
+      "damage": 23,
+      "enemies": "3 Byrds",
+      "floor": 18,
+      "turns": 5
+    },
+    {
+      "damage": 22,
+      "enemies": "Colosseum Slavers",
+      "floor": 20,
+      "turns": 5
+    },
+    {
+      "damage": 5,
+      "enemies": "Shell Parasite",
+      "floor": 22,
+      "turns": 7
+    },
+    {
+      "damage": 0,
+      "enemies": "Centurion and Healer",
+      "floor": 24,
+      "turns": 8
+    },
+    {
+      "damage": 27,
+      "enemies": "3 Cultists",
+      "floor": 27,
+      "turns": 5
+    },
+    {
+      "damage": 0,
+      "enemies": "Chosen and Byrds",
+      "floor": 30,
+      "turns": 6
+    },
+    {
+      "damage": 0,
+      "enemies": "Champ",
+      "floor": 33,
+      "turns": 23
+    },
+    {
+      "damage": 53,
+      "enemies": "3 Darklings",
+      "floor": 35,
+      "turns": 5
+    },
+    {
+      "damage": 3,
+      "enemies": "3 Shapes",
+      "floor": 36,
+      "turns": 6
+    },
+    {
+      "damage": 0,
+      "enemies": "Sphere and 2 Shapes",
+      "floor": 37,
+      "turns": 6
+    },
+    {
+      "damage": 21,
+      "enemies": "Jaw Worm Horde",
+      "floor": 39,
+      "turns": 2
+    }
+  ],
+  "seed_played": "369999863785671124",
+  "potions_obtained": [
+    {
+      "floor": 4.0,
+      "key": "Block Potion"
+    },
+    {
+      "floor": 5.0,
+      "key": "EssenceOfSteel"
+    },
+    {
+      "floor": 10.0,
+      "key": "Ancient Potion"
+    },
+    {
+      "floor": 18,
+      "key": "Swift Potion"
+    },
+    {
+      "floor": 22,
+      "key": "Strength Potion"
+    },
+    {
+      "floor": 27,
+      "key": "Poison Potion"
+    },
+    {
+      "floor": 35,
+      "key": "GamblersBrew"
+    }
+  ],
+  "is_trial": false,
+  "path_per_floor": [
+    "M",
+    "?",
+    "?",
+    "M",
+    "M",
+    "R",
+    "M",
+    "?",
+    "T",
+    "E",
+    "M",
+    "$",
+    "R",
+    "E",
+    "R",
+    "B",
+    null,
+    "M",
+    "$",
+    "?",
+    "?",
+    "M",
+    "R",
+    "M",
+    "?",
+    "T",
+    "M",
+    "?",
+    "?",
+    "M",
+    "$",
+    "R",
+    "B",
+    null,
+    "M",
+    "M",
+    "M",
+    "$",
+    "M"
+  ],
+  "character_chosen": "DEFECT",
+  "items_purchased": [
+    "Cold Snap",
+    "ClockworkSouvenir",
+    "Happy Flower",
+    "EssenceOfSteel",
+    "Heatsinks",
+    "FocusPotion"
+  ],
+  "campfire_rested": 2,
+  "item_purchase_floors": [
+    12,
+    19,
+    31,
+    31,
+    38,
+    38
+  ],
+  "current_hp_per_floor": [
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    62,
+    53,
+    53,
+    33,
+    33,
+    33,
+    33,
+    21,
+    21,
+    19,
+    53,
+    30,
+    30,
+    8,
+    8,
+    8,
+    27,
+    32,
+    32,
+    37,
+    15,
+    15,
+    20,
+    25,
+    25,
+    44,
+    49,
+    60,
+    12,
+    14,
+    19,
+    19,
+    0
+  ],
+  "gold": 39,
+  "neow_bonus": "THREE_ENEMY_KILL",
+  "is_prod": false,
+  "is_daily": false,
+  "chose_seed": false,
+  "campfire_upgraded": 3,
+  "win_rate": 0,
+  "timestamp": 1546645751,
+  "path_taken": [
+    "M",
+    "?",
+    "?",
+    "M",
+    "M",
+    "R",
+    "M",
+    "?",
+    "T",
+    "E",
+    "M",
+    "$",
+    "R",
+    "E",
+    "R",
+    "BOSS",
+    "M",
+    "$",
+    "?",
+    "?",
+    "M",
+    "R",
+    "M",
+    "?",
+    "T",
+    "M",
+    "?",
+    "?",
+    "M",
+    "$",
+    "R",
+    "BOSS",
+    "M",
+    "M",
+    "?",
+    "$",
+    "?"
+  ],
+  "build_version": "2019-01-03v4",
+  "purchased_purges": 2,
+  "victory": false,
+  "max_hp_per_floor": [
+    71,
+    71,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64
+  ],
+  "card_choices": [
+    {
+      "not_picked": [
+        "Stack",
+        "Redo",
+        "Melter"
+      ],
+      "picked": "SKIP",
+      "floor": 1.0
+    },
+    {
+      "not_picked": [
+        "Streamline",
+        "Stack"
+      ],
+      "picked": "Rebound",
+      "floor": 4.0
+    },
+    {
+      "not_picked": [
+        "Blizzard",
+        "Streamline"
+      ],
+      "picked": "Sunder",
+      "floor": 5.0
+    },
+    {
+      "not_picked": [
+        "Stack",
+        "Reboot"
+      ],
+      "picked": "Go for the Eyes",
+      "floor": 7.0
+    },
+    {
+      "not_picked": [
+        "Hologram",
+        "Steam"
+      ],
+      "picked": "Consume",
+      "floor": 8.0
+    },
+    {
+      "not_picked": [
+        "Sunder",
+        "Chaos",
+        "Undo"
+      ],
+      "picked": "Defragment",
+      "floor": 10.0
+    },
+    {
+      "not_picked": [
+        "Scrape",
+        "Turbo",
+        "Go for the Eyes"
+      ],
+      "picked": "Conserve Battery",
+      "floor": 11.0
+    },
+    {
+      "not_picked": [
+        "Steam",
+        "Turbo",
+        "Hologram"
+      ],
+      "picked": "Ball Lightning",
+      "floor": 14.0
+    },
+    {
+      "not_picked": [
+        "Multi-Cast",
+        "Reboot",
+        "All For One"
+      ],
+      "picked": "Buffer",
+      "floor": 16.0
+    },
+    {
+      "not_picked": [
+        "Streamline",
+        "Barrage",
+        "Sweeping Beam",
+        "Steam Power"
+      ],
+      "picked": "SKIP",
+      "floor": 18
+    },
+    {
+      "not_picked": [
+        "Barrage",
+        "Scrape",
+        "Gash+1"
+      ],
+      "picked": "Steam",
+      "floor": 22
+    },
+    {
+      "not_picked": [
+        "FTL",
+        "Melter+1",
+        "Go for the Eyes"
+      ],
+      "picked": "Static Discharge",
+      "floor": 24
+    },
+    {
+      "not_picked": [
+        "Redo",
+        "Turbo",
+        "Gash"
+      ],
+      "picked": "Recycle",
+      "floor": 27
+    },
+    {
+      "not_picked": [
+        "Recycle",
+        "Heatsinks",
+        "Lockon"
+      ],
+      "picked": "Creative AI",
+      "floor": 30
+    },
+    {
+      "not_picked": [
+        "Reboot",
+        "Fission",
+        "Biased Cognition"
+      ],
+      "picked": "Echo Form",
+      "floor": 33
+    },
+    {
+      "not_picked": [
+        "Blizzard+1",
+        "Steam",
+        "Rebound+1"
+      ],
+      "picked": "Cold Snap",
+      "floor": 35
+    },
+    {
+      "not_picked": [
+        "Rebound",
+        "Go for the Eyes",
+        "Hologram"
+      ],
+      "picked": "Coolheaded",
+      "floor": 36
+    },
+    {
+      "not_picked": [
+        "Stack",
+        "Scrape+1",
+        "Rebound",
+        "Sweeping Beam+1"
+      ],
+      "picked": "SKIP",
+      "floor": 37
+    }
+  ],
+  "player_experience": 4234245,
+  "relics_obtained": [
+    {
+      "floor": 8.0,
+      "key": "Odd Mushroom"
+    },
+    {
+      "floor": 9.0,
+      "key": "Question Card"
+    },
+    {
+      "floor": 10.0,
+      "key": "Thread and Needle"
+    },
+    {
+      "floor": 14.0,
+      "key": "Cables"
+    },
+    {
+      "floor": 26,
+      "key": "Old Coin"
+    }
+  ],
+  "event_choices": [
+    {
+      "cards_removed": [
+        "Strike_B"
+      ],
+      "damage_healed": 0.0,
+      "max_hp_gain": 0.0,
+      "max_hp_loss": 0.0,
+      "gold_gain": 0.0,
+      "event_name": "The Cleric",
+      "player_choice": "Card Removal",
+      "floor": 2.0,
+      "gold_loss": 75.0,
+      "damage_taken": 0.0
+    },
+    {
+      "damage_healed": 0.0,
+      "max_hp_gain": 0.0,
+      "max_hp_loss": 7.0,
+      "gold_gain": 0.0,
+      "event_name": "Golden Idol",
+      "player_choice": "Lose Max HP",
+      "floor": 3.0,
+      "gold_loss": 0.0,
+      "damage_taken": 0.0,
+      "relics_obtained": [
+        "Golden Idol"
+      ]
+    },
+    {
+      "damage_healed": 0.0,
+      "max_hp_gain": 0.0,
+      "max_hp_loss": 0.0,
+      "gold_gain": 0.0,
+      "event_name": "Mushrooms",
+      "player_choice": "Fought Mushrooms",
+      "floor": 8.0,
+      "gold_loss": 0.0,
+      "damage_taken": 0.0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Fight",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Colosseum",
+      "floor": 20,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Fled From Nobs",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Colosseum",
+      "floor": 20,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Gave Idol",
+      "damage_taken": 0,
+      "relics_obtained": [
+        "Bloody Idol"
+      ],
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Forgotten Altar",
+      "floor": 21,
+      "relics_lost": [
+        "Golden Idol"
+      ],
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Inject Mutagens",
+      "damage_taken": 0,
+      "relics_obtained": [
+        "MutagenicStrength"
+      ],
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Drug Dealer",
+      "floor": 25,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Opened",
+      "damage_taken": 0,
+      "relics_obtained": [
+        "War Paint"
+      ],
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "The Mausoleum",
+      "floor": 28,
+      "gold_loss": 0,
+      "cards_obtained": [
+        "Writhe"
+      ]
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 100,
+      "player_choice": "Bet on Murderer",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "The Joust",
+      "floor": 29,
+      "gold_loss": 50
+    }
+  ],
+  "is_beta": true,
+  "boss_relics": [
+    {
+      "not_picked": [
+        "FrozenCore",
+        "Busted Crown"
+      ],
+      "picked": "Black Star"
+    },
+    {
+      "not_picked": [
+        "Orrery",
+        "White Beast Statue"
+      ],
+      "picked": "Cursed Key"
+    }
+  ],
+  "items_purged_floors": [
+    12,
+    31
+  ],
+  "is_endless": false,
+  "potions_floor_spawned": [
+    4,
+    5,
+    10,
+    18,
+    22,
+    27,
+    35
+  ],
+  "killed_by": "Jaw Worm Horde",
+  "ascension_level": 20
+}

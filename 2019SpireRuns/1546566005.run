@@ -1,1 +1,639 @@
-{"gold_per_floor":[118,193,209,209,221,221,256,274,301,301,301,335,335,335,335,409,409,388,142,162,162,179,179,214,214,214,214,214,246,246,296,296,296],"floor_reached":33,"playtime":2203,"items_purged":["Dualcast"],"score":628,"play_id":"db2c8b57-53b9-482b-99d1-30c048a5b8b8","local_time":"20190103174005","is_ascension_mode":true,"campfire_choices":[{"data":"Ball Lightning","floor":6,"key":"SMITH"},{"floor":10,"key":"REST"},{"data":"Defend_B","floor":13,"key":"SMITH"},{"data":"Defend_B","floor":15,"key":"SMITH"},{"floor":23,"key":"REST"},{"floor":28,"key":"REST"},{"data":"Hologram","floor":32,"key":"SMITH"}],"neow_cost":"NONE","seed_source_timestamp":13790166023481,"circlet_count":0,"master_deck":["AscendersBane","Defend_B+1","Defend_B+1","Defend_B","Zap+1","Ball Lightning","Ball Lightning+1","Echo Form","Chill","Sunder+1","Chill","Necronomicurse","Hologram+1","Coolheaded+1","Turbo+1"],"relics":["Cracked Core","Orichalcum","Juzu Bracelet","PreservedInsect","Empty Cage","Art of War","Necronomicon","Molten Egg 2","Bag of Preparation"],"potions_floor_usage":[7,29,33],"damage_taken":[{"damage":3,"enemies":"2 Louse","floor":1,"turns":3},{"damage":2,"enemies":"Jaw Worm","floor":3,"turns":3},{"damage":3,"enemies":"Small Slimes","floor":5,"turns":2},{"damage":15,"enemies":"3 Sentries","floor":7,"turns":5},{"damage":2,"enemies":"2 Fungi Beasts","floor":8,"turns":3},{"damage":10,"enemies":"Lagavulin","floor":12,"turns":5},{"damage":20,"enemies":"Slime Boss","floor":16,"turns":8},{"damage":12,"enemies":"2 Thieves","floor":18,"turns":4},{"damage":3,"enemies":"Spheric Guardian","floor":20,"turns":3},{"damage":16,"enemies":"Snake Plant","floor":22,"turns":2},{"damage":15,"enemies":"Book of Stabbing","floor":24,"turns":3},{"damage":0,"enemies":"Gremlin Leader","floor":29,"turns":4},{"damage":76,"enemies":"Automaton","floor":33,"turns":6}],"seed_played":"-3818816224321940392","potions_obtained":[{"floor":1,"key":"SpeedPotion"},{"floor":3,"key":"Fire Potion"},{"floor":5,"key":"Dexterity Potion"},{"floor":22,"key":"SteroidPotion"},{"floor":24,"key":"GamblersBrew"},{"floor":25,"key":"FearPotion"},{"floor":29,"key":"SteroidPotion"}],"is_trial":false,"path_per_floor":["M","?","M","?","M","R","E","M","T","R","?","E","R","?","R","B",null,"M","$","M","?","M","R","E","?","T","?","R","E","?","?","R","B"],"character_chosen":"DEFECT","items_purchased":["Art of War"],"campfire_rested":3,"item_purchase_floors":[19],"current_hp_per_floor":[61,50,48,48,45,45,30,28,28,49,42,32,32,32,32,12,56,44,44,41,20,4,25,10,10,10,10,31,31,31,31,31,0],"gold":296,"neow_bonus":"UPGRADE_CARD","is_prod":false,"is_daily":false,"chose_seed":false,"campfire_upgraded":4,"win_rate":0,"timestamp":1546566005,"path_taken":["M","?","M","?","M","R","E","M","T","R","?","E","R","?","R","BOSS","M","$","M","?","M","R","E","?","T","?","R","E","?","?","R","BOSS"],"build_version":"2019-01-02","purchased_purges":1,"victory":false,"max_hp_per_floor":[71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71],"card_choices":[{"not_picked":["Barrage","Force Field"],"picked":"Ball Lightning","floor":1},{"not_picked":["Heatsinks","Beam Cell","Barrage"],"picked":"SKIP","floor":3},{"not_picked":["Gash","Compile Driver"],"picked":"Ball Lightning","floor":5},{"not_picked":["Gash","Blizzard","Barrage"],"picked":"SKIP","floor":7},{"not_picked":["Steam","Go for the Eyes"],"picked":"Echo Form","floor":8},{"not_picked":["Stack","Rainbow"],"picked":"Chill","floor":12},{"not_picked":["Beam Cell","Streamline"],"picked":"Sunder+1","floor":18},{"not_picked":["Hello World","Recycle+1"],"picked":"Chill","floor":20},{"not_picked":["Heatsinks","BootSequence"],"picked":"Hologram","floor":22},{"not_picked":["All For One","Fusion+1"],"picked":"Coolheaded+1","floor":24},{"not_picked":["Coolheaded","Redo"],"picked":"Turbo+1","floor":29}],"player_experience":4221901,"relics_obtained":[{"floor":7,"key":"Orichalcum"},{"floor":9,"key":"Juzu Bracelet"},{"floor":12,"key":"PreservedInsect"},{"floor":21,"key":"Necronomicon"},{"floor":24,"key":"Molten Egg 2"},{"floor":29,"key":"Bag of Preparation"}],"event_choices":[{"damage_healed":0,"gold_gain":75,"player_choice":"Gather Gold","damage_taken":11,"max_hp_gain":0,"max_hp_loss":0,"event_name":"World of Goop","floor":2,"gold_loss":0},{"cards_removed":["Strike_B"],"damage_healed":0,"gold_gain":0,"player_choice":"Forget","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Living Wall","floor":4,"gold_loss":0},{"cards_removed":["Strike_B"],"damage_healed":0,"gold_gain":0,"player_choice":"Card Removal","damage_taken":7,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Golden Wing","floor":11,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Ignored","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Liars Game","floor":14,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Obtained Book","damage_taken":21,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Cursed Tome","floor":21,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Got Potions","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Lab","floor":25,"gold_loss":0},{"cards_removed":["Defend_B"],"damage_healed":0,"gold_gain":0,"player_choice":"Elegance","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Back to Basics","floor":27,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Ignored","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"The Mausoleum","floor":30,"gold_loss":0},{"damage_healed":0,"gold_gain":50,"player_choice":"Stole From Cult","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Nest","floor":31,"gold_loss":0}],"is_beta":true,"boss_relics":[{"not_picked":["FrozenCore","Eternal Feather"],"picked":"Empty Cage"}],"items_purged_floors":[19],"is_endless":false,"potions_floor_spawned":[1,3,5,22,24,29],"killed_by":"Automaton","ascension_level":20}
+{
+  "gold_per_floor": [
+    118,
+    193,
+    209,
+    209,
+    221,
+    221,
+    256,
+    274,
+    301,
+    301,
+    301,
+    335,
+    335,
+    335,
+    335,
+    409,
+    409,
+    388,
+    142,
+    162,
+    162,
+    179,
+    179,
+    214,
+    214,
+    214,
+    214,
+    214,
+    246,
+    246,
+    296,
+    296,
+    296
+  ],
+  "floor_reached": 33,
+  "playtime": 2203,
+  "items_purged": [
+    "Dualcast"
+  ],
+  "score": 628,
+  "play_id": "db2c8b57-53b9-482b-99d1-30c048a5b8b8",
+  "local_time": "20190103174005",
+  "is_ascension_mode": true,
+  "campfire_choices": [
+    {
+      "data": "Ball Lightning",
+      "floor": 6,
+      "key": "SMITH"
+    },
+    {
+      "floor": 10,
+      "key": "REST"
+    },
+    {
+      "data": "Defend_B",
+      "floor": 13,
+      "key": "SMITH"
+    },
+    {
+      "data": "Defend_B",
+      "floor": 15,
+      "key": "SMITH"
+    },
+    {
+      "floor": 23,
+      "key": "REST"
+    },
+    {
+      "floor": 28,
+      "key": "REST"
+    },
+    {
+      "data": "Hologram",
+      "floor": 32,
+      "key": "SMITH"
+    }
+  ],
+  "neow_cost": "NONE",
+  "seed_source_timestamp": 13790166023481,
+  "circlet_count": 0,
+  "master_deck": [
+    "AscendersBane",
+    "Defend_B+1",
+    "Defend_B+1",
+    "Defend_B",
+    "Zap+1",
+    "Ball Lightning",
+    "Ball Lightning+1",
+    "Echo Form",
+    "Chill",
+    "Sunder+1",
+    "Chill",
+    "Necronomicurse",
+    "Hologram+1",
+    "Coolheaded+1",
+    "Turbo+1"
+  ],
+  "relics": [
+    "Cracked Core",
+    "Orichalcum",
+    "Juzu Bracelet",
+    "PreservedInsect",
+    "Empty Cage",
+    "Art of War",
+    "Necronomicon",
+    "Molten Egg 2",
+    "Bag of Preparation"
+  ],
+  "potions_floor_usage": [
+    7,
+    29,
+    33
+  ],
+  "damage_taken": [
+    {
+      "damage": 3,
+      "enemies": "2 Louse",
+      "floor": 1,
+      "turns": 3
+    },
+    {
+      "damage": 2,
+      "enemies": "Jaw Worm",
+      "floor": 3,
+      "turns": 3
+    },
+    {
+      "damage": 3,
+      "enemies": "Small Slimes",
+      "floor": 5,
+      "turns": 2
+    },
+    {
+      "damage": 15,
+      "enemies": "3 Sentries",
+      "floor": 7,
+      "turns": 5
+    },
+    {
+      "damage": 2,
+      "enemies": "2 Fungi Beasts",
+      "floor": 8,
+      "turns": 3
+    },
+    {
+      "damage": 10,
+      "enemies": "Lagavulin",
+      "floor": 12,
+      "turns": 5
+    },
+    {
+      "damage": 20,
+      "enemies": "Slime Boss",
+      "floor": 16,
+      "turns": 8
+    },
+    {
+      "damage": 12,
+      "enemies": "2 Thieves",
+      "floor": 18,
+      "turns": 4
+    },
+    {
+      "damage": 3,
+      "enemies": "Spheric Guardian",
+      "floor": 20,
+      "turns": 3
+    },
+    {
+      "damage": 16,
+      "enemies": "Snake Plant",
+      "floor": 22,
+      "turns": 2
+    },
+    {
+      "damage": 15,
+      "enemies": "Book of Stabbing",
+      "floor": 24,
+      "turns": 3
+    },
+    {
+      "damage": 0,
+      "enemies": "Gremlin Leader",
+      "floor": 29,
+      "turns": 4
+    },
+    {
+      "damage": 76,
+      "enemies": "Automaton",
+      "floor": 33,
+      "turns": 6
+    }
+  ],
+  "seed_played": "-3818816224321940392",
+  "potions_obtained": [
+    {
+      "floor": 1,
+      "key": "SpeedPotion"
+    },
+    {
+      "floor": 3,
+      "key": "Fire Potion"
+    },
+    {
+      "floor": 5,
+      "key": "Dexterity Potion"
+    },
+    {
+      "floor": 22,
+      "key": "SteroidPotion"
+    },
+    {
+      "floor": 24,
+      "key": "GamblersBrew"
+    },
+    {
+      "floor": 25,
+      "key": "FearPotion"
+    },
+    {
+      "floor": 29,
+      "key": "SteroidPotion"
+    }
+  ],
+  "is_trial": false,
+  "path_per_floor": [
+    "M",
+    "?",
+    "M",
+    "?",
+    "M",
+    "R",
+    "E",
+    "M",
+    "T",
+    "R",
+    "?",
+    "E",
+    "R",
+    "?",
+    "R",
+    "B",
+    null,
+    "M",
+    "$",
+    "M",
+    "?",
+    "M",
+    "R",
+    "E",
+    "?",
+    "T",
+    "?",
+    "R",
+    "E",
+    "?",
+    "?",
+    "R",
+    "B"
+  ],
+  "character_chosen": "DEFECT",
+  "items_purchased": [
+    "Art of War"
+  ],
+  "campfire_rested": 3,
+  "item_purchase_floors": [
+    19
+  ],
+  "current_hp_per_floor": [
+    61,
+    50,
+    48,
+    48,
+    45,
+    45,
+    30,
+    28,
+    28,
+    49,
+    42,
+    32,
+    32,
+    32,
+    32,
+    12,
+    56,
+    44,
+    44,
+    41,
+    20,
+    4,
+    25,
+    10,
+    10,
+    10,
+    10,
+    31,
+    31,
+    31,
+    31,
+    31,
+    0
+  ],
+  "gold": 296,
+  "neow_bonus": "UPGRADE_CARD",
+  "is_prod": false,
+  "is_daily": false,
+  "chose_seed": false,
+  "campfire_upgraded": 4,
+  "win_rate": 0,
+  "timestamp": 1546566005,
+  "path_taken": [
+    "M",
+    "?",
+    "M",
+    "?",
+    "M",
+    "R",
+    "E",
+    "M",
+    "T",
+    "R",
+    "?",
+    "E",
+    "R",
+    "?",
+    "R",
+    "BOSS",
+    "M",
+    "$",
+    "M",
+    "?",
+    "M",
+    "R",
+    "E",
+    "?",
+    "T",
+    "?",
+    "R",
+    "E",
+    "?",
+    "?",
+    "R",
+    "BOSS"
+  ],
+  "build_version": "2019-01-02",
+  "purchased_purges": 1,
+  "victory": false,
+  "max_hp_per_floor": [
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71
+  ],
+  "card_choices": [
+    {
+      "not_picked": [
+        "Barrage",
+        "Force Field"
+      ],
+      "picked": "Ball Lightning",
+      "floor": 1
+    },
+    {
+      "not_picked": [
+        "Heatsinks",
+        "Beam Cell",
+        "Barrage"
+      ],
+      "picked": "SKIP",
+      "floor": 3
+    },
+    {
+      "not_picked": [
+        "Gash",
+        "Compile Driver"
+      ],
+      "picked": "Ball Lightning",
+      "floor": 5
+    },
+    {
+      "not_picked": [
+        "Gash",
+        "Blizzard",
+        "Barrage"
+      ],
+      "picked": "SKIP",
+      "floor": 7
+    },
+    {
+      "not_picked": [
+        "Steam",
+        "Go for the Eyes"
+      ],
+      "picked": "Echo Form",
+      "floor": 8
+    },
+    {
+      "not_picked": [
+        "Stack",
+        "Rainbow"
+      ],
+      "picked": "Chill",
+      "floor": 12
+    },
+    {
+      "not_picked": [
+        "Beam Cell",
+        "Streamline"
+      ],
+      "picked": "Sunder+1",
+      "floor": 18
+    },
+    {
+      "not_picked": [
+        "Hello World",
+        "Recycle+1"
+      ],
+      "picked": "Chill",
+      "floor": 20
+    },
+    {
+      "not_picked": [
+        "Heatsinks",
+        "BootSequence"
+      ],
+      "picked": "Hologram",
+      "floor": 22
+    },
+    {
+      "not_picked": [
+        "All For One",
+        "Fusion+1"
+      ],
+      "picked": "Coolheaded+1",
+      "floor": 24
+    },
+    {
+      "not_picked": [
+        "Coolheaded",
+        "Redo"
+      ],
+      "picked": "Turbo+1",
+      "floor": 29
+    }
+  ],
+  "player_experience": 4221901,
+  "relics_obtained": [
+    {
+      "floor": 7,
+      "key": "Orichalcum"
+    },
+    {
+      "floor": 9,
+      "key": "Juzu Bracelet"
+    },
+    {
+      "floor": 12,
+      "key": "PreservedInsect"
+    },
+    {
+      "floor": 21,
+      "key": "Necronomicon"
+    },
+    {
+      "floor": 24,
+      "key": "Molten Egg 2"
+    },
+    {
+      "floor": 29,
+      "key": "Bag of Preparation"
+    }
+  ],
+  "event_choices": [
+    {
+      "damage_healed": 0,
+      "gold_gain": 75,
+      "player_choice": "Gather Gold",
+      "damage_taken": 11,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "World of Goop",
+      "floor": 2,
+      "gold_loss": 0
+    },
+    {
+      "cards_removed": [
+        "Strike_B"
+      ],
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Forget",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Living Wall",
+      "floor": 4,
+      "gold_loss": 0
+    },
+    {
+      "cards_removed": [
+        "Strike_B"
+      ],
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Card Removal",
+      "damage_taken": 7,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Golden Wing",
+      "floor": 11,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Ignored",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Liars Game",
+      "floor": 14,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Obtained Book",
+      "damage_taken": 21,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Cursed Tome",
+      "floor": 21,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Got Potions",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Lab",
+      "floor": 25,
+      "gold_loss": 0
+    },
+    {
+      "cards_removed": [
+        "Defend_B"
+      ],
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Elegance",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Back to Basics",
+      "floor": 27,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Ignored",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "The Mausoleum",
+      "floor": 30,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 50,
+      "player_choice": "Stole From Cult",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Nest",
+      "floor": 31,
+      "gold_loss": 0
+    }
+  ],
+  "is_beta": true,
+  "boss_relics": [
+    {
+      "not_picked": [
+        "FrozenCore",
+        "Eternal Feather"
+      ],
+      "picked": "Empty Cage"
+    }
+  ],
+  "items_purged_floors": [
+    19
+  ],
+  "is_endless": false,
+  "potions_floor_spawned": [
+    1,
+    3,
+    5,
+    22,
+    24,
+    29
+  ],
+  "killed_by": "Automaton",
+  "ascension_level": 20
+}

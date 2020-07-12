@@ -1,1 +1,351 @@
-{"gold_per_floor":[110,56,4,15,34,34,60,60,86,136,169,169,202,218,218,218],"floor_reached":16,"playtime":762,"items_purged":[],"score":236,"play_id":"fffb3cc4-40fe-420a-a99b-9d0eb048aa4d","local_time":"20190109121049","is_ascension_mode":true,"campfire_choices":[{"data":"Zap","floor":6,"key":"SMITH"},{"floor":8,"key":"REST"},{"floor":12,"key":"REST"},{"floor":15,"key":"REST"}],"neow_cost":"NONE","seed_source_timestamp":26681170899750,"circlet_count":0,"master_deck":["AscendersBane","Strike_B","Strike_B","Strike_B","Strike_B","Defend_B","Defend_B","Defend_B","Defend_B","Zap+1","Dualcast","Gash","Compile Driver","Go for the Eyes","Rip and Tear","FTL","Defragment","Gash"],"relics":["Cracked Core","Happy Flower","Ancient Tea Set","Orichalcum","Dodecahedron","Potion Belt"],"potions_floor_usage":[7,7,16],"damage_taken":[{"damage":18,"enemies":"Small Slimes","floor":1,"turns":5},{"damage":0,"enemies":"Cultist","floor":4,"turns":3},{"damage":3,"enemies":"2 Louse","floor":5,"turns":3},{"damage":31,"enemies":"Gremlin Nob","floor":7,"turns":4},{"damage":19,"enemies":"Lagavulin","floor":11,"turns":7},{"damage":22,"enemies":"Gremlin Nob","floor":13,"turns":4},{"damage":7,"enemies":"Large Slime","floor":14,"turns":3},{"damage":30,"enemies":"The Guardian","floor":16,"turns":9}],"seed_played":"6875803875689744918","potions_obtained":[{"floor":1,"key":"SkillPotion"},{"floor":4,"key":"SteroidPotion"},{"floor":11,"key":"LiquidBronze"}],"is_trial":false,"path_per_floor":["M","$","?","M","M","R","E","R","T","?","E","R","E","M","R","B"],"character_chosen":"DEFECT","items_purchased":["Poison Potion"],"campfire_rested":3,"item_purchase_floors":[2],"current_hp_per_floor":[46,46,46,46,43,43,12,33,33,33,14,35,13,6,27,0],"gold":218,"neow_bonus":"RANDOM_COMMON_RELIC","is_prod":false,"is_daily":false,"chose_seed":false,"campfire_upgraded":1,"win_rate":0,"timestamp":1547064649,"path_taken":["M","$","?","M","M","R","E","R","T","?","E","R","E","M","R","BOSS"],"build_version":"2019-01-08","purchased_purges":0,"victory":false,"max_hp_per_floor":[71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71],"card_choices":[{"not_picked":["Steam Power","Reinforced Body"],"picked":"Gash","floor":1},{"not_picked":["Sweeping Beam","Darkness"],"picked":"Compile Driver","floor":4},{"not_picked":["Rebound","Double Energy"],"picked":"Go for the Eyes","floor":5},{"not_picked":["Rebound","Hologram"],"picked":"Rip and Tear","floor":7},{"not_picked":["Streamline","Blizzard"],"picked":"FTL","floor":11},{"not_picked":["Ball Lightning","Lockon"],"picked":"Defragment","floor":13},{"not_picked":["Sweeping Beam","Beam Cell"],"picked":"Gash","floor":14}],"player_experience":4279789,"relics_obtained":[{"floor":7,"key":"Ancient Tea Set"},{"floor":9,"key":"Orichalcum"},{"floor":11,"key":"Dodecahedron"},{"floor":13,"key":"Potion Belt"}],"event_choices":[{"damage_healed":0,"gold_gain":0,"player_choice":"Left Gold","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"World of Goop","floor":3,"gold_loss":52},{"damage_healed":0,"gold_gain":50,"player_choice":"Pray","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Golden Shrine","floor":10,"gold_loss":0}],"is_beta":true,"boss_relics":[],"items_purged_floors":[],"is_endless":false,"potions_floor_spawned":[1,4,11],"killed_by":"The Guardian","ascension_level":20}
+{
+  "gold_per_floor": [
+    110,
+    56,
+    4,
+    15,
+    34,
+    34,
+    60,
+    60,
+    86,
+    136,
+    169,
+    169,
+    202,
+    218,
+    218,
+    218
+  ],
+  "floor_reached": 16,
+  "playtime": 762,
+  "items_purged": [],
+  "score": 236,
+  "play_id": "fffb3cc4-40fe-420a-a99b-9d0eb048aa4d",
+  "local_time": "20190109121049",
+  "is_ascension_mode": true,
+  "campfire_choices": [
+    {
+      "data": "Zap",
+      "floor": 6,
+      "key": "SMITH"
+    },
+    {
+      "floor": 8,
+      "key": "REST"
+    },
+    {
+      "floor": 12,
+      "key": "REST"
+    },
+    {
+      "floor": 15,
+      "key": "REST"
+    }
+  ],
+  "neow_cost": "NONE",
+  "seed_source_timestamp": 26681170899750,
+  "circlet_count": 0,
+  "master_deck": [
+    "AscendersBane",
+    "Strike_B",
+    "Strike_B",
+    "Strike_B",
+    "Strike_B",
+    "Defend_B",
+    "Defend_B",
+    "Defend_B",
+    "Defend_B",
+    "Zap+1",
+    "Dualcast",
+    "Gash",
+    "Compile Driver",
+    "Go for the Eyes",
+    "Rip and Tear",
+    "FTL",
+    "Defragment",
+    "Gash"
+  ],
+  "relics": [
+    "Cracked Core",
+    "Happy Flower",
+    "Ancient Tea Set",
+    "Orichalcum",
+    "Dodecahedron",
+    "Potion Belt"
+  ],
+  "potions_floor_usage": [
+    7,
+    7,
+    16
+  ],
+  "damage_taken": [
+    {
+      "damage": 18,
+      "enemies": "Small Slimes",
+      "floor": 1,
+      "turns": 5
+    },
+    {
+      "damage": 0,
+      "enemies": "Cultist",
+      "floor": 4,
+      "turns": 3
+    },
+    {
+      "damage": 3,
+      "enemies": "2 Louse",
+      "floor": 5,
+      "turns": 3
+    },
+    {
+      "damage": 31,
+      "enemies": "Gremlin Nob",
+      "floor": 7,
+      "turns": 4
+    },
+    {
+      "damage": 19,
+      "enemies": "Lagavulin",
+      "floor": 11,
+      "turns": 7
+    },
+    {
+      "damage": 22,
+      "enemies": "Gremlin Nob",
+      "floor": 13,
+      "turns": 4
+    },
+    {
+      "damage": 7,
+      "enemies": "Large Slime",
+      "floor": 14,
+      "turns": 3
+    },
+    {
+      "damage": 30,
+      "enemies": "The Guardian",
+      "floor": 16,
+      "turns": 9
+    }
+  ],
+  "seed_played": "6875803875689744918",
+  "potions_obtained": [
+    {
+      "floor": 1,
+      "key": "SkillPotion"
+    },
+    {
+      "floor": 4,
+      "key": "SteroidPotion"
+    },
+    {
+      "floor": 11,
+      "key": "LiquidBronze"
+    }
+  ],
+  "is_trial": false,
+  "path_per_floor": [
+    "M",
+    "$",
+    "?",
+    "M",
+    "M",
+    "R",
+    "E",
+    "R",
+    "T",
+    "?",
+    "E",
+    "R",
+    "E",
+    "M",
+    "R",
+    "B"
+  ],
+  "character_chosen": "DEFECT",
+  "items_purchased": [
+    "Poison Potion"
+  ],
+  "campfire_rested": 3,
+  "item_purchase_floors": [
+    2
+  ],
+  "current_hp_per_floor": [
+    46,
+    46,
+    46,
+    46,
+    43,
+    43,
+    12,
+    33,
+    33,
+    33,
+    14,
+    35,
+    13,
+    6,
+    27,
+    0
+  ],
+  "gold": 218,
+  "neow_bonus": "RANDOM_COMMON_RELIC",
+  "is_prod": false,
+  "is_daily": false,
+  "chose_seed": false,
+  "campfire_upgraded": 1,
+  "win_rate": 0,
+  "timestamp": 1547064649,
+  "path_taken": [
+    "M",
+    "$",
+    "?",
+    "M",
+    "M",
+    "R",
+    "E",
+    "R",
+    "T",
+    "?",
+    "E",
+    "R",
+    "E",
+    "M",
+    "R",
+    "BOSS"
+  ],
+  "build_version": "2019-01-08",
+  "purchased_purges": 0,
+  "victory": false,
+  "max_hp_per_floor": [
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71
+  ],
+  "card_choices": [
+    {
+      "not_picked": [
+        "Steam Power",
+        "Reinforced Body"
+      ],
+      "picked": "Gash",
+      "floor": 1
+    },
+    {
+      "not_picked": [
+        "Sweeping Beam",
+        "Darkness"
+      ],
+      "picked": "Compile Driver",
+      "floor": 4
+    },
+    {
+      "not_picked": [
+        "Rebound",
+        "Double Energy"
+      ],
+      "picked": "Go for the Eyes",
+      "floor": 5
+    },
+    {
+      "not_picked": [
+        "Rebound",
+        "Hologram"
+      ],
+      "picked": "Rip and Tear",
+      "floor": 7
+    },
+    {
+      "not_picked": [
+        "Streamline",
+        "Blizzard"
+      ],
+      "picked": "FTL",
+      "floor": 11
+    },
+    {
+      "not_picked": [
+        "Ball Lightning",
+        "Lockon"
+      ],
+      "picked": "Defragment",
+      "floor": 13
+    },
+    {
+      "not_picked": [
+        "Sweeping Beam",
+        "Beam Cell"
+      ],
+      "picked": "Gash",
+      "floor": 14
+    }
+  ],
+  "player_experience": 4279789,
+  "relics_obtained": [
+    {
+      "floor": 7,
+      "key": "Ancient Tea Set"
+    },
+    {
+      "floor": 9,
+      "key": "Orichalcum"
+    },
+    {
+      "floor": 11,
+      "key": "Dodecahedron"
+    },
+    {
+      "floor": 13,
+      "key": "Potion Belt"
+    }
+  ],
+  "event_choices": [
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Left Gold",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "World of Goop",
+      "floor": 3,
+      "gold_loss": 52
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 50,
+      "player_choice": "Pray",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Golden Shrine",
+      "floor": 10,
+      "gold_loss": 0
+    }
+  ],
+  "is_beta": true,
+  "boss_relics": [],
+  "items_purged_floors": [],
+  "is_endless": false,
+  "potions_floor_spawned": [
+    1,
+    4,
+    11
+  ],
+  "killed_by": "The Guardian",
+  "ascension_level": 20
+}

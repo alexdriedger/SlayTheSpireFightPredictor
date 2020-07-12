@@ -1,1 +1,345 @@
-{"gold_per_floor":[118,118,133,133,145,145,156,156,181,181,210,222,234,280,292,304],"floor_reached":16,"playtime":1005,"items_purged":[],"score":216,"play_id":"dfa5653b-29d3-49a0-b434-ba7421eacb1c","local_time":"20190108151727","is_ascension_mode":true,"campfire_choices":[{"data":"Bash","floor":6,"key":"SMITH"},{"data":"Iron Wave","floor":8,"key":"SMITH"},{"data":"Cleave","floor":10,"key":"SMITH"},{"data":"Evolve","floor":15,"key":"SMITH"}],"neow_cost":"NONE","seed_source_timestamp":64248883057101,"circlet_count":0,"master_deck":["AscendersBane","Strike_R","Strike_R","Strike_R","Defend_R","Defend_R","Defend_R","Defend_R","Bash+1","Iron Wave+1","Sever Soul","Burning Pact","Cleave+1","Evolve+1","Headbutt","Feel No Pain"],"relics":["Burning Blood","Lantern","MawBank","Bag of Marbles"],"potions_floor_usage":[5,7,11],"damage_taken":[{"damage":4,"enemies":"2 Louse","floor":1,"turns":5},{"damage":1,"enemies":"Cultist","floor":3,"turns":3},{"damage":14,"enemies":"Small Slimes","floor":5,"turns":5},{"damage":0,"enemies":"2 Fungi Beasts","floor":7,"turns":2},{"damage":39,"enemies":"Lagavulin","floor":11,"turns":8},{"damage":23,"enemies":"3 Sentries","floor":14,"turns":7},{"damage":27,"enemies":"Hexaghost","floor":16,"turns":9}],"seed_played":"-3091406376750322131","potions_obtained":[{"floor":1,"key":"FearPotion"},{"floor":3,"key":"SpeedPotion"},{"floor":5,"key":"AttackPotion"}],"is_trial":false,"path_per_floor":["M","?","M","?","M","R","M","R","T","R","E","$","?","E","R","B"],"character_chosen":"IRONCLAD","items_purchased":[],"campfire_rested":0,"item_purchase_floors":[],"current_hp_per_floor":[70,70,75,75,67,67,73,73,73,73,40,40,40,23,23,0],"gold":304,"neow_bonus":"REMOVE_CARD","is_prod":false,"is_daily":false,"chose_seed":false,"campfire_upgraded":4,"win_rate":0,"timestamp":1546989447,"path_taken":["M","?","?","?","M","R","M","R","T","R","E","$","?","E","R","BOSS"],"build_version":"2019-01-07","purchased_purges":0,"victory":false,"max_hp_per_floor":[75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75],"card_choices":[{"not_picked":["Blood for Blood","Evolve"],"picked":"Iron Wave","floor":1},{"not_picked":["Iron Wave","Heavy Blade"],"picked":"Burning Pact","floor":3},{"not_picked":["Pummel","Body Slam"],"picked":"Cleave","floor":5},{"not_picked":["Hemokinesis","Bloodletting"],"picked":"Evolve","floor":7},{"not_picked":["Dual Wield","Pommel Strike"],"picked":"Headbutt","floor":11},{"not_picked":["Body Slam","Clothesline"],"picked":"Feel No Pain","floor":14}],"player_experience":4249867,"relics_obtained":[{"floor":9,"key":"Lantern"},{"floor":11,"key":"MawBank"},{"floor":14,"key":"Bag of Marbles"}],"event_choices":[{"damage_healed":0,"gold_gain":0,"cards_transformed":["Strike_R"],"player_choice":"Transformed","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Transmorgrifier","floor":2,"gold_loss":0,"cards_obtained":["Sever Soul"]},{"damage_healed":0,"gold_gain":0,"player_choice":"Ignored","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Liars Game","floor":4,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Ignored","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Shining Light","floor":13,"gold_loss":0}],"is_beta":true,"boss_relics":[],"items_purged_floors":[],"is_endless":false,"potions_floor_spawned":[1,3,5],"killed_by":"Hexaghost","ascension_level":20}
+{
+  "gold_per_floor": [
+    118,
+    118,
+    133,
+    133,
+    145,
+    145,
+    156,
+    156,
+    181,
+    181,
+    210,
+    222,
+    234,
+    280,
+    292,
+    304
+  ],
+  "floor_reached": 16,
+  "playtime": 1005,
+  "items_purged": [],
+  "score": 216,
+  "play_id": "dfa5653b-29d3-49a0-b434-ba7421eacb1c",
+  "local_time": "20190108151727",
+  "is_ascension_mode": true,
+  "campfire_choices": [
+    {
+      "data": "Bash",
+      "floor": 6,
+      "key": "SMITH"
+    },
+    {
+      "data": "Iron Wave",
+      "floor": 8,
+      "key": "SMITH"
+    },
+    {
+      "data": "Cleave",
+      "floor": 10,
+      "key": "SMITH"
+    },
+    {
+      "data": "Evolve",
+      "floor": 15,
+      "key": "SMITH"
+    }
+  ],
+  "neow_cost": "NONE",
+  "seed_source_timestamp": 64248883057101,
+  "circlet_count": 0,
+  "master_deck": [
+    "AscendersBane",
+    "Strike_R",
+    "Strike_R",
+    "Strike_R",
+    "Defend_R",
+    "Defend_R",
+    "Defend_R",
+    "Defend_R",
+    "Bash+1",
+    "Iron Wave+1",
+    "Sever Soul",
+    "Burning Pact",
+    "Cleave+1",
+    "Evolve+1",
+    "Headbutt",
+    "Feel No Pain"
+  ],
+  "relics": [
+    "Burning Blood",
+    "Lantern",
+    "MawBank",
+    "Bag of Marbles"
+  ],
+  "potions_floor_usage": [
+    5,
+    7,
+    11
+  ],
+  "damage_taken": [
+    {
+      "damage": 4,
+      "enemies": "2 Louse",
+      "floor": 1,
+      "turns": 5
+    },
+    {
+      "damage": 1,
+      "enemies": "Cultist",
+      "floor": 3,
+      "turns": 3
+    },
+    {
+      "damage": 14,
+      "enemies": "Small Slimes",
+      "floor": 5,
+      "turns": 5
+    },
+    {
+      "damage": 0,
+      "enemies": "2 Fungi Beasts",
+      "floor": 7,
+      "turns": 2
+    },
+    {
+      "damage": 39,
+      "enemies": "Lagavulin",
+      "floor": 11,
+      "turns": 8
+    },
+    {
+      "damage": 23,
+      "enemies": "3 Sentries",
+      "floor": 14,
+      "turns": 7
+    },
+    {
+      "damage": 27,
+      "enemies": "Hexaghost",
+      "floor": 16,
+      "turns": 9
+    }
+  ],
+  "seed_played": "-3091406376750322131",
+  "potions_obtained": [
+    {
+      "floor": 1,
+      "key": "FearPotion"
+    },
+    {
+      "floor": 3,
+      "key": "SpeedPotion"
+    },
+    {
+      "floor": 5,
+      "key": "AttackPotion"
+    }
+  ],
+  "is_trial": false,
+  "path_per_floor": [
+    "M",
+    "?",
+    "M",
+    "?",
+    "M",
+    "R",
+    "M",
+    "R",
+    "T",
+    "R",
+    "E",
+    "$",
+    "?",
+    "E",
+    "R",
+    "B"
+  ],
+  "character_chosen": "IRONCLAD",
+  "items_purchased": [],
+  "campfire_rested": 0,
+  "item_purchase_floors": [],
+  "current_hp_per_floor": [
+    70,
+    70,
+    75,
+    75,
+    67,
+    67,
+    73,
+    73,
+    73,
+    73,
+    40,
+    40,
+    40,
+    23,
+    23,
+    0
+  ],
+  "gold": 304,
+  "neow_bonus": "REMOVE_CARD",
+  "is_prod": false,
+  "is_daily": false,
+  "chose_seed": false,
+  "campfire_upgraded": 4,
+  "win_rate": 0,
+  "timestamp": 1546989447,
+  "path_taken": [
+    "M",
+    "?",
+    "?",
+    "?",
+    "M",
+    "R",
+    "M",
+    "R",
+    "T",
+    "R",
+    "E",
+    "$",
+    "?",
+    "E",
+    "R",
+    "BOSS"
+  ],
+  "build_version": "2019-01-07",
+  "purchased_purges": 0,
+  "victory": false,
+  "max_hp_per_floor": [
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75
+  ],
+  "card_choices": [
+    {
+      "not_picked": [
+        "Blood for Blood",
+        "Evolve"
+      ],
+      "picked": "Iron Wave",
+      "floor": 1
+    },
+    {
+      "not_picked": [
+        "Iron Wave",
+        "Heavy Blade"
+      ],
+      "picked": "Burning Pact",
+      "floor": 3
+    },
+    {
+      "not_picked": [
+        "Pummel",
+        "Body Slam"
+      ],
+      "picked": "Cleave",
+      "floor": 5
+    },
+    {
+      "not_picked": [
+        "Hemokinesis",
+        "Bloodletting"
+      ],
+      "picked": "Evolve",
+      "floor": 7
+    },
+    {
+      "not_picked": [
+        "Dual Wield",
+        "Pommel Strike"
+      ],
+      "picked": "Headbutt",
+      "floor": 11
+    },
+    {
+      "not_picked": [
+        "Body Slam",
+        "Clothesline"
+      ],
+      "picked": "Feel No Pain",
+      "floor": 14
+    }
+  ],
+  "player_experience": 4249867,
+  "relics_obtained": [
+    {
+      "floor": 9,
+      "key": "Lantern"
+    },
+    {
+      "floor": 11,
+      "key": "MawBank"
+    },
+    {
+      "floor": 14,
+      "key": "Bag of Marbles"
+    }
+  ],
+  "event_choices": [
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "cards_transformed": [
+        "Strike_R"
+      ],
+      "player_choice": "Transformed",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Transmorgrifier",
+      "floor": 2,
+      "gold_loss": 0,
+      "cards_obtained": [
+        "Sever Soul"
+      ]
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Ignored",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Liars Game",
+      "floor": 4,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Ignored",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Shining Light",
+      "floor": 13,
+      "gold_loss": 0
+    }
+  ],
+  "is_beta": true,
+  "boss_relics": [],
+  "items_purged_floors": [],
+  "is_endless": false,
+  "potions_floor_spawned": [
+    1,
+    3,
+    5
+  ],
+  "killed_by": "Hexaghost",
+  "ascension_level": 20
+}

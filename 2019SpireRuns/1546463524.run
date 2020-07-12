@@ -1,1 +1,69 @@
-{"gold_per_floor":[99],"floor_reached":0,"playtime":54722,"items_purged":[],"score":0,"play_id":"afd96575-071e-4e72-adf8-97b15ec26a26","local_time":"20190102131204","is_ascension_mode":false,"campfire_choices":[],"neow_cost":"","seed_source_timestamp":0,"circlet_count":0,"master_deck":["Strike_R","Strike_R","Strike_R","Strike_R","Strike_R","Defend_R","Defend_R","Defend_R","Defend_R","Bash"],"relics":["Burning Blood"],"potions_floor_usage":[],"damage_taken":[],"seed_played":"-376274942887458581","potions_obtained":[],"is_trial":true,"path_per_floor":[],"character_chosen":"IRONCLAD","items_purchased":[],"campfire_rested":0,"item_purchase_floors":[],"current_hp_per_floor":[80],"gold":99,"neow_bonus":"","is_prod":false,"is_daily":false,"chose_seed":false,"campfire_upgraded":0,"win_rate":0,"timestamp":1546463524,"path_taken":[],"build_version":"2019-01-01v2","purchased_purges":0,"victory":false,"max_hp_per_floor":[80],"card_choices":[],"player_experience":4139479,"relics_obtained":[],"event_choices":[],"is_beta":true,"boss_relics":[],"items_purged_floors":[],"is_endless":false,"potions_floor_spawned":[],"ascension_level":0}
+{
+  "gold_per_floor": [
+    99
+  ],
+  "floor_reached": 0,
+  "playtime": 54722,
+  "items_purged": [],
+  "score": 0,
+  "play_id": "afd96575-071e-4e72-adf8-97b15ec26a26",
+  "local_time": "20190102131204",
+  "is_ascension_mode": false,
+  "campfire_choices": [],
+  "neow_cost": "",
+  "seed_source_timestamp": 0,
+  "circlet_count": 0,
+  "master_deck": [
+    "Strike_R",
+    "Strike_R",
+    "Strike_R",
+    "Strike_R",
+    "Strike_R",
+    "Defend_R",
+    "Defend_R",
+    "Defend_R",
+    "Defend_R",
+    "Bash"
+  ],
+  "relics": [
+    "Burning Blood"
+  ],
+  "potions_floor_usage": [],
+  "damage_taken": [],
+  "seed_played": "-376274942887458581",
+  "potions_obtained": [],
+  "is_trial": true,
+  "path_per_floor": [],
+  "character_chosen": "IRONCLAD",
+  "items_purchased": [],
+  "campfire_rested": 0,
+  "item_purchase_floors": [],
+  "current_hp_per_floor": [
+    80
+  ],
+  "gold": 99,
+  "neow_bonus": "",
+  "is_prod": false,
+  "is_daily": false,
+  "chose_seed": false,
+  "campfire_upgraded": 0,
+  "win_rate": 0,
+  "timestamp": 1546463524,
+  "path_taken": [],
+  "build_version": "2019-01-01v2",
+  "purchased_purges": 0,
+  "victory": false,
+  "max_hp_per_floor": [
+    80
+  ],
+  "card_choices": [],
+  "player_experience": 4139479,
+  "relics_obtained": [],
+  "event_choices": [],
+  "is_beta": true,
+  "boss_relics": [],
+  "items_purged_floors": [],
+  "is_endless": false,
+  "potions_floor_spawned": [],
+  "ascension_level": 0
+}

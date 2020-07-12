@@ -1,1 +1,868 @@
-{"gold_per_floor":[112,112,126,140,140,140,156,187,213,213,231,231,231,265,265,344,344,358,358,358,358,358,358,201,201,201,228,238,209,209,222,222,299,299,313,76,76,76,102,102,102,102,102,102,114,114,114],"floor_reached":47,"playtime":2821,"items_purged":["Stack"],"score":890,"play_id":"c793a969-04ce-4530-b21b-cdeb0608bda9","local_time":"20190111202139","is_ascension_mode":true,"campfire_choices":[{"data":"Conserve Battery","floor":6,"key":"SMITH"},{"data":"Ball Lightning","floor":10,"key":"SMITH"},{"data":"Ball Lightning","floor":13,"key":"SMITH"},{"floor":15,"key":"REST"},{"data":"Multi-Cast","floor":23,"key":"SMITH"},{"data":"Storm","floor":25,"key":"SMITH"},{"data":"Buffer","floor":32,"key":"SMITH"},{"data":"Thunder Strike","floor":40,"key":"SMITH"},{"floor":42,"key":"REST"},{"data":"Recycle","floor":44,"key":"SMITH"},{"data":"Defragment","floor":46,"key":"SMITH"}],"neow_cost":"NONE","seed_source_timestamp":226871878110949,"circlet_count":0,"master_deck":["AscendersBane","Zap+1","Conserve Battery+1","Ball Lightning+1","Glacier","Ball Lightning+1","Steam","Chill","Heatsinks","Doom and Gloom","Steam","Buffer+1","Multi-Cast+1","Auto Shields","Undo","Storm+1","White Noise","Glacier","Ball Lightning","Recycle+1","Thunder Strike+1","Compile Driver","Panache","Blind","Thinking Ahead","Defragment+1"],"relics":["Cracked Core","Bag of Marbles","Strawberry","Juzu Bracelet","Blood Vial","Meat on the Bone","Orichalcum","Pandora\u0027s Box","MutagenicStrength","Question Card","Runic Dome","Anchor","DataDisk","The Courier"],"potions_floor_usage":[16,16,27,27,31,33,33,47],"damage_taken":[{"damage":8,"enemies":"Small Slimes","floor":1,"turns":4},{"damage":0,"enemies":"2 Louse","floor":3,"turns":4},{"damage":0,"enemies":"Cultist","floor":4,"turns":3},{"damage":8,"enemies":"Exordium Thugs","floor":7,"turns":4},{"damage":13,"enemies":"3 Sentries","floor":8,"turns":9},{"damage":0,"enemies":"Blue Slaver","floor":11,"turns":3},{"damage":24,"enemies":"Lagavulin","floor":14,"turns":5},{"damage":28,"enemies":"Slime Boss","floor":16,"turns":11},{"damage":0,"enemies":"Spheric Guardian","floor":18,"turns":6},{"damage":64,"enemies":"Gremlin Leader","floor":27,"turns":7},{"damage":0,"enemies":"3 Byrds","floor":28,"turns":4},{"damage":13,"enemies":"Shelled Parasite and Fungi","floor":31,"turns":10},{"damage":15,"enemies":"Champ","floor":33,"turns":16},{"damage":60,"enemies":"3 Darklings","floor":35,"turns":8},{"damage":0,"enemies":"3 Shapes","floor":45,"turns":4},{"damage":58,"enemies":"Reptomancer","floor":47,"turns":2}],"seed_played":"-6153568690078226493","potions_obtained":[{"floor":3,"key":"GamblersBrew"},{"floor":7,"key":"Explosive Potion"},{"floor":16,"key":"FocusPotion"},{"floor":19,"key":"SteroidPotion"},{"floor":27,"key":"Block Potion"},{"floor":28,"key":"Regen Potion"},{"floor":31,"key":"Regen Potion"},{"floor":33,"key":"PowerPotion"}],"is_trial":false,"path_per_floor":["M","?","M","M","?","R","M","E","T","R","M","T","R","E","R","B",null,"M","?","?","?","?","R","$","R","T","E","M","$","?","M","R","B",null,"M","$","?","?","T","R","?","R","T","R","M","R","E"],"character_chosen":"DEFECT","items_purchased":["Storm","White Noise","Ball Lightning","Anchor"],"campfire_rested":2,"item_purchase_floors":[24,24,29,36],"current_hp_per_floor":[56,58,58,58,58,58,50,37,37,37,39,39,39,29,52,38,68,70,70,70,70,70,70,70,70,70,20,34,34,34,50,50,52,72,26,26,26,26,26,26,16,39,39,39,41,41,0],"gold":114,"neow_bonus":"RANDOM_COMMON_RELIC","is_prod":false,"is_daily":false,"chose_seed":false,"campfire_upgraded":9,"win_rate":0,"timestamp":1547266899,"path_taken":["M","?","M","M","?","R","?","E","T","R","M","?","R","E","R","BOSS","M","?","?","?","?","R","?","R","T","E","M","$","?","M","R","BOSS","M","$","?","?","?","R","?","R","T","R","M","R","E"],"build_version":"2019-01-10","purchased_purges":1,"victory":false,"max_hp_per_floor":[71,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78],"card_choices":[{"not_picked":["Turbo","Hologram"],"picked":"Conserve Battery","floor":1},{"not_picked":["Streamline","Steam Power"],"picked":"Ball Lightning","floor":3},{"not_picked":["White Noise","Scrape","Consume"],"picked":"SKIP","floor":4},{"not_picked":["Redo","Stack"],"picked":"Glacier","floor":7},{"not_picked":["Chill","Lockon"],"picked":"Ball Lightning","floor":8},{"not_picked":["Turbo","Aggregate"],"picked":"Steam","floor":11},{"not_picked":["Self Repair","Compile Driver"],"picked":"Chill","floor":14},{"not_picked":["Redo","Stack"],"picked":"Undo","floor":18},{"not_picked":["Chaos+1","Lockon","Double Energy"],"picked":"SKIP","floor":27},{"not_picked":["Beam Cell","Scrape","Redo"],"picked":"Glacier","floor":28},{"not_picked":["Barrage","Beam Cell","Rebound+1","Sunder"],"picked":"SKIP","floor":31},{"not_picked":["Hyperbeam","Biased Cognition","Seek"],"picked":"Thunder Strike","floor":33},{"not_picked":["Gash","Reprogram+1","BootSequence"],"picked":"Compile Driver","floor":35},{"not_picked":["Discovery","Impatience","Panacea"],"picked":"Panache","floor":41},{"not_picked":["Dramatic Entrance","Jack Of All Trades","Finesse"],"picked":"Blind","floor":41},{"not_picked":["Deep Breath","Magnetism","Secret Weapon"],"picked":"Thinking Ahead","floor":41},{"not_picked":["Self Repair","Sweeping Beam+1","Reprogram"],"picked":"Defragment","floor":45}],"player_experience":4301447,"relics_obtained":[{"floor":8,"key":"Juzu Bracelet"},{"floor":9,"key":"Blood Vial"},{"floor":12,"key":"Meat on the Bone"},{"floor":14,"key":"Orichalcum"},{"floor":27,"key":"Question Card"},{"floor":39,"key":"DataDisk"},{"floor":43,"key":"The Courier"}],"event_choices":[{"damage_healed":0,"gold_gain":0,"player_choice":"Success","damage_taken":5,"relics_obtained":["Strawberry"],"max_hp_gain":0,"max_hp_loss":0,"event_name":"Scrap Ooze","floor":2,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Upgraded","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Upgrade Shrine","floor":5,"gold_loss":0,"cards_upgraded":["Zap"]},{"damage_healed":0,"gold_gain":0,"player_choice":"Got Potions","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Lab","floor":19,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Inject Mutagens","damage_taken":0,"relics_obtained":["MutagenicStrength"],"max_hp_gain":0,"max_hp_loss":0,"event_name":"Drug Dealer","floor":20,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Ignored","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Vampires","floor":21,"gold_loss":0},{"cards_removed":["Dualcast"],"damage_healed":0,"gold_gain":0,"player_choice":"Elegance","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Back to Basics","floor":22,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Read","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"The Library","floor":30,"gold_loss":0,"cards_obtained":["Recycle"]},{"cards_removed":["Core Surge"],"damage_healed":0,"gold_gain":0,"player_choice":"Removed Attack","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Falling","floor":37,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Ignored","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Mysterious Sphere","floor":38,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Memory 3","damage_taken":10,"max_hp_gain":0,"max_hp_loss":0,"event_name":"SensoryStone","floor":41,"gold_loss":0}],"is_beta":true,"boss_relics":[{"not_picked":["Sozu","Nuclear Battery"],"picked":"Pandora\u0027s Box"},{"not_picked":["Tiny House","Black Star"],"picked":"Runic Dome"}],"items_purged_floors":[36],"is_endless":false,"potions_floor_spawned":[3,7,14,16,27,28,31,33],"killed_by":"Reptomancer","ascension_level":20}
+{
+  "gold_per_floor": [
+    112,
+    112,
+    126,
+    140,
+    140,
+    140,
+    156,
+    187,
+    213,
+    213,
+    231,
+    231,
+    231,
+    265,
+    265,
+    344,
+    344,
+    358,
+    358,
+    358,
+    358,
+    358,
+    358,
+    201,
+    201,
+    201,
+    228,
+    238,
+    209,
+    209,
+    222,
+    222,
+    299,
+    299,
+    313,
+    76,
+    76,
+    76,
+    102,
+    102,
+    102,
+    102,
+    102,
+    102,
+    114,
+    114,
+    114
+  ],
+  "floor_reached": 47,
+  "playtime": 2821,
+  "items_purged": [
+    "Stack"
+  ],
+  "score": 890,
+  "play_id": "c793a969-04ce-4530-b21b-cdeb0608bda9",
+  "local_time": "20190111202139",
+  "is_ascension_mode": true,
+  "campfire_choices": [
+    {
+      "data": "Conserve Battery",
+      "floor": 6,
+      "key": "SMITH"
+    },
+    {
+      "data": "Ball Lightning",
+      "floor": 10,
+      "key": "SMITH"
+    },
+    {
+      "data": "Ball Lightning",
+      "floor": 13,
+      "key": "SMITH"
+    },
+    {
+      "floor": 15,
+      "key": "REST"
+    },
+    {
+      "data": "Multi-Cast",
+      "floor": 23,
+      "key": "SMITH"
+    },
+    {
+      "data": "Storm",
+      "floor": 25,
+      "key": "SMITH"
+    },
+    {
+      "data": "Buffer",
+      "floor": 32,
+      "key": "SMITH"
+    },
+    {
+      "data": "Thunder Strike",
+      "floor": 40,
+      "key": "SMITH"
+    },
+    {
+      "floor": 42,
+      "key": "REST"
+    },
+    {
+      "data": "Recycle",
+      "floor": 44,
+      "key": "SMITH"
+    },
+    {
+      "data": "Defragment",
+      "floor": 46,
+      "key": "SMITH"
+    }
+  ],
+  "neow_cost": "NONE",
+  "seed_source_timestamp": 226871878110949,
+  "circlet_count": 0,
+  "master_deck": [
+    "AscendersBane",
+    "Zap+1",
+    "Conserve Battery+1",
+    "Ball Lightning+1",
+    "Glacier",
+    "Ball Lightning+1",
+    "Steam",
+    "Chill",
+    "Heatsinks",
+    "Doom and Gloom",
+    "Steam",
+    "Buffer+1",
+    "Multi-Cast+1",
+    "Auto Shields",
+    "Undo",
+    "Storm+1",
+    "White Noise",
+    "Glacier",
+    "Ball Lightning",
+    "Recycle+1",
+    "Thunder Strike+1",
+    "Compile Driver",
+    "Panache",
+    "Blind",
+    "Thinking Ahead",
+    "Defragment+1"
+  ],
+  "relics": [
+    "Cracked Core",
+    "Bag of Marbles",
+    "Strawberry",
+    "Juzu Bracelet",
+    "Blood Vial",
+    "Meat on the Bone",
+    "Orichalcum",
+    "Pandora\u0027s Box",
+    "MutagenicStrength",
+    "Question Card",
+    "Runic Dome",
+    "Anchor",
+    "DataDisk",
+    "The Courier"
+  ],
+  "potions_floor_usage": [
+    16,
+    16,
+    27,
+    27,
+    31,
+    33,
+    33,
+    47
+  ],
+  "damage_taken": [
+    {
+      "damage": 8,
+      "enemies": "Small Slimes",
+      "floor": 1,
+      "turns": 4
+    },
+    {
+      "damage": 0,
+      "enemies": "2 Louse",
+      "floor": 3,
+      "turns": 4
+    },
+    {
+      "damage": 0,
+      "enemies": "Cultist",
+      "floor": 4,
+      "turns": 3
+    },
+    {
+      "damage": 8,
+      "enemies": "Exordium Thugs",
+      "floor": 7,
+      "turns": 4
+    },
+    {
+      "damage": 13,
+      "enemies": "3 Sentries",
+      "floor": 8,
+      "turns": 9
+    },
+    {
+      "damage": 0,
+      "enemies": "Blue Slaver",
+      "floor": 11,
+      "turns": 3
+    },
+    {
+      "damage": 24,
+      "enemies": "Lagavulin",
+      "floor": 14,
+      "turns": 5
+    },
+    {
+      "damage": 28,
+      "enemies": "Slime Boss",
+      "floor": 16,
+      "turns": 11
+    },
+    {
+      "damage": 0,
+      "enemies": "Spheric Guardian",
+      "floor": 18,
+      "turns": 6
+    },
+    {
+      "damage": 64,
+      "enemies": "Gremlin Leader",
+      "floor": 27,
+      "turns": 7
+    },
+    {
+      "damage": 0,
+      "enemies": "3 Byrds",
+      "floor": 28,
+      "turns": 4
+    },
+    {
+      "damage": 13,
+      "enemies": "Shelled Parasite and Fungi",
+      "floor": 31,
+      "turns": 10
+    },
+    {
+      "damage": 15,
+      "enemies": "Champ",
+      "floor": 33,
+      "turns": 16
+    },
+    {
+      "damage": 60,
+      "enemies": "3 Darklings",
+      "floor": 35,
+      "turns": 8
+    },
+    {
+      "damage": 0,
+      "enemies": "3 Shapes",
+      "floor": 45,
+      "turns": 4
+    },
+    {
+      "damage": 58,
+      "enemies": "Reptomancer",
+      "floor": 47,
+      "turns": 2
+    }
+  ],
+  "seed_played": "-6153568690078226493",
+  "potions_obtained": [
+    {
+      "floor": 3,
+      "key": "GamblersBrew"
+    },
+    {
+      "floor": 7,
+      "key": "Explosive Potion"
+    },
+    {
+      "floor": 16,
+      "key": "FocusPotion"
+    },
+    {
+      "floor": 19,
+      "key": "SteroidPotion"
+    },
+    {
+      "floor": 27,
+      "key": "Block Potion"
+    },
+    {
+      "floor": 28,
+      "key": "Regen Potion"
+    },
+    {
+      "floor": 31,
+      "key": "Regen Potion"
+    },
+    {
+      "floor": 33,
+      "key": "PowerPotion"
+    }
+  ],
+  "is_trial": false,
+  "path_per_floor": [
+    "M",
+    "?",
+    "M",
+    "M",
+    "?",
+    "R",
+    "M",
+    "E",
+    "T",
+    "R",
+    "M",
+    "T",
+    "R",
+    "E",
+    "R",
+    "B",
+    null,
+    "M",
+    "?",
+    "?",
+    "?",
+    "?",
+    "R",
+    "$",
+    "R",
+    "T",
+    "E",
+    "M",
+    "$",
+    "?",
+    "M",
+    "R",
+    "B",
+    null,
+    "M",
+    "$",
+    "?",
+    "?",
+    "T",
+    "R",
+    "?",
+    "R",
+    "T",
+    "R",
+    "M",
+    "R",
+    "E"
+  ],
+  "character_chosen": "DEFECT",
+  "items_purchased": [
+    "Storm",
+    "White Noise",
+    "Ball Lightning",
+    "Anchor"
+  ],
+  "campfire_rested": 2,
+  "item_purchase_floors": [
+    24,
+    24,
+    29,
+    36
+  ],
+  "current_hp_per_floor": [
+    56,
+    58,
+    58,
+    58,
+    58,
+    58,
+    50,
+    37,
+    37,
+    37,
+    39,
+    39,
+    39,
+    29,
+    52,
+    38,
+    68,
+    70,
+    70,
+    70,
+    70,
+    70,
+    70,
+    70,
+    70,
+    70,
+    20,
+    34,
+    34,
+    34,
+    50,
+    50,
+    52,
+    72,
+    26,
+    26,
+    26,
+    26,
+    26,
+    26,
+    16,
+    39,
+    39,
+    39,
+    41,
+    41,
+    0
+  ],
+  "gold": 114,
+  "neow_bonus": "RANDOM_COMMON_RELIC",
+  "is_prod": false,
+  "is_daily": false,
+  "chose_seed": false,
+  "campfire_upgraded": 9,
+  "win_rate": 0,
+  "timestamp": 1547266899,
+  "path_taken": [
+    "M",
+    "?",
+    "M",
+    "M",
+    "?",
+    "R",
+    "?",
+    "E",
+    "T",
+    "R",
+    "M",
+    "?",
+    "R",
+    "E",
+    "R",
+    "BOSS",
+    "M",
+    "?",
+    "?",
+    "?",
+    "?",
+    "R",
+    "?",
+    "R",
+    "T",
+    "E",
+    "M",
+    "$",
+    "?",
+    "M",
+    "R",
+    "BOSS",
+    "M",
+    "$",
+    "?",
+    "?",
+    "?",
+    "R",
+    "?",
+    "R",
+    "T",
+    "R",
+    "M",
+    "R",
+    "E"
+  ],
+  "build_version": "2019-01-10",
+  "purchased_purges": 1,
+  "victory": false,
+  "max_hp_per_floor": [
+    71,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78
+  ],
+  "card_choices": [
+    {
+      "not_picked": [
+        "Turbo",
+        "Hologram"
+      ],
+      "picked": "Conserve Battery",
+      "floor": 1
+    },
+    {
+      "not_picked": [
+        "Streamline",
+        "Steam Power"
+      ],
+      "picked": "Ball Lightning",
+      "floor": 3
+    },
+    {
+      "not_picked": [
+        "White Noise",
+        "Scrape",
+        "Consume"
+      ],
+      "picked": "SKIP",
+      "floor": 4
+    },
+    {
+      "not_picked": [
+        "Redo",
+        "Stack"
+      ],
+      "picked": "Glacier",
+      "floor": 7
+    },
+    {
+      "not_picked": [
+        "Chill",
+        "Lockon"
+      ],
+      "picked": "Ball Lightning",
+      "floor": 8
+    },
+    {
+      "not_picked": [
+        "Turbo",
+        "Aggregate"
+      ],
+      "picked": "Steam",
+      "floor": 11
+    },
+    {
+      "not_picked": [
+        "Self Repair",
+        "Compile Driver"
+      ],
+      "picked": "Chill",
+      "floor": 14
+    },
+    {
+      "not_picked": [
+        "Redo",
+        "Stack"
+      ],
+      "picked": "Undo",
+      "floor": 18
+    },
+    {
+      "not_picked": [
+        "Chaos+1",
+        "Lockon",
+        "Double Energy"
+      ],
+      "picked": "SKIP",
+      "floor": 27
+    },
+    {
+      "not_picked": [
+        "Beam Cell",
+        "Scrape",
+        "Redo"
+      ],
+      "picked": "Glacier",
+      "floor": 28
+    },
+    {
+      "not_picked": [
+        "Barrage",
+        "Beam Cell",
+        "Rebound+1",
+        "Sunder"
+      ],
+      "picked": "SKIP",
+      "floor": 31
+    },
+    {
+      "not_picked": [
+        "Hyperbeam",
+        "Biased Cognition",
+        "Seek"
+      ],
+      "picked": "Thunder Strike",
+      "floor": 33
+    },
+    {
+      "not_picked": [
+        "Gash",
+        "Reprogram+1",
+        "BootSequence"
+      ],
+      "picked": "Compile Driver",
+      "floor": 35
+    },
+    {
+      "not_picked": [
+        "Discovery",
+        "Impatience",
+        "Panacea"
+      ],
+      "picked": "Panache",
+      "floor": 41
+    },
+    {
+      "not_picked": [
+        "Dramatic Entrance",
+        "Jack Of All Trades",
+        "Finesse"
+      ],
+      "picked": "Blind",
+      "floor": 41
+    },
+    {
+      "not_picked": [
+        "Deep Breath",
+        "Magnetism",
+        "Secret Weapon"
+      ],
+      "picked": "Thinking Ahead",
+      "floor": 41
+    },
+    {
+      "not_picked": [
+        "Self Repair",
+        "Sweeping Beam+1",
+        "Reprogram"
+      ],
+      "picked": "Defragment",
+      "floor": 45
+    }
+  ],
+  "player_experience": 4301447,
+  "relics_obtained": [
+    {
+      "floor": 8,
+      "key": "Juzu Bracelet"
+    },
+    {
+      "floor": 9,
+      "key": "Blood Vial"
+    },
+    {
+      "floor": 12,
+      "key": "Meat on the Bone"
+    },
+    {
+      "floor": 14,
+      "key": "Orichalcum"
+    },
+    {
+      "floor": 27,
+      "key": "Question Card"
+    },
+    {
+      "floor": 39,
+      "key": "DataDisk"
+    },
+    {
+      "floor": 43,
+      "key": "The Courier"
+    }
+  ],
+  "event_choices": [
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Success",
+      "damage_taken": 5,
+      "relics_obtained": [
+        "Strawberry"
+      ],
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Scrap Ooze",
+      "floor": 2,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Upgraded",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Upgrade Shrine",
+      "floor": 5,
+      "gold_loss": 0,
+      "cards_upgraded": [
+        "Zap"
+      ]
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Got Potions",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Lab",
+      "floor": 19,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Inject Mutagens",
+      "damage_taken": 0,
+      "relics_obtained": [
+        "MutagenicStrength"
+      ],
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Drug Dealer",
+      "floor": 20,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Ignored",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Vampires",
+      "floor": 21,
+      "gold_loss": 0
+    },
+    {
+      "cards_removed": [
+        "Dualcast"
+      ],
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Elegance",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Back to Basics",
+      "floor": 22,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Read",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "The Library",
+      "floor": 30,
+      "gold_loss": 0,
+      "cards_obtained": [
+        "Recycle"
+      ]
+    },
+    {
+      "cards_removed": [
+        "Core Surge"
+      ],
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Removed Attack",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Falling",
+      "floor": 37,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Ignored",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Mysterious Sphere",
+      "floor": 38,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Memory 3",
+      "damage_taken": 10,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "SensoryStone",
+      "floor": 41,
+      "gold_loss": 0
+    }
+  ],
+  "is_beta": true,
+  "boss_relics": [
+    {
+      "not_picked": [
+        "Sozu",
+        "Nuclear Battery"
+      ],
+      "picked": "Pandora\u0027s Box"
+    },
+    {
+      "not_picked": [
+        "Tiny House",
+        "Black Star"
+      ],
+      "picked": "Runic Dome"
+    }
+  ],
+  "items_purged_floors": [
+    36
+  ],
+  "is_endless": false,
+  "potions_floor_spawned": [
+    3,
+    7,
+    14,
+    16,
+    27,
+    28,
+    31,
+    33
+  ],
+  "killed_by": "Reptomancer",
+  "ascension_level": 20
+}

@@ -1,1 +1,660 @@
-{"gold_per_floor":[111,128,24,99,110,145,145,171,222,40,55,55,87,87,87,161,161,176,126,143,155,155,155,155,155,207,227,227,254,270,297,297,297],"floor_reached":33,"playtime":3200,"items_purged":["Strike_G","Strike_G","Strike_G"],"score":656,"play_id":"90c70315-15dd-41c8-98a2-091f2854c376","local_time":"20190110160516","is_ascension_mode":true,"campfire_choices":[{"data":"Dagger Spray","floor":7,"key":"SMITH"},{"floor":12,"key":"REST"},{"data":"Malaise","floor":15,"key":"SMITH"},{"data":"Crippling Poison","floor":23,"key":"SMITH"},{"data":"Wraith Form v2","floor":25,"key":"SMITH"},{"floor":28,"key":"REST"},{"data":"Neutralize","floor":32,"key":"SMITH"}],"neow_cost":"NONE","seed_source_timestamp":124711297583747,"circlet_count":0,"master_deck":["AscendersBane","Defend_G","Defend_G","Defend_G","Defend_G","Defend_G","Strike_G","Strike_G","Survivor","Neutralize+1","Dagger Spray+1","Quick Slash","Malaise+1","Cloak And Dagger","Well Laid Plans","Crippling Poison+1","Escape Plan","Wraith Form v2+1","Flechettes","Poisoned Stab","Backstab+1","Bouncing Flask","Backstab","PiercingWail","Corpse Explosion"],"relics":["Ring of the Snake","Ornamental Fan","Smiling Mask","Lantern","Vajra","Philosopher\u0027s Stone","Enchiridion","Pen Nib","Blood Vial","Gremlin Horn"],"potions_floor_usage":[6,6,6,11,16,16,20,31,33],"damage_taken":[{"damage":0,"enemies":"2 Louse","floor":1,"turns":2},{"damage":0,"enemies":"Small Slimes","floor":2,"turns":3},{"damage":2,"enemies":"Jaw Worm","floor":5,"turns":6},{"damage":19,"enemies":"Gremlin Nob","floor":6,"turns":4},{"damage":32,"enemies":"3 Sentries","floor":8,"turns":8},{"damage":0,"enemies":"Large Slime","floor":11,"turns":6},{"damage":15,"enemies":"Gremlin Nob","floor":13,"turns":5},{"damage":1,"enemies":"The Guardian","floor":16,"turns":13},{"damage":0,"enemies":"2 Thieves","floor":18,"turns":4},{"damage":8,"enemies":"Chosen","floor":20,"turns":10},{"damage":8,"enemies":"Snecko","floor":21,"turns":10},{"damage":0,"enemies":"3 Cultists","floor":27,"turns":4},{"damage":27,"enemies":"Slavers","floor":29,"turns":5},{"damage":3,"enemies":"Centurion and Healer","floor":30,"turns":7},{"damage":0,"enemies":"Gremlin Leader","floor":31,"turns":4},{"damage":26,"enemies":"Champ","floor":33,"turns":16}],"seed_played":"-5658552341145199797","potions_obtained":[{"floor":1,"key":"EntropicBrew"},{"floor":8,"key":"PowerPotion"},{"floor":11,"key":"AttackPotion"},{"floor":13,"key":"AttackPotion"},{"floor":18,"key":"Poison Potion"},{"floor":20,"key":"GhostInAJar"},{"floor":30,"key":"Poison Potion"}],"is_trial":false,"path_per_floor":["M","M","$","?","M","E","R","E","T","$","M","R","E","?","R","B",null,"M","$","M","M","?","R","?","R","T","M","R","E","M","E","R","B"],"character_chosen":"THE_SILENT","items_purchased":["Quick Slash","Well Laid Plans","Swift Potion"],"campfire_rested":2,"item_purchase_floors":[3,10,10],"current_hp_per_floor":[65,65,65,54,52,33,33,1,1,1,1,22,7,7,7,6,56,56,56,48,40,40,40,19,19,19,19,40,13,12,14,14,0],"gold":297,"neow_bonus":"TEN_PERCENT_HP_BONUS","is_prod":false,"is_daily":false,"chose_seed":false,"campfire_upgraded":5,"win_rate":0,"timestamp":1547165116,"path_taken":["M","M","$","?","M","E","R","E","T","$","M","R","E","?","R","BOSS","M","$","M","M","?","R","?","R","T","M","R","E","M","E","R","BOSS"],"build_version":"2019-01-09","purchased_purges":3,"victory":false,"max_hp_per_floor":[72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72],"card_choices":[{"not_picked":["Acrobatics","Dodge and Roll"],"picked":"Dagger Spray","floor":1},{"not_picked":["Slice","Deflect","Dodge and Roll"],"picked":"SKIP","floor":2},{"not_picked":["Prepared","Deflect","Blade Dance"],"picked":"SKIP","floor":5},{"not_picked":["Quick Slash","Flying Knee"],"picked":"Malaise","floor":6},{"not_picked":["Outmaneuver","Reflex"],"picked":"Cloak And Dagger","floor":8},{"not_picked":["Skewer","Bane"],"picked":"Crippling Poison","floor":11},{"not_picked":["Finisher","Flying Knee"],"picked":"Escape Plan","floor":13},{"not_picked":["Bullet Time","Tools of the Trade"],"picked":"Wraith Form v2","floor":16},{"not_picked":["Catalyst","Flying Knee"],"picked":"Flechettes","floor":18},{"not_picked":["Underhanded Strike","Tactician"],"picked":"Poisoned Stab","floor":20},{"not_picked":["Dagger Throw+1","Expertise"],"picked":"Backstab+1","floor":21},{"not_picked":["Calculated Gamble","Cloak And Dagger"],"picked":"Bouncing Flask","floor":27},{"not_picked":["Concentrate","Well Laid Plans"],"picked":"Backstab","floor":29},{"not_picked":["Deadly Poison","Eviscerate"],"picked":"PiercingWail","floor":30},{"not_picked":["Finisher","Eviscerate"],"picked":"Corpse Explosion","floor":31}],"player_experience":4285900,"relics_obtained":[{"floor":6,"key":"Ornamental Fan"},{"floor":8,"key":"Smiling Mask"},{"floor":9,"key":"Lantern"},{"floor":13,"key":"Vajra"},{"floor":24,"key":"Enchiridion"},{"floor":26,"key":"Pen Nib"},{"floor":29,"key":"Blood Vial"},{"floor":31,"key":"Gremlin Horn"}],"event_choices":[{"damage_healed":0,"gold_gain":75,"player_choice":"Gather Gold","damage_taken":11,"max_hp_gain":0,"max_hp_loss":0,"event_name":"World of Goop","floor":4,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Ignored","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Golden Wing","floor":14,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Ignored","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"The Mausoleum","floor":22,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Obtained Book","damage_taken":21,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Cursed Tome","floor":24,"gold_loss":0}],"is_beta":true,"boss_relics":[{"not_picked":["Ectoplasm","Coffee Dripper"],"picked":"Philosopher\u0027s Stone"}],"items_purged_floors":[3,10,19],"is_endless":false,"potions_floor_spawned":[1,8,11,13,18,20,30],"killed_by":"Champ","ascension_level":20}
+{
+  "gold_per_floor": [
+    111,
+    128,
+    24,
+    99,
+    110,
+    145,
+    145,
+    171,
+    222,
+    40,
+    55,
+    55,
+    87,
+    87,
+    87,
+    161,
+    161,
+    176,
+    126,
+    143,
+    155,
+    155,
+    155,
+    155,
+    155,
+    207,
+    227,
+    227,
+    254,
+    270,
+    297,
+    297,
+    297
+  ],
+  "floor_reached": 33,
+  "playtime": 3200,
+  "items_purged": [
+    "Strike_G",
+    "Strike_G",
+    "Strike_G"
+  ],
+  "score": 656,
+  "play_id": "90c70315-15dd-41c8-98a2-091f2854c376",
+  "local_time": "20190110160516",
+  "is_ascension_mode": true,
+  "campfire_choices": [
+    {
+      "data": "Dagger Spray",
+      "floor": 7,
+      "key": "SMITH"
+    },
+    {
+      "floor": 12,
+      "key": "REST"
+    },
+    {
+      "data": "Malaise",
+      "floor": 15,
+      "key": "SMITH"
+    },
+    {
+      "data": "Crippling Poison",
+      "floor": 23,
+      "key": "SMITH"
+    },
+    {
+      "data": "Wraith Form v2",
+      "floor": 25,
+      "key": "SMITH"
+    },
+    {
+      "floor": 28,
+      "key": "REST"
+    },
+    {
+      "data": "Neutralize",
+      "floor": 32,
+      "key": "SMITH"
+    }
+  ],
+  "neow_cost": "NONE",
+  "seed_source_timestamp": 124711297583747,
+  "circlet_count": 0,
+  "master_deck": [
+    "AscendersBane",
+    "Defend_G",
+    "Defend_G",
+    "Defend_G",
+    "Defend_G",
+    "Defend_G",
+    "Strike_G",
+    "Strike_G",
+    "Survivor",
+    "Neutralize+1",
+    "Dagger Spray+1",
+    "Quick Slash",
+    "Malaise+1",
+    "Cloak And Dagger",
+    "Well Laid Plans",
+    "Crippling Poison+1",
+    "Escape Plan",
+    "Wraith Form v2+1",
+    "Flechettes",
+    "Poisoned Stab",
+    "Backstab+1",
+    "Bouncing Flask",
+    "Backstab",
+    "PiercingWail",
+    "Corpse Explosion"
+  ],
+  "relics": [
+    "Ring of the Snake",
+    "Ornamental Fan",
+    "Smiling Mask",
+    "Lantern",
+    "Vajra",
+    "Philosopher\u0027s Stone",
+    "Enchiridion",
+    "Pen Nib",
+    "Blood Vial",
+    "Gremlin Horn"
+  ],
+  "potions_floor_usage": [
+    6,
+    6,
+    6,
+    11,
+    16,
+    16,
+    20,
+    31,
+    33
+  ],
+  "damage_taken": [
+    {
+      "damage": 0,
+      "enemies": "2 Louse",
+      "floor": 1,
+      "turns": 2
+    },
+    {
+      "damage": 0,
+      "enemies": "Small Slimes",
+      "floor": 2,
+      "turns": 3
+    },
+    {
+      "damage": 2,
+      "enemies": "Jaw Worm",
+      "floor": 5,
+      "turns": 6
+    },
+    {
+      "damage": 19,
+      "enemies": "Gremlin Nob",
+      "floor": 6,
+      "turns": 4
+    },
+    {
+      "damage": 32,
+      "enemies": "3 Sentries",
+      "floor": 8,
+      "turns": 8
+    },
+    {
+      "damage": 0,
+      "enemies": "Large Slime",
+      "floor": 11,
+      "turns": 6
+    },
+    {
+      "damage": 15,
+      "enemies": "Gremlin Nob",
+      "floor": 13,
+      "turns": 5
+    },
+    {
+      "damage": 1,
+      "enemies": "The Guardian",
+      "floor": 16,
+      "turns": 13
+    },
+    {
+      "damage": 0,
+      "enemies": "2 Thieves",
+      "floor": 18,
+      "turns": 4
+    },
+    {
+      "damage": 8,
+      "enemies": "Chosen",
+      "floor": 20,
+      "turns": 10
+    },
+    {
+      "damage": 8,
+      "enemies": "Snecko",
+      "floor": 21,
+      "turns": 10
+    },
+    {
+      "damage": 0,
+      "enemies": "3 Cultists",
+      "floor": 27,
+      "turns": 4
+    },
+    {
+      "damage": 27,
+      "enemies": "Slavers",
+      "floor": 29,
+      "turns": 5
+    },
+    {
+      "damage": 3,
+      "enemies": "Centurion and Healer",
+      "floor": 30,
+      "turns": 7
+    },
+    {
+      "damage": 0,
+      "enemies": "Gremlin Leader",
+      "floor": 31,
+      "turns": 4
+    },
+    {
+      "damage": 26,
+      "enemies": "Champ",
+      "floor": 33,
+      "turns": 16
+    }
+  ],
+  "seed_played": "-5658552341145199797",
+  "potions_obtained": [
+    {
+      "floor": 1,
+      "key": "EntropicBrew"
+    },
+    {
+      "floor": 8,
+      "key": "PowerPotion"
+    },
+    {
+      "floor": 11,
+      "key": "AttackPotion"
+    },
+    {
+      "floor": 13,
+      "key": "AttackPotion"
+    },
+    {
+      "floor": 18,
+      "key": "Poison Potion"
+    },
+    {
+      "floor": 20,
+      "key": "GhostInAJar"
+    },
+    {
+      "floor": 30,
+      "key": "Poison Potion"
+    }
+  ],
+  "is_trial": false,
+  "path_per_floor": [
+    "M",
+    "M",
+    "$",
+    "?",
+    "M",
+    "E",
+    "R",
+    "E",
+    "T",
+    "$",
+    "M",
+    "R",
+    "E",
+    "?",
+    "R",
+    "B",
+    null,
+    "M",
+    "$",
+    "M",
+    "M",
+    "?",
+    "R",
+    "?",
+    "R",
+    "T",
+    "M",
+    "R",
+    "E",
+    "M",
+    "E",
+    "R",
+    "B"
+  ],
+  "character_chosen": "THE_SILENT",
+  "items_purchased": [
+    "Quick Slash",
+    "Well Laid Plans",
+    "Swift Potion"
+  ],
+  "campfire_rested": 2,
+  "item_purchase_floors": [
+    3,
+    10,
+    10
+  ],
+  "current_hp_per_floor": [
+    65,
+    65,
+    65,
+    54,
+    52,
+    33,
+    33,
+    1,
+    1,
+    1,
+    1,
+    22,
+    7,
+    7,
+    7,
+    6,
+    56,
+    56,
+    56,
+    48,
+    40,
+    40,
+    40,
+    19,
+    19,
+    19,
+    19,
+    40,
+    13,
+    12,
+    14,
+    14,
+    0
+  ],
+  "gold": 297,
+  "neow_bonus": "TEN_PERCENT_HP_BONUS",
+  "is_prod": false,
+  "is_daily": false,
+  "chose_seed": false,
+  "campfire_upgraded": 5,
+  "win_rate": 0,
+  "timestamp": 1547165116,
+  "path_taken": [
+    "M",
+    "M",
+    "$",
+    "?",
+    "M",
+    "E",
+    "R",
+    "E",
+    "T",
+    "$",
+    "M",
+    "R",
+    "E",
+    "?",
+    "R",
+    "BOSS",
+    "M",
+    "$",
+    "M",
+    "M",
+    "?",
+    "R",
+    "?",
+    "R",
+    "T",
+    "M",
+    "R",
+    "E",
+    "M",
+    "E",
+    "R",
+    "BOSS"
+  ],
+  "build_version": "2019-01-09",
+  "purchased_purges": 3,
+  "victory": false,
+  "max_hp_per_floor": [
+    72,
+    72,
+    72,
+    72,
+    72,
+    72,
+    72,
+    72,
+    72,
+    72,
+    72,
+    72,
+    72,
+    72,
+    72,
+    72,
+    72,
+    72,
+    72,
+    72,
+    72,
+    72,
+    72,
+    72,
+    72,
+    72,
+    72,
+    72,
+    72,
+    72,
+    72,
+    72,
+    72
+  ],
+  "card_choices": [
+    {
+      "not_picked": [
+        "Acrobatics",
+        "Dodge and Roll"
+      ],
+      "picked": "Dagger Spray",
+      "floor": 1
+    },
+    {
+      "not_picked": [
+        "Slice",
+        "Deflect",
+        "Dodge and Roll"
+      ],
+      "picked": "SKIP",
+      "floor": 2
+    },
+    {
+      "not_picked": [
+        "Prepared",
+        "Deflect",
+        "Blade Dance"
+      ],
+      "picked": "SKIP",
+      "floor": 5
+    },
+    {
+      "not_picked": [
+        "Quick Slash",
+        "Flying Knee"
+      ],
+      "picked": "Malaise",
+      "floor": 6
+    },
+    {
+      "not_picked": [
+        "Outmaneuver",
+        "Reflex"
+      ],
+      "picked": "Cloak And Dagger",
+      "floor": 8
+    },
+    {
+      "not_picked": [
+        "Skewer",
+        "Bane"
+      ],
+      "picked": "Crippling Poison",
+      "floor": 11
+    },
+    {
+      "not_picked": [
+        "Finisher",
+        "Flying Knee"
+      ],
+      "picked": "Escape Plan",
+      "floor": 13
+    },
+    {
+      "not_picked": [
+        "Bullet Time",
+        "Tools of the Trade"
+      ],
+      "picked": "Wraith Form v2",
+      "floor": 16
+    },
+    {
+      "not_picked": [
+        "Catalyst",
+        "Flying Knee"
+      ],
+      "picked": "Flechettes",
+      "floor": 18
+    },
+    {
+      "not_picked": [
+        "Underhanded Strike",
+        "Tactician"
+      ],
+      "picked": "Poisoned Stab",
+      "floor": 20
+    },
+    {
+      "not_picked": [
+        "Dagger Throw+1",
+        "Expertise"
+      ],
+      "picked": "Backstab+1",
+      "floor": 21
+    },
+    {
+      "not_picked": [
+        "Calculated Gamble",
+        "Cloak And Dagger"
+      ],
+      "picked": "Bouncing Flask",
+      "floor": 27
+    },
+    {
+      "not_picked": [
+        "Concentrate",
+        "Well Laid Plans"
+      ],
+      "picked": "Backstab",
+      "floor": 29
+    },
+    {
+      "not_picked": [
+        "Deadly Poison",
+        "Eviscerate"
+      ],
+      "picked": "PiercingWail",
+      "floor": 30
+    },
+    {
+      "not_picked": [
+        "Finisher",
+        "Eviscerate"
+      ],
+      "picked": "Corpse Explosion",
+      "floor": 31
+    }
+  ],
+  "player_experience": 4285900,
+  "relics_obtained": [
+    {
+      "floor": 6,
+      "key": "Ornamental Fan"
+    },
+    {
+      "floor": 8,
+      "key": "Smiling Mask"
+    },
+    {
+      "floor": 9,
+      "key": "Lantern"
+    },
+    {
+      "floor": 13,
+      "key": "Vajra"
+    },
+    {
+      "floor": 24,
+      "key": "Enchiridion"
+    },
+    {
+      "floor": 26,
+      "key": "Pen Nib"
+    },
+    {
+      "floor": 29,
+      "key": "Blood Vial"
+    },
+    {
+      "floor": 31,
+      "key": "Gremlin Horn"
+    }
+  ],
+  "event_choices": [
+    {
+      "damage_healed": 0,
+      "gold_gain": 75,
+      "player_choice": "Gather Gold",
+      "damage_taken": 11,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "World of Goop",
+      "floor": 4,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Ignored",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Golden Wing",
+      "floor": 14,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Ignored",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "The Mausoleum",
+      "floor": 22,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Obtained Book",
+      "damage_taken": 21,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Cursed Tome",
+      "floor": 24,
+      "gold_loss": 0
+    }
+  ],
+  "is_beta": true,
+  "boss_relics": [
+    {
+      "not_picked": [
+        "Ectoplasm",
+        "Coffee Dripper"
+      ],
+      "picked": "Philosopher\u0027s Stone"
+    }
+  ],
+  "items_purged_floors": [
+    3,
+    10,
+    19
+  ],
+  "is_endless": false,
+  "potions_floor_spawned": [
+    1,
+    8,
+    11,
+    13,
+    18,
+    20,
+    30
+  ],
+  "killed_by": "Champ",
+  "ascension_level": 20
+}

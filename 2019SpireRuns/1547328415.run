@@ -1,1 +1,645 @@
-{"gold_per_floor":[110,110,110,126,65,65,99,99,124,150,150,150,166,2,2,75,75,89,59,79,4,17,17,34,34,34,50,69,96,96,128,128,128],"floor_reached":33,"playtime":1412,"items_purged":["Strike_B+1"],"score":686,"play_id":"c93a6d4c-1c50-4cac-a387-c3d8e3f20fd5","local_time":"20190112132655","is_ascension_mode":true,"campfire_choices":[{"floor":6,"key":"REST"},{"floor":8,"key":"REST"},{"data":"Zap","floor":11,"key":"SMITH"},{"data":"Zap","floor":15,"key":"SMITH"},{"data":"Electrodynamics","floor":23,"key":"SMITH"},{"floor":25,"key":"REST"},{"floor":30,"key":"REST"},{"data":"Go for the Eyes","floor":32,"key":"SMITH"}],"neow_cost":"NONE","seed_source_timestamp":289796282490901,"circlet_count":0,"master_deck":["AscendersBane","Strike_B+1","Strike_B+1","Defend_B","Defend_B+1","Defend_B","Defend_B","Zap+1","Cold Snap","Self Repair","Conserve Battery+1","Zap+1","All For One","Electrodynamics+1","Compile Driver","Leap+1","Go for the Eyes+1","Compile Driver"],"relics":["Cracked Core","Anchor","Ancient Tea Set","Regal Pillow","Whetstone","PreservedInsect","War Paint","Empty Cage","Letter Opener","Bottled Tornado","Symbiotic Virus"],"potions_floor_usage":[16,16,20,29,33,33,33,33],"damage_taken":[{"damage":4,"enemies":"Small Slimes","floor":1,"turns":3},{"damage":0,"enemies":"2 Louse","floor":4,"turns":1},{"damage":35,"enemies":"Gremlin Nob","floor":7,"turns":4},{"damage":21,"enemies":"Lagavulin","floor":10,"turns":7},{"damage":0,"enemies":"Cultist","floor":13,"turns":2},{"damage":0,"enemies":"Slime Boss","floor":16,"turns":7},{"damage":13,"enemies":"Spheric Guardian","floor":18,"turns":5},{"damage":9,"enemies":"2 Thieves","floor":20,"turns":4},{"damage":14,"enemies":"Centurion and Healer","floor":22,"turns":6},{"damage":24,"enemies":"Shelled Parasite and Fungi","floor":24,"turns":6},{"damage":25,"enemies":"Snecko","floor":27,"turns":7},{"damage":10,"enemies":"Centurion and Healer","floor":28,"turns":6},{"damage":33,"enemies":"Slavers","floor":29,"turns":4},{"damage":11,"enemies":"Gremlin Leader","floor":31,"turns":4},{"damage":77,"enemies":"Collector","floor":33,"turns":8}],"seed_played":"6260648405227154452","potions_obtained":[{"floor":7,"key":"Strength Potion"},{"floor":10,"key":"SteroidPotion"},{"floor":19,"key":"EntropicBrew"},{"floor":19,"key":"Poison Potion"},{"floor":20,"key":"Dexterity Potion"},{"floor":31,"key":"Regen Potion"}],"is_trial":false,"path_per_floor":["M","?","?","M","?","R","E","R","T","E","R","?","M","$","R","B",null,"M","?","M","$","M","R","M","R","T","M","M","E","R","E","R","B"],"character_chosen":"DEFECT","items_purchased":["War Paint"],"campfire_rested":4,"item_purchase_floors":[14],"current_hp_per_floor":[60,39,28,28,28,49,14,50,50,36,36,36,36,36,36,43,64,58,58,56,56,49,49,32,68,68,50,47,21,57,46,46,0],"gold":128,"neow_bonus":"RANDOM_COMMON_RELIC","is_prod":false,"is_daily":false,"chose_seed":false,"campfire_upgraded":4,"win_rate":0,"timestamp":1547328415,"path_taken":["M","?","?","M","?","R","E","R","T","E","R","?","?","$","R","BOSS","M","?","M","$","M","R","M","R","T","M","?","E","R","E","R","BOSS"],"build_version":"2019-01-10","purchased_purges":1,"victory":false,"max_hp_per_floor":[71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71],"card_choices":[{"not_picked":["Conserve Battery","Melter","Double Energy"],"picked":"SKIP","floor":1},{"not_picked":["Beam Cell","Rebound"],"picked":"Cold Snap","floor":4},{"not_picked":["Leap","Beam Cell"],"picked":"Self Repair","floor":7},{"not_picked":["Hologram","Rebound"],"picked":"Conserve Battery","floor":10},{"not_picked":["Sweeping Beam","Redo","Stack"],"picked":"SKIP","floor":13},{"not_picked":["Echo Form","Fission"],"picked":"Electrodynamics","floor":16},{"not_picked":["Scrape","Force Field"],"picked":"Compile Driver","floor":18},{"not_picked":["Heatsinks","Undo"],"picked":"Leap+1","floor":20},{"not_picked":["Heatsinks","Cold Snap","Beam Cell"],"picked":"SKIP","floor":22},{"not_picked":["Leap","Cold Snap","Beam Cell"],"picked":"SKIP","floor":24},{"not_picked":["Barrage","Beam Cell"],"picked":"Go for the Eyes","floor":27},{"not_picked":["Rip and Tear","Multi-Cast"],"picked":"Compile Driver","floor":28},{"not_picked":["Redo","Beam Cell","Leap"],"picked":"SKIP","floor":29},{"not_picked":["Self Repair","Rebound","Barrage"],"picked":"SKIP","floor":31}],"player_experience":4313744,"relics_obtained":[{"floor":7,"key":"Regal Pillow"},{"floor":9,"key":"Whetstone"},{"floor":10,"key":"PreservedInsect"},{"floor":26,"key":"Letter Opener"},{"floor":29,"key":"Bottled Tornado"},{"floor":31,"key":"Symbiotic Virus"}],"event_choices":[{"damage_healed":0,"gold_gain":0,"player_choice":"Entered Light","damage_taken":21,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Shining Light","floor":2,"gold_loss":0,"cards_upgraded":["Strike_B","Strike_B"]},{"damage_healed":0,"gold_gain":0,"player_choice":"Success","damage_taken":11,"relics_obtained":["Ancient Tea Set"],"max_hp_gain":0,"max_hp_loss":0,"event_name":"Scrap Ooze","floor":3,"gold_loss":0},{"damage_healed":0,"gold_gain":0,"player_choice":"Left Gold","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"World of Goop","floor":5,"gold_loss":61},{"damage_healed":0,"gold_gain":0,"player_choice":"2 cards matched","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"Match and Keep!","floor":12,"gold_loss":0,"cards_obtained":["Zap","All For One"]},{"damage_healed":0,"gold_gain":0,"player_choice":"Bought 2 Potions","damage_taken":0,"max_hp_gain":0,"max_hp_loss":0,"event_name":"The Woman in Blue","floor":19,"gold_loss":0}],"is_beta":true,"boss_relics":[{"not_picked":["Tiny House","Ectoplasm"],"picked":"Empty Cage"}],"items_purged_floors":[21],"is_endless":false,"potions_floor_spawned":[7,10,20,31],"killed_by":"Collector","ascension_level":20}
+{
+  "gold_per_floor": [
+    110,
+    110,
+    110,
+    126,
+    65,
+    65,
+    99,
+    99,
+    124,
+    150,
+    150,
+    150,
+    166,
+    2,
+    2,
+    75,
+    75,
+    89,
+    59,
+    79,
+    4,
+    17,
+    17,
+    34,
+    34,
+    34,
+    50,
+    69,
+    96,
+    96,
+    128,
+    128,
+    128
+  ],
+  "floor_reached": 33,
+  "playtime": 1412,
+  "items_purged": [
+    "Strike_B+1"
+  ],
+  "score": 686,
+  "play_id": "c93a6d4c-1c50-4cac-a387-c3d8e3f20fd5",
+  "local_time": "20190112132655",
+  "is_ascension_mode": true,
+  "campfire_choices": [
+    {
+      "floor": 6,
+      "key": "REST"
+    },
+    {
+      "floor": 8,
+      "key": "REST"
+    },
+    {
+      "data": "Zap",
+      "floor": 11,
+      "key": "SMITH"
+    },
+    {
+      "data": "Zap",
+      "floor": 15,
+      "key": "SMITH"
+    },
+    {
+      "data": "Electrodynamics",
+      "floor": 23,
+      "key": "SMITH"
+    },
+    {
+      "floor": 25,
+      "key": "REST"
+    },
+    {
+      "floor": 30,
+      "key": "REST"
+    },
+    {
+      "data": "Go for the Eyes",
+      "floor": 32,
+      "key": "SMITH"
+    }
+  ],
+  "neow_cost": "NONE",
+  "seed_source_timestamp": 289796282490901,
+  "circlet_count": 0,
+  "master_deck": [
+    "AscendersBane",
+    "Strike_B+1",
+    "Strike_B+1",
+    "Defend_B",
+    "Defend_B+1",
+    "Defend_B",
+    "Defend_B",
+    "Zap+1",
+    "Cold Snap",
+    "Self Repair",
+    "Conserve Battery+1",
+    "Zap+1",
+    "All For One",
+    "Electrodynamics+1",
+    "Compile Driver",
+    "Leap+1",
+    "Go for the Eyes+1",
+    "Compile Driver"
+  ],
+  "relics": [
+    "Cracked Core",
+    "Anchor",
+    "Ancient Tea Set",
+    "Regal Pillow",
+    "Whetstone",
+    "PreservedInsect",
+    "War Paint",
+    "Empty Cage",
+    "Letter Opener",
+    "Bottled Tornado",
+    "Symbiotic Virus"
+  ],
+  "potions_floor_usage": [
+    16,
+    16,
+    20,
+    29,
+    33,
+    33,
+    33,
+    33
+  ],
+  "damage_taken": [
+    {
+      "damage": 4,
+      "enemies": "Small Slimes",
+      "floor": 1,
+      "turns": 3
+    },
+    {
+      "damage": 0,
+      "enemies": "2 Louse",
+      "floor": 4,
+      "turns": 1
+    },
+    {
+      "damage": 35,
+      "enemies": "Gremlin Nob",
+      "floor": 7,
+      "turns": 4
+    },
+    {
+      "damage": 21,
+      "enemies": "Lagavulin",
+      "floor": 10,
+      "turns": 7
+    },
+    {
+      "damage": 0,
+      "enemies": "Cultist",
+      "floor": 13,
+      "turns": 2
+    },
+    {
+      "damage": 0,
+      "enemies": "Slime Boss",
+      "floor": 16,
+      "turns": 7
+    },
+    {
+      "damage": 13,
+      "enemies": "Spheric Guardian",
+      "floor": 18,
+      "turns": 5
+    },
+    {
+      "damage": 9,
+      "enemies": "2 Thieves",
+      "floor": 20,
+      "turns": 4
+    },
+    {
+      "damage": 14,
+      "enemies": "Centurion and Healer",
+      "floor": 22,
+      "turns": 6
+    },
+    {
+      "damage": 24,
+      "enemies": "Shelled Parasite and Fungi",
+      "floor": 24,
+      "turns": 6
+    },
+    {
+      "damage": 25,
+      "enemies": "Snecko",
+      "floor": 27,
+      "turns": 7
+    },
+    {
+      "damage": 10,
+      "enemies": "Centurion and Healer",
+      "floor": 28,
+      "turns": 6
+    },
+    {
+      "damage": 33,
+      "enemies": "Slavers",
+      "floor": 29,
+      "turns": 4
+    },
+    {
+      "damage": 11,
+      "enemies": "Gremlin Leader",
+      "floor": 31,
+      "turns": 4
+    },
+    {
+      "damage": 77,
+      "enemies": "Collector",
+      "floor": 33,
+      "turns": 8
+    }
+  ],
+  "seed_played": "6260648405227154452",
+  "potions_obtained": [
+    {
+      "floor": 7,
+      "key": "Strength Potion"
+    },
+    {
+      "floor": 10,
+      "key": "SteroidPotion"
+    },
+    {
+      "floor": 19,
+      "key": "EntropicBrew"
+    },
+    {
+      "floor": 19,
+      "key": "Poison Potion"
+    },
+    {
+      "floor": 20,
+      "key": "Dexterity Potion"
+    },
+    {
+      "floor": 31,
+      "key": "Regen Potion"
+    }
+  ],
+  "is_trial": false,
+  "path_per_floor": [
+    "M",
+    "?",
+    "?",
+    "M",
+    "?",
+    "R",
+    "E",
+    "R",
+    "T",
+    "E",
+    "R",
+    "?",
+    "M",
+    "$",
+    "R",
+    "B",
+    null,
+    "M",
+    "?",
+    "M",
+    "$",
+    "M",
+    "R",
+    "M",
+    "R",
+    "T",
+    "M",
+    "M",
+    "E",
+    "R",
+    "E",
+    "R",
+    "B"
+  ],
+  "character_chosen": "DEFECT",
+  "items_purchased": [
+    "War Paint"
+  ],
+  "campfire_rested": 4,
+  "item_purchase_floors": [
+    14
+  ],
+  "current_hp_per_floor": [
+    60,
+    39,
+    28,
+    28,
+    28,
+    49,
+    14,
+    50,
+    50,
+    36,
+    36,
+    36,
+    36,
+    36,
+    36,
+    43,
+    64,
+    58,
+    58,
+    56,
+    56,
+    49,
+    49,
+    32,
+    68,
+    68,
+    50,
+    47,
+    21,
+    57,
+    46,
+    46,
+    0
+  ],
+  "gold": 128,
+  "neow_bonus": "RANDOM_COMMON_RELIC",
+  "is_prod": false,
+  "is_daily": false,
+  "chose_seed": false,
+  "campfire_upgraded": 4,
+  "win_rate": 0,
+  "timestamp": 1547328415,
+  "path_taken": [
+    "M",
+    "?",
+    "?",
+    "M",
+    "?",
+    "R",
+    "E",
+    "R",
+    "T",
+    "E",
+    "R",
+    "?",
+    "?",
+    "$",
+    "R",
+    "BOSS",
+    "M",
+    "?",
+    "M",
+    "$",
+    "M",
+    "R",
+    "M",
+    "R",
+    "T",
+    "M",
+    "?",
+    "E",
+    "R",
+    "E",
+    "R",
+    "BOSS"
+  ],
+  "build_version": "2019-01-10",
+  "purchased_purges": 1,
+  "victory": false,
+  "max_hp_per_floor": [
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71,
+    71
+  ],
+  "card_choices": [
+    {
+      "not_picked": [
+        "Conserve Battery",
+        "Melter",
+        "Double Energy"
+      ],
+      "picked": "SKIP",
+      "floor": 1
+    },
+    {
+      "not_picked": [
+        "Beam Cell",
+        "Rebound"
+      ],
+      "picked": "Cold Snap",
+      "floor": 4
+    },
+    {
+      "not_picked": [
+        "Leap",
+        "Beam Cell"
+      ],
+      "picked": "Self Repair",
+      "floor": 7
+    },
+    {
+      "not_picked": [
+        "Hologram",
+        "Rebound"
+      ],
+      "picked": "Conserve Battery",
+      "floor": 10
+    },
+    {
+      "not_picked": [
+        "Sweeping Beam",
+        "Redo",
+        "Stack"
+      ],
+      "picked": "SKIP",
+      "floor": 13
+    },
+    {
+      "not_picked": [
+        "Echo Form",
+        "Fission"
+      ],
+      "picked": "Electrodynamics",
+      "floor": 16
+    },
+    {
+      "not_picked": [
+        "Scrape",
+        "Force Field"
+      ],
+      "picked": "Compile Driver",
+      "floor": 18
+    },
+    {
+      "not_picked": [
+        "Heatsinks",
+        "Undo"
+      ],
+      "picked": "Leap+1",
+      "floor": 20
+    },
+    {
+      "not_picked": [
+        "Heatsinks",
+        "Cold Snap",
+        "Beam Cell"
+      ],
+      "picked": "SKIP",
+      "floor": 22
+    },
+    {
+      "not_picked": [
+        "Leap",
+        "Cold Snap",
+        "Beam Cell"
+      ],
+      "picked": "SKIP",
+      "floor": 24
+    },
+    {
+      "not_picked": [
+        "Barrage",
+        "Beam Cell"
+      ],
+      "picked": "Go for the Eyes",
+      "floor": 27
+    },
+    {
+      "not_picked": [
+        "Rip and Tear",
+        "Multi-Cast"
+      ],
+      "picked": "Compile Driver",
+      "floor": 28
+    },
+    {
+      "not_picked": [
+        "Redo",
+        "Beam Cell",
+        "Leap"
+      ],
+      "picked": "SKIP",
+      "floor": 29
+    },
+    {
+      "not_picked": [
+        "Self Repair",
+        "Rebound",
+        "Barrage"
+      ],
+      "picked": "SKIP",
+      "floor": 31
+    }
+  ],
+  "player_experience": 4313744,
+  "relics_obtained": [
+    {
+      "floor": 7,
+      "key": "Regal Pillow"
+    },
+    {
+      "floor": 9,
+      "key": "Whetstone"
+    },
+    {
+      "floor": 10,
+      "key": "PreservedInsect"
+    },
+    {
+      "floor": 26,
+      "key": "Letter Opener"
+    },
+    {
+      "floor": 29,
+      "key": "Bottled Tornado"
+    },
+    {
+      "floor": 31,
+      "key": "Symbiotic Virus"
+    }
+  ],
+  "event_choices": [
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Entered Light",
+      "damage_taken": 21,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Shining Light",
+      "floor": 2,
+      "gold_loss": 0,
+      "cards_upgraded": [
+        "Strike_B",
+        "Strike_B"
+      ]
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Success",
+      "damage_taken": 11,
+      "relics_obtained": [
+        "Ancient Tea Set"
+      ],
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Scrap Ooze",
+      "floor": 3,
+      "gold_loss": 0
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Left Gold",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "World of Goop",
+      "floor": 5,
+      "gold_loss": 61
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "2 cards matched",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Match and Keep!",
+      "floor": 12,
+      "gold_loss": 0,
+      "cards_obtained": [
+        "Zap",
+        "All For One"
+      ]
+    },
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Bought 2 Potions",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "The Woman in Blue",
+      "floor": 19,
+      "gold_loss": 0
+    }
+  ],
+  "is_beta": true,
+  "boss_relics": [
+    {
+      "not_picked": [
+        "Tiny House",
+        "Ectoplasm"
+      ],
+      "picked": "Empty Cage"
+    }
+  ],
+  "items_purged_floors": [
+    21
+  ],
+  "is_endless": false,
+  "potions_floor_spawned": [
+    7,
+    10,
+    20,
+    31
+  ],
+  "killed_by": "Collector",
+  "ascension_level": 20
+}
