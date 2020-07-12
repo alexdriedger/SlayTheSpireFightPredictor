@@ -100,6 +100,7 @@ def process_runs(data_dir):
                         if is_bad_file(data):
                             bad_file_count += 1
                         else:
+                            #TODO: Are there other mods which show up and would be hard to distinguish from normal runs?
                             if 'ReplayTheSpireMod:Calculation Training+1' in data['master_deck']:
                                 logger.info('Modded file found')
                                 logger.info(data)
