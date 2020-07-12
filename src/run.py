@@ -16,7 +16,8 @@ logger = logging.getLogger('run')
 
 class Run:
     """
-
+    Processes a single run.
+    WIP. Currently reimplements all the methods that were used in main.py
     """
 
     def __init__(self, run_path):
@@ -30,6 +31,12 @@ class Run:
         self.current_deck = self.get_starting_deck()
         self.current_relics = self.get_starting_relics()
         self.end_game_stats = self.get_end_game_stats()
+        self.unknowns = {
+            'unknown_removes_by_floor': {},
+            'unknown_upgrades_by_floor': {},
+            'unknown_transforms_by_floor': {},
+            'unknown_cards_by_floor': {},
+        }
 
     def load_run(self):
         with open(self.run_path, 'r', encoding='utf8') as file:
@@ -38,16 +45,13 @@ class Run:
 
     def get_starting_relics(self):
         character = self.run.get('character_chosen')
-        if character == 'IRONCLAD':
-            return ['Burning Blood']
-        elif character == 'THE_SILENT':
-            return ['Ring of the Snake']
-        elif character == 'DEFECT':
-            return ['Cracked Core']
-        elif character == 'WATCHER':
-            return ['PureWater']
-        else:
-            logger.info(f'Unsupported character {character}')
+        character_relics = {
+            'IRONCLAD': ['Burning Blood'],
+            'THE_SILENT': ['Ring of the Snake'],
+            'DEFECT': ['Cracked Core'],
+            'WATCHER': ['PureWater'],
+        }
+        return character_relics.get(character, logger.info(f'Unsupported character {character}'))
 
     def get_starting_deck(self):
         character = self.run.get('character_chosen')
@@ -86,6 +90,15 @@ class Run:
             'act_bosses': self.get_act_bosses(),
         }
         return end_game_stats
+
+    def get_act_bosses(self):
+        self.run.get('path_per_floor')
+        boss_floors = set([floor + 1 for floor, event in enumerate(self.run.get('path_per_floor', [])) if event == 'B'])
+        act_bosses = {}
+        for encounter in self.run.get('damage_taken', []):
+            if encounter['floor'] in boss_floors:
+                act_bosses[encounter['floor']] = encounter['enemies']
+        return act_bosses
 
     def get_by_floor(self):
         stats_by_floor = {
@@ -144,37 +157,30 @@ class Run:
         return stats_by_floor
 
     def process_run(self):
-        unknown_removes_by_floor = dict()
-        unknown_upgrades_by_floor = dict()
-        unknown_transforms_by_floor = dict()
-        unknown_cards_by_floor = dict()
-        unknowns = (
-            unknown_removes_by_floor, unknown_upgrades_by_floor, unknown_transforms_by_floor, unknown_cards_by_floor)
-
         processed_fights = list()
         for floor in range(0, self.run['floor_reached']):
-            if floor in self.stats_by_floor['battle_stats_by_floor'] and floor != 1:
+            if floor != 1:
                 fight_data = self.process_battle(floor)
                 processed_fights.append(fight_data)
 
-            self.process_relics(floor, unknowns)
+            self.process_relics(floor)
             self.process_card_choice(floor)
 
-            #TODO Better error handling here
+            # TODO Better error handling here
             restart_needed = self.try_process_data(partial(self.process_campfire_choice))
             if restart_needed:
                 return Run(self.run_path).process_run()
 
-            self.try_process_data(partial(self.process_purchases, floor, unknowns))
+            self.try_process_data(partial(self.process_purchases, floor))
             self.try_process_data(partial(self.process_purges, floor))
-            self.try_process_data(partial(self.process_events, floor, unknowns))
+            self.try_process_data(partial(self.process_events, floor))
 
             if floor == 0:
-                self.process_neow(unknowns)
+                self.process_neow()
 
         if self.current_deck != self.end_game_stats['master_deck'] or self.current_relics != self.end_game_stats[
             'master_relics']:
-            success = self.resolve_missing_data(unknowns)
+            success = self.resolve_missing_data()
             if success:
                 return Run(self.run_path).process_run()
             raise RuntimeError('Final decks or relics did not match')
@@ -190,33 +196,66 @@ class Run:
 
     def process_battle(self, floor):
         fight_data = dict()
-        battle_stat = self.stats_by_floor['battle_stats_by_floor']
-        fight_data['cards'] = list(self.current_deck)
-        fight_data['relics'] = list(self.current_relics)
-        fight_data['max_hp'] = self.run['max_hp_per_floor'][floor - 2]
-        fight_data['entering_hp'] = self.run['current_hp_per_floor'][floor - 2]
-        fight_data['character'] = self.run['character_chosen']
-        fight_data['ascension'] = self.run['ascension_level']
-        fight_data['enemies'] = battle_stat['enemies']
-        fight_data['potion_used'] = floor in self.stats_by_floor['potion_use_by_floor']
-        fight_data['floor'] = floor
-        if self.run['current_hp_per_floor'] == 0:
-            hp_change = battle_stat['damage']
-        else:
-            hp_change = self.run['current_hp_per_floor'][floor - 2] - self.run['current_hp_per_floor'][floor - 1]
-        fight_data['damage_taken'] = hp_change
+        battle_stat = self.stats_by_floor['battle_stats_by_floor'][floor]
+        if battle_stat:
+            fight_data['cards'] = list(self.current_deck)
+            fight_data['relics'] = list(self.current_relics)
+            fight_data['max_hp'] = self.run['max_hp_per_floor'][floor - 2]
+            fight_data['entering_hp'] = self.run['current_hp_per_floor'][floor - 2]
+            fight_data['character'] = self.run['character_chosen']
+            fight_data['ascension'] = self.run['ascension_level']
+            fight_data['enemies'] = battle_stat['enemies']
+            fight_data['potion_used'] = floor in self.stats_by_floor['potion_use_by_floor']
+            fight_data['floor'] = floor
+            if self.run['current_hp_per_floor'] == 0:
+                hp_change = battle_stat['damage']
+            else:
+                hp_change = self.run['current_hp_per_floor'][floor - 2] - self.run['current_hp_per_floor'][floor - 1]
+            fight_data['damage_taken'] = hp_change
 
-        next_boss_floor, fight_data['next_boss'] = self.get_next_boss(floor)
-        fight_data['score'] = self.end_game_stats['score']
-        fight_data['remaining_events_before_boss'] = self.get_remaining_encounters(floor, next_boss_floor,
-                                                                                   encounter_type='?')
-        fight_data['remaining_campfires_before_boss'] = self.get_remaining_encounters(floor, next_boss_floor,
-                                                                                      encounter_type='R')
-        fight_data['remaining_monsters_before_boss'] = self.get_remaining_encounters(floor, next_boss_floor,
-                                                                                     encounter_type='M')
-        fight_data['remaining_elites_before_boss'] = self.get_remaining_encounters(floor, next_boss_floor,
-                                                                                   encounter_type='E')
-        return fight_data
+            next_boss_floor, fight_data['next_boss'] = self.get_next_boss(floor)
+            fight_data['score'] = self.end_game_stats['score']
+            fight_data['remaining_events_before_boss'] = self.get_remaining_encounters(floor, next_boss_floor,
+                                                                                       encounter_type='?')
+            fight_data['remaining_campfires_before_boss'] = self.get_remaining_encounters(floor, next_boss_floor,
+                                                                                          encounter_type='R')
+            fight_data['remaining_monsters_before_boss'] = self.get_remaining_encounters(floor, next_boss_floor,
+                                                                                         encounter_type='M')
+            fight_data['remaining_elites_before_boss'] = self.get_remaining_encounters(floor, next_boss_floor,
+                                                                                       encounter_type='E')
+            return fight_data
+
+    def get_next_boss(self, floor):
+        next_boss_floor = 999
+        next_boss = None
+        for boss_floor, boss in self.end_game_stats['act_bosses'].items():
+            if boss_floor - floor > 0 and boss_floor < next_boss_floor:
+                next_boss_floor = boss_floor
+                next_boss = boss
+        return next_boss_floor, next_boss
+
+    def get_remaining_encounters(self, current_floor, next_boss_floor, encounter_type=None):
+        """
+        Used to get the remaining floors of a certain type before the Act Boss.
+        encounter_type can be within the following:
+            'M' - monster
+            '$' - shop
+            'E' - elite
+            'R' - rest (AKA campfire)
+            'BOSS' - act boss
+            'T' - treasure
+            '?' - event
+
+        :param current_floor:
+        :param next_boss_floor:
+        :param path_per_floor:
+        :param encounter_type:
+        :return:
+        """
+        path_per_floor = self.end_game_stats['path_per_floor']
+        num_encounter_floors = len([floor + 1 for floor, event in enumerate(path_per_floor)
+                                    if event == encounter_type and current_floor < floor < next_boss_floor])
+        return num_encounter_floors
 
     def process_card_choice(self, floor):
         card_choice_data = self.stats_by_floor['card_choices_by_floor'].get(floor)
@@ -249,14 +288,14 @@ class Run:
         # logger.info(f'Probably Searing Blow id: {card_to_upgrade}')
         self.current_deck[card_to_upgrade_index] += '+1'
 
-    def process_purchases(self, floor, unknowns):
+    def process_purchases(self, floor):
         purchase_data = self.stats_by_floor['purchases_by_floor'].get(floor)
         if purchase_data:
             purchased_cards = [x for x in purchase_data if x not in BASE_GAME_RELICS and x not in BASE_GAME_POTIONS]
             purchased_relics = [x for x in purchase_data if x not in purchased_cards and x not in BASE_GAME_POTIONS]
             self.current_deck.extend(purchased_cards)
             for r in purchased_relics:
-                self.obtain_relic(r, floor, unknowns)
+                self.obtain_relic(r, floor)
 
     def process_purges(self, floor):
         purge_data = self.stats_by_floor['purges_by_floor'].get(floor)
@@ -264,12 +303,12 @@ class Run:
             for card in purge_data:
                 self.current_deck.remove(card)
 
-    def process_events(self, floor, unknowns):
+    def process_events(self, floor):
         event_data = self.stats_by_floor['events_by_floor'].get(floor)
         if event_data:
             if 'relics_obtained' in event_data:
                 for r in event_data['relics_obtained']:
-                    self.obtain_relic(r, floor, unknowns)
+                    self.obtain_relic(r, floor)
             if 'relics_lost' in event_data:
                 for relic in event_data['relics_lost']:
                     self.current_relics.remove(relic)
@@ -284,52 +323,54 @@ class Run:
             if 'event_name' in event_data and event_data['event_name'] == 'Vampires':
                 self.current_deck[:] = [x for x in self.current_deck if not x.startswith('Strike')]
 
-    def process_neow(self, unknowns):
+    def process_neow(self):
         neow_bonus = self.run['neow_bonus']
-        unknown_removes_by_floor, unknown_upgrades_by_floor, unknown_transforms_by_floor, unknown_cards_by_floor = unknowns
         if neow_bonus == 'ONE_RARE_RELIC' or neow_bonus == 'RANDOM_COMMON_RELIC':
             self.current_relics.append(self.end_game_stats['master_relics'][1])
-        if neow_bonus == 'BOSS_RELIC':
+        elif neow_bonus == 'BOSS_RELIC':
             self.current_relics[0] = self.end_game_stats['master_relics'][0]
-        if neow_bonus == 'THREE_ENEMY_KILL':
+        elif neow_bonus == 'THREE_ENEMY_KILL':
             self.current_relics.append('NeowsBlessing')
-        if neow_bonus == 'UPGRADE_CARD':
-            unknown_upgrades_by_floor[0] = [{'type': 'unknown'}]
-        if neow_bonus == 'REMOVE_CARD':
-            unknown_removes_by_floor[0] = 1
-        if neow_bonus == 'REMOVE_TWO':
-            unknown_removes_by_floor[0] = 2
-        if neow_bonus == 'TRANSFORM_CARD':
-            unknown_transforms_by_floor[0] = 1
-        if neow_bonus == 'THREE_CARDS':
-            unknown_cards_by_floor[0] = [{'type': 'unknown'}]
-        if neow_bonus == 'THREE_RARE_CARDS' or neow_bonus == 'ONE_RANDOM_RARE_CARD':
-            unknown_cards_by_floor[0] = [{'type': 'rare'}]
+        elif neow_bonus == 'UPGRADE_CARD':
+            self.unknowns['unknown_upgrades_by_floor'][0] = [{'type': 'unknown'}]
+        elif neow_bonus == 'REMOVE_CARD':
+            self.unknowns['unknown_removes_by_floor'][0] = 1
+        elif neow_bonus == 'REMOVE_TWO':
+            self.unknowns['unknown_removes_by_floor'][0] = 2
+        elif neow_bonus == 'TRANSFORM_CARD':
+            self.unknowns['unknown_transforms_by_floor'][0] = 1
+        elif neow_bonus == 'THREE_CARDS':
+            self.unknowns['unknown_cards_by_floor'][0] = [{'type': 'unknown'}]
+        elif neow_bonus == 'THREE_RARE_CARDS' or neow_bonus == 'ONE_RANDOM_RARE_CARD':
+            self.unknowns['unknown_cards_by_floor'][0] = [{'type': 'rare'}]
 
-    def resolve_missing_data(self, unknowns):
-        unknown_removes_by_floor, unknown_upgrades_by_floor, unknown_transforms_by_floor, unknown_cards_by_floor = unknowns
+    def resolve_missing_data(self):
         master_deck = self.end_game_stats['master_deck']
         if self.current_deck != master_deck:
-            if len(self.current_deck) > len(master_deck) and len(unknown_removes_by_floor) == 1 and len(
-                    unknown_upgrades_by_floor) == 0 and len(unknown_transforms_by_floor) == 0 and len(
-                unknown_cards_by_floor) == 0:
+            if len(self.current_deck) > len(master_deck) and len(
+                    self.unknowns['unknown_removes_by_floor']) == 1 and len(
+                self.unknowns['unknown_upgrades_by_floor']) == 0 and len(
+                self.unknowns['unknown_transforms_by_floor']) == 0 and len(
+                self.unknowns['unknown_cards_by_floor']) == 0:
                 differences = list((Counter(self.current_deck) - Counter(master_deck)).elements())
-                for floor, number_of_removes in unknown_removes_by_floor.items():
+                for floor, number_of_removes in self.unknowns['unknown_removes_by_floor'].items():
                     if len(differences) == number_of_removes:
                         self.run['items_purged'].extend(differences)
                         for i in range(number_of_removes):
                             items_purched_floors = self.run['items_purged_floors']
                             items_purched_floors.append(floor)
                         return True, self.run
-            elif len(self.current_deck) == len(master_deck) and len(unknown_upgrades_by_floor) == 1 and len(
-                    unknown_removes_by_floor) == 0 and len(unknown_transforms_by_floor) == 0 and len(
-                unknown_cards_by_floor) == 0:
+            elif len(self.current_deck) == len(master_deck) and len(
+                    self.unknowns['unknown_upgrades_by_floor']) == 1 and len(
+                self.unknowns['unknown_removes_by_floor']) == 0 and len(
+                self.unknowns['unknown_transforms_by_floor']) == 0 and len(
+                self.unknowns['unknown_cards_by_floor']) == 0:
                 diff1 = list((Counter(self.current_deck) - Counter(master_deck)).elements())
                 diff2 = list((Counter(master_deck) - Counter(self.current_deck)).elements())
                 if len(diff1) == len(diff2):
                     upgraded_names_of_unupgraded_cards = [x + "+1" for x in diff1]
                     if upgraded_names_of_unupgraded_cards == diff2:
-                        for floor, upgrade_types in unknown_upgrades_by_floor.items():
+                        for floor, upgrade_types in self.unknowns['unknown_upgrades_by_floor'].items():
                             if len(diff1) == len(upgrade_types):
                                 for unupgraded_card in diff1:
                                     self.run['campfire_choices'].append(
@@ -338,71 +379,29 @@ class Run:
 
         return False, None
 
-    def get_next_boss(self, floor):
-        next_boss_floor = 999
-        next_boss = None
-        for boss_floor, boss in self.end_game_stats['act_bosses'].items():
-            if boss_floor - floor > 0 and boss_floor < next_boss_floor:
-                next_boss_floor = boss_floor
-                next_boss = boss
-        return next_boss_floor, next_boss
-
-    def process_relics(self, floor, unknowns):
+    def process_relics(self, floor):
         relics = self.stats_by_floor['relics_by_floor'].get(floor)
         if relics:
             for relic in relics:
-                self.obtain_relic(relic, floor, unknowns)
+                self.obtain_relic(relic, floor)
 
-    def obtain_relic(self, relic, floor, unknowns):
-        unknown_removes_by_floor, unknown_upgrades_by_floor, unknown_transforms_by_floor, unknown_cards_by_floor = unknowns
+    def obtain_relic(self, relic, floor):
         if relic == 'Black Blood':
             self.current_relics[0] = 'Black Blood'
             return
-        if relic == 'Ring of the Serpent':
+        elif relic == 'Ring of the Serpent':
             self.current_relics[0] = 'Ring of the Serpent'
             return
-        if relic == 'FrozenCore':
+        elif relic == 'FrozenCore':
             self.current_relics[0] = 'FrozenCore'
             return
-        if relic == 'Calling Bell':
+        elif relic == 'Calling Bell':
             self.current_relics.extend(
                 self.end_game_stats['master_relics'][len(self.current_relics) + 1:len(self.current_relics) + 4])
-        if relic == 'Empty Cage':
-            unknown_removes_by_floor[floor] = 2
-        if relic == 'Whetstone':
-            unknown_upgrades_by_floor[floor] = [{'type': 'attack'}, {'type': 'attack'}]
-        if relic == 'War Paint':
-            unknown_upgrades_by_floor[floor] = [{'type': 'skill'}, {'type': 'skill'}]
+        elif relic == 'Empty Cage':
+            self.unknowns['unknown_removes_by_floor'][floor] = 2
+        elif relic == 'Whetstone':
+            self.unknowns['unknown_upgrades_by_floor'][floor] = [{'type': 'attack'}, {'type': 'attack'}]
+        elif relic == 'War Paint':
+            self.unknowns['unknown_upgrades_by_floor'][floor] = [{'type': 'skill'}, {'type': 'skill'}]
         self.current_relics.append(relic)
-
-    def get_act_bosses(self):
-        self.run.get('path_per_floor')
-        boss_floors = set([floor + 1 for floor, event in enumerate(self.run.get('path_per_floor', [])) if event == 'B'])
-        act_bosses = {}
-        for encounter in self.run.get('damage_taken', []):
-            if encounter['floor'] in boss_floors:
-                act_bosses[encounter['floor']] = encounter['enemies']
-        return act_bosses
-
-    def get_remaining_encounters(self, current_floor, next_boss_floor, encounter_type=None):
-        """
-        Used to get the remaining floors of a certain type before the Act Boss.
-        encounter_type can be within the following:
-            'M' - monster
-            '$' - shop
-            'E' - elite
-            'R' - rest (AKA campfire)
-            'BOSS' - act boss
-            'T' - treasure
-            '?' - event
-
-        :param current_floor:
-        :param next_boss_floor:
-        :param path_per_floor:
-        :param encounter_type:
-        :return:
-        """
-        path_per_floor = self.end_game_stats['path_per_floor']
-        num_encounter_floors = len([floor + 1 for floor, event in enumerate(path_per_floor)
-                                    if event == encounter_type and current_floor < floor < next_boss_floor])
-        return num_encounter_floors
