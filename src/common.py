@@ -1,3 +1,11 @@
+class InvalidRunError(Exception):
+    """
+    Something went wrong in processing the run file
+    """
+
+    def __init__(self, message):
+        self.message = message
+        super().__init__(self.message)
 
 
 class StSGlobals:
@@ -53,6 +61,10 @@ class StSGlobals:
         killed_by
         ascension_level
     """
+
+    BASE_GAME_STARTING_RELICS = {'Burning Blood', 'Cracked Core', 'PureWater', 'Ring of the Snake'}
+
+    BASE_GAME_CHARACTERS = {'IRONCLAD', 'THE_SILENT', 'DEFECT', 'WATCHER'}
 
     BASE_GAME_RELICS = {'Burning Blood', 'Cracked Core', 'PureWater', 'Ring of the Snake', 'Akabeko', 'Anchor',
                         'Ancient Tea Set', 'Art of War', 'Bag of Marbles', 'Bag of Preparation', 'Blood Vial',

@@ -5,15 +5,11 @@ import os
 import re
 import time
 
-from .common import StSGlobals
+from .common import InvalidRunError, StSGlobals
 from .run import Run
 
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s %(name)-12s %(levelname)-8s %(message)s',
-    datefmt='%m-%d %H:%M',
-    filemode='w+'
-)
+logging.basicConfig(level=logging.INFO, format='%(asctime)s %(name)-12s %(levelname)-8s %(message)s',
+    datefmt='%m-%d %H:%M', filemode='w+')
 logger = logging.getLogger('main')
 
 
@@ -21,6 +17,7 @@ class Process:
     """
 
     """
+
     def __init__(self, run_directory, num_processed):
         """
         Go through a directory of runs and process them all in batches
@@ -65,26 +62,23 @@ class Process:
                 run_path = os.path.join(root, fname)
                 # if run_path.endswith(".run.json"):
                 total_file_count += 1
-                try:
-                    run = self.load_run(run_path)
-                    if self.is_bad_file(run):
-                        bad_file_count += 1
-                    else:
-                        processed_run = list()
-                        try:
-                            processed_run.clear()
-                            processed_run.extend(Run(run).process_run())
-                            file_processed_count += 1
-                            fight_training_examples.extend(processed_run)
-                        except RuntimeError as e:
-                            file_master_not_match_count += 1
-                            logger.debug(f'{run_path}\n')
-                            pass
-                        # except Exception as e:
-                        #     file_not_processed_count += 1
-                        #     logger.debug(run_path)
-                except Exception as e:
-                    file_not_opened += 1
+                run = self.load_run(run_path)
+                if self.is_bad_file(run):
+                    bad_file_count += 1
+                else:
+                    processed_run = list()
+                    try:
+                        processed_run.clear()
+                        processed_run.extend(Run(run).process_run())
+                        file_processed_count += 1
+                        fight_training_examples.extend(processed_run)
+                    # Just pass all the exceptions we know about
+                    except InvalidRunError:
+                        pass
+                    except RuntimeError as e:
+                        file_master_not_match_count += 1
+                        logger.debug(f'{run_path}\n')
+                        pass
 
         logger.info(
             f'\n\n\nFiles not able to open: {file_not_opened} => {((file_not_opened / total_file_count) * 100):.1f} %')
@@ -118,79 +112,92 @@ class Process:
 
     def is_bad_file(self, run):
         # Corrupted files
-        necessary_fields = ['damage_taken', 'event_choices', 'card_choices', 'relics_obtained', 'campfire_choices',
+        necessary_fields = {'damage_taken', 'event_choices', 'card_choices', 'relics_obtained', 'campfire_choices',
                             'items_purchased', 'item_purchase_floors', 'items_purged', 'items_purged_floors',
-                            'character_chosen', 'boss_relics', 'floor_reached', 'master_deck', 'relics']
-        for field in necessary_fields:
-            if field not in run:
-                # logger.info(f'File missing field: {field}')
-                return True
+                            'character_chosen', 'boss_relics', 'floor_reached', 'master_deck', 'relics'}
+        present_fields = set(run.keys())
+        has_necessary_fields = necessary_fields.issubset(present_fields)
+        if not has_necessary_fields:
+            logger.debug('Does not have necessary fields')
+            return True
 
         # Modded games
         key = 'character_chosen'
-        if key not in run or run[key] not in ['IRONCLAD', 'THE_SILENT', 'DEFECT', 'WATCHER']:
-            # logger.info(f'Modded character: {data[key]}')
+        if run.get(key) not in StSGlobals.BASE_GAME_CHARACTERS:
+            logger.debug('Does not have base game character')
             return True
 
         key = 'master_deck'
-        if key not in run or set(run[key]).issubset(StSGlobals.BASE_GAME_CARDS_AND_UPGRADES) is False:
-            # deck = data[key]
-            # logger.info(f'Modded file. Cards: {deck - BASE_GAME_CARDS_AND_UPGRADES}')
+        if set(run.get(key, {'Empty Set'})).issubset(StSGlobals.BASE_GAME_CARDS_AND_UPGRADES) is False:
+            logger.debug('Does not use base game deck')
             return True
 
         key = 'relics'
-        if key not in run or set(run[key]).issubset(StSGlobals.BASE_GAME_RELICS) is False:
+        if set(run.get(key, {'Empty Set'})).issubset(StSGlobals.BASE_GAME_RELICS) is False:
+            logger.debug('Does not have base game relics')
             return True
 
-        if 'ReplayTheSpireMod:Calculation Training+1' in run['master_deck']:
+        key = 'ReplayTheSpireMod:Calculation Training+1'
+        if key in run['master_deck']:
+            logger.debug('Uses ReplayTheSpireMod')
             return True
 
         # Watcher files since full release of watcher (v2.0) and ironclad, silent, defect since v1.0
         key = 'build_version'
         if key not in run or self.valid_build_number(run[key], run['character_chosen']) is False:
+            logger.debug('Invalid build number')
             return True
 
         # Non standard runs
         key = 'is_trial'
-        if key not in run or run[key] is True:
+        if run.get(key, True):
+            logger.debug('Trial run')
             return True
 
         key = 'is_daily'
-        if key not in run or run[key] is True:
+        if run.get(key, True):
+            logger.debug('Daily run')
             return True
 
         key = 'daily_mods'
         if key in run:
+            logger.debug('Daily run')
             return True
 
         key = 'chose_seed'
-        if key not in run or run[key] is True:
+        if run.get(key, True):
+            logger.debug('Chose seed')
             return True
 
         # Endless mode
         key = 'is_endless'
-        if key not in run or run[key] is True:
+        if run.get(key, True):
+            logger.debug('Endless mode')
             return True
 
         key = 'circlet_count'
-        if key not in run or run[key] > 0:
+        if run.get(key, 1) > 0:
             return True
 
         key = 'floor_reached'
-        if key not in run or run[key] > 60:
+        if run.get(key, 61) > 60:
+            logger.debug('More floors than possible')
             return True
 
         # Really bad players or give ups
         key = 'floor_reached'
-        if key not in run or run[key] < 4:
+        if run.get(key, 1) < 4:
+            logger.debug('Player stinks')
             return True
 
         key = 'score'
-        if key not in run or run[key] < 10:
+        if run.get(key, 1) < 10:
+            logger.debug('Player stinks')
             return True
 
         key = 'player_experience'
-        if key not in run or run[key] < 100:
+        if run.get(key, 1) < 10:
+            logger.debug('Player stinks')
             return True
 
     def valid_build_number(self, string, character):
