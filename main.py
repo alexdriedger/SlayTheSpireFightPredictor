@@ -354,7 +354,7 @@ def process_run(data):
         unknown_removes_by_floor, unknown_upgrades_by_floor, unknown_transforms_by_floor, unknown_cards_by_floor)
 
     processed_fights = list()
-    for floor in range(0, data['floor_reached']):
+    for floor in range(0, data['floor_reached'] + 1):
         if floor in battle_stats_by_floor and floor != 1:
             fight_data = process_battle(data, battle_stats_by_floor[floor], potion_use_by_floor, current_deck,
                                         current_relics, floor, score, act_bosses, path_per_floor)
@@ -809,8 +809,11 @@ def process_single_file(data_dir, filename):
         print(f'Result: {result}')
 
 
+start = int(round(time.time() * 1000))
 directory = 'SpireLogs Data'
 process_runs(directory)
+end = int(round(time.time() * 1000))
+print(f'time: {end - start}')
 # process_single_file(directory, '1546376628.run')
 
 """
