@@ -62,18 +62,18 @@ class Process:
                 run_path = os.path.join(root, fname)
                 # if run_path.endswith(".run.json"):
                 total_file_count += 1
+                invalid_runs_found = 0
                 run = self.load_run(run_path)
                 if self.is_bad_file(run):
                     bad_file_count += 1
                 else:
-                    processed_run = list()
                     try:
-                        processed_run.clear()
-                        processed_run.extend(Run(run).process_run())
+                        processed_run = Run(run).process_run()
                         file_processed_count += 1
-                        fight_training_examples.extend(processed_run)
+                        fight_training_examples.append(processed_run)
                     # Just pass all the exceptions we know about
                     except InvalidRunError:
+                        invalid_runs_found += 1
                         pass
                     except RuntimeError as e:
                         file_master_not_match_count += 1
@@ -84,6 +84,8 @@ class Process:
             f'\n\n\nFiles not able to open: {file_not_opened} => {((file_not_opened / total_file_count) * 100):.1f} %')
         logger.info(
             f'Files filtered with pre-filter: {bad_file_count} => {((bad_file_count / total_file_count) * 100):.1f} %')
+        logger.info(
+            f'Invalid run files: {invalid_runs_found} => {((invalid_runs_found / total_file_count) * 100):.1f} %')
         logger.info(
             f'Files SUCCESSFULLY processed: {file_processed_count} => {((file_processed_count / total_file_count) * 100):.1f} %')
         logger.info(
