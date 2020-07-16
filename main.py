@@ -30,39 +30,45 @@ def process_runs(data_dir):
     file_master_not_match_count = 0
     fight_training_examples = list()
 
-    count = 0
     tmp_dir = os.path.join('out', str(round(time.time())))
     os.mkdir(tmp_dir)
     for root, dirs, files in os.walk(data_dir):
         for fname in files:
-            count += 1
-            if len(fight_training_examples) > 40000:
-                print('Saving batch')
-                write_file_name = f'data_{round(time.time())}.json'
-                write_file(fight_training_examples, os.path.join(tmp_dir, write_file_name))
-                fight_training_examples.clear()
-                print('Wrote batch to file')
-                print('Garbage collecting')
-                gc.collect()
-                print('Finished garbage collecting')
-
-            if count % 10000 == 0:
-                gc.collect()
-
-            if count % 200 == 0:
-                print(f'\n\n\nFiles not able to open: {file_not_opened} => {((file_not_opened / total_file_count) * 100):.1f} %')
-                print(f'Files filtered with pre-filter: {bad_file_count} => {((bad_file_count / total_file_count) * 100):.1f} %')
-                print(
-                    f'Files SUCCESSFULLY processed: {file_processed_count} => {((file_processed_count / total_file_count) * 100):.1f} %')
-                print(
-                    f'Files with master deck not matching created deck: {file_master_not_match_count} => {((file_master_not_match_count / total_file_count) * 100):.1f} %')
-                print(
-                    f'Files not processed: {file_not_processed_count} => {((file_not_processed_count / total_file_count) * 100):.1f} %')
-                print(f'Total files: {total_file_count}')
-                print(f'Number of Training Examples in batch: {len(fight_training_examples)}')
             path = os.path.join(root, fname)
             if path.endswith(".run.json"):
                 total_file_count += 1
+
+                # Save batch to file
+                if len(fight_training_examples) > 40000:
+                    print('Saving batch')
+                    write_file_name = f'data_{round(time.time())}.json'
+                    write_file(fight_training_examples, os.path.join(tmp_dir, write_file_name))
+                    fight_training_examples.clear()
+                    print('Wrote batch to file')
+                    print('Garbage collecting')
+                    gc.collect()
+                    print('Finished garbage collecting')
+
+                # Garbage collect to improve performance
+                if total_file_count % 10000 == 0:
+                    gc.collect()
+
+                # Print update
+                if total_file_count % 200 == 0:
+                    print(
+                        f'\n\n\nFiles not able to open: {file_not_opened} => {((file_not_opened / total_file_count) * 100):.1f} %')
+                    print(
+                        f'Files filtered with pre-filter: {bad_file_count} => {((bad_file_count / total_file_count) * 100):.1f} %')
+                    print(
+                        f'Files SUCCESSFULLY processed: {file_processed_count} => {((file_processed_count / total_file_count) * 100):.1f} %')
+                    print(
+                        f'Files with master deck not matching created deck: {file_master_not_match_count} => {((file_master_not_match_count / total_file_count) * 100):.1f} %')
+                    print(
+                        f'Files not processed: {file_not_processed_count} => {((file_not_processed_count / total_file_count) * 100):.1f} %')
+                    print(f'Total files: {total_file_count}')
+                    print(f'Number of Training Examples in batch: {len(fight_training_examples)}')
+
+                # Process file
                 try:
                     with open(path, 'r', encoding='utf8') as file:
                         data = json.load(file)
@@ -121,7 +127,7 @@ def process_run(data):
     unknowns = (unknown_removes_by_floor, unknown_upgrades_by_floor, unknown_transforms_by_floor, unknown_cards_by_floor)
 
     processed_fights = list()
-    for floor in range(0, data['floor_reached']):
+    for floor in range(0, data['floor_reached'] + 1):
         if floor in battle_stats_by_floor and floor != 1:
             fight_data = process_battle(data, battle_stats_by_floor[floor], potion_use_by_floor, current_deck, current_relics, floor)
             processed_fights.append(fight_data)
