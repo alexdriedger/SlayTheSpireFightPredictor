@@ -1,4 +1,5 @@
 .idea/
 venv/
-2019SpireRuns
-SpireLogs Data
+2019SpireRuns/
+SpireLogs Data/
+out/
