@@ -1,9 +1,14 @@
 import datetime
 import json
 import logging
-import os
 import re
-import time
+from datetime import date
+from itertools import chain
+from multiprocessing import Pool, Manager
+from pathlib import Path, PosixPath
+from typing import List, Tuple
+
+from tqdm import tqdm
 
 from .common import InvalidRunError, StSGlobals
 from .run import Run
@@ -15,93 +20,99 @@ logger = logging.getLogger('main')
 
 class Process:
     """
-
+    Used to process a directory's worth of Slay the Spire run files.
     """
 
-    def __init__(self, run_directory, num_processed):
+    def __init__(self, run_directory: str, num_processes: int):
         """
         Go through a directory of runs and process them all in batches
         """
         self.run_directory = run_directory
+        self.num_processes = num_processes
+        self.run_list = self.get_file_list()
+        self.logs = self.get_logs()
+        self.date = date.today()
+
+    def get_file_list(self):
+        return [path for path in Path(self.run_directory).rglob('*.run')]
+
+    def get_logs(self):
+        """
+        Keep track of these counts in each process
+        """
+        logs = Manager().dict()
+        logs['file_not_opened'] = 0
+        logs['bad_file_count'] = 0
+        logs['total_file_count'] = len(self.run_list)
+        logs['file_not_processed_count'] = 0
+        logs['file_processed_count'] = 0
+        logs['file_master_not_match_count'] = 0
+        logs['invalid_runs_found'] = 0
+        logs['num_fights'] = 0
+        return logs
 
     def process_runs(self):
-        file_not_opened = 0
-        bad_file_count = 0
-        total_file_count = 0
-        file_not_processed_count = 0
-        file_processed_count = 0
-        file_master_not_match_count = 0
-        fight_training_examples = list()
+        # Break up files for each process
+        run_chunks = self.chunks(self.run_list, self.num_processes)
 
-        count = 0
-        tmp_dir = os.path.join('out', str(round(time.time())))
-        os.mkdir(tmp_dir)
-        for root, dirs, files in os.walk(self.run_directory):
-            for fname in files:
-                count += 1
-                if len(fight_training_examples) > 10000:
-                    logger.info('Saving batch')
-                    write_file_name = f'data_{round(time.time())}.json'
-                    self.write_file(fight_training_examples, os.path.join(tmp_dir, write_file_name))
-                    fight_training_examples.clear()
-                    logger.info('Wrote batch to file')
+        output_dir = Path(f'out/{self.date}')
+        output_dir.mkdir(exist_ok=True, parents=True)
 
-                if count % 1000 == 0:
-                    logger.info(
-                        f'\n\n\nFiles not able to open: {file_not_opened} => {((file_not_opened / total_file_count) * 100):.1f} %')
-                    logger.info(
-                        f'Files filtered with pre-filter: {bad_file_count} => {((bad_file_count / total_file_count) * 100):.1f} %')
-                    logger.info(
-                        f'Files SUCCESSFULLY processed: {file_processed_count} => {((file_processed_count / total_file_count) * 100):.1f} %')
-                    logger.info(
-                        f'Files with master deck not matching created deck: {file_master_not_match_count} => {((file_master_not_match_count / total_file_count) * 100):.1f} %')
-                    logger.info(
-                        f'Files not processed: {file_not_processed_count} => {((file_not_processed_count / total_file_count) * 100):.1f} %')
-                    logger.info(f'Total files: {total_file_count}')
-                    logger.info(f'Number of Training Examples in batch: {len(fight_training_examples)}')
-                run_path = os.path.join(root, fname)
-                # if run_path.endswith(".run.json"):
-                total_file_count += 1
-                invalid_runs_found = 0
-                run = self.load_run(run_path)
-                if self.is_bad_file(run):
-                    bad_file_count += 1
-                else:
-                    try:
-                        processed_run = Run(run).process_run()
-                        file_processed_count += 1
-                        fight_training_examples.append(processed_run)
-                    # Just pass all the exceptions we know about
-                    except InvalidRunError:
-                        invalid_runs_found += 1
-                        pass
-                    except RuntimeError as e:
-                        file_master_not_match_count += 1
-                        logger.debug(f'{run_path}\n')
-                        pass
+        logger.info(f'Starting {self.num_processes} processes')
+        with Pool(processes=self.num_processes) as p:
+            chain(*p.imap(self.process_chunk, [(run_chunk, i, output_dir)
+                                               for i, run_chunk in enumerate(run_chunks)]))
 
         logger.info(
-            f'Files not able to open: {file_not_opened} => {((file_not_opened / total_file_count) * 100):.1f} %')
+            f'Files not able to open: {self.logs["file_not_opened"]} => {((self.logs["file_not_opened"] / self.logs["total_file_count"]) * 100):.1f} %')
         logger.info(
-            f'Files filtered with pre-filter: {bad_file_count} => {((bad_file_count / total_file_count) * 100):.1f} %')
+            f'Files filtered with pre-filter: {self.logs["bad_file_count"]} => {((self.logs["bad_file_count"] / self.logs["total_file_count"]) * 100):.1f} %')
         logger.info(
-            f'Invalid run files: {invalid_runs_found} => {((invalid_runs_found / total_file_count) * 100):.1f} %')
+            f'Invalid run files: {self.logs["invalid_runs_found"]} => {((self.logs["invalid_runs_found"] / self.logs["total_file_count"]) * 100):.1f} %')
         logger.info(
-            f'Files SUCCESSFULLY processed: {file_processed_count} => {((file_processed_count / total_file_count) * 100):.1f} %')
+            f'Files SUCCESSFULLY processed: {self.logs["file_processed_count"]} => {((self.logs["file_processed_count"] / self.logs["total_file_count"]) * 100):.1f} %')
         logger.info(
-            f'Files with master deck not matching created deck: {file_master_not_match_count} => {((file_master_not_match_count / total_file_count) * 100):.1f} %')
+            f'Files with master deck not matching created deck: {self.logs["file_master_not_match_count"]} => {((self.logs["file_master_not_match_count"] / self.logs["total_file_count"]) * 100):.1f} %')
         logger.info(
-            f'Files not processed: {file_not_processed_count} => {((file_not_processed_count / total_file_count) * 100):.1f} %')
-        logger.info(f'Total files: {total_file_count}')
-        logger.info(f'Number of Training Examples: {len(fight_training_examples)}')
-        write_file_name = f'data_{round(time.time())}.json'
-        self.write_file(fight_training_examples, os.path.join(tmp_dir, write_file_name))
+            f'Files not processed: {self.logs["file_not_processed_count"]} => {((self.logs["file_not_processed_count"] / self.logs["total_file_count"]) * 100):.1f} %')
+        logger.info(f'Total files: {self.logs["total_file_count"]}')
+        logger.info(f'Number of usable examples: {self.logs["num_fights"]}')
 
-    def process_single_file(self, run_directory, run_path):
-        with open(f"{run_directory}/{run_path}", 'r') as file:
-            data = json.load(file)
-        result = Run(data).process_run()
-        logger.info(f'Result: {result}')
+    @staticmethod
+    def chunks(long_list: List, num_chunks: int):
+        """
+        Yield num_chunks number of chunks from long_list.
+        """
+        for i in range(num_chunks):
+            yield long_list[i::num_chunks]
+
+    def process_chunk(self, input_data: Tuple[List, int, PosixPath], batch_size: int = 10000):
+        chunk, process_id, output_dir = input_data
+        processed_runs = []
+        for run_path in tqdm(chunk):
+            run = self.load_run(run_path)
+            if self.is_bad_file(run):
+                self.logs['bad_file_count'] += 1
+            else:
+                try:
+                    processed_runs.append(Run(run).process_run())
+                    self.logs['file_processed_count'] += 1
+                # Just pass all the exceptions we know about
+                except InvalidRunError:
+                    self.logs['invalid_runs_found'] += 1
+                    continue
+                except RuntimeError as e:
+                    self.logs['file_master_not_match_count'] += 1
+                    logger.debug(f'{run_path}\n')
+                    continue
+
+            if len(processed_runs) > batch_size:
+                logger.info('Saving batch')
+                self.write_file(processed_runs, f'{output_dir}/data_{self.date}_{process_id}.json')
+                logger.info(f'Wrote batch {process_id} of size {batch_size} to file')
+                processed_runs = []
+
+        self.write_file(processed_runs, f'{output_dir}/data_{self.date}_{process_id}.json')
 
     def write_file(self, data, name):
         with open(name, 'w', encoding='utf-8') as f:
