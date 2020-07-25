@@ -25,7 +25,7 @@ def main():
         num_processes = int(args.num_processes)
     else:
         num_processes = mp.cpu_count()
-
+    logger.info(f'Starting {num_processes} processes')
     run_processor = Process(run_directory, num_processes)
     run_processor.process_runs()
 

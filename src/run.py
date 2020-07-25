@@ -1,5 +1,5 @@
 import logging
-from collections import Counter, defaultdict
+from collections import Counter
 
 from .common import InvalidRunError, StSGlobals
 
@@ -26,12 +26,12 @@ class Run:
         self.current_relics = self.get_starting_relics()
         self.processed_fights = []
         self.unknowns = {'unknown_removes_by_floor': {}, 'unknown_upgrades_by_floor': {},
-            'unknown_transforms_by_floor': {}, 'unknown_cards_by_floor': {}, }
+                         'unknown_transforms_by_floor': {}, 'unknown_cards_by_floor': {}, }
 
     def get_starting_relics(self):
         character = self.run.get('character_chosen')
         character_relics = {'IRONCLAD': ['Burning Blood'], 'THE_SILENT': ['Ring of the Snake'],
-            'DEFECT': ['Cracked Core'], 'WATCHER': ['PureWater'], }
+                            'DEFECT': ['Cracked Core'], 'WATCHER': ['PureWater'], }
 
         return character_relics.get(character)
 
@@ -64,8 +64,8 @@ class Run:
 
     def get_end_game_stats(self):
         end_game_stats = {'score': self.run.get('score', 0), 'master_deck': self.run.get('master_deck'),
-            'master_relics': self.run.get('relics'), 'path_taken': self.run.get('path_taken'),
-            'damage_taken': self.run.get('damage_taken'), 'act_bosses': self.get_act_bosses(), }
+                          'master_relics': self.run.get('relics'), 'path_taken': self.run.get('path_taken'),
+                          'damage_taken': self.run.get('damage_taken'), 'act_bosses': self.get_act_bosses(), }
         return end_game_stats
 
     def get_act_bosses(self):
@@ -84,55 +84,14 @@ class Run:
             'card_choices_by_floor': {card_choice['floor']: card_choice for card_choice in self.run['card_choices']},
             'relics_by_floor': self.get_relics_by_floor(),
             'campfire_choices_by_floor': {campfire_choice['floor']: campfire_choice for campfire_choice in
-                self.run['campfire_choices']},
+                                          self.run['campfire_choices']},
             # TODO: I don't think that the items purchased are in an ordered list! (See
-            # Feel No Pain upgrade in '2019SpireRuns/1555291174.run')
+            #  Feel No Pain upgrade in '2019SpireRuns/1555291174.run')
             'purchases_by_floor': self.get_stat_with_separate_floor_list('items_purchased', 'item_purchase_floors'),
             'purges_by_floor': self.get_stat_with_separate_floor_list('items_purged', 'items_purged_floors'),
             'potion_use_by_floor': list(set(self.run['potions_floor_usage'])),
-            'remaining_encounters': self.get_remaining_encounters_by_floor()}
+        }
         return stats_by_floor
-
-    def get_remaining_encounters_by_floor(self):
-        """
-        Used to get the remaining floors of a certain encounter type before the Act Boss.
-        encounter_type can be within the following:
-            'M' - monster
-            '$' - shop
-            'E' - elite
-            'R' - rest (AKA campfire)
-            'BOSS' - act boss
-            'T' - treasure
-            '?' - event
-        """
-        remaining_encounters = defaultdict(lambda: {})
-        encounter_types = ['M', '$', 'E', 'R', 'T', '?']
-        path_taken = self.end_game_stats['path_taken']
-        floors_until_boss = []
-        for boss_floor in self.end_game_stats['act_bosses'].keys():
-            floors_until_boss += [boss_floor] * boss_floor
-
-        for encounter_type in encounter_types:
-            for floor_idx, event in enumerate(path_taken):
-                # Annoyingly floors are 1-indexed
-                floor = floor_idx + 1
-                if floors_until_boss and len(floors_until_boss) < floor:
-                    remaining_encounters[encounter_type][floor] = len(
-                        [event for event in path_taken[floor_idx: floors_until_boss[floor_idx]] if event == encounter_type])
-                else:
-                    remaining_encounters[encounter_type][floor] = len(
-                        [event for event in path_taken[floor:] if event == encounter_type])
-
-        return remaining_encounters
-
-    def get_next_boss(self, floor):
-        next_boss_floor = 999
-        next_boss = None
-        for boss_floor, boss in self.end_game_stats['act_bosses'].items():
-            if boss_floor - floor > 0 and boss_floor < next_boss_floor:
-                next_boss_floor = int(boss_floor)
-                next_boss = boss
-        return next_boss_floor, next_boss
 
     def get_relics_by_floor(self):
         relics_by_floor = self.get_stats_by_floor_with_list('relics_obtained')
@@ -209,14 +168,9 @@ class Run:
             fight_data['potion_used'] = floor in self.stats_by_floor['potion_use_by_floor']
             fight_data['floor'] = floor
             fight_data['damage_taken'] = self.get_hp_change(battle_stat, floor)
-            _, fight_data['next_boss'] = self.get_next_boss(floor)
+            next_boss_floor, fight_data['next_boss'] = self.get_next_boss(floor)
             fight_data['score'] = self.end_game_stats['score']
-            fight_data['remaining_events_before_boss'] = self.stats_by_floor['remaining_encounters']['?'].get(floor, 0)
-            fight_data['remaining_campfires_before_boss'] = self.stats_by_floor['remaining_encounters']['R'].get(floor,
-                                                                                                                 0)
-            fight_data['remaining_monsters_before_boss'] = self.stats_by_floor['remaining_encounters']['M'].get(floor,
-                                                                                                                0)
-            fight_data['remaining_elites_before_boss'] = self.stats_by_floor['remaining_encounters']['E'].get(floor, 0)
+            fight_data['remaining_encounters'] = self.get_remaining_encounters(floor, next_boss_floor)
             self.processed_fights.append(fight_data)
 
     def get_hp_change(self, battle_stat, floor):
@@ -225,6 +179,38 @@ class Run:
         else:
             hp_change = self.run['current_hp_per_floor'][floor - 2] - self.run['current_hp_per_floor'][floor - 1]
         return hp_change
+
+    def get_remaining_encounters(self, floor, next_boss_floor):
+        """
+        Used to get the remaining floors of certain encounter types before the Act Boss.
+        encounter types are defined as follows: can be within the following:
+            'M' - monster
+            '$' - shop
+            'E' - elite
+            'R' - rest (AKA campfire)
+            'BOSS' - act boss
+            'T' - treasure
+            '?' - event
+        """
+        encounter_types = ['M', '$', 'E', 'R', 'T', '?']
+        remaining_path = self.end_game_stats['path_taken'][floor - 1: next_boss_floor]
+
+        # Get encounter indices
+        remaining_encounters = {
+            encounter_type: len([i for i in remaining_path if i == encounter_type])
+            for encounter_type in encounter_types
+        }
+
+        return remaining_encounters
+
+    def get_next_boss(self, floor):
+        next_boss_floor = 999
+        next_boss = None
+        for boss_floor, boss in self.end_game_stats['act_bosses'].items():
+            if floor < boss_floor < next_boss_floor:
+                next_boss_floor = boss_floor
+                next_boss = boss
+        return int(next_boss_floor), next_boss
 
     def process_card_choice(self, floor):
         card_choice_data = self.stats_by_floor['card_choices_by_floor'].get(floor)
@@ -270,9 +256,9 @@ class Run:
         purchase_data = self.stats_by_floor['purchases_by_floor'].get(floor)
         if purchase_data:
             purchased_cards = [x for x in purchase_data if
-                x not in StSGlobals.BASE_GAME_RELICS and x not in StSGlobals.BASE_GAME_POTIONS]
+                               x not in StSGlobals.BASE_GAME_RELICS and x not in StSGlobals.BASE_GAME_POTIONS]
             purchased_relics = [x for x in purchase_data if
-                x not in purchased_cards and x not in StSGlobals.BASE_GAME_POTIONS]
+                                x not in purchased_cards and x not in StSGlobals.BASE_GAME_POTIONS]
             self.current_deck.extend(purchased_cards)
             for r in purchased_relics:
                 self.obtain_relic(r, floor)

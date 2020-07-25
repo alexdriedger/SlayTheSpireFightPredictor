@@ -9,7 +9,7 @@ from .common import InvalidRunError, StSGlobals
 from .run import Run
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s %(name)-12s %(levelname)-8s %(message)s',
-    datefmt='%m-%d %H:%M', filemode='w+')
+                    datefmt='%m-%d %H:%M', filemode='w+')
 logger = logging.getLogger('main')
 
 
@@ -39,14 +39,14 @@ class Process:
         for root, dirs, files in os.walk(self.run_directory):
             for fname in files:
                 count += 1
-                if len(fight_training_examples) > 40000:
+                if len(fight_training_examples) > 10000:
                     logger.info('Saving batch')
                     write_file_name = f'data_{round(time.time())}.json'
                     self.write_file(fight_training_examples, os.path.join(tmp_dir, write_file_name))
                     fight_training_examples.clear()
                     logger.info('Wrote batch to file')
 
-                if count % 200 == 0:
+                if count % 1000 == 0:
                     logger.info(
                         f'\n\n\nFiles not able to open: {file_not_opened} => {((file_not_opened / total_file_count) * 100):.1f} %')
                     logger.info(
@@ -81,7 +81,7 @@ class Process:
                         pass
 
         logger.info(
-            f'\n\n\nFiles not able to open: {file_not_opened} => {((file_not_opened / total_file_count) * 100):.1f} %')
+            f'Files not able to open: {file_not_opened} => {((file_not_opened / total_file_count) * 100):.1f} %')
         logger.info(
             f'Files filtered with pre-filter: {bad_file_count} => {((bad_file_count / total_file_count) * 100):.1f} %')
         logger.info(
